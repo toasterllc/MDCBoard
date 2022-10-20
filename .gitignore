@@ -1,0 +1,10 @@
+*.vcd
+*.vvp
+*.bin
+*.blif
+tmp
+*.s#*
+*.b#*
+*.l#*
+*.o
+*.pyc
