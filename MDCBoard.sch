@@ -2077,6 +2077,7 @@ Only use with voltages
 tolerant of VDDUSB</text>
 <wire x1="14.986" y1="-30.48" x2="13.462" y2="-30.48" width="0.254" layer="95"/>
 <wire x1="14.986" y1="-33.02" x2="13.462" y2="-33.02" width="0.254" layer="95"/>
+<wire x1="13.462" y1="-30.48" x2="13.462" y2="-33.02" width="0.254" layer="95"/>
 </symbol>
 <symbol name="STM-STM32F730I8-B">
 <pin name="PB0_R5" x="20.32" y="-2.54" length="middle" rot="R180"/>
@@ -2103,28 +2104,33 @@ tolerant of VDDUSB</text>
 <text x="0" y="-45.72" size="1.778" layer="95">&gt;PN</text>
 </symbol>
 <symbol name="STM-STM32F730I8-C">
-<pin name="PC0_M2" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="PC1_M3" x="20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="PC10_B14" x="20.32" y="-27.94" length="middle" rot="R180"/>
-<pin name="PC11_B13" x="20.32" y="-30.48" length="middle" rot="R180"/>
-<pin name="PC12_A12" x="20.32" y="-33.02" length="middle" rot="R180"/>
-<pin name="PC13_D1" x="20.32" y="-35.56" length="middle" rot="R180"/>
-<pin name="PC14_E1" x="20.32" y="-38.1" length="middle" rot="R180"/>
-<pin name="PC15_F1" x="20.32" y="-40.64" length="middle" rot="R180"/>
-<pin name="PC2_M4" x="20.32" y="-7.62" length="middle" rot="R180"/>
-<pin name="PC3_M5" x="20.32" y="-10.16" length="middle" rot="R180"/>
-<pin name="PC4_N5" x="20.32" y="-12.7" length="middle" rot="R180"/>
-<pin name="PC5_P5" x="20.32" y="-15.24" length="middle" rot="R180"/>
-<pin name="PC6_H15" x="20.32" y="-17.78" length="middle" rot="R180"/>
-<pin name="PC7_G15" x="20.32" y="-20.32" length="middle" rot="R180"/>
-<pin name="PC8_G14" x="20.32" y="-22.86" length="middle" rot="R180"/>
-<pin name="PC9_F14" x="20.32" y="-25.4" length="middle" rot="R180"/>
+<pin name="PC0_M2" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="PC1_M3" x="33.02" y="-5.08" length="middle" rot="R180"/>
+<pin name="PC10_B14" x="33.02" y="-27.94" length="middle" rot="R180"/>
+<pin name="PC11_B13" x="33.02" y="-30.48" length="middle" rot="R180"/>
+<pin name="PC12_A12" x="33.02" y="-33.02" length="middle" rot="R180"/>
+<pin name="PC13_D1" x="33.02" y="-35.56" length="middle" rot="R180"/>
+<pin name="PC14_E1" x="33.02" y="-38.1" length="middle" rot="R180"/>
+<pin name="PC15_F1" x="33.02" y="-40.64" length="middle" rot="R180"/>
+<pin name="PC2_M4" x="33.02" y="-7.62" length="middle" rot="R180"/>
+<pin name="PC3_M5" x="33.02" y="-10.16" length="middle" rot="R180"/>
+<pin name="PC4_N5" x="33.02" y="-12.7" length="middle" rot="R180"/>
+<pin name="PC5_P5" x="33.02" y="-15.24" length="middle" rot="R180"/>
+<pin name="PC6_H15" x="33.02" y="-17.78" length="middle" rot="R180"/>
+<pin name="PC7_G15" x="33.02" y="-20.32" length="middle" rot="R180"/>
+<pin name="PC8_G14" x="33.02" y="-22.86" length="middle" rot="R180"/>
+<pin name="PC9_F14" x="33.02" y="-25.4" length="middle" rot="R180"/>
 <wire x1="0" y1="-43.18" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-43.18" x2="0" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="27.94" y2="0" width="0.254" layer="94"/>
+<wire x1="27.94" y1="0" x2="27.94" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-43.18" x2="0" y2="-43.18" width="0.254" layer="94"/>
 <text x="0.254" y="2.54" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="0" y="-45.72" size="1.778" layer="95">&gt;PN</text>
+<text x="12.192" y="-37.846" size="0.762" layer="95" align="top-right">Limited drive strength</text>
+<wire x1="14.986" y1="-35.56" x2="13.462" y2="-35.56" width="0.254" layer="95"/>
+<wire x1="14.986" y1="-38.1" x2="13.462" y2="-38.1" width="0.254" layer="95"/>
+<wire x1="14.986" y1="-40.64" x2="13.462" y2="-40.64" width="0.254" layer="95"/>
+<wire x1="13.462" y1="-35.56" x2="13.462" y2="-40.64" width="0.254" layer="95"/>
 </symbol>
 <symbol name="STM-STM32F730I8-D">
 <pin name="PD0_B12" x="20.32" y="-2.54" length="middle" rot="R180"/>
@@ -4213,8 +4219,8 @@ Connect</text>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
 <part name="R20" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="PN" value="CRGP0402F1K8"/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RC0402FR-071K8L"/>
 </part>
 <part name="U18" library="EagleLibrary" deviceset="LATTICE-ICE40HX4K-BG121" device=""/>
 <part name="C37" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
@@ -4449,8 +4455,8 @@ Connect</text>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R37" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="PN" value="CRGP0402F1K8"/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RC0402FR-071K8L"/>
 </part>
 <part name="R24" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
 <attribute name="MFG" value="Yageo"/>
@@ -4529,48 +4535,48 @@ Connect</text>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R18" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="PN" value="CRGP0402F1K8"/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RC0402FR-071K8L"/>
 </part>
 <part name="LED2" library="EagleLibrary" deviceset="LED" device="">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R19" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="PN" value="CRGP0402F1K8"/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RC0402FR-071K8L"/>
 </part>
 <part name="LED4" library="EagleLibrary" deviceset="LED" device="">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R21" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="PN" value="CRGP0402F1K8"/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RC0402FR-071K8L"/>
 </part>
 <part name="LED7" library="EagleLibrary" deviceset="LED" device="">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R36" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="PN" value="CRGP0402F1K8"/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RC0402FR-071K8L"/>
 </part>
 <part name="LED6" library="EagleLibrary" deviceset="LED" device="">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R35" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="PN" value="CRGP0402F1K8"/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RC0402FR-071K8L"/>
 </part>
 <part name="LED5" library="EagleLibrary" deviceset="LED" device="">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R34" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="TE Connectivity"/>
-<attribute name="PN" value="CRGP0402F1K8"/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RC0402FR-071K8L"/>
 </part>
 <part name="C52" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
 <attribute name="MFG" value="Murata"/>
@@ -4762,8 +4768,8 @@ Connect</text>
 <attribute name="PN" value="CIGT201610LH1R0MNE"/>
 </part>
 <part name="R15" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="365k">
-<attribute name="MFG" value=""/>
-<attribute name="PN" value=""/>
+<attribute name="MFG" value="Walsin"/>
+<attribute name="PN" value="WR04X3653FTL"/>
 </part>
 <part name="R16" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
 <attribute name="MFG" value="Yageo"/>
@@ -4779,8 +4785,8 @@ Connect</text>
 <attribute name="PN" value="CIGT201610LH1R0MNE"/>
 </part>
 <part name="R13" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="200k">
-<attribute name="MFG" value=""/>
-<attribute name="PN" value=""/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RC0402FR-13200KL"/>
 </part>
 <part name="R14" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
 <attribute name="MFG" value="Yageo"/>
@@ -4796,8 +4802,8 @@ Connect</text>
 <attribute name="PN" value="CIGT201610LH1R0MNE"/>
 </part>
 <part name="R11" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
-<attribute name="MFG" value=""/>
-<attribute name="PN" value=""/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
 <part name="R12" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
 <attribute name="MFG" value="Yageo"/>
@@ -4916,6 +4922,19 @@ that the ADC will draw from during its sampling.
 </text>
 <text x="325.628" y="435.61" size="1.016" layer="95" align="top-left">Pulldown prevents a floating
 input while MSP430 is resetting</text>
+<wire x1="302.26" y1="398.78" x2="248.92" y2="398.78" width="0.1524" layer="95"/>
+<wire x1="248.92" y1="398.78" x2="248.92" y2="393.7" width="0.1524" layer="95"/>
+<wire x1="224.282" y1="360.68" x2="246.38" y2="360.68" width="0.1524" layer="95"/>
+<wire x1="246.38" y1="360.68" x2="246.38" y2="378.46" width="0.1524" layer="95"/>
+<text x="231.902" y="393.446" size="1.016" layer="95" align="top-left">PFET requirements:
+
+- low drain / gate leakage current (Idss, Igss): &lt; 1uA
+    necessary to minimize battery leakage
+    current when system is sleeping
+
+- low drain-source resistance (Rdson): &lt; 50mΩ
+    necessary to minimize voltage drop and
+    minimize wasted power</text>
 </plain>
 <instances>
 <instance part="C9" gate="G$1" x="165.1" y="297.18" smashed="yes">
@@ -6714,6 +6733,7 @@ should be a high voltage during power up.</text>
 <pinref part="C32" gate="G$1" pin="1"/>
 <wire x1="-25.4" y1="-40.64" x2="-15.24" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-25.4" y="-40.64" size="1.778" layer="95"/>
+<junction x="-15.24" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="U18" gate="E" pin="VCCIO_0_D6"/>
@@ -6805,6 +6825,7 @@ should be a high voltage during power up.</text>
 <pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="-48.26" x2="-15.24" y2="-48.26" width="0.1524" layer="91"/>
 <label x="-25.4" y="-48.26" size="1.778" layer="95" align="top-left"/>
+<junction x="-15.24" y="-48.26"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="2"/>
