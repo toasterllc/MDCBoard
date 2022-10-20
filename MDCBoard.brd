@@ -2588,6 +2588,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="-3.04" y="-4.778" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="-2.286" y="-5.334" size="1.778" layer="27" display="off"/>
 </element>
+<element name="R42" library="EagleLibrary" package="0402" value="10k" x="-2.286" y="-7.874" smashed="yes">
+<attribute name="MFG" value="Yageo" x="-2.286" y="-7.874" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.04" y="-7.318" size="0.508" layer="25" font="vector"/>
+<attribute name="PN" value="RC0402JR-0710KL" x="-2.286" y="-7.874" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VDD_B">
@@ -6191,8 +6196,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="18.383" y1="11.55083125" x2="18.383" y2="13.9863" width="0.127" layer="16"/>
 </signal>
 <signal name="VDD_USB">
-<contactref element="U12" pad="3"/>
-<contactref element="U3" pad="1"/>
 <contactref element="U4" pad="4"/>
 <contactref element="R2" pad="1"/>
 <contactref element="J1" pad="2"/>
@@ -6234,7 +6237,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="27.908" y="8.74521875"/>
 <vertex x="27.908" y="11.176"/>
 </polygon>
-<wire x1="4.4022375" y1="27.286703125" x2="3.81915625" y2="27.286703125" width="0.127" layer="16"/>
 <wire x1="3.81915625" y1="27.286703125" x2="3.657" y2="27.448859375" width="0.127" layer="16"/>
 <wire x1="33.5231" y1="29.36688125" x2="32.83111875" y2="29.36688125" width="0.127" layer="16"/>
 <wire x1="32.83111875" y1="29.36688125" x2="32.734" y2="29.464" width="0.127" layer="16"/>
@@ -6255,12 +6257,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="36.576" y="26.642"/>
 <vertex x="36.576" y="28.552140625"/>
 </polygon>
+<contactref element="R42" pad="1"/>
 <wire x1="33.5231" y1="29.36688125" x2="36.2762375" y2="26.90464375" width="0" layer="19" extent="1-16"/>
 <wire x1="40.446396875" y1="18.776296875" x2="36.2762375" y2="26.90464375" width="0" layer="19" extent="1-16"/>
 <wire x1="41.266859375" y1="18.86001875" x2="40.446396875" y2="18.776296875" width="0" layer="19" extent="16-16"/>
 <wire x1="40.77058125" y1="5.588696875" x2="40.446396875" y2="18.776296875" width="0" layer="19" extent="16-16"/>
 <wire x1="39.907721875" y1="5.56381875" x2="40.77058125" y2="5.588696875" width="0" layer="19" extent="16-16"/>
-<wire x1="27.696978125" y1="9.3113625" x2="39.907721875" y2="5.56381875" width="0" layer="19" extent="1-16"/>
+<wire x1="-2.7185" y1="-7.874" x2="3.81915625" y2="27.286703125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD_B_1V8_STM">
 <contactref element="U24" pad="C5"/>
@@ -7797,6 +7800,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R41" pad="1"/>
 <wire x1="29.480403125" y1="2.07901875" x2="41.888959375" y2="16.43278125" width="0" layer="19" extent="1-16"/>
 <wire x1="-2.7185" y1="-5.334" x2="29.480403125" y2="2.07901875" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="VDD_USB_EN">
+<contactref element="U1" pad="8"/>
+<contactref element="R42" pad="2"/>
+<contactref element="U3" pad="1"/>
+<contactref element="U12" pad="3"/>
+<wire x1="27.696978125" y1="9.3113625" x2="33.907940625" y2="31.591121875" width="0" layer="19" extent="1-16"/>
+<wire x1="4.4022375" y1="27.286703125" x2="27.696978125" y2="9.3113625" width="0" layer="19" extent="1-16"/>
+<wire x1="-1.8535" y1="-7.874" x2="27.696978125" y2="9.3113625" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
