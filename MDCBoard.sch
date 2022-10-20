@@ -7320,14 +7320,14 @@ should be a high voltage during power up.</text>
 </net>
 <net name="ICE_STM_SPI_D4" class="0">
 <segment>
-<pinref part="U18" gate="E" pin="SPI_SO_K9"/>
-<wire x1="86.36" y1="-83.82" x2="81.28" y2="-83.82" width="0.1524" layer="91"/>
-<label x="81.28" y="-83.82" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="86.36" y1="-81.28" x2="81.28" y2="-81.28" width="0.1524" layer="91"/>
+<label x="81.28" y="-81.28" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U18" gate="E" pin="SPI_SI_J9"/>
 </segment>
 <segment>
-<pinref part="U19" gate="G$1" pin="DI"/>
-<wire x1="104.14" y1="-154.94" x2="101.6" y2="-154.94" width="0.1524" layer="91"/>
-<label x="101.6" y="-154.94" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="132.08" y1="-144.78" x2="129.54" y2="-144.78" width="0.1524" layer="91"/>
+<label x="132.08" y="-144.78" size="1.778" layer="95"/>
+<pinref part="U19" gate="G$1" pin="DO"/>
 </segment>
 </net>
 <net name="RAM_DQ7" class="0">
@@ -7709,14 +7709,14 @@ should be a high voltage during power up.</text>
 </net>
 <net name="ICE_STM_SPI_D5" class="0">
 <segment>
-<pinref part="U18" gate="E" pin="SPI_SI_J9"/>
-<wire x1="86.36" y1="-81.28" x2="81.28" y2="-81.28" width="0.1524" layer="91"/>
-<label x="81.28" y="-81.28" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="86.36" y1="-83.82" x2="81.28" y2="-83.82" width="0.1524" layer="91"/>
+<label x="81.28" y="-83.82" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U18" gate="E" pin="SPI_SO_K9"/>
 </segment>
 <segment>
-<pinref part="U19" gate="G$1" pin="DO"/>
-<wire x1="129.54" y1="-144.78" x2="132.08" y2="-144.78" width="0.1524" layer="91"/>
-<label x="132.08" y="-144.78" size="1.778" layer="95"/>
+<wire x1="101.6" y1="-154.94" x2="104.14" y2="-154.94" width="0.1524" layer="91"/>
+<label x="101.6" y="-154.94" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U19" gate="G$1" pin="DI"/>
 </segment>
 </net>
 <net name="ICE_STM_SPI_D7" class="0">
