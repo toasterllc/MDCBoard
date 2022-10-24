@@ -1545,30 +1545,37 @@ Contact Housing: JST SHR-02V-S</description>
 <vertex x="0.2" y="0.8"/>
 </polygon>
 </package>
+<package name="TAGCONNECT-TC2030-NL-EDGE">
+<smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<rectangle x1="-1.143" y1="-0.508" x2="1.143" y2="0.508" layer="41"/>
+<hole x="-2.54" y="0" drill="0.9906"/>
+<text x="-3.302" y="1.397" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<wire x1="2.115" y1="1.27" x2="2.115" y2="-1.016" width="0.0762" layer="21"/>
+</package>
+<package name="MDC-MOUNT-HOLE">
+<description>Chip, 3.20 X 2.50 X 0.70 mm body
+&lt;p&gt;Chip package with body size 3.20 X 2.50 X 0.70 mm&lt;/p&gt;</description>
+<pad name="1" x="0" y="0" drill="1.4" diameter="2" thermals="no"/>
+<circle x="0" y="0" radius="1.75" width="0" layer="39"/>
+<circle x="0" y="0" radius="1.75" width="0" layer="40"/>
+</package>
 <package name="TAGCONNECT-TC2030-NL">
-<smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
 <rectangle x1="-1.143" y1="-0.508" x2="1.143" y2="0.508" layer="41"/>
 <hole x="-2.54" y="0" drill="0.9906"/>
 <hole x="2.54" y="1.016" drill="0.9906"/>
 <hole x="2.54" y="-1.016" drill="0.9906"/>
 <text x="-3.302" y="1.397" size="1.016" layer="25" font="vector">&gt;NAME</text>
-</package>
-<package name="TAGCONNECT-TC2030-NL-EDGE">
-<smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<rectangle x1="-1.143" y1="-0.508" x2="1.143" y2="0.508" layer="41"/>
-<hole x="-2.54" y="0" drill="0.9906"/>
-<text x="-3.302" y="1.397" size="1.016" layer="25" font="vector">&gt;NAME</text>
-<wire x1="2.115" y1="1.27" x2="2.115" y2="-1.016" width="0.0762" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -2635,6 +2642,12 @@ Header</text>
 <pin name="5" x="20.32" y="-15.24" length="short" rot="R180"/>
 <text x="1.016" y="-19.05" size="1.778" layer="94">Tag
 Connect</text>
+</symbol>
+<symbol name="MDC-MOUNT-HOLE">
+<text x="0" y="-5.08" size="1.778" layer="95">Mount Hole</text>
+<text x="0" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3951,6 +3964,21 @@ Connect</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MDC-MOUNT-HOLE" prefix="MH">
+<gates>
+<gate name="G$1" symbol="MDC-MOUNT-HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MDC-MOUNT-HOLE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4695,6 +4723,9 @@ Connect</text>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
+<part name="MH1" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device=""/>
+<part name="MH2" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device=""/>
+<part name="MH3" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9783,6 +9814,43 @@ Ferrite bead specs:
 <pinref part="R40" gate="G$1" pin="1"/>
 <pinref part="J11" gate="G$1" pin="CC2"/>
 <wire x1="5.08" y1="-25.4" x2="0" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<description>Mounts</description>
+<plain>
+</plain>
+<instances>
+<instance part="MH1" gate="G$1" x="5.08" y="0" smashed="yes">
+<attribute name="NAME" x="5.08" y="3.302" size="1.778" layer="95"/>
+</instance>
+<instance part="MH2" gate="G$1" x="5.08" y="-12.7" smashed="yes">
+<attribute name="NAME" x="5.08" y="-9.398" size="1.778" layer="95"/>
+</instance>
+<instance part="MH3" gate="G$1" x="5.08" y="-25.4" smashed="yes">
+<attribute name="NAME" x="5.08" y="-22.098" size="1.778" layer="95"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="MH1" gate="G$1" pin="1"/>
+<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="91"/>
+<label x="-2.54" y="0" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="MH2" gate="G$1" pin="1"/>
+<wire x1="0" y1="-12.7" x2="-2.54" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-2.54" y="-12.7" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="MH3" gate="G$1" pin="1"/>
+<wire x1="0" y1="-25.4" x2="-2.54" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-2.54" y="-25.4" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
