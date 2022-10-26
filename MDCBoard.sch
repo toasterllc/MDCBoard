@@ -4810,12 +4810,13 @@ have a max of 10uF (per USB spec).</text>
 <wire x1="218.44" y1="381" x2="218.44" y2="434.34" width="0.1524" layer="95"/>
 <wire x1="218.44" y1="434.34" x2="144.78" y2="434.34" width="0.1524" layer="95"/>
 <text x="145.034" y="379.476" size="2.54" layer="95" align="top-left">Battery Charging</text>
-<text x="260.858" y="338.582" size="1.016" layer="95" align="top-left">This subcircuit divides VDD_BAT by 2.5, and also prevents
+<text x="259.334" y="340.36" size="1.016" layer="95" align="top-left">This subcircuit divides VDD_BAT by 2.5, and also prevents
 the battery drain caused by the voltage divider unless
 we're connected to USB.
 
 It accomplishes the latter by using a buffer to transmit
-the VDD_BAT voltage based on the VDD_USB voltage.</text>
+the VDD_BAT voltage based on the
+BAT_CHRG_LVL_EN signal.</text>
 <text x="123.952" y="335.026" size="1.016" layer="95" align="top-left">ESD protection for MOSFETs
 
 Requirements:
