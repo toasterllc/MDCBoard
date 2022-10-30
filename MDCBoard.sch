@@ -6057,7 +6057,7 @@ capacitance variation due to temperature
 and DC bias</text>
 <text x="-58.928" y="53.594" size="1.016" layer="95" align="top-left">MSP_RST_: MSP430 has an internal 20k-50k
 pullup on MSP_RST_, so we don't add an
-explicit one to save a part.</text>
+external one to save a part.</text>
 <text x="-58.928" y="45.974" size="1.016" layer="95" align="top-left">MSP_RST_: The MSP430 datasheet recommends
 a 1nF capacitor on MSP_RST_, but we don't use
 that value anywhere else, so we're opting for a
