@@ -1095,32 +1095,30 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="1.6" y="-1"/>
 </polygon>
 </package>
-<package name="NXP-NTB0102GF" urn="urn:adsk.eagle:footprint:22413770/1" locally_modified="yes">
-<description>DFN4, 1.00 X 1.35 X 0.50 mm body
-&lt;p&gt;DFN4 package with body size 1.00 X 1.35 X 0.50 mm&lt;/p&gt;</description>
-<smd name="2" x="-0.275" y="0.175" dx="0.4131" dy="0.22" layer="1"/>
-<smd name="3" x="-0.275" y="-0.175" dx="0.4131" dy="0.22" layer="1"/>
-<smd name="6" x="0.275" y="-0.175" dx="0.4131" dy="0.22" layer="1"/>
-<smd name="7" x="0.275" y="0.175" dx="0.4131" dy="0.22" layer="1"/>
-<text x="-0.512" y="0.829" size="0.635" layer="25" font="vector">&gt;NAME</text>
-<smd name="1" x="-0.275" y="0.525" dx="0.4131" dy="0.22" layer="1"/>
-<smd name="8" x="0.275" y="0.525" dx="0.4131" dy="0.22" layer="1"/>
-<smd name="4" x="-0.275" y="-0.525" dx="0.4131" dy="0.22" layer="1"/>
-<smd name="5" x="0.275" y="-0.525" dx="0.4131" dy="0.22" layer="1"/>
-<polygon width="0.05" layer="21">
-<vertex x="-0.5" y="0.7"/>
-<vertex x="-0.5" y="0"/>
-<vertex x="0.2" y="0.7"/>
-</polygon>
-<wire x1="0.525" y1="-0.7" x2="-0.525" y2="-0.7" width="0.05" layer="21"/>
-<wire x1="-0.525" y1="-0.7" x2="-0.525" y2="0.7" width="0.05" layer="21"/>
-<wire x1="-0.525" y1="0.7" x2="0.525" y2="0.7" width="0.05" layer="21"/>
-<wire x1="0.525" y1="0.7" x2="0.525" y2="-0.7" width="0.05" layer="21"/>
+<package name="TI-TXB0102YZP">
+<smd name="A1" x="-0.25" y="0.75" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="A2" x="0.25" y="0.75" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="B1" x="-0.25" y="0.25" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="B2" x="0.25" y="0.25" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="C1" x="-0.25" y="-0.25" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="C2" x="0.25" y="-0.25" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<text x="-0.479740625" y="1.067990625" size="0.508" layer="25" font="vector" rot="SR0">&gt;NAME</text>
+<wire x1="-0.5" y1="-1" x2="0.5" y2="-1" width="0.05" layer="21"/>
+<wire x1="0.5" y1="-1" x2="0.5" y2="1" width="0.05" layer="21"/>
+<wire x1="0.5" y1="1" x2="-0.5" y2="1" width="0.05" layer="21"/>
+<wire x1="-0.5" y1="1" x2="-0.5" y2="-1" width="0.05" layer="21"/>
 <polygon width="0.05" layer="39">
-<vertex x="0.525" y="-0.7"/>
-<vertex x="-0.525" y="-0.7"/>
-<vertex x="-0.525" y="0.7"/>
-<vertex x="0.525" y="0.7"/>
+<vertex x="-0.5" y="1"/>
+<vertex x="-0.5" y="-1"/>
+<vertex x="0.5" y="-1"/>
+<vertex x="0.5" y="1"/>
+</polygon>
+<smd name="D1" x="-0.25" y="-0.75" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="D2" x="0.25" y="-0.75" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<polygon width="0.05" layer="21">
+<vertex x="-0.5" y="1"/>
+<vertex x="-0.5" y="0.2"/>
+<vertex x="0.5" y="1"/>
 </polygon>
 </package>
 <package name="NEXPERIA-SOT363" urn="urn:adsk.eagle:footprint:29433204/1" locally_modified="yes">
@@ -2431,7 +2429,7 @@ Switch</text>
 <pin name="1" x="0" y="-5.08" visible="pad" length="short" rot="R90"/>
 <pin name="2" x="2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
 </symbol>
-<symbol name="NXP-NTB0102">
+<symbol name="TI-TXB0102">
 <pin name="A1" x="-2.54" y="-15.24" visible="pin" length="short"/>
 <wire x1="0" y1="-22.86" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
@@ -3647,26 +3645,26 @@ Connect</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NXP-NTB0102" prefix="U">
+<deviceset name="TI-TXB0102" prefix="U">
 <gates>
-<gate name="G$1" symbol="NXP-NTB0102" x="0" y="0"/>
+<gate name="G$1" symbol="TI-TXB0102" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="NXP-NTB0102GF">
+<device name="" package="TI-TXB0102YZP">
 <connects>
-<connect gate="G$1" pin="A1" pad="5"/>
-<connect gate="G$1" pin="A2" pad="4"/>
-<connect gate="G$1" pin="B1" pad="8"/>
-<connect gate="G$1" pin="B2" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="OE" pad="6"/>
-<connect gate="G$1" pin="VCCA" pad="3"/>
-<connect gate="G$1" pin="VCCB" pad="7"/>
+<connect gate="G$1" pin="A1" pad="D2"/>
+<connect gate="G$1" pin="A2" pad="D1"/>
+<connect gate="G$1" pin="B1" pad="A2"/>
+<connect gate="G$1" pin="B2" pad="A1"/>
+<connect gate="G$1" pin="GND" pad="B1"/>
+<connect gate="G$1" pin="OE" pad="C2"/>
+<connect gate="G$1" pin="VCCA" pad="C1"/>
+<connect gate="G$1" pin="VCCB" pad="B2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG" value="NXP"/>
-<attribute name="PN" value="NTB0102GF"/>
+<attribute name="MFG" value="TI"/>
+<attribute name="PN" value="TXB0102YZP"/>
 </technology>
 </technologies>
 </device>
@@ -4563,7 +4561,7 @@ Connect</text>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
-<part name="U16" library="EagleLibrary" deviceset="NXP-NTB0102" device=""/>
+<part name="U16" library="EagleLibrary" deviceset="TI-TXB0102" device=""/>
 <part name="Q1" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
 <attribute name="PN" value="PMPB10UPX"/>
 </part>
@@ -6069,13 +6067,12 @@ Since the recommended 1nF capacitor is for
 noise suppression, we should be able to get
 away with a smaller capacitor, and it hasn't
 caused issues so far.</text>
-<text x="35.56" y="27.432" size="1.016" layer="95" align="top-right">Use NTB0102's VCC(B) for our VDD_A
+<text x="35.56" y="27.432" size="1.016" layer="95" align="top-right">Use TXB0102's VCCB for our VDD_A
 because the datasheet says:
 
-"During operation VCC(A) must
-never be higher than VCC(B)."
+"VCCA must not exceed VCCB "
 
-Also, NTB0102's VCC(B) has a wider
+Also, TXB0102's VCCB has a wider
 supply voltage range (1.65-5.5 V),
 giving us more flexibility in the
 battery voltage.</text>
