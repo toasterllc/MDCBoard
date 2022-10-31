@@ -7669,9 +7669,9 @@ buffer's "I_Off" behavior, which guarantees no leakage
 between input and output when its VDD=0.</text>
 </plain>
 <instances>
-<instance part="U22" gate="A" x="73.66" y="63.5" smashed="yes">
-<attribute name="PN" x="73.66" y="33.02" size="1.778" layer="95"/>
-<attribute name="NAME" x="73.66" y="66.04" size="1.778" layer="95" align="top-left"/>
+<instance part="U22" gate="A" x="83.82" y="63.5" smashed="yes">
+<attribute name="PN" x="83.82" y="33.02" size="1.778" layer="95"/>
+<attribute name="NAME" x="83.82" y="66.04" size="1.778" layer="95" align="top-left"/>
 </instance>
 <instance part="U22" gate="B" x="157.48" y="68.58" smashed="yes">
 <attribute name="PN" x="157.48" y="17.78" size="1.778" layer="95"/>
@@ -7790,11 +7790,11 @@ between input and output when its VDD=0.</text>
 <net name="VDD_B_1V8_IMG_SD" class="0">
 <segment>
 <pinref part="U22" gate="A" pin="VDD_IO"/>
-<wire x1="71.12" y1="45.72" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="45.72" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U22" gate="A" pin="VDD"/>
-<wire x1="71.12" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
-<label x="66.04" y="48.26" size="1.778" layer="95" align="bottom-right"/>
-<junction x="71.12" y="48.26"/>
+<wire x1="81.28" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
+<label x="76.2" y="48.26" size="1.778" layer="95" align="bottom-right"/>
+<junction x="81.28" y="48.26"/>
 </segment>
 <segment>
 <pinref part="C51" gate="G$1" pin="1"/>
@@ -7841,13 +7841,13 @@ between input and output when its VDD=0.</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="U22" gate="A" pin="AGND"/>
-<wire x1="71.12" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
-<label x="66.04" y="53.34" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="81.28" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
+<label x="76.2" y="53.34" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="U22" gate="A" pin="DGND"/>
-<wire x1="71.12" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
-<label x="66.04" y="38.1" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="81.28" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
+<label x="76.2" y="38.1" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="U22" gate="B" pin="TEST"/>
@@ -7924,21 +7924,21 @@ between input and output when its VDD=0.</text>
 </segment>
 <segment>
 <pinref part="U22" gate="A" pin="VAA"/>
-<wire x1="71.12" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
-<label x="66.04" y="60.96" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="81.28" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<label x="76.2" y="60.96" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="U22" gate="A" pin="VAA_PIX"/>
-<wire x1="71.12" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
-<label x="66.04" y="55.88" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="81.28" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
+<label x="76.2" y="55.88" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="U22" gate="A" pin="VDD_MIPI"/>
 <pinref part="U22" gate="A" pin="VDD_PLL"/>
-<label x="66.04" y="43.18" size="1.778" layer="95" align="bottom-right"/>
-<wire x1="71.12" y1="43.18" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="43.18" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
-<junction x="71.12" y="43.18"/>
+<label x="76.2" y="43.18" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="81.28" y1="43.18" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="43.18" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
+<junction x="81.28" y="43.18"/>
 </segment>
 <segment>
 <pinref part="C57" gate="G$1" pin="1"/>
