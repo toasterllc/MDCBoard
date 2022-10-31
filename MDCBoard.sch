@@ -6067,15 +6067,10 @@ Since the recommended 1nF capacitor is for
 noise suppression, we should be able to get
 away with a smaller capacitor, and it hasn't
 caused issues so far.</text>
-<text x="35.56" y="27.432" size="1.016" layer="95" align="top-right">Use TXB0102's VCCB for our VDD_A
+<text x="35.052" y="26.67" size="1.016" layer="95" align="top-right">Use TXB0102's VCCB for our VDD_A
 because the datasheet says:
 
-"VCCA must not exceed VCCB "
-
-Also, TXB0102's VCCB has a wider
-supply voltage range (1.65-5.5 V),
-giving us more flexibility in the
-battery voltage.</text>
+"VCCA must not exceed VCCB"</text>
 </plain>
 <instances>
 <instance part="U14" gate="A" x="-30.48" y="78.74" smashed="yes">
