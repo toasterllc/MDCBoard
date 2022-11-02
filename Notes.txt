@@ -1,13 +1,12 @@
 - Rev7 Todo
     
-    - Add mosfet to allow motion sensor to be disabled, in case we're just in timelapse mode
+    - Choose R17 value depending on LEDs that we choose
+        - We may want separate resistors per LED
     
-    - Add placeholder for LED red+green circuit
-        - How do we switch between red and green?
-        - LED blinking circuit considerations
-            - Can we use a pmos instead of nmos? Can we use the same small signal pmos that we're planning to use elsewhere?
-                - The turn-on speed matters doesn't it?
-            - We should implement the blinking circuit in a way that is impossible to leave on and kill the led via overcurrent. IE only pulses can be generated
+    - Choose suitable small-signal PMOS that'll work for both SD and LED subcircuits
+        - DMG2305UX seems good, can we find anything better/cheaper?
+    
+    - Add mosfet to allow motion sensor to be disabled, in case we're just in timelapse mode
     
     - Layout: Move parts (resistors, capacitors) further away front mount points on front of board
         - We want more safety margin near mount points
@@ -30,6 +29,13 @@
         - Streaming images breaks in direct sunlight
     
     
+    
+    √ Add placeholder for LED flashing circuit (red+green)
+        - How do we switch between red and green?
+        - LED blinking circuit considerations
+            - Can we use a pmos instead of nmos? Can we use the same small signal pmos that we're planning to use elsewhere?
+                - The turn-on speed matters doesn't it?
+            - We should implement the blinking circuit in a way that is impossible to leave on and kill the led via overcurrent. IE only pulses can be generated
     
     √ Route BAT_CHRG_LVL to MSP430 too, so MSP430 can sample the battery voltage (to blink LED)
     
