@@ -4798,6 +4798,10 @@ Connect</text>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
+<part name="C23" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="MFG" value="Murata"/>
+<attribute name="PN" value="GRM155R61H104KE19D"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -4873,16 +4877,16 @@ have a max of 10uF (per USB spec).</text>
 it's attached to VDD_USB, which can
 have a max of 10uF (per USB spec).</text>
 <wire x1="256.54" y1="381" x2="256.54" y2="327.66" width="0.1524" layer="95"/>
-<wire x1="256.54" y1="327.66" x2="378.46" y2="327.66" width="0.1524" layer="95"/>
-<wire x1="378.46" y1="327.66" x2="378.46" y2="381" width="0.1524" layer="95"/>
-<wire x1="378.46" y1="381" x2="256.54" y2="381" width="0.1524" layer="95"/>
+<wire x1="256.54" y1="327.66" x2="363.22" y2="327.66" width="0.1524" layer="95"/>
+<wire x1="363.22" y1="327.66" x2="363.22" y2="381" width="0.1524" layer="95"/>
+<wire x1="363.22" y1="381" x2="256.54" y2="381" width="0.1524" layer="95"/>
 <text x="259.334" y="326.136" size="2.54" layer="95" align="top-left">Battery Charge Level</text>
 <wire x1="144.78" y1="434.34" x2="144.78" y2="381" width="0.1524" layer="95"/>
 <wire x1="144.78" y1="381" x2="218.44" y2="381" width="0.1524" layer="95"/>
 <wire x1="218.44" y1="381" x2="218.44" y2="434.34" width="0.1524" layer="95"/>
 <wire x1="218.44" y1="434.34" x2="144.78" y2="434.34" width="0.1524" layer="95"/>
 <text x="145.034" y="379.476" size="2.54" layer="95" align="top-left">Battery Charging</text>
-<text x="259.334" y="340.36" size="1.016" layer="95" align="top-left">This subcircuit divides VDD_BAT by 1.33, and also prevents
+<text x="260.35" y="341.63" size="1.016" layer="95" align="top-left">This subcircuit divides VDD_BAT by 1.33, and also prevents
 the battery drain caused by the voltage divider unless
 we're connected to USB.
 
@@ -4898,9 +4902,11 @@ Requirements:
 
   - reverse working voltage ~= 5V
      since battery will operate up to ~4.2V</text>
-<text x="338.328" y="357.632" size="1.016" layer="95" align="top-left">This capacitor lowers our output impedance (seen
-at the ADC's input) that would otherwise be high
-due to the high resistance of the voltage divider.
+<text x="328.168" y="360.172" size="1.016" layer="95" align="top-left">Users of BAT_CHRG_LVL must have a capacitor
+at their input. This capacitor lowers the output
+impedance (seen at the ADC's input) that would
+otherwise be high due to the high resistance of
+the voltage divider.
 
 The capacitor acts as low-impedance charge storage
 that the ADC will draw from during its sampling.
@@ -4920,7 +4926,7 @@ input while MSP430 is resetting</text>
 - low drain-source resistance (Rdson): &lt; 50mΩ
     necessary to minimize voltage drop and
     minimize wasted power</text>
-<text x="259.08" y="378.968" size="1.016" layer="95" align="top-left">VDD_BAT current consumption must be &lt; 0.6µA
+<text x="259.842" y="377.698" size="1.016" layer="95" align="top-left">VDD_BAT current consumption must be &lt; 0.6µA
 for MCP73831T battery detection to work (and
 therefore BAT_CHRG_STAT to work properly)!!
 
@@ -5129,12 +5135,6 @@ present when one isn't.</text>
 <attribute name="VALUE" x="307.594" y="366.776" size="1.778" layer="96" align="top-left"/>
 <attribute name="MFG" x="309.88" y="363.22" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="PN" x="309.88" y="363.22" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="C7" gate="G$1" x="327.66" y="355.6" smashed="yes" rot="MR0">
-<attribute name="PN" x="342.9" y="297.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MFG" x="342.9" y="297.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="NAME" x="330.962" y="355.219" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="330.962" y="352.679" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
 </instance>
 <instance part="R5" gate="G$1" x="314.96" y="408.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="313.182" y="409.956" size="1.778" layer="95" align="bottom-right"/>
@@ -5472,11 +5472,6 @@ present when one isn't.</text>
 <wire x1="317.5" y1="350.52" x2="317.5" y2="347.98" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <label x="317.5" y="347.98" size="1.778" layer="95" align="top-left"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="327.66" y1="350.52" x2="327.66" y2="347.98" width="0.1524" layer="91"/>
-<label x="327.66" y="347.98" size="1.778" layer="95" align="top-left"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -5850,15 +5845,11 @@ present when one isn't.</text>
 <segment>
 <wire x1="317.5" y1="363.22" x2="317.5" y2="360.68" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="363.22" x2="327.66" y2="363.22" width="0.1524" layer="91"/>
-<label x="337.82" y="363.22" size="1.778" layer="95"/>
+<label x="320.04" y="363.22" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="327.66" y1="363.22" x2="337.82" y2="363.22" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="363.22" x2="320.04" y2="363.22" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="363.22" x2="317.5" y2="363.22" width="0.1524" layer="91"/>
 <junction x="317.5" y="363.22"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="327.66" y1="358.14" x2="327.66" y2="363.22" width="0.1524" layer="91"/>
-<junction x="327.66" y="363.22"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6053,10 +6044,10 @@ Therefore, C = 22 pF</text>
 <text x="141.732" y="93.472" size="1.016" layer="95" align="top-left">Use NP0 dialectric capacitors to minimize
 capacitance variation due to temperature
 and DC bias</text>
-<text x="-58.928" y="53.594" size="1.016" layer="95" align="top-left">MSP_RST_: MSP430 has an internal 20k-50k
+<text x="-99.568" y="53.594" size="1.016" layer="95" align="top-left">MSP_RST_: MSP430 has an internal 20k-50k
 pullup on MSP_RST_, so we don't add an
 external one to save a part.</text>
-<text x="-58.928" y="45.974" size="1.016" layer="95" align="top-left">MSP_RST_: The MSP430 datasheet recommends
+<text x="-99.568" y="45.974" size="1.016" layer="95" align="top-left">MSP_RST_: The MSP430 datasheet recommends
 a 1nF capacitor on MSP_RST_, but we don't use
 that value anywhere else, so we're opting for a
 much smaller 22pF. (Note that we can't use a
@@ -6071,11 +6062,14 @@ caused issues so far.</text>
 because the datasheet says:
 
 "VCCA must not exceed VCCB"</text>
+<text x="-22.098" y="75.438" size="1.016" layer="95" align="top-left">Filtering capacitor to filter
+noise from high-impedance
+BAT_CHRG_LVL signal.</text>
 </plain>
 <instances>
-<instance part="U14" gate="A" x="-30.48" y="78.74" smashed="yes">
-<attribute name="NAME" x="-30.48" y="81.026" size="1.778" layer="95" align="top-left"/>
-<attribute name="PN" x="-30.48" y="60.198" size="1.778" layer="95" align="top-left"/>
+<instance part="U14" gate="A" x="-71.12" y="78.74" smashed="yes">
+<attribute name="NAME" x="-71.12" y="81.026" size="1.778" layer="95" align="top-left"/>
+<attribute name="PN" x="-71.12" y="60.198" size="1.778" layer="95" align="top-left"/>
 </instance>
 <instance part="U14" gate="B" x="38.1" y="81.28" smashed="yes">
 <attribute name="NAME" x="38.1" y="83.566" size="1.778" layer="95" align="top-left"/>
@@ -6085,11 +6079,11 @@ because the datasheet says:
 <attribute name="NAME" x="132.08" y="83.566" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="132.08" y="60.198" size="1.778" layer="95" align="top-left"/>
 </instance>
-<instance part="C22" gate="G$1" x="-66.04" y="50.8" smashed="yes">
-<attribute name="NAME" x="-69.596" y="51.181" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="-69.596" y="48.641" size="1.778" layer="96" align="bottom-right"/>
-<attribute name="MFG" x="-66.04" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="-66.04" y="50.8" size="1.778" layer="96" display="off"/>
+<instance part="C22" gate="G$1" x="-106.68" y="50.8" smashed="yes">
+<attribute name="NAME" x="-110.236" y="51.181" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="-110.236" y="48.641" size="1.778" layer="96" align="bottom-right"/>
+<attribute name="MFG" x="-106.68" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="-106.68" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="114.3" y="93.98" smashed="yes">
 <attribute name="NAME" x="111.506" y="93.599" size="1.778" layer="95" align="bottom-right"/>
@@ -6103,17 +6097,17 @@ because the datasheet says:
 <attribute name="MFG" x="132.08" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="132.08" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C21" gate="G$1" x="-58.42" y="83.82" smashed="yes">
-<attribute name="MFG" x="-35.56" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="-35.56" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="-55.626" y="83.439" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-55.626" y="80.899" size="1.778" layer="96"/>
+<instance part="C21" gate="G$1" x="-99.06" y="83.82" smashed="yes">
+<attribute name="MFG" x="-76.2" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="-76.2" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-96.266" y="83.439" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-96.266" y="80.899" size="1.778" layer="96"/>
 </instance>
-<instance part="C20" gate="G$1" x="-68.58" y="83.82" smashed="yes">
-<attribute name="PN" x="-83.82" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MFG" x="-83.82" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="-65.786" y="83.439" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-65.786" y="80.899" size="1.778" layer="96"/>
+<instance part="C20" gate="G$1" x="-109.22" y="83.82" smashed="yes">
+<attribute name="PN" x="-124.46" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MFG" x="-124.46" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-106.426" y="83.439" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-106.426" y="80.899" size="1.778" layer="96"/>
 </instance>
 <instance part="U16" gate="G$1" x="76.2" y="25.4" smashed="yes" rot="MR0">
 <attribute name="PN" x="76.2" y="0" size="1.778" layer="95" rot="MR0"/>
@@ -6135,6 +6129,12 @@ because the datasheet says:
 <attribute name="NAME" x="81.788" y="35.179" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="81.788" y="32.639" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
 </instance>
+<instance part="C23" gate="G$1" x="-2.54" y="73.66" smashed="yes" rot="MR0">
+<attribute name="PN" x="12.7" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFG" x="12.7" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="NAME" x="0.762" y="73.279" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<attribute name="VALUE" x="0.762" y="70.739" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6142,14 +6142,14 @@ because the datasheet says:
 <net name="VDD_A_3V3" class="0">
 <segment>
 <pinref part="U14" gate="A" pin="VDD"/>
-<wire x1="-33.02" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
-<label x="-35.56" y="76.2" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="-73.66" y1="76.2" x2="-76.2" y2="76.2" width="0.1524" layer="91"/>
+<label x="-76.2" y="76.2" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="C20" gate="G$1" pin="1"/>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="-68.58" y1="86.36" x2="-58.42" y2="86.36" width="0.1524" layer="91"/>
-<label x="-68.58" y="86.36" size="1.778" layer="95"/>
+<wire x1="-109.22" y1="86.36" x2="-99.06" y2="86.36" width="0.1524" layer="91"/>
+<label x="-109.22" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U16" gate="G$1" pin="VCCB"/>
@@ -6165,16 +6165,16 @@ because the datasheet says:
 <net name="GND" class="0">
 <segment>
 <pinref part="U14" gate="A" pin="GND"/>
-<wire x1="-33.02" y1="73.66" x2="-35.56" y2="73.66" width="0.1524" layer="91"/>
-<label x="-35.56" y="73.66" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="-73.66" y1="73.66" x2="-76.2" y2="73.66" width="0.1524" layer="91"/>
+<label x="-76.2" y="73.66" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="U14" gate="A" pin="GND_THERMALPAD"/>
-<wire x1="-33.02" y1="71.12" x2="-33.02" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-33.02" y="73.66"/>
+<wire x1="-73.66" y1="71.12" x2="-73.66" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-73.66" y="73.66"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="-66.04" y1="45.72" x2="-66.04" y2="43.18" width="0.1524" layer="91"/>
-<label x="-66.04" y="43.18" size="1.778" layer="95"/>
+<wire x1="-106.68" y1="45.72" x2="-106.68" y2="43.18" width="0.1524" layer="91"/>
+<label x="-106.68" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
@@ -6188,8 +6188,8 @@ because the datasheet says:
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="-58.42" y1="78.74" x2="-68.58" y2="78.74" width="0.1524" layer="91"/>
-<label x="-68.58" y="78.74" size="1.778" layer="95" align="top-left"/>
+<wire x1="-99.06" y1="78.74" x2="-109.22" y2="78.74" width="0.1524" layer="91"/>
+<label x="-109.22" y="78.74" size="1.778" layer="95" align="top-left"/>
 <pinref part="C20" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -6207,24 +6207,29 @@ because the datasheet says:
 <wire x1="78.74" y1="30.48" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
 <label x="78.74" y="27.94" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
+<segment>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="-2.54" y1="68.58" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
+<label x="-2.54" y="66.04" size="1.778" layer="95" align="bottom-right"/>
+</segment>
 </net>
 <net name="MSP_TEST" class="0">
 <segment>
 <pinref part="U14" gate="A" pin="TEST/SBWTCK"/>
-<wire x1="-33.02" y1="66.04" x2="-35.56" y2="66.04" width="0.1524" layer="91"/>
-<label x="-35.56" y="66.04" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="-73.66" y1="66.04" x2="-76.2" y2="66.04" width="0.1524" layer="91"/>
+<label x="-76.2" y="66.04" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="MSP_RST_" class="0">
 <segment>
 <pinref part="U14" gate="A" pin="RST_/NMI/SBWTDIO"/>
-<wire x1="-33.02" y1="63.5" x2="-35.56" y2="63.5" width="0.1524" layer="91"/>
-<label x="-35.56" y="63.5" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="-73.66" y1="63.5" x2="-76.2" y2="63.5" width="0.1524" layer="91"/>
+<label x="-76.2" y="63.5" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="55.88" x2="-66.04" y2="53.34" width="0.1524" layer="91"/>
-<label x="-66.04" y="55.88" size="1.778" layer="95"/>
+<wire x1="-106.68" y1="55.88" x2="-106.68" y2="53.34" width="0.1524" layer="91"/>
+<label x="-106.68" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ICE_MSP_SPI_DATA_X" class="0">
@@ -6340,6 +6345,25 @@ because the datasheet says:
 <wire x1="78.74" y1="5.08" x2="81.28" y2="5.08" width="0.1524" layer="91"/>
 <label x="81.28" y="5.08" size="1.778" layer="95"/>
 <pinref part="U16" gate="G$1" pin="A2"/>
+</segment>
+</net>
+<net name="BAT_CHRG_LVL_EN" class="0">
+<segment>
+<pinref part="U14" gate="B" pin="PA.0/P1.0/UCB0STE/A0/VEREF+"/>
+<wire x1="35.56" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
+<label x="33.02" y="78.74" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="BAT_CHRG_LVL" class="0">
+<segment>
+<pinref part="U14" gate="B" pin="PA.1/P1.1/UCB0CLK/ACLK/A1/VREF+"/>
+<wire x1="35.56" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<label x="33.02" y="76.2" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="76.2" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
+<label x="-2.54" y="78.74" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
@@ -8767,6 +8791,13 @@ Vih~=2.7V when powered by
 VDD_BAT=4.2V.</text>
 <text x="122.428" y="-254.762" size="0.762" layer="95" align="top-left">"If no external battery is used in the application,
 it is recommended to connect the VBAT pin to VDD"</text>
+<attribute name="PN" x="22.86" y="-43.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFG" x="22.86" y="-43.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="NAME" x="10.922" y="14.859" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<attribute name="VALUE" x="10.922" y="12.319" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
+<text x="76.962" y="-66.802" size="1.016" layer="95" align="top-left">Filtering capacitor to filter
+noise from high-impedance
+BAT_CHRG_LVL signal.</text>
 </plain>
 <instances>
 <instance part="U24" gate="A" x="-17.78" y="-10.16" smashed="yes">
@@ -9017,6 +9048,10 @@ it is recommended to connect the VBAT pin to VDD"</text>
 </instance>
 <instance part="H1" gate="A" x="213.36" y="-81.28" smashed="yes">
 <attribute name="NAME" x="213.614" y="-80.772" size="1.778" layer="95"/>
+</instance>
+<instance part="C7" gate="G$1" x="73.66" y="-68.58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="72.136" y="-65.659" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="72.136" y="-68.199" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -9270,6 +9305,11 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <pinref part="H1" gate="A" pin="5"/>
 <wire x1="233.68" y1="-96.52" x2="236.22" y2="-96.52" width="0.1524" layer="91"/>
 <label x="236.22" y="-96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="-73.66" x2="73.66" y2="-76.2" width="0.1524" layer="91"/>
+<label x="73.66" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD_B_1V8_STM" class="0">
@@ -9679,6 +9719,11 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <wire x1="68.58" y1="-81.28" x2="71.12" y2="-81.28" width="0.1524" layer="91"/>
 <label x="71.12" y="-81.28" size="1.778" layer="95"/>
 <pinref part="U24" gate="F" pin="PF3_J2"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="-66.04" x2="73.66" y2="-63.5" width="0.1524" layer="91"/>
+<label x="73.66" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ICE_STM_FLASH_EN" class="0">
