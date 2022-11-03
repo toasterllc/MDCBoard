@@ -7,6 +7,8 @@
     
     - LED flashing circuit: choose suitable R/C values depending on our LED testing
     
+    - Confirm size/position of lens o-ring keepout region
+    
     - Layout: length-match SD nets
     
     - Layout: length-match IMG nets
