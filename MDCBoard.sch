@@ -8689,7 +8689,8 @@ between input and output when its VDD=0.</text>
 <plain>
 <text x="-36.83" y="-59.182" size="1.016" layer="95" align="top-left">Using a 10k pullup (instead of a 100k)
 to ensure we override ICE40's builtin
-~58k pullup.</text>
+~58k pullup which tries to drive this
+net to 1.8V.</text>
 <text x="53.34" y="-90.17" size="1.016" layer="95" align="top-left">Using 20k pullups so we can hit 400 kHz
 with open-drain comms:
 
@@ -9897,14 +9898,14 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="U24" gate="F" pin="PF11_R6"/>
 </segment>
 </net>
-<net name="MSP_RST_X_" class="0">
+<net name="MSP_RST_" class="0">
 <segment>
 <pinref part="U24" gate="G" pin="PG12_B8"/>
 <wire x1="132.08" y1="-99.06" x2="134.62" y2="-99.06" width="0.1524" layer="91"/>
 <label x="134.62" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MSP_TEST_X" class="0">
+<net name="MSP_TEST" class="0">
 <segment>
 <pinref part="U24" gate="G" pin="PG11_B9"/>
 <wire x1="132.08" y1="-96.52" x2="134.62" y2="-96.52" width="0.1524" layer="91"/>
