@@ -1,12 +1,10 @@
 - Rev7 Todo
     
-    - Choose R17 value depending on LEDs that we choose
+    - Choose R17/R44 values depending on LEDs that we choose
         - We may want separate resistors per LED
     
     - Choose suitable small-signal PMOS that'll work for both SD and LED subcircuits
         - DMG2305UX seems good, can we find anything better/cheaper?
-    
-    - Add mosfet to allow motion sensor to be disabled, in case we're just in timelapse mode
     
     - Layout: Move parts (resistors, capacitors) further away front mount points on front of board
         - We want more safety margin near mount points
@@ -29,6 +27,7 @@
         - Streaming images breaks in direct sunlight
     
     
+    √ Add mosfet to allow motion sensor to be disabled, in case we're just in timelapse mode
     
     √ Add placeholder for LED flashing circuit (red+green)
         - How do we switch between red and green?

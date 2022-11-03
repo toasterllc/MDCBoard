@@ -4863,6 +4863,10 @@ Connect</text>
 <attribute name="PN" value=""/>
 </part>
 <part name="Q7" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
+<part name="R44" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10">
+<attribute name="MFG" value=""/>
+<attribute name="PN" value=""/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6482,6 +6486,12 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="MFG" x="7.62" y="-50.8" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="7.62" y="-50.8" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="R44" gate="G$1" x="-30.48" y="-50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="-28.702" y="-50.038" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-28.702" y="-52.578" size="1.778" layer="96"/>
+<attribute name="MFG" x="-30.48" y="-50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PN" x="-30.48" y="-50.8" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6520,6 +6530,11 @@ BAT_CHRG_LVL signal.</text>
 <label x="7.62" y="-58.42" size="1.778" layer="95"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="-30.48" y1="-55.88" x2="-30.48" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-30.48" y="-58.42" size="1.778" layer="95"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -6544,13 +6559,9 @@ BAT_CHRG_LVL signal.</text>
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="LED9" gate="G$1" pin="C"/>
-<wire x1="7.62" y1="-45.72" x2="7.62" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="LED11" gate="G$1" pin="C"/>
 <wire x1="-30.48" y1="-43.18" x2="-30.48" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="-45.72" x2="7.62" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<junction x="7.62" y="-45.72"/>
+<pinref part="R44" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED_FLASH_GREEN_" class="0">
@@ -6558,6 +6569,13 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="Q8" gate="G$1" pin="G"/>
 <wire x1="-38.1" y1="-27.94" x2="-40.64" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-40.64" y="-27.94" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="LED9" gate="G$1" pin="C"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="-45.72" x2="7.62" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
