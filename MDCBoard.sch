@@ -6374,23 +6374,16 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="U16" gate="G$1" pin="A2"/>
 </segment>
 </net>
-<net name="BAT_CHRG_LVL_EN" class="0">
-<segment>
-<pinref part="U14" gate="B" pin="PA.0/P1.0/UCB0STE/A0/VEREF+"/>
-<wire x1="35.56" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
-<label x="33.02" y="78.74" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
 <net name="BAT_CHRG_LVL" class="0">
-<segment>
-<pinref part="U14" gate="B" pin="PA.1/P1.1/UCB0CLK/ACLK/A1/VREF+"/>
-<wire x1="35.56" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<label x="33.02" y="76.2" size="1.778" layer="95" align="bottom-right"/>
-</segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="76.2" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="-2.54" y="78.74" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<wire x1="35.56" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
+<label x="33.02" y="78.74" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U14" gate="B" pin="PA.0/P1.0/UCB0STE/A0/VEREF+"/>
 </segment>
 </net>
 <net name="LED_FLASH_RED_" class="0">
@@ -6412,6 +6405,13 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="U14" gate="B" pin="PA.7/P1.7/UCA0STE/TDO"/>
 <wire x1="35.56" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 <label x="33.02" y="60.96" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="BAT_CHRG_LVL_EN" class="0">
+<segment>
+<wire x1="35.56" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<label x="33.02" y="76.2" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U14" gate="B" pin="PA.1/P1.1/UCB0CLK/ACLK/A1/VREF+"/>
 </segment>
 </net>
 </nets>
