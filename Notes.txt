@@ -1,10 +1,8 @@
 - Rev7 Todo
     
-    - Choose R17/R44 values depending on LEDs that we choose
-        - We may want separate resistors per LED
+    - Finalize battery connector
     
-    - Choose suitable small-signal PMOS that'll work for both SD and LED subcircuits
-        - DMG2305UX seems good, can we find anything better/cheaper?
+    - LED flashing circuit: choose suitable R/C values depending on our LED testing
     
     - Layout: Move parts (resistors, capacitors) further away front mount points on front of board
         - We want more safety margin near mount points
@@ -26,6 +24,12 @@
     - Layout: Figure out which parts are breaking when exposed to sunlight. Can we move components to solve?
         - Streaming images breaks in direct sunlight
     
+    
+    
+    
+    √ Choose suitable small-signal PMOS that'll work for both SD and LED subcircuits
+        - DMG2305UX seems good, can we find anything better/cheaper?
+            - Haven't been able to find anything better than DMG2305UX
     
     √ Add mosfet to allow motion sensor to be disabled, in case we're just in timelapse mode
     
