@@ -7917,6 +7917,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="MOTION_EN_">
 <contactref element="Q7" pad="G"/>
+<contactref element="U14" pad="14"/>
+<wire x1="9.808878125" y1="3.757559375" x2="-4.81" y2="-72.964" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="LED9" pad="C"/>

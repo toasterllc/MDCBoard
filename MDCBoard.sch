@@ -6445,6 +6445,13 @@ BAT_CHRG_LVL signal.</text>
 <label x="33.02" y="66.04" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
+<net name="MOTION_EN_" class="0">
+<segment>
+<pinref part="U14" gate="B" pin="PA.7/P1.7/UCA0STE/TDO"/>
+<wire x1="35.56" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<label x="33.02" y="60.96" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>

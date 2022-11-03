@@ -17,15 +17,21 @@
             - Cut notch in board for clearance around right backplate mount?
             - Move backplate mounting points so that a notch can be cut?
     
-    - Layout: battery voltage divider: move resistors R7 and R9 closer together
+    - Layout: move parts away from lens gasket keepout region
     
-    - Layout: fix DRC errors
+    - Layout: battery voltage divider: move resistors R7 and R9 closer together
     
     - Layout: Figure out which parts are breaking when exposed to sunlight. Can we move components to solve?
         - Streaming images breaks in direct sunlight
     
+    - Layout: fix DRC errors
     
     
+    
+    X Make BAT_CHRG_LVL_EN -> BAT_CHRG_LVL_EN_ so that it's open-drain, since it's now driven by both MSP430 and STM32
+        X Nevermind, we can't do that because we'd need a pullup to VDD_BAT on the VDD_BAT buffer,
+          and that exceeds MSP430's max rating. We don't want to pullup to VDD_A_3V3 either because it's an
+          intermediate voltage that may causes excess current consumption.
     
     √ Choose suitable small-signal PMOS that'll work for both SD and LED subcircuits
         - DMG2305UX seems good, can we find anything better/cheaper?
