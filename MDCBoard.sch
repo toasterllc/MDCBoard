@@ -8989,10 +8989,6 @@ Vih~=2.7V when powered by
 VDD_BAT=4.2V.</text>
 <text x="122.428" y="-254.762" size="0.762" layer="95" align="top-left">"If no external battery is used in the application,
 it is recommended to connect the VBAT pin to VDD"</text>
-<attribute name="PN" x="22.86" y="-43.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MFG" x="22.86" y="-43.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="NAME" x="10.922" y="14.859" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="10.922" y="12.319" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
 <text x="76.962" y="-66.802" size="1.016" layer="95" align="top-left">Filtering capacitor to filter
 noise from high-impedance
 BAT_CHRG_LVL signal.</text>
