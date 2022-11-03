@@ -2,7 +2,14 @@
     
     - Finalize battery connector
     
+    - Replace LEDs with correct ones after we do our LED testing
+        - Position LEDs properly with respect to hole in enclosure!
+    
     - LED flashing circuit: choose suitable R/C values depending on our LED testing
+    
+    - Layout: length-match SD nets
+    
+    - Layout: length-match IMG nets
     
     - Layout: Move parts (resistors, capacitors) further away front mount points on front of board
         - We want more safety margin near mount points
