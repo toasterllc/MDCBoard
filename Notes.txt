@@ -9,14 +9,6 @@
     
     - Layout: Update mounting hole size based on enclosure hole size
     
-    - Layout: Make placing board into enclosure easier
-        - Enclosure's bottom board mount needed to be snipped to give enough clearance
-          to allow USB-C connector to go into hole
-        
-        - Enclosure's right backplate mount needed to be snipped to give enough clearance
-            - Cut notch in board for clearance around right backplate mount?
-            - Move backplate mounting points so that a notch can be cut?
-    
     - Layout: move parts away from lens gasket keepout region
     
     - Layout: battery voltage divider: move resistors R7 and R9 closer together
@@ -27,6 +19,17 @@
     - Layout: fix DRC errors
     
     
+    
+    
+    √ Layout: Make placing board into enclosure easier
+        - Enclosure's bottom board mount needed to be snipped to give enough clearance
+          to allow USB-C connector to go into hole
+        
+        - Enclosure's right backplate mount needed to be snipped to give enough clearance
+            - Cut notch in board for clearance around right backplate mount?
+            - Move backplate mounting points so that a notch can be cut?
+        
+        √ We should be good now because our bottom board mount is no longer there
     
     X Make BAT_CHRG_LVL_EN -> BAT_CHRG_LVL_EN_ so that it's open-drain, since it's now driven by both MSP430 and STM32
         X Nevermind, we can't do that because we'd need a pullup to VDD_BAT on the VDD_BAT buffer,

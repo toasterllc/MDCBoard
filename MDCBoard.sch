@@ -1575,24 +1575,6 @@ Contact Housing: JST SHR-02V-S</description>
 <hole x="2.54" y="-1.016" drill="0.9906"/>
 <text x="-3.302" y="1.397" size="1.016" layer="25" font="vector">&gt;NAME</text>
 </package>
-<package name="TOREX-XP231P02013R-G">
-<description>6-SOT23, 0.65 mm pitch, 2.10 mm span, 2.00 X 1.25 X 1.10 mm body
-&lt;p&gt;6-pin SOT23 package with 0.65 mm pitch, 2.10 mm span with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
-<wire x1="1.05" y1="-0.625" x2="-1.05" y2="-0.625" width="0.05" layer="21"/>
-<wire x1="-1.05" y1="-0.625" x2="-1.05" y2="0.625" width="0.05" layer="21"/>
-<wire x1="-1.05" y1="0.625" x2="1.05" y2="0.625" width="0.05" layer="21"/>
-<wire x1="1.05" y1="0.625" x2="1.05" y2="-0.625" width="0.05" layer="21"/>
-<smd name="1" x="-0.65" y="-1.1" dx="0.5" dy="0.8" layer="1"/>
-<text x="-1.1604" y="1.75451875" size="1.016" layer="25" font="vector">&gt;NAME</text>
-<polygon width="0.05" layer="39">
-<vertex x="1.05" y="-0.625"/>
-<vertex x="-1.05" y="-0.625"/>
-<vertex x="-1.05" y="0.625"/>
-<vertex x="1.05" y="0.625"/>
-</polygon>
-<smd name="2" x="0.65" y="-1.1" dx="0.5" dy="0.8" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.5" dy="0.8" layer="1"/>
-</package>
 <package name="DIODESINC-DMG2305UX">
 <description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.92 X 1.30 X 1.20 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.92 X 1.30 X 1.20 mm&lt;/p&gt;</description>
@@ -4031,26 +4013,6 @@ Connect</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TOREX-XP231P02013R-G" prefix="Q">
-<gates>
-<gate name="G$1" symbol="PMOS" x="-5.08" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="TOREX-XP231P02013R-G">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MFG" value="Torex"/>
-<attribute name="PN" value="XP231P02013R-G"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="NEXPERIA-74LVC1G98-INVERTER" prefix="U">
 <gates>
 <gate name="G$1" symbol="NEXPERIA-74LVC1G98-INVERTER" x="0" y="0"/>
@@ -4829,8 +4791,8 @@ Connect</text>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X203 JTL"/>
 </part>
-<part name="Q4" library="EagleLibrary" deviceset="TOREX-XP231P02013R-G" device=""/>
-<part name="Q5" library="EagleLibrary" deviceset="TOREX-XP231P02013R-G" device=""/>
+<part name="Q4" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
+<part name="Q5" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
 <part name="U26" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-INVERTER" device=""/>
 <part name="R45" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
 <attribute name="MFG" value="Yageo"/>
@@ -6596,14 +6558,14 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="NAME" x="0" y="2.54" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="0" y="-10.16" size="1.778" layer="95"/>
 </instance>
-<instance part="C27" gate="G$1" x="-40.64" y="-2.54" smashed="yes">
-<attribute name="PN" x="-58.42" y="2.54" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="-43.942" y="-2.921" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="-43.942" y="-5.461" size="1.778" layer="96" align="bottom-right"/>
-<attribute name="MFG" x="-58.42" y="2.54" size="1.778" layer="96" display="off"/>
+<instance part="C27" gate="G$1" x="-12.7" y="-7.62" smashed="yes">
+<attribute name="PN" x="-30.48" y="-2.54" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-16.002" y="-8.001" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="-16.002" y="-10.541" size="1.778" layer="96" align="bottom-right"/>
+<attribute name="MFG" x="-30.48" y="-2.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Q7" gate="G$1" x="-5.08" y="2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="-9.398" y="13.208" size="1.778" layer="95" rot="R180" align="bottom-right"/>
+<instance part="Q7" gate="G$1" x="-12.7" y="0" smashed="yes" rot="R90">
+<attribute name="NAME" x="-17.018" y="10.668" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </instance>
 </instances>
 <busses>
@@ -6611,14 +6573,9 @@ BAT_CHRG_LVL signal.</text>
 <nets>
 <net name="VDD_A_3V3" class="0">
 <segment>
-<pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="0" x2="-40.64" y2="2.54" width="0.1524" layer="91"/>
-<label x="-40.64" y="2.54" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-<segment>
 <pinref part="Q7" gate="G$1" pin="S"/>
-<wire x1="-5.08" y1="12.7" x2="-5.08" y2="15.24" width="0.1524" layer="91"/>
-<label x="-5.08" y="15.24" size="1.778" layer="95"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="12.7" width="0.1524" layer="91"/>
+<label x="-12.7" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6629,8 +6586,8 @@ BAT_CHRG_LVL signal.</text>
 </segment>
 <segment>
 <pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="-7.62" x2="-40.64" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-40.64" y="-10.16" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-12.7" y="-15.24" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="MOTION_SIGNAL" class="0">
@@ -6643,16 +6600,19 @@ BAT_CHRG_LVL signal.</text>
 <net name="N$8" class="0">
 <segment>
 <pinref part="Q7" gate="G$1" pin="D"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="U17" gate="G$1" pin="VDD"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-12.7" y="-2.54"/>
 </segment>
 </net>
 <net name="MOTION_EN_" class="0">
 <segment>
 <pinref part="Q7" gate="G$1" pin="G"/>
-<wire x1="-12.7" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="91"/>
-<label x="-15.24" y="7.62" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="-20.32" y1="5.08" x2="-22.86" y2="5.08" width="0.1524" layer="91"/>
+<label x="-22.86" y="5.08" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
