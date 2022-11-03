@@ -4735,7 +4735,7 @@ Connect</text>
 <attribute name="PN" value="AC0402FR-075K1L"/>
 </part>
 <part name="J4" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER" value="JUMPER-SOLDER"/>
-<part name="U5" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-BUFFER" device="">
+<part name="U5" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-INVERTER" device="">
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="R9" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="300k">
@@ -4862,6 +4862,7 @@ Connect</text>
 <attribute name="MFG" value=""/>
 <attribute name="PN" value=""/>
 </part>
+<part name="Q7" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4962,7 +4963,7 @@ Requirements:
 
   - reverse working voltage ~= 5V
      since battery will operate up to ~4.2V</text>
-<text x="328.168" y="360.172" size="1.016" layer="95" align="top-left">Users of BAT_CHRG_LVL must have a capacitor
+<text x="330.708" y="360.172" size="1.016" layer="95" align="top-left">Users of BAT_CHRG_LVL must have a capacitor
 at their input. This capacitor lowers the output
 impedance (seen at the ADC's input) that would
 otherwise be high due to the high resistance of
@@ -5184,17 +5185,17 @@ present when one isn't.</text>
 <attribute name="NAME" x="297.18" y="366.522" size="1.778" layer="95"/>
 <attribute name="PN" x="292.1" y="368.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R9" gate="G$1" x="317.5" y="355.6" smashed="yes" rot="MR270">
-<attribute name="NAME" x="319.786" y="357.378" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="319.786" y="354.838" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MFG" x="317.5" y="355.6" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="PN" x="317.5" y="355.6" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="R9" gate="G$1" x="320.04" y="355.6" smashed="yes" rot="MR270">
+<attribute name="NAME" x="322.326" y="357.378" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="322.326" y="354.838" size="1.778" layer="96" rot="MR180"/>
+<attribute name="MFG" x="320.04" y="355.6" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PN" x="320.04" y="355.6" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="309.88" y="363.22" smashed="yes" rot="MR180">
-<attribute name="NAME" x="307.594" y="369.316" size="1.778" layer="95" align="top-left"/>
-<attribute name="VALUE" x="307.594" y="366.776" size="1.778" layer="96" align="top-left"/>
-<attribute name="MFG" x="309.88" y="363.22" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="PN" x="309.88" y="363.22" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="R7" gate="G$1" x="312.42" y="363.22" smashed="yes" rot="MR180">
+<attribute name="NAME" x="310.134" y="369.316" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="310.134" y="366.776" size="1.778" layer="96" align="top-left"/>
+<attribute name="MFG" x="312.42" y="363.22" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="PN" x="312.42" y="363.22" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="314.96" y="408.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="313.182" y="409.956" size="1.778" layer="95" align="bottom-right"/>
@@ -5529,9 +5530,9 @@ present when one isn't.</text>
 <label x="294.64" y="355.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="317.5" y1="350.52" x2="317.5" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="350.52" x2="320.04" y2="347.98" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<label x="317.5" y="347.98" size="1.778" layer="95" align="top-left"/>
+<label x="320.04" y="347.98" size="1.778" layer="95" align="top-left"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -5903,13 +5904,13 @@ present when one isn't.</text>
 </net>
 <net name="BAT_CHRG_LVL" class="0">
 <segment>
-<wire x1="317.5" y1="363.22" x2="317.5" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="363.22" x2="320.04" y2="360.68" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<label x="320.04" y="363.22" size="1.778" layer="95"/>
+<label x="322.58" y="363.22" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="320.04" y1="363.22" x2="322.58" y2="363.22" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="363.22" x2="320.04" y2="363.22" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="363.22" x2="317.5" y2="363.22" width="0.1524" layer="91"/>
-<junction x="317.5" y="363.22"/>
+<junction x="320.04" y="363.22"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5932,7 +5933,7 @@ present when one isn't.</text>
 <segment>
 <pinref part="U5" gate="G$1" pin="OUT"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="363.22" x2="304.8" y2="363.22" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="363.22" x2="304.8" y2="363.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -6570,11 +6571,14 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="NAME" x="0" y="2.54" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="0" y="-10.16" size="1.778" layer="95"/>
 </instance>
-<instance part="C27" gate="G$1" x="-25.4" y="-2.54" smashed="yes">
-<attribute name="PN" x="-43.18" y="2.54" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="-28.702" y="-2.921" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="-28.702" y="-5.461" size="1.778" layer="96" align="bottom-right"/>
-<attribute name="MFG" x="-43.18" y="2.54" size="1.778" layer="96" display="off"/>
+<instance part="C27" gate="G$1" x="-40.64" y="-2.54" smashed="yes">
+<attribute name="PN" x="-58.42" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-43.942" y="-2.921" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="-43.942" y="-5.461" size="1.778" layer="96" align="bottom-right"/>
+<attribute name="MFG" x="-58.42" y="2.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="Q7" gate="G$1" x="-5.08" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="-9.398" y="13.208" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </instance>
 </instances>
 <busses>
@@ -6582,14 +6586,14 @@ BAT_CHRG_LVL signal.</text>
 <nets>
 <net name="VDD_A_3V3" class="0">
 <segment>
-<pinref part="U17" gate="G$1" pin="VDD"/>
-<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-5.08" y="-2.54" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="0" x2="-40.64" y2="2.54" width="0.1524" layer="91"/>
+<label x="-40.64" y="2.54" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="0" x2="-25.4" y2="2.54" width="0.1524" layer="91"/>
-<label x="-25.4" y="2.54" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="Q7" gate="G$1" pin="S"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="15.24" width="0.1524" layer="91"/>
+<label x="-5.08" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6600,8 +6604,8 @@ BAT_CHRG_LVL signal.</text>
 </segment>
 <segment>
 <pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="-25.4" y1="-7.62" x2="-25.4" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-25.4" y="-10.16" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="-40.64" y1="-7.62" x2="-40.64" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-40.64" y="-10.16" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="MOTION_SIGNAL" class="0">
@@ -6609,6 +6613,21 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="U17" gate="G$1" pin="OUT"/>
 <wire x1="20.32" y1="-2.54" x2="22.86" y2="-2.54" width="0.1524" layer="91"/>
 <label x="22.86" y="-2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="Q7" gate="G$1" pin="D"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="U17" gate="G$1" pin="VDD"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MOTION_EN_" class="0">
+<segment>
+<pinref part="Q7" gate="G$1" pin="G"/>
+<wire x1="-12.7" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="91"/>
+<label x="-15.24" y="7.62" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
