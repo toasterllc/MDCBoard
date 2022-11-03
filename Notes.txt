@@ -7,8 +7,6 @@
     - Layout: Move parts (resistors, capacitors) further away front mount points on front of board
         - We want more safety margin near mount points
     
-    - Layout: Update mounting hole size based on enclosure hole size
-    
     - Layout: move parts away from lens gasket keepout region
     
     - Layout: battery voltage divider: move resistors R7 and R9 closer together
@@ -20,6 +18,7 @@
     
     
     
+    √ Layout: Update mounting hole size based on enclosure hole size
     
     √ Layout: Make placing board into enclosure easier
         - Enclosure's bottom board mount needed to be snipped to give enough clearance
