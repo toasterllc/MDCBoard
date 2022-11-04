@@ -9584,12 +9584,6 @@ BAT_CHRG_LVL signal.</text>
 <label x="0" y="-259.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="55.88" y="-213.36" size="1.778" layer="95"/>
-<pinref part="C71" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="-213.36" x2="66.04" y2="-213.36" width="0.1524" layer="91"/>
-<pinref part="C72" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="C65" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="-20.32" x2="213.36" y2="-17.78" width="0.1524" layer="91"/>
 <label x="213.36" y="-17.78" size="1.778" layer="95" align="bottom-right"/>
@@ -9767,6 +9761,12 @@ BAT_CHRG_LVL signal.</text>
 <wire x1="121.92" y1="-246.38" x2="121.92" y2="-243.84" width="0.1524" layer="91"/>
 <junction x="121.92" y="-246.38"/>
 <junction x="121.92" y="-243.84"/>
+</segment>
+<segment>
+<pinref part="C71" gate="G$1" pin="1"/>
+<pinref part="C72" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="-213.36" x2="66.04" y2="-213.36" width="0.1524" layer="91"/>
+<label x="55.88" y="-213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$29" class="0">
