@@ -1,5 +1,7 @@
 - Rev7 Todo
     
+    - Layout: consider moving U21 so we have more space for the o-ring to expand
+    
     - Finalize battery connector
     
     - Replace LEDs with correct ones after we do our LED testing
