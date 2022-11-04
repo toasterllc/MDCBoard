@@ -7118,7 +7118,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="33.1404" y="31.0896" extent="1-16" drill="0.381" grouprefs="_POWER_MUX"/>
 <wire x1="5.9582625" y1="31.161578125" x2="5.9582625" y2="29.164703125" width="0.635" layer="15"/>
 <wire x1="5.4006" y1="28.607040625" x2="5.9582625" y2="29.164703125" width="0.635" layer="15"/>
-<wire x1="32.734" y1="31.950659375" x2="6.696459375" y2="31.950659375" width="0.635" layer="15"/>
+<wire x1="32.734" y1="31.950659375" x2="31.496" y2="31.950659375" width="0.635" layer="15"/>
+<wire x1="31.496" y1="31.950659375" x2="6.696459375" y2="31.950659375" width="0.635" layer="15"/>
 <wire x1="6.696459375" y1="31.950659375" x2="5.9582625" y2="31.2124625" width="0.635" layer="15"/>
 <wire x1="5.9582625" y1="31.161578125" x2="5.9582625" y2="31.2124625" width="0.635" layer="15"/>
 <polygon width="0.127" layer="1" thermals="no">
@@ -7140,7 +7141,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="33.0962" y1="31.1338" x2="33.0962" y2="31.40815625" width="0.508" layer="15"/>
 <wire x1="32.734" y1="31.77035625" x2="32.734" y2="31.950659375" width="0.508" layer="15"/>
 <wire x1="33.0962" y1="31.40815625" x2="32.734" y2="31.77035625" width="0.508" layer="15"/>
-<wire x1="33.1404" y1="31.0896" x2="31.521109375" y2="29.285565625" width="0" layer="19" extent="1-1"/>
+<wire x1="31.457896875" y1="28.4353" x2="31.457896875" y2="31.91255625" width="0.508" layer="15"/>
+<wire x1="31.457896875" y1="31.91255625" x2="31.496" y2="31.950659375" width="0.508" layer="15"/>
+<wire x1="31.457896875" y1="28.4353" x2="31.968440625" y2="28.4353" width="0.508" layer="15"/>
 </signal>
 <signal name="N$42">
 <contactref element="U1" pad="4"/>
