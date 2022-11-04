@@ -16,9 +16,6 @@
     
     - Layout: length-match IMG nets
     
-    - Layout: Move parts (resistors, capacitors) further away front mount points on front of board
-        - We want more safety margin near mount points
-    
     - Layout: move parts away from lens gasket keepout region
     
     - Layout: battery voltage divider: move resistors R7 and R9 closer together
@@ -29,6 +26,9 @@
     - Layout: fix DRC errors
     
     
+    
+    √ Layout: Move parts (resistors, capacitors) further away front mount points on front of board
+        - We want more safety margin near mount points
     
     √ Layout: consider moving U21 so we have more space for the o-ring to expand
     
