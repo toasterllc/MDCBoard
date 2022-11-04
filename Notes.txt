@@ -1,9 +1,7 @@
 - Rev7 Todo
     
-    - Check footprints of voltage regulators (U7 / U8 / U9)
+    - Check layouts of voltage regulators (U7 / U8 / U9)
         - Compare to datasheet recommendations
-    
-    - Layout: consider moving U21 so we have more space for the o-ring to expand
     
     - Finalize battery connector
     
@@ -31,6 +29,8 @@
     - Layout: fix DRC errors
     
     
+    
+    √ Layout: consider moving U21 so we have more space for the o-ring to expand
     
     √ Layout: Update mounting hole size based on enclosure hole size
     
