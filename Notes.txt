@@ -9,8 +9,6 @@
         - Position LEDs properly with respect to hole in enclosure
         - Choose suitable R/C values depending on our LED testing
     
-    - Confirm size/position of lens o-ring keepout region
-    
     - Layout: length-match SD nets
     
     - Layout: length-match IMG nets
@@ -20,6 +18,8 @@
     
     - Layout: fix DRC errors
     
+    
+    √ Confirm size/position of lens o-ring keepout region
     
     √ Check layouts of voltage regulators (U7 / U8 / U9)
         - Compare to datasheet recommendations
