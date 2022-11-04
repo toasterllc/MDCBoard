@@ -22,34 +22,34 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Power" color="42" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Power" color="42" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -1415,8 +1415,6 @@ Contact Housing: JST SHR-02V-S</description>
 <description>Chip, 3.20 X 2.50 X 0.70 mm body
 &lt;p&gt;Chip package with body size 3.20 X 2.50 X 0.70 mm&lt;/p&gt;</description>
 <pad name="1" x="0" y="0" drill="1.7" thermals="no"/>
-<circle x="0" y="0" radius="1.75" width="0" layer="41"/>
-<circle x="0" y="0" radius="1.75" width="0" layer="42"/>
 <circle x="0" y="0" radius="1.75" width="0" layer="39"/>
 <circle x="0" y="0" radius="1.75" width="0" layer="40"/>
 </package>
@@ -3586,8 +3584,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <via x="41.22928125" y="10.149840625" extent="1-16" drill="0.381"/>
 <via x="37.932359375" y="10.302240625" extent="1-16" drill="0.381"/>
-<wire x1="39.116296875" y1="18.41675625" x2="38.489478125" y2="18.057225" width="0" layer="19" extent="1-16"/>
-<wire x1="43.15631875" y1="15.08998125" x2="42.149596875" y2="14.997796875" width="0" layer="19" extent="1-16"/>
 <wire x1="28.136603125" y1="25.989984375" x2="27.0676375" y2="26.110340625" width="0" layer="19" extent="1-16"/>
 <wire x1="27.192578125" y1="24.960959375" x2="27.0676375" y2="26.110340625" width="0" layer="19" extent="1-16"/>
 <wire x1="28.916" y1="30.917740625" x2="29.6841625" y2="31.831278125" width="0" layer="19" extent="16-16"/>
@@ -3600,7 +3596,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="30.695915625" y1="6.69100625" x2="29.8034625" y2="4.99618125" width="0" layer="19" extent="1-1"/>
 <wire x1="28.346978125" y1="9.3113625" x2="29.8810375" y2="8.646903125" width="0" layer="19" extent="1-1"/>
 <wire x1="35.507496875" y1="21.310340625" x2="33.612284375" y2="21.42088125" width="0" layer="19" extent="1-16"/>
-<wire x1="42.47961875" y1="21.178075" x2="43.1229375" y2="23.040478125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="ICE_IMG_CLK16MHZ">
 <contactref element="U18" pad="C11"/>
