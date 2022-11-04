@@ -871,87 +871,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="1.651" y="-0.254"/>
 </polygon>
 </package>
-<package name="TI-MSP430FR2422IRHL" urn="urn:adsk.eagle:footprint:28409573/1" locally_modified="yes">
-<description>20-QFN, 0.50 mm pitch, 4.50 X 3.50 X 1.00 mm body, 3.05 X 2.05 mm thermal pad
-&lt;p&gt;20-pin QFN package with 0.50 mm pitch with body size 4.50 X 3.50 X 1.00 mm and thermal pad size 3.05 X 2.05 mm&lt;/p&gt;</description>
-<wire x1="1.8" y1="-2.3" x2="-1.8" y2="-2.3" width="0.05" layer="21"/>
-<wire x1="-1.8" y1="-2.3" x2="-1.8" y2="2.3" width="0.05" layer="21"/>
-<wire x1="-1.8" y1="2.3" x2="1.8" y2="2.3" width="0.05" layer="21"/>
-<wire x1="1.8" y1="2.3" x2="1.8" y2="-2.3" width="0.05" layer="21"/>
-<smd name="2" x="-1.6846" y="1.75" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="3" x="-1.6846" y="1.25" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="4" x="-1.6846" y="0.75" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="5" x="-1.6846" y="0.25" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="6" x="-1.6846" y="-0.25" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="7" x="-1.6846" y="-0.75" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="8" x="-1.6846" y="-1.25" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="9" x="-1.6846" y="-1.75" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="10" x="-0.75" y="-2.1846" dx="0.86" dy="0.26" layer="1" roundness="100" rot="R90"/>
-<smd name="11" x="0.75" y="-2.1846" dx="0.86" dy="0.26" layer="1" roundness="100" rot="R90"/>
-<smd name="12" x="1.6846" y="-1.75" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="13" x="1.6846" y="-1.25" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="14" x="1.6846" y="-0.75" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="15" x="1.6846" y="-0.25" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="16" x="1.6846" y="0.25" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="17" x="1.6846" y="0.75" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="18" x="1.6846" y="1.25" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="19" x="1.6846" y="1.75" dx="0.86" dy="0.26" layer="1" roundness="100"/>
-<smd name="20" x="0.75" y="2.1846" dx="0.86" dy="0.26" layer="1" roundness="100" rot="R90"/>
-<smd name="1" x="-0.75" y="2.1846" dx="0.86" dy="0.26" layer="1" roundness="100" rot="R90"/>
-<smd name="21" x="0" y="0" dx="1" dy="1" layer="1" thermals="no" cream="no"/>
-<text x="-1.8" y="2.969" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<polygon width="0.05" layer="21">
-<vertex x="-1.779" y="2.275"/>
-<vertex x="-1.779" y="1.475"/>
-<vertex x="-0.979" y="2.275"/>
-</polygon>
-<polygon width="0.05" layer="39">
-<vertex x="1.8" y="-2.3"/>
-<vertex x="-1.8" y="-2.3"/>
-<vertex x="-1.8" y="2.3"/>
-<vertex x="1.8" y="2.3"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-0.4" y="1.1"/>
-<vertex x="-0.4" y="0.3"/>
-<vertex x="0.4" y="0.3"/>
-<vertex x="0.4" y="1.1"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-0.4" y="-0.3"/>
-<vertex x="-0.4" y="-1.1"/>
-<vertex x="0.4" y="-1.1"/>
-<vertex x="0.4" y="-0.3"/>
-</polygon>
-<polygon width="0.05" layer="1">
-<vertex x="-0.375" y="2.6"/>
-<vertex x="-0.375" y="1.525"/>
-<vertex x="-1.025" y="1.525"/>
-<vertex x="-1.025" y="-1.525"/>
-<vertex x="-0.375" y="-1.525"/>
-<vertex x="-0.375" y="-2.6"/>
-<vertex x="0.375" y="-2.6"/>
-<vertex x="0.375" y="-1.525"/>
-<vertex x="1.025" y="-1.525"/>
-<vertex x="1.025" y="1.525"/>
-<vertex x="0.375" y="1.525"/>
-<vertex x="0.375" y="2.6"/>
-</polygon>
-<polygon width="0.05" layer="29">
-<vertex x="-0.375" y="2.6"/>
-<vertex x="-0.375" y="1.525"/>
-<vertex x="-1.025" y="1.525"/>
-<vertex x="-1.025" y="-1.525"/>
-<vertex x="-0.375" y="-1.525"/>
-<vertex x="-0.375" y="-2.6"/>
-<vertex x="0.375" y="-2.6"/>
-<vertex x="0.375" y="-1.525"/>
-<vertex x="1.025" y="-1.525"/>
-<vertex x="1.025" y="1.525"/>
-<vertex x="0.375" y="1.525"/>
-<vertex x="0.375" y="2.6"/>
-</polygon>
-</package>
 <package name="SOT-23">
 <description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.92 X 1.30 X 1.20 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.92 X 1.30 X 1.20 mm&lt;/p&gt;</description>
@@ -1591,6 +1510,57 @@ Contact Housing: JST SHR-02V-S</description>
 <vertex x="-0.65" y="-1.45"/>
 <vertex x="0.65" y="-1.45"/>
 <vertex x="0.65" y="1.45"/>
+</polygon>
+</package>
+<package name="TI-MSP430FR2433IRGE">
+<description>20-QFN, 0.50 mm pitch, 4.50 X 3.50 X 1.00 mm body, 3.05 X 2.05 mm thermal pad
+&lt;p&gt;20-pin QFN package with 0.50 mm pitch with body size 4.50 X 3.50 X 1.00 mm and thermal pad size 3.05 X 2.05 mm&lt;/p&gt;</description>
+<wire x1="2.05" y1="-2.05" x2="-2.05" y2="-2.05" width="0.05" layer="21"/>
+<wire x1="-2.05" y1="-2.05" x2="-2.05" y2="2.05" width="0.05" layer="21"/>
+<wire x1="-2.05" y1="2.05" x2="2.05" y2="2.05" width="0.05" layer="21"/>
+<wire x1="2.05" y1="2.05" x2="2.05" y2="-2.05" width="0.05" layer="21"/>
+<smd name="6" x="-1.9125" y="-1.25" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="1" x="-1.9125" y="1.25" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="2" x="-1.9125" y="0.75" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="3" x="-1.9125" y="0.25" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="4" x="-1.9125" y="-0.25" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="5" x="-1.9125" y="-0.75" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="25" x="0" y="0" dx="2.7" dy="2.7" layer="1" thermals="no" cream="no"/>
+<text x="-2.032" y="2.412" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<polygon width="0.05" layer="21">
+<vertex x="-2.011" y="2.02"/>
+<vertex x="-2.011" y="1.22"/>
+<vertex x="-1.211" y="2.02"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.4" y="0.4"/>
+<vertex x="-0.4" y="-0.4"/>
+<vertex x="0.4" y="-0.4"/>
+<vertex x="0.4" y="0.4"/>
+</polygon>
+<smd name="13" x="1.9125" y="-1.25" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="18" x="1.9125" y="1.25" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="17" x="1.9125" y="0.75" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="16" x="1.9125" y="0.25" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="15" x="1.9125" y="-0.25" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="14" x="1.9125" y="-0.75" dx="0.58" dy="0.24" layer="1" roundness="25"/>
+<smd name="19" x="1.25" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="24" x="-1.25" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="23" x="-0.75" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="22" x="-0.25" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="21" x="0.25" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="20" x="0.75" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="12" x="1.25" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="7" x="-1.25" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="8" x="-0.75" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="9" x="-0.25" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="10" x="0.25" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<smd name="11" x="0.75" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="25" rot="R90"/>
+<polygon width="0.05" layer="39">
+<vertex x="-2.05" y="2.05"/>
+<vertex x="-2.05" y="-2.05"/>
+<vertex x="2.05" y="-2.05"/>
+<vertex x="2.05" y="2.05"/>
 </polygon>
 </package>
 </packages>
@@ -2306,55 +2276,6 @@ the design uses this PLL</text>
 <pin name="P$2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
 <text x="0" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="TI-MSP430FR2422IRHL-A">
-<description>16 MHz MCU with 8KB FRAM, 2KB SRAM, 10-bit ADC, UART/SPI/I2C, timer</description>
-<wire x1="0" y1="-17.78" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="25.4" y2="0" width="0.254" layer="94"/>
-<wire x1="25.4" y1="0" x2="25.4" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
-<text x="0" y="2.286" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-18.542" size="1.778" layer="95" align="top-left">&gt;PN</text>
-<pin name="VDD" x="-2.54" y="-2.54" length="short"/>
-<pin name="GND" x="-2.54" y="-5.08" length="short"/>
-<pin name="TEST/SBWTCK" x="-2.54" y="-12.7" length="short"/>
-<pin name="RST_/NMI/SBWTDIO" x="-2.54" y="-15.24" length="short"/>
-<pin name="GND_THERMALPAD" x="-2.54" y="-7.62" length="short"/>
-</symbol>
-<symbol name="TI-MSP430FR2422IRHL-B">
-<description>16 MHz MCU with 8KB FRAM, 2KB SRAM, 10-bit ADC, UART/SPI/I2C, timer</description>
-<wire x1="0" y1="-22.86" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="55.88" y2="0" width="0.254" layer="94"/>
-<wire x1="55.88" y1="0" x2="55.88" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="55.88" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
-<text x="0" y="2.286" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-23.622" size="1.778" layer="95" align="top-left">&gt;PN</text>
-<pin name="PA.0/P1.0/UCB0STE/A0/VEREF+" x="-2.54" y="-2.54" length="short"/>
-<pin name="PA.1/P1.1/UCB0CLK/ACLK/A1/VREF+" x="-2.54" y="-5.08" length="short"/>
-<pin name="PA.2/P1.2/UCB0SIMO/UCB0SDA/SMCLK/A2/VEREF-" x="-2.54" y="-7.62" length="short"/>
-<pin name="PA.3/P1.3/UCB0SOMI/UCB0SCL/MCLK/A3" x="-2.54" y="-10.16" length="short"/>
-<pin name="PA.4/P1.4/UCA0TXD/UCA0SIMO/TA0.1/TCK" x="-2.54" y="-12.7" length="short"/>
-<pin name="PA.5/P1.5/UCA0RXD/UCA0SOMI/TA0.2/TMS" x="-2.54" y="-15.24" length="short"/>
-<pin name="PA.6/P1.6/UCA0CLK/TA0CLK/TDI/TCLK" x="-2.54" y="-17.78" length="short"/>
-<pin name="PA.7/P1.7/UCA0STE/TDO" x="-2.54" y="-20.32" length="short"/>
-<text x="48.26" y="-2.54" size="1.778" layer="94">Port 1</text>
-</symbol>
-<symbol name="TI-MSP430FR2422IRHL-C">
-<description>16 MHz MCU with 8KB FRAM, 2KB SRAM, 10-bit ADC, UART/SPI/I2C, timer</description>
-<wire x1="0" y1="-20.32" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="50.8" y2="0" width="0.254" layer="94"/>
-<wire x1="50.8" y1="0" x2="50.8" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="50.8" y1="-20.32" x2="0" y2="-20.32" width="0.254" layer="94"/>
-<text x="0" y="2.286" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-21.082" size="1.778" layer="95" align="top-left">&gt;PN</text>
-<pin name="PA.8/P2.0/UCA0TXD/UCA0SIMO/XOUT" x="-2.54" y="-2.54" length="short"/>
-<pin name="PA.9/P2.1/UCA0RXD/UCA0SOMI/XIN" x="-2.54" y="-5.08" length="short"/>
-<pin name="PA.A/P2.2/TA1.1/A4" x="-2.54" y="-7.62" length="short"/>
-<pin name="PA.B/P2.3/TA1.2/UCB0STE/A5" x="-2.54" y="-10.16" length="short"/>
-<pin name="PA.C/P2.4/TA1CLK/UCB0CLK/A6" x="-2.54" y="-12.7" length="short"/>
-<pin name="PA.D/P2.5/UCB0SIMO/UCB0SDA/A7" x="-2.54" y="-15.24" length="short"/>
-<pin name="PA.E/P2.6/UCB0SOMI/UCB0SCL" x="-2.54" y="-17.78" length="short"/>
-<text x="43.18" y="-2.54" size="1.778" layer="94">Port 2</text>
-</symbol>
 <symbol name="PMOS">
 <wire x1="2.54" y1="-1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
@@ -2682,6 +2603,68 @@ Connect</text>
 <wire x1="2.032" y1="-3.81" x2="2.032" y2="-6.35" width="0.1524" layer="94"/>
 <text x="2.032" y="-2.921" size="0.508" layer="94">VDD</text>
 <text x="2.032" y="-7.62" size="0.508" layer="94">GND</text>
+</symbol>
+<symbol name="TI-MSP430FR2433IRGE-POWER">
+<description>16 MHz MCU with 8KB FRAM, 2KB SRAM, 10-bit ADC, UART/SPI/I2C, timer</description>
+<wire x1="0" y1="-15.24" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<text x="0" y="2.286" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-16.002" size="1.778" layer="95" align="top-left">&gt;PN</text>
+<pin name="TEST/SBWTCK" x="-2.54" y="-10.16" length="short"/>
+<pin name="RST_/NMI/SBWTDIO" x="-2.54" y="-12.7" length="short"/>
+<pin name="DVCC" x="-2.54" y="-2.54" length="short"/>
+<pin name="DVSS" x="-2.54" y="-5.08" length="short"/>
+</symbol>
+<symbol name="TI-MSP430FR2433IRGE-PORT1">
+<description>16 MHz MCU with 8KB FRAM, 2KB SRAM, 10-bit ADC, UART/SPI/I2C, timer</description>
+<wire x1="0" y1="-22.86" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="58.42" y2="0" width="0.254" layer="94"/>
+<wire x1="58.42" y1="0" x2="58.42" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="58.42" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<text x="0" y="2.286" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-23.622" size="1.778" layer="95" align="top-left">&gt;PN</text>
+<pin name="PA.0/P1.0/UCB0STE/TA0CLK/A0/VEREF+" x="-2.54" y="-2.54" length="short"/>
+<text x="50.8" y="-2.54" size="1.778" layer="94">Port 1</text>
+<pin name="PA.1/P1.1/UCB0CLK/TA0.1/A1" x="-2.54" y="-5.08" length="short"/>
+<pin name="PA.2/P1.2/UCB0SIMO/UCB0SDA/TA0.2/A2/VEREF-" x="-2.54" y="-7.62" length="short"/>
+<pin name="PA.3/P1.3/UCB0SOMI/UCB0SCL/MCLK/A3" x="-2.54" y="-10.16" length="short"/>
+<pin name="PA.4/P1.4/UCA0TXD/UCA0SIMO/TA1.2/TCK/A4/VREF+" x="-2.54" y="-12.7" length="short"/>
+<pin name="PA.5/P1.5/UCA0RXD/UCA0SOMI/TA1.1/TMS/A5" x="-2.54" y="-15.24" length="short"/>
+<pin name="PA.6/P1.6/UCA0CLK/TA1CLK/TDI/TCLK/A6" x="-2.54" y="-17.78" length="short"/>
+<pin name="PA.7/P1.7/UCA0STE/SMCLK/TDO/A7" x="-2.54" y="-20.32" length="short"/>
+</symbol>
+<symbol name="TI-MSP430FR2433IRGE-PORT2">
+<description>16 MHz MCU with 8KB FRAM, 2KB SRAM, 10-bit ADC, UART/SPI/I2C, timer</description>
+<wire x1="0" y1="-22.86" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="38.1" y2="0" width="0.254" layer="94"/>
+<wire x1="38.1" y1="0" x2="38.1" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<text x="0" y="2.286" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-23.622" size="1.778" layer="95" align="top-left">&gt;PN</text>
+<pin name="PA.8/P2.0/XOUT" x="-2.54" y="-2.54" length="short"/>
+<text x="30.48" y="-2.54" size="1.778" layer="94">Port 2</text>
+<pin name="PA.9/P2.1/XIN" x="-2.54" y="-5.08" length="short"/>
+<pin name="PA.A/P2.2/ACLK" x="-2.54" y="-7.62" length="short"/>
+<pin name="PA.B/P2.3" x="-2.54" y="-10.16" length="short"/>
+<pin name="PA.C/P2.4/UCA1CLK" x="-2.54" y="-12.7" length="short"/>
+<pin name="PA.D/P2.5/UCA1RXD/UCA1SOMI" x="-2.54" y="-15.24" length="short"/>
+<pin name="PA.E/P2.6/UCA1TXD/UCA1SIMO" x="-2.54" y="-17.78" length="short"/>
+<pin name="PA.F/P2.7" x="-2.54" y="-20.32" length="short"/>
+</symbol>
+<symbol name="TI-MSP430FR2433IRGE-PORT3">
+<description>16 MHz MCU with 8KB FRAM, 2KB SRAM, 10-bit ADC, UART/SPI/I2C, timer</description>
+<wire x1="0" y1="-10.16" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="2.286" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-10.922" size="1.778" layer="95" align="top-left">&gt;PN</text>
+<pin name="PB.0/P3.0" x="-2.54" y="-2.54" length="short"/>
+<text x="17.78" y="-2.54" size="1.778" layer="94">Port 3</text>
+<pin name="PB.1/P3.1/UCA1STE" x="-2.54" y="-5.08" length="short"/>
+<pin name="PB.2/P3.2" x="-2.54" y="-7.62" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3483,45 +3466,6 @@ Connect</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TI-MSP430FR2422IRHL" prefix="U">
-<gates>
-<gate name="A" symbol="TI-MSP430FR2422IRHL-A" x="0" y="0"/>
-<gate name="B" symbol="TI-MSP430FR2422IRHL-B" x="0" y="-27.94"/>
-<gate name="C" symbol="TI-MSP430FR2422IRHL-C" x="0" y="-60.96"/>
-</gates>
-<devices>
-<device name="" package="TI-MSP430FR2422IRHL">
-<connects>
-<connect gate="A" pin="GND" pad="6"/>
-<connect gate="A" pin="GND_THERMALPAD" pad="21"/>
-<connect gate="A" pin="RST_/NMI/SBWTDIO" pad="4"/>
-<connect gate="A" pin="TEST/SBWTCK" pad="3"/>
-<connect gate="A" pin="VDD" pad="5"/>
-<connect gate="B" pin="PA.0/P1.0/UCB0STE/A0/VEREF+" pad="2"/>
-<connect gate="B" pin="PA.1/P1.1/UCB0CLK/ACLK/A1/VREF+" pad="1"/>
-<connect gate="B" pin="PA.2/P1.2/UCB0SIMO/UCB0SDA/SMCLK/A2/VEREF-" pad="20"/>
-<connect gate="B" pin="PA.3/P1.3/UCB0SOMI/UCB0SCL/MCLK/A3" pad="19"/>
-<connect gate="B" pin="PA.4/P1.4/UCA0TXD/UCA0SIMO/TA0.1/TCK" pad="17"/>
-<connect gate="B" pin="PA.5/P1.5/UCA0RXD/UCA0SOMI/TA0.2/TMS" pad="16"/>
-<connect gate="B" pin="PA.6/P1.6/UCA0CLK/TA0CLK/TDI/TCLK" pad="15"/>
-<connect gate="B" pin="PA.7/P1.7/UCA0STE/TDO" pad="14"/>
-<connect gate="C" pin="PA.8/P2.0/UCA0TXD/UCA0SIMO/XOUT" pad="8"/>
-<connect gate="C" pin="PA.9/P2.1/UCA0RXD/UCA0SOMI/XIN" pad="7"/>
-<connect gate="C" pin="PA.A/P2.2/TA1.1/A4" pad="13"/>
-<connect gate="C" pin="PA.B/P2.3/TA1.2/UCB0STE/A5" pad="12"/>
-<connect gate="C" pin="PA.C/P2.4/TA1CLK/UCB0CLK/A6" pad="11"/>
-<connect gate="C" pin="PA.D/P2.5/UCB0SIMO/UCB0SDA/A7" pad="10"/>
-<connect gate="C" pin="PA.E/P2.6/UCB0SOMI/UCB0SCL" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MFG" value="Texas Instruments"/>
-<attribute name="PN" value="MSP430FR2422IRHL"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PMOS" prefix="Q">
 <description>PMOS MOSFET transistor</description>
 <gates>
@@ -4053,6 +3997,49 @@ Connect</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="TI-MSP430FR2433IRGE" prefix="U">
+<gates>
+<gate name="POWER" symbol="TI-MSP430FR2433IRGE-POWER" x="0" y="0"/>
+<gate name="PORT1" symbol="TI-MSP430FR2433IRGE-PORT1" x="0" y="-22.86"/>
+<gate name="PORT2" symbol="TI-MSP430FR2433IRGE-PORT2" x="0" y="-53.34"/>
+<gate name="PORT3" symbol="TI-MSP430FR2433IRGE-PORT3" x="0" y="-83.82"/>
+</gates>
+<devices>
+<device name="" package="TI-MSP430FR2433IRGE">
+<connects>
+<connect gate="PORT1" pin="PA.0/P1.0/UCB0STE/TA0CLK/A0/VEREF+" pad="7"/>
+<connect gate="PORT1" pin="PA.1/P1.1/UCB0CLK/TA0.1/A1" pad="8"/>
+<connect gate="PORT1" pin="PA.2/P1.2/UCB0SIMO/UCB0SDA/TA0.2/A2/VEREF-" pad="9"/>
+<connect gate="PORT1" pin="PA.3/P1.3/UCB0SOMI/UCB0SCL/MCLK/A3" pad="10"/>
+<connect gate="PORT1" pin="PA.4/P1.4/UCA0TXD/UCA0SIMO/TA1.2/TCK/A4/VREF+" pad="3"/>
+<connect gate="PORT1" pin="PA.5/P1.5/UCA0RXD/UCA0SOMI/TA1.1/TMS/A5" pad="4"/>
+<connect gate="PORT1" pin="PA.6/P1.6/UCA0CLK/TA1CLK/TDI/TCLK/A6" pad="5"/>
+<connect gate="PORT1" pin="PA.7/P1.7/UCA0STE/SMCLK/TDO/A7" pad="6"/>
+<connect gate="PORT2" pin="PA.8/P2.0/XOUT" pad="21"/>
+<connect gate="PORT2" pin="PA.9/P2.1/XIN" pad="22"/>
+<connect gate="PORT2" pin="PA.A/P2.2/ACLK" pad="11"/>
+<connect gate="PORT2" pin="PA.B/P2.3" pad="13"/>
+<connect gate="PORT2" pin="PA.C/P2.4/UCA1CLK" pad="15"/>
+<connect gate="PORT2" pin="PA.D/P2.5/UCA1RXD/UCA1SOMI" pad="16"/>
+<connect gate="PORT2" pin="PA.E/P2.6/UCA1TXD/UCA1SIMO" pad="17"/>
+<connect gate="PORT2" pin="PA.F/P2.7" pad="19"/>
+<connect gate="PORT3" pin="PB.0/P3.0" pad="12"/>
+<connect gate="PORT3" pin="PB.1/P3.1/UCA1STE" pad="14"/>
+<connect gate="PORT3" pin="PB.2/P3.2" pad="20"/>
+<connect gate="POWER" pin="DVCC" pad="24"/>
+<connect gate="POWER" pin="DVSS" pad="18 23 25"/>
+<connect gate="POWER" pin="RST_/NMI/SBWTDIO" pad="1"/>
+<connect gate="POWER" pin="TEST/SBWTCK" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Texas Instruments"/>
+<attribute name="PN" value="MSP430FR2433IRGE"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4445,7 +4432,6 @@ Connect</text>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="BKP1005EM100-T"/>
 </part>
-<part name="U14" library="EagleLibrary" deviceset="TI-MSP430FR2422IRHL" device=""/>
 <part name="C22" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="22p">
 <spice>
 <pinmapping spiceprefix="C">
@@ -4829,6 +4815,7 @@ Connect</text>
 <attribute name="MFG" value=""/>
 <attribute name="PN" value=""/>
 </part>
+<part name="U15" library="EagleLibrary" deviceset="TI-MSP430FR2433IRGE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6050,7 +6037,7 @@ present when one isn't.</text>
 <sheet>
 <description>MSP</description>
 <plain>
-<text x="106.426" y="128.524" size="1.016" layer="95" align="top-left">From "MSP430TM 32-kHz Crystal Oscillators",
+<text x="238.506" y="133.604" size="1.016" layer="95" align="top-left">From "MSP430TM 32-kHz Crystal Oscillators",
 section "Effective Load Capacitance":
 
 Crystal capacitor values are calculated using:
@@ -6068,13 +6055,13 @@ C_para = 2pF (MSP capacitance per pin)
 C_L = 12.5 pF (from crystal datasheet)
 
 Therefore, C = 22 pF</text>
-<text x="141.732" y="93.472" size="1.016" layer="95" align="top-left">Use NP0 dialectric capacitors to minimize
+<text x="273.812" y="100.33" size="1.016" layer="95" align="top-left">Use NP0 dialectric capacitors to minimize
 capacitance variation due to temperature
 and DC bias</text>
-<text x="-99.568" y="53.594" size="1.016" layer="95" align="top-left">MSP_RST_: MSP430 has an internal 20k-50k
+<text x="-0.508" y="81.534" size="1.016" layer="95" align="top-left">MSP_RST_: MSP430 has an internal 20k-50k
 pullup on MSP_RST_, so we don't add an
 external one to save a part.</text>
-<text x="-99.568" y="45.974" size="1.016" layer="95" align="top-left">MSP_RST_: The MSP430 datasheet recommends
+<text x="-0.508" y="73.914" size="1.016" layer="95" align="top-left">MSP_RST_: The MSP430 datasheet recommends
 a 1nF capacitor on MSP_RST_, but we don't use
 that value anywhere else, so we're opting for a
 much smaller 22pF. (Note that we can't use a
@@ -6089,60 +6076,48 @@ caused issues so far.</text>
 because the datasheet says:
 
 "VCCA must not exceed VCCB"</text>
-<text x="-22.098" y="75.438" size="1.016" layer="95" align="top-left">Filtering capacitor to filter
+<text x="102.362" y="75.438" size="1.016" layer="95" align="top-left">Filtering capacitor to filter
 noise from high-impedance
 BAT_CHRG_LVL signal.</text>
 </plain>
 <instances>
-<instance part="U14" gate="A" x="-71.12" y="78.74" smashed="yes">
-<attribute name="NAME" x="-71.12" y="81.026" size="1.778" layer="95" align="top-left"/>
-<attribute name="PN" x="-71.12" y="60.198" size="1.778" layer="95" align="top-left"/>
+<instance part="C22" gate="G$1" x="-7.62" y="78.74" smashed="yes">
+<attribute name="NAME" x="-11.176" y="79.121" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="-11.176" y="76.581" size="1.778" layer="96" align="bottom-right"/>
+<attribute name="MFG" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U14" gate="B" x="38.1" y="81.28" smashed="yes">
-<attribute name="NAME" x="38.1" y="83.566" size="1.778" layer="95" align="top-left"/>
-<attribute name="PN" x="38.1" y="57.658" size="1.778" layer="95" align="top-left"/>
+<instance part="C18" gate="G$1" x="246.38" y="99.06" smashed="yes">
+<attribute name="NAME" x="243.586" y="98.679" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="243.586" y="96.139" size="1.778" layer="96" align="bottom-right"/>
+<attribute name="MFG" x="246.38" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="246.38" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U14" gate="C" x="132.08" y="81.28" smashed="yes">
-<attribute name="NAME" x="132.08" y="83.566" size="1.778" layer="95" align="top-left"/>
-<attribute name="PN" x="132.08" y="60.198" size="1.778" layer="95" align="top-left"/>
+<instance part="C19" gate="G$1" x="264.16" y="99.06" smashed="yes">
+<attribute name="NAME" x="266.954" y="98.679" size="1.778" layer="95"/>
+<attribute name="VALUE" x="266.954" y="96.139" size="1.778" layer="96"/>
+<attribute name="MFG" x="264.16" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="264.16" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C22" gate="G$1" x="-106.68" y="50.8" smashed="yes">
-<attribute name="NAME" x="-110.236" y="51.181" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="-110.236" y="48.641" size="1.778" layer="96" align="bottom-right"/>
-<attribute name="MFG" x="-106.68" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="-106.68" y="50.8" size="1.778" layer="96" display="off"/>
+<instance part="C21" gate="G$1" x="33.02" y="96.52" smashed="yes">
+<attribute name="MFG" x="55.88" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="55.88" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="35.814" y="96.139" size="1.778" layer="95"/>
+<attribute name="VALUE" x="35.814" y="93.599" size="1.778" layer="96"/>
 </instance>
-<instance part="C18" gate="G$1" x="114.3" y="93.98" smashed="yes">
-<attribute name="NAME" x="111.506" y="93.599" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="111.506" y="91.059" size="1.778" layer="96" align="bottom-right"/>
-<attribute name="MFG" x="114.3" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="114.3" y="93.98" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C19" gate="G$1" x="132.08" y="93.98" smashed="yes">
-<attribute name="NAME" x="134.874" y="93.599" size="1.778" layer="95"/>
-<attribute name="VALUE" x="134.874" y="91.059" size="1.778" layer="96"/>
-<attribute name="MFG" x="132.08" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="132.08" y="93.98" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C21" gate="G$1" x="-99.06" y="83.82" smashed="yes">
-<attribute name="MFG" x="-76.2" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="-76.2" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="-96.266" y="83.439" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-96.266" y="80.899" size="1.778" layer="96"/>
-</instance>
-<instance part="C20" gate="G$1" x="-109.22" y="83.82" smashed="yes">
-<attribute name="PN" x="-124.46" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MFG" x="-124.46" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="-106.426" y="83.439" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-106.426" y="80.899" size="1.778" layer="96"/>
+<instance part="C20" gate="G$1" x="22.86" y="96.52" smashed="yes">
+<attribute name="PN" x="7.62" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MFG" x="7.62" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="25.654" y="96.139" size="1.778" layer="95"/>
+<attribute name="VALUE" x="25.654" y="93.599" size="1.778" layer="96"/>
 </instance>
 <instance part="U16" gate="G$1" x="76.2" y="25.4" smashed="yes" rot="MR0">
 <attribute name="PN" x="76.2" y="0" size="1.778" layer="95" rot="MR0"/>
 <attribute name="NAME" x="76.2" y="27.94" size="1.778" layer="95" rot="MR0" align="top-left"/>
 </instance>
-<instance part="X1" gate="G$1" x="121.92" y="99.06" smashed="yes">
-<attribute name="NAME" x="121.92" y="101.346" size="1.778" layer="95" align="top-left"/>
-<attribute name="PN" x="121.92" y="99.06" size="1.778" layer="96" display="off"/>
+<instance part="X1" gate="G$1" x="254" y="104.14" smashed="yes">
+<attribute name="NAME" x="254" y="106.426" size="1.778" layer="95" align="top-left"/>
+<attribute name="PN" x="254" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C25" gate="G$1" x="53.34" y="35.56" smashed="yes">
 <attribute name="PN" x="38.1" y="-22.86" size="1.778" layer="96" display="off"/>
@@ -6156,11 +6131,27 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="NAME" x="81.788" y="35.179" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="81.788" y="32.639" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
 </instance>
-<instance part="C23" gate="G$1" x="-2.54" y="73.66" smashed="yes" rot="MR0">
-<attribute name="PN" x="12.7" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MFG" x="12.7" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="NAME" x="0.762" y="73.279" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="0.762" y="70.739" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
+<instance part="C23" gate="G$1" x="121.92" y="73.66" smashed="yes" rot="MR0">
+<attribute name="PN" x="137.16" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFG" x="137.16" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="NAME" x="125.222" y="73.279" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<attribute name="VALUE" x="125.222" y="70.739" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
+</instance>
+<instance part="U15" gate="POWER" x="58.42" y="83.82" smashed="yes">
+<attribute name="NAME" x="58.42" y="86.106" size="1.778" layer="95" align="top-left"/>
+<attribute name="PN" x="58.42" y="67.818" size="1.778" layer="95" align="top-left"/>
+</instance>
+<instance part="U15" gate="PORT1" x="162.56" y="86.36" smashed="yes">
+<attribute name="NAME" x="162.56" y="88.646" size="1.778" layer="95" align="top-left"/>
+<attribute name="PN" x="162.56" y="62.738" size="1.778" layer="95" align="top-left"/>
+</instance>
+<instance part="U15" gate="PORT2" x="264.16" y="86.36" smashed="yes">
+<attribute name="NAME" x="264.16" y="88.646" size="1.778" layer="95" align="top-left"/>
+<attribute name="PN" x="264.16" y="62.738" size="1.778" layer="95" align="top-left"/>
+</instance>
+<instance part="U15" gate="PORT3" x="322.58" y="86.36" smashed="yes">
+<attribute name="NAME" x="322.58" y="88.646" size="1.778" layer="95" align="top-left"/>
+<attribute name="PN" x="322.58" y="75.438" size="1.778" layer="95" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -6168,15 +6159,10 @@ BAT_CHRG_LVL signal.</text>
 <nets>
 <net name="VDD_A_3V3" class="0">
 <segment>
-<pinref part="U14" gate="A" pin="VDD"/>
-<wire x1="-73.66" y1="76.2" x2="-76.2" y2="76.2" width="0.1524" layer="91"/>
-<label x="-76.2" y="76.2" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-<segment>
 <pinref part="C20" gate="G$1" pin="1"/>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="-109.22" y1="86.36" x2="-99.06" y2="86.36" width="0.1524" layer="91"/>
-<label x="-109.22" y="86.36" size="1.778" layer="95"/>
+<wire x1="22.86" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
+<label x="22.86" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U16" gate="G$1" pin="VCCB"/>
@@ -6188,35 +6174,32 @@ BAT_CHRG_LVL signal.</text>
 <wire x1="53.34" y1="38.1" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
 <label x="53.34" y="40.64" size="1.778" layer="95" align="bottom-right"/>
 </segment>
+<segment>
+<pinref part="U15" gate="POWER" pin="DVCC"/>
+<wire x1="55.88" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
+<label x="53.34" y="81.28" size="1.778" layer="95" align="bottom-right"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U14" gate="A" pin="GND"/>
-<wire x1="-73.66" y1="73.66" x2="-76.2" y2="73.66" width="0.1524" layer="91"/>
-<label x="-76.2" y="73.66" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="A" pin="GND_THERMALPAD"/>
-<wire x1="-73.66" y1="71.12" x2="-73.66" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-73.66" y="73.66"/>
-</segment>
-<segment>
 <pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="-106.68" y1="45.72" x2="-106.68" y2="43.18" width="0.1524" layer="91"/>
-<label x="-106.68" y="43.18" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="73.66" x2="-7.62" y2="71.12" width="0.1524" layer="91"/>
+<label x="-7.62" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="88.9" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
-<label x="114.3" y="86.36" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="246.38" y1="93.98" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
+<label x="246.38" y="91.44" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="88.9" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
-<label x="132.08" y="86.36" size="1.778" layer="95"/>
+<wire x1="264.16" y1="93.98" x2="264.16" y2="91.44" width="0.1524" layer="91"/>
+<label x="264.16" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="-99.06" y1="78.74" x2="-109.22" y2="78.74" width="0.1524" layer="91"/>
-<label x="-109.22" y="78.74" size="1.778" layer="95" align="top-left"/>
+<wire x1="33.02" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
+<label x="22.86" y="91.44" size="1.778" layer="95" align="top-left"/>
 <pinref part="C20" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -6236,54 +6219,59 @@ BAT_CHRG_LVL signal.</text>
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="68.58" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
-<label x="-2.54" y="66.04" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="121.92" y1="68.58" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<label x="121.92" y="66.04" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="U15" gate="POWER" pin="DVSS"/>
+<wire x1="55.88" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<label x="53.34" y="78.74" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="MSP_TEST" class="0">
 <segment>
-<pinref part="U14" gate="A" pin="TEST/SBWTCK"/>
-<wire x1="-73.66" y1="66.04" x2="-76.2" y2="66.04" width="0.1524" layer="91"/>
-<label x="-76.2" y="66.04" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="POWER" pin="TEST/SBWTCK"/>
+<wire x1="55.88" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+<label x="53.34" y="73.66" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="MSP_RST_" class="0">
 <segment>
-<pinref part="U14" gate="A" pin="RST_/NMI/SBWTDIO"/>
-<wire x1="-73.66" y1="63.5" x2="-76.2" y2="63.5" width="0.1524" layer="91"/>
-<label x="-76.2" y="63.5" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="83.82" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
+<label x="-7.62" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="-106.68" y1="55.88" x2="-106.68" y2="53.34" width="0.1524" layer="91"/>
-<label x="-106.68" y="55.88" size="1.778" layer="95"/>
+<pinref part="U15" gate="POWER" pin="RST_/NMI/SBWTDIO"/>
+<wire x1="55.88" y1="71.12" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
+<label x="53.34" y="71.12" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="ICE_MSP_SPI_DATA_X" class="0">
-<segment>
-<wire x1="129.54" y1="66.04" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
-<junction x="129.54" y="63.5"/>
-<label x="127" y="63.5" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="C" pin="PA.D/P2.5/UCB0SIMO/UCB0SDA/A7"/>
-<pinref part="U14" gate="C" pin="PA.E/P2.6/UCB0SOMI/UCB0SCL"/>
-</segment>
 <segment>
 <wire x1="53.34" y1="5.08" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
 <label x="50.8" y="5.08" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="U16" gate="G$1" pin="B2"/>
 </segment>
+<segment>
+<wire x1="160.02" y1="73.66" x2="160.02" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<junction x="160.02" y="71.12"/>
+<label x="157.48" y="71.12" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT1" pin="PA.4/P1.4/UCA0TXD/UCA0SIMO/TA1.2/TCK/A4/VREF+"/>
+<pinref part="U15" gate="PORT1" pin="PA.5/P1.5/UCA0RXD/UCA0SOMI/TA1.1/TMS/A5"/>
+</segment>
 </net>
 <net name="ICE_MSP_SPI_CLK_X" class="0">
-<segment>
-<wire x1="129.54" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
-<label x="127" y="68.58" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="C" pin="PA.C/P2.4/TA1CLK/UCB0CLK/A6"/>
-</segment>
 <segment>
 <wire x1="53.34" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
 <label x="50.8" y="10.16" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="U16" gate="G$1" pin="B1"/>
+</segment>
+<segment>
+<wire x1="160.02" y1="68.58" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
+<label x="157.48" y="68.58" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT1" pin="PA.6/P1.6/UCA0CLK/TA1CLK/TDI/TCLK/A6"/>
 </segment>
 </net>
 <net name="VDD_B_1V8" class="0">
@@ -6305,59 +6293,54 @@ BAT_CHRG_LVL signal.</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="127" y1="96.52" x2="127" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U14" gate="C" pin="PA.8/P2.0/UCA0TXD/UCA0SIMO/XOUT"/>
-<wire x1="127" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="101.6" x2="259.08" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="83.82" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="B"/>
-<junction x="127" y="96.52"/>
+<junction x="259.08" y="101.6"/>
+<pinref part="U15" gate="PORT2" pin="PA.8/P2.0/XOUT"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="U14" gate="C" pin="PA.9/P2.1/UCA0RXD/UCA0SOMI/XIN"/>
-<wire x1="129.54" y1="76.2" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="76.2" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="81.28" x2="251.46" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="81.28" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="A"/>
-<junction x="119.38" y="96.52"/>
+<junction x="251.46" y="101.6"/>
+<pinref part="U15" gate="PORT2" pin="PA.9/P2.1/XIN"/>
 </segment>
 </net>
 <net name="MOTION_SIGNAL" class="0">
 <segment>
-<wire x1="35.56" y1="71.12" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
-<label x="33.02" y="71.12" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="B" pin="PA.3/P1.3/UCB0SOMI/UCB0SCL/MCLK/A3"/>
+<wire x1="185.42" y1="22.86" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
+<label x="182.88" y="22.86" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="VDD_B_EN" class="0">
 <segment>
-<wire x1="35.56" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
-<label x="33.02" y="73.66" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="B" pin="PA.2/P1.2/UCB0SIMO/UCB0SDA/SMCLK/A2/VEREF-"/>
+<wire x1="185.42" y1="25.4" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
+<label x="182.88" y="25.4" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="VDD_B_2V8_IMG_SD_EN" class="0">
 <segment>
-<wire x1="35.56" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
-<label x="33.02" y="63.5" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="B" pin="PA.6/P1.6/UCA0CLK/TA0CLK/TDI/TCLK"/>
+<wire x1="185.42" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
+<label x="182.88" y="20.32" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="VDD_B_1V8_IMG_SD_EN" class="0">
 <segment>
-<wire x1="129.54" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
-<label x="127" y="71.12" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="C" pin="PA.B/P2.3/TA1.2/UCB0STE/A5"/>
+<wire x1="185.42" y1="27.94" x2="182.88" y2="27.94" width="0.1524" layer="91"/>
+<label x="182.88" y="27.94" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="MSP_HOST_MODE_" class="0">
 <segment>
-<wire x1="129.54" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
-<label x="127" y="73.66" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="C" pin="PA.A/P2.2/TA1.1/A4"/>
+<wire x1="185.42" y1="30.48" x2="182.88" y2="30.48" width="0.1524" layer="91"/>
+<label x="182.88" y="30.48" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="ICE_MSP_SPI_CLK" class="0">
@@ -6377,41 +6360,40 @@ BAT_CHRG_LVL signal.</text>
 <net name="BAT_CHRG_LVL" class="0">
 <segment>
 <pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="-2.54" y1="76.2" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
-<label x="-2.54" y="78.74" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="121.92" y1="76.2" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
+<label x="121.92" y="78.74" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
-<label x="33.02" y="78.74" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="B" pin="PA.0/P1.0/UCB0STE/A0/VEREF+"/>
+<wire x1="160.02" y1="76.2" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
+<label x="157.48" y="76.2" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT1" pin="PA.3/P1.3/UCB0SOMI/UCB0SCL/MCLK/A3"/>
 </segment>
 </net>
 <net name="LED_FLASH_RED_" class="0">
 <segment>
-<pinref part="U14" gate="B" pin="PA.4/P1.4/UCA0TXD/UCA0SIMO/TA0.1/TCK"/>
-<wire x1="35.56" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
-<label x="33.02" y="68.58" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="160.02" y1="81.28" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
+<label x="157.48" y="81.28" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT1" pin="PA.1/P1.1/UCB0CLK/TA0.1/A1"/>
 </segment>
 </net>
 <net name="LED_FLASH_GREEN_" class="0">
 <segment>
-<pinref part="U14" gate="B" pin="PA.5/P1.5/UCA0RXD/UCA0SOMI/TA0.2/TMS"/>
-<wire x1="35.56" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
-<label x="33.02" y="66.04" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="160.02" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
+<label x="157.48" y="78.74" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT1" pin="PA.2/P1.2/UCB0SIMO/UCB0SDA/TA0.2/A2/VEREF-"/>
 </segment>
 </net>
 <net name="MOTION_EN_" class="0">
 <segment>
-<pinref part="U14" gate="B" pin="PA.7/P1.7/UCA0STE/TDO"/>
-<wire x1="35.56" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
-<label x="33.02" y="60.96" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="185.42" y1="17.78" x2="182.88" y2="17.78" width="0.1524" layer="91"/>
+<label x="182.88" y="17.78" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="BAT_CHRG_LVL_EN" class="0">
 <segment>
-<wire x1="35.56" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<label x="33.02" y="76.2" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="B" pin="PA.1/P1.1/UCB0CLK/ACLK/A1/VREF+"/>
+<wire x1="261.62" y1="66.04" x2="259.08" y2="66.04" width="0.1524" layer="91"/>
+<label x="259.08" y="66.04" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT2" pin="PA.F/P2.7"/>
 </segment>
 </net>
 </nets>
