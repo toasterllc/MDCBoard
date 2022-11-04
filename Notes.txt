@@ -1,16 +1,13 @@
 - Rev7 Todo
     
-    - Check layouts of voltage regulators (U7 / U8 / U9)
-        - Compare to datasheet recommendations
-    
     - Switch to MSP430FR2433?
     
     - Finalize battery connector
     
-    - Replace LEDs with correct ones after we do our LED testing
-        - Position LEDs properly with respect to hole in enclosure!
-    
-    - LED flashing circuit: choose suitable R/C values depending on our LED testing
+    - LED flashing circuit:
+        - Replace LEDs with correct ones after we do our LED testing
+        - Position LEDs properly with respect to hole in enclosure
+        - Choose suitable R/C values depending on our LED testing
     
     - Confirm size/position of lens o-ring keepout region
     
@@ -23,6 +20,9 @@
     
     - Layout: fix DRC errors
     
+    
+    √ Check layouts of voltage regulators (U7 / U8 / U9)
+        - Compare to datasheet recommendations
     
     √ Layout: battery voltage divider: move resistors R7 and R9 closer together
     
