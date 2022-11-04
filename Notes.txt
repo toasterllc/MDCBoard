@@ -3,6 +3,8 @@
     - Check layouts of voltage regulators (U7 / U8 / U9)
         - Compare to datasheet recommendations
     
+    - Switch to MSP430FR2433?
+    
     - Finalize battery connector
     
     - Replace LEDs with correct ones after we do our LED testing
