@@ -9966,9 +9966,9 @@ BAT_CHRG_LVL signal.</text>
 </net>
 <net name="BAT_CHRG_LVL_EN" class="0">
 <segment>
-<pinref part="U24" gate="A" pin="PA11_C15"/>
-<wire x1="15.24" y1="-40.64" x2="17.78" y2="-40.64" width="0.1524" layer="91"/>
-<label x="17.78" y="-40.64" size="1.778" layer="95"/>
+<wire x1="15.24" y1="-43.18" x2="17.78" y2="-43.18" width="0.1524" layer="91"/>
+<label x="17.78" y="-43.18" size="1.778" layer="95"/>
+<pinref part="U24" gate="A" pin="PA12_B15"/>
 </segment>
 </net>
 </nets>
