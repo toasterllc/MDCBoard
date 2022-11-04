@@ -16,16 +16,15 @@
     
     - Layout: length-match IMG nets
     
-    - Layout: move parts away from lens gasket keepout region
-    
-    - Layout: battery voltage divider: move resistors R7 and R9 closer together
-    
     - Layout: Figure out which parts are breaking when exposed to sunlight. Can we move components to solve?
         - Streaming images breaks in direct sunlight
     
     - Layout: fix DRC errors
     
     
+    √ Layout: battery voltage divider: move resistors R7 and R9 closer together
+    
+    √ Layout: move parts away from lens gasket keepout region
     
     √ Layout: Move parts (resistors, capacitors) further away front mount points on front of board
         - We want more safety margin near mount points
