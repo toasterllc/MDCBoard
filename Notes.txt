@@ -1,7 +1,5 @@
 - Rev7 Todo
-    - Confirm pins will work for flashing LEDs
-    
-    - Switch to MSP430FR2433?
+    - Confirm MSP430 pins will work for flashing LEDs
     
     - Finalize battery connector
     
@@ -19,6 +17,8 @@
     
     - Layout: fix DRC errors
     
+    
+    √ Switch to MSP430FR2433
     
     √ Confirm size/position of lens o-ring keepout region
     
