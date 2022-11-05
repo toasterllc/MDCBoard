@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
@@ -3619,6 +3619,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <via x="9.87551875" y="5.59561875" extent="1-16" drill="0.254"/>
 <via x="9.86028125" y="1.99898125" extent="1-16" drill="0.254"/>
+<via x="14.3468" y="7.07981875" extent="1-16" drill="0.254"/>
+<via x="16.004540625" y="8.968740625" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="ICE_IMG_CLK16MHZ">
 <contactref element="U18" pad="C11"/>
@@ -3810,7 +3812,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="8.903725" y1="1.663696875" x2="6.290059375" y2="1.663696875" width="0.381" layer="15"/>
 <wire x1="6.28498125" y1="1.65861875" x2="6.290059375" y2="1.663696875" width="0.381" layer="15"/>
 <wire x1="9.023103125" y1="1.54431875" x2="8.903725" y2="1.663696875" width="0.381" layer="15"/>
-<wire x1="10.069575" y1="1.379215625" x2="14.6873" y2="5.996940625" width="0.381" layer="15"/>
+<wire x1="10.069575" y1="1.379215625" x2="14.89811875" y2="6.207759375" width="0.381" layer="15"/>
 <wire x1="25.22635" y1="12.3962625" x2="25.8262625" y2="12.3962625" width="0.381" layer="15"/>
 <wire x1="25.8262625" y1="12.3962625" x2="26.49321875" y2="13.06321875" width="0.381" layer="15"/>
 <wire x1="26.49321875" y1="13.06321875" x2="26.49321875" y2="17.203415625" width="0.381" layer="15"/>
@@ -3818,10 +3820,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="27.9588" y1="18.668996875" x2="27.9588" y2="19.63645" width="0.381" layer="15"/>
 <wire x1="16.6113125" y1="10.3663875" x2="17.256475" y2="10.3663875" width="0.381" layer="15"/>
 <wire x1="17.256475" y1="10.3663875" x2="20.41316875" y2="13.52308125" width="0.381" layer="15"/>
-<wire x1="15.0622" y1="10.7442" x2="16.2335" y2="10.7442" width="0.381" layer="15"/>
+<wire x1="15.59305625" y1="10.7442" x2="16.2335" y2="10.7442" width="0.381" layer="15"/>
 <wire x1="16.2335" y1="10.7442" x2="16.6113125" y2="10.3663875" width="0.381" layer="15"/>
-<wire x1="14.6873" y1="5.996940625" x2="14.6873" y2="10.3693" width="0.381" layer="15"/>
-<wire x1="14.6873" y1="10.3693" x2="15.0622" y2="10.7442" width="0.381" layer="15"/>
+<wire x1="14.89811875" y1="6.207759375" x2="14.89811875" y2="10.0492625" width="0.381" layer="15"/>
+<wire x1="14.89811875" y1="10.0492625" x2="15.59305625" y2="10.7442" width="0.381" layer="15"/>
 </signal>
 <signal name="GNDPLL1">
 <contactref element="C39" pad="2"/>
@@ -7941,6 +7943,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="32.012615625" y1="25.57949375" x2="33.031828125" y2="25.57949375" width="0.127" layer="1"/>
 <wire x1="33.235878125" y1="25.78354375" x2="33.031828125" y2="25.57949375" width="0.127" layer="1"/>
 <wire x1="33.235878125" y1="25.78354375" x2="33.908978125" y2="25.78354375" width="0.127" layer="1"/>
+</signal>
+<signal name="N$37">
+<via x="8.85698125" y="30.35808125" extent="1-16" drill="0.381"/>
+</signal>
+<signal name="N$39">
+<via x="8.85698125" y="29.530040625" extent="1-16" drill="0.381"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
