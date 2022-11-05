@@ -6087,17 +6087,17 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="MFG" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C18" gate="G$1" x="246.38" y="99.06" smashed="yes">
-<attribute name="NAME" x="243.586" y="98.679" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="243.586" y="96.139" size="1.778" layer="96" align="bottom-right"/>
-<attribute name="MFG" x="246.38" y="99.06" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="246.38" y="99.06" size="1.778" layer="96" display="off"/>
+<instance part="C18" gate="G$1" x="261.62" y="99.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="264.414" y="98.679" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<attribute name="VALUE" x="264.414" y="96.139" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
+<attribute name="MFG" x="261.62" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PN" x="261.62" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="C19" gate="G$1" x="264.16" y="99.06" smashed="yes">
-<attribute name="NAME" x="266.954" y="98.679" size="1.778" layer="95"/>
-<attribute name="VALUE" x="266.954" y="96.139" size="1.778" layer="96"/>
-<attribute name="MFG" x="264.16" y="99.06" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="264.16" y="99.06" size="1.778" layer="96" display="off"/>
+<instance part="C19" gate="G$1" x="243.84" y="99.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="241.046" y="98.679" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="241.046" y="96.139" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MFG" x="243.84" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PN" x="243.84" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="33.02" y="96.52" smashed="yes">
 <attribute name="MFG" x="55.88" y="50.8" size="1.778" layer="96" display="off"/>
@@ -6115,9 +6115,9 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="PN" x="76.2" y="0" size="1.778" layer="95" rot="MR0"/>
 <attribute name="NAME" x="76.2" y="27.94" size="1.778" layer="95" rot="MR0" align="top-left"/>
 </instance>
-<instance part="X1" gate="G$1" x="254" y="104.14" smashed="yes">
-<attribute name="NAME" x="254" y="106.426" size="1.778" layer="95" align="top-left"/>
-<attribute name="PN" x="254" y="104.14" size="1.778" layer="96" display="off"/>
+<instance part="X1" gate="G$1" x="254" y="104.14" smashed="yes" rot="MR0">
+<attribute name="NAME" x="254" y="106.426" size="1.778" layer="95" rot="MR0" align="top-left"/>
+<attribute name="PN" x="254" y="104.14" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C25" gate="G$1" x="53.34" y="35.56" smashed="yes">
 <attribute name="PN" x="38.1" y="-22.86" size="1.778" layer="96" display="off"/>
@@ -6149,9 +6149,9 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="NAME" x="264.16" y="88.646" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="264.16" y="62.738" size="1.778" layer="95" align="top-left"/>
 </instance>
-<instance part="U15" gate="PORT3" x="322.58" y="86.36" smashed="yes">
-<attribute name="NAME" x="322.58" y="88.646" size="1.778" layer="95" align="top-left"/>
-<attribute name="PN" x="322.58" y="75.438" size="1.778" layer="95" align="top-left"/>
+<instance part="U15" gate="PORT3" x="345.44" y="86.36" smashed="yes">
+<attribute name="NAME" x="345.44" y="88.646" size="1.778" layer="95" align="top-left"/>
+<attribute name="PN" x="345.44" y="75.438" size="1.778" layer="95" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -6188,13 +6188,13 @@ BAT_CHRG_LVL signal.</text>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="93.98" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
-<label x="246.38" y="91.44" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="261.62" y1="93.98" x2="261.62" y2="91.44" width="0.1524" layer="91"/>
+<label x="261.62" y="91.44" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="93.98" x2="264.16" y2="91.44" width="0.1524" layer="91"/>
-<label x="264.16" y="91.44" size="1.778" layer="95"/>
+<wire x1="243.84" y1="93.98" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
+<label x="243.84" y="91.44" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
@@ -6293,54 +6293,52 @@ BAT_CHRG_LVL signal.</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="259.08" y1="101.6" x2="259.08" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="83.82" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="101.6" x2="248.92" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="81.28" x2="261.62" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="101.6" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="101.6" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="B"/>
-<junction x="259.08" y="101.6"/>
-<pinref part="U15" gate="PORT2" pin="PA.8/P2.0/XOUT"/>
+<junction x="248.92" y="101.6"/>
+<pinref part="U15" gate="PORT2" pin="PA.9/P2.1/XIN"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<wire x1="261.62" y1="81.28" x2="251.46" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="81.28" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="83.82" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="83.82" x2="256.54" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="101.6" x2="256.54" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="A"/>
-<junction x="251.46" y="101.6"/>
-<pinref part="U15" gate="PORT2" pin="PA.9/P2.1/XIN"/>
+<junction x="256.54" y="101.6"/>
+<pinref part="U15" gate="PORT2" pin="PA.8/P2.0/XOUT"/>
 </segment>
 </net>
 <net name="MOTION_SIGNAL" class="0">
 <segment>
-<wire x1="185.42" y1="22.86" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
-<label x="182.88" y="22.86" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="261.62" y1="76.2" x2="259.08" y2="76.2" width="0.1524" layer="91"/>
+<label x="259.08" y="76.2" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT2" pin="PA.B/P2.3"/>
 </segment>
 </net>
 <net name="VDD_B_EN" class="0">
 <segment>
-<wire x1="185.42" y1="25.4" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
-<label x="182.88" y="25.4" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="VDD_B_2V8_IMG_SD_EN" class="0">
-<segment>
-<wire x1="185.42" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
-<label x="182.88" y="20.32" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="342.9" y1="81.28" x2="340.36" y2="81.28" width="0.1524" layer="91"/>
+<label x="340.36" y="81.28" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT3" pin="PB.1/P3.1/UCA1STE"/>
 </segment>
 </net>
 <net name="VDD_B_1V8_IMG_SD_EN" class="0">
 <segment>
-<wire x1="185.42" y1="27.94" x2="182.88" y2="27.94" width="0.1524" layer="91"/>
-<label x="182.88" y="27.94" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="160.02" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<label x="157.48" y="83.82" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT1" pin="PA.0/P1.0/UCB0STE/TA0CLK/A0/VEREF+"/>
 </segment>
 </net>
 <net name="MSP_HOST_MODE_" class="0">
 <segment>
-<wire x1="185.42" y1="30.48" x2="182.88" y2="30.48" width="0.1524" layer="91"/>
-<label x="182.88" y="30.48" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="261.62" y1="68.58" x2="259.08" y2="68.58" width="0.1524" layer="91"/>
+<label x="259.08" y="68.58" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT2" pin="PA.E/P2.6/UCA1TXD/UCA1SIMO"/>
 </segment>
 </net>
 <net name="ICE_MSP_SPI_CLK" class="0">
@@ -6371,22 +6369,23 @@ BAT_CHRG_LVL signal.</text>
 </net>
 <net name="LED_FLASH_RED_" class="0">
 <segment>
-<wire x1="160.02" y1="81.28" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
-<label x="157.48" y="81.28" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U15" gate="PORT1" pin="PA.1/P1.1/UCB0CLK/TA0.1/A1"/>
-</segment>
-</net>
-<net name="LED_FLASH_GREEN_" class="0">
-<segment>
 <wire x1="160.02" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="157.48" y="78.74" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="U15" gate="PORT1" pin="PA.2/P1.2/UCB0SIMO/UCB0SDA/TA0.2/A2/VEREF-"/>
 </segment>
 </net>
+<net name="LED_FLASH_GREEN_" class="0">
+<segment>
+<wire x1="160.02" y1="81.28" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
+<label x="157.48" y="81.28" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT1" pin="PA.1/P1.1/UCB0CLK/TA0.1/A1"/>
+</segment>
+</net>
 <net name="MOTION_EN_" class="0">
 <segment>
-<wire x1="185.42" y1="17.78" x2="182.88" y2="17.78" width="0.1524" layer="91"/>
-<label x="182.88" y="17.78" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="261.62" y1="78.74" x2="259.08" y2="78.74" width="0.1524" layer="91"/>
+<label x="259.08" y="78.74" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT2" pin="PA.A/P2.2/ACLK"/>
 </segment>
 </net>
 <net name="BAT_CHRG_LVL_EN" class="0">
@@ -6394,6 +6393,13 @@ BAT_CHRG_LVL signal.</text>
 <wire x1="261.62" y1="66.04" x2="259.08" y2="66.04" width="0.1524" layer="91"/>
 <label x="259.08" y="66.04" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="U15" gate="PORT2" pin="PA.F/P2.7"/>
+</segment>
+</net>
+<net name="VDD_B_2V8_IMG_SD_EN" class="0">
+<segment>
+<wire x1="342.9" y1="83.82" x2="340.36" y2="83.82" width="0.1524" layer="91"/>
+<label x="340.36" y="83.82" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U15" gate="PORT3" pin="PB.0/P3.0"/>
 </segment>
 </net>
 </nets>
