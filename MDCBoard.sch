@@ -9922,25 +9922,11 @@ BAT_CHRG_LVL signal.</text>
 <label x="236.22" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VDD_B_2V8_IMG_SD_EN" class="0">
-<segment>
-<wire x1="2.54" y1="-78.74" x2="5.08" y2="-78.74" width="0.1524" layer="91"/>
-<label x="5.08" y="-78.74" size="1.778" layer="95"/>
-<pinref part="U24" gate="E" pin="PE2_A2"/>
-</segment>
-</net>
 <net name="VDD_B_1V8_IMG_SD_EN" class="0">
 <segment>
 <wire x1="2.54" y1="-86.36" x2="5.08" y2="-86.36" width="0.1524" layer="91"/>
 <label x="5.08" y="-86.36" size="1.778" layer="95"/>
 <pinref part="U24" gate="E" pin="PE5_B2"/>
-</segment>
-</net>
-<net name="MSP_HOST_MODE_" class="0">
-<segment>
-<wire x1="2.54" y1="-81.28" x2="5.08" y2="-81.28" width="0.1524" layer="91"/>
-<label x="5.08" y="-81.28" size="1.778" layer="95"/>
-<pinref part="U24" gate="E" pin="PE3_A1"/>
 </segment>
 </net>
 <net name="BAT_CHRG_STAT" class="0">
@@ -9955,6 +9941,20 @@ BAT_CHRG_LVL signal.</text>
 <wire x1="15.24" y1="-43.18" x2="17.78" y2="-43.18" width="0.1524" layer="91"/>
 <label x="17.78" y="-43.18" size="1.778" layer="95"/>
 <pinref part="U24" gate="A" pin="PA12_B15"/>
+</segment>
+</net>
+<net name="VDD_B_2V8_IMG_SD_EN" class="0">
+<segment>
+<wire x1="2.54" y1="-81.28" x2="5.08" y2="-81.28" width="0.1524" layer="91"/>
+<label x="5.08" y="-81.28" size="1.778" layer="95"/>
+<pinref part="U24" gate="E" pin="PE3_A1"/>
+</segment>
+</net>
+<net name="MSP_HOST_MODE_" class="0">
+<segment>
+<wire x1="2.54" y1="-78.74" x2="5.08" y2="-78.74" width="0.1524" layer="91"/>
+<label x="5.08" y="-78.74" size="1.778" layer="95"/>
+<pinref part="U24" gate="E" pin="PE2_A2"/>
 </segment>
 </net>
 </nets>
