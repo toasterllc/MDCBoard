@@ -7691,13 +7691,6 @@ should be a high voltage during power up.</text>
 <pinref part="U18" gate="B" pin="D10"/>
 </segment>
 </net>
-<net name="IMG_D0" class="0">
-<segment>
-<wire x1="88.9" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
-<label x="91.44" y="53.34" size="1.778" layer="95"/>
-<pinref part="U18" gate="B" pin="E8"/>
-</segment>
-</net>
 <net name="IMG_D5" class="0">
 <segment>
 <wire x1="88.9" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
@@ -7860,6 +7853,13 @@ should be a high voltage during power up.</text>
 <pinref part="U18" gate="C" pin="J3"/>
 <wire x1="149.86" y1="35.56" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
 <label x="152.4" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IMG_D0" class="0">
+<segment>
+<wire x1="88.9" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<label x="91.44" y="60.96" size="1.778" layer="95"/>
+<pinref part="U18" gate="B" pin="D9"/>
 </segment>
 </net>
 </nets>

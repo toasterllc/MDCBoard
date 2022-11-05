@@ -2,8 +2,6 @@
     
     - Layout: length-match SD nets
     
-    - Layout: length-match IMG nets
-    
     - Layout: add ground vias where sparse
     
     - Make sure board fits in enclosure
@@ -21,6 +19,7 @@
     
     
     
+    √ Layout: length-match IMG nets
     
     √ Finalize battery connector
         - For now let's keep what we have, and order samples of every kind of connector and choose the best one
