@@ -1,5 +1,4 @@
 - Rev7 Todo
-    - Confirm MSP430 pins will work for flashing LEDs
     
     - Finalize battery connector
     
@@ -17,6 +16,9 @@
     
     - Layout: fix DRC errors
     
+    
+    √ Confirm MSP430 pins will work for flashing LEDs
+        - They have separate capture/control registers (CCR1 and CCR2) so we should be good
     
     √ Switch to MSP430FR2433
     
