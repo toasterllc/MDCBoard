@@ -1,10 +1,5 @@
 - Rev7 Todo
     
-    - Layout: add ground vias where sparse
-    
-    - Make sure board fits in enclosure
-        - Update enclosure mount points!
-    
     - LED flashing circuit:
         - Replace LEDs with correct ones after we do our LED testing
         - Position LEDs properly with respect to hole in enclosure
@@ -13,9 +8,14 @@
     - Layout: Figure out which parts are breaking when exposed to sunlight. Can we move components to solve?
         - Streaming images breaks in direct sunlight
     
-    - Layout: fix DRC errors
     
     
+    √ Layout: fix DRC errors
+    
+    √ Make sure board fits in enclosure
+        √ Update enclosure mount points!
+    
+    √ Layout: add ground vias where sparse
     
     √ Layout: length-match SD traces
     
