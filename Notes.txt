@@ -8,6 +8,9 @@
     - Layout: Figure out which parts are breaking when exposed to sunlight. Can we move components to solve?
         - Streaming images breaks in direct sunlight
     
+    - Motion sensor can be as large as 11.5mm according to datasheet, which collides with SDRAM
+        - How do we feel about that?
+    
     - Length-match SD traces
     
     - Length-match RAM traces
