@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="42" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="42" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -1581,6 +1581,23 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </polygon>
 <rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
 </package>
+<package name="DEALON-TD-1624UR-180">
+<description>Chip, 1.60 X 0.80 X 0.70 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.70 mm&lt;/p&gt;</description>
+<smd name="1" x="-1.625" y="0" dx="0.55" dy="1.5" layer="1"/>
+<smd name="2" x="1.625" y="0" dx="0.55" dy="1.5" layer="1"/>
+<text x="-1.438" y="1.123" size="0.508" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.05" layer="21"/>
+<wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.05" layer="21"/>
+<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.05" layer="21"/>
+<wire x1="1.5" y1="1" x2="-1.5" y2="1" width="0.05" layer="21"/>
+<polygon width="0.05" layer="39">
+<vertex x="-1.5" y="1"/>
+<vertex x="-1.5" y="-1"/>
+<vertex x="1.5" y="-1"/>
+<vertex x="1.5" y="1"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="SON50P300X200X80-8N" urn="urn:adsk.eagle:package:36180302/1" type="model">
@@ -2683,6 +2700,15 @@ Connect</text>
 <text x="17.78" y="-2.54" size="1.778" layer="94">Port 3</text>
 <pin name="PB.1/P3.1/UCA1STE" x="-2.54" y="-5.08" length="short"/>
 <pin name="PB.2/P3.2" x="-2.54" y="-7.62" length="short"/>
+</symbol>
+<symbol name="TACTILE-SWITCH">
+<pin name="1" x="0" y="0" visible="off" length="middle" function="dot"/>
+<pin name="2" x="15.24" y="0" visible="off" length="middle" function="dot" rot="R180"/>
+<wire x1="4.064" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="11.176" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="4.318" x2="7.62" y2="4.318" width="0.254" layer="94"/>
+<wire x1="7.62" y1="4.318" x2="9.398" y2="4.318" width="0.254" layer="94"/>
+<wire x1="7.62" y1="4.318" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4067,6 +4093,22 @@ Connect</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="TACTILE-SWITCH" prefix="SW">
+<gates>
+<gate name="G$1" symbol="TACTILE-SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DEALON-TD-1624UR-180">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4843,6 +4885,7 @@ Connect</text>
 <attribute name="MFG" value=""/>
 <attribute name="PN" value=""/>
 </part>
+<part name="SW1" library="EagleLibrary" deviceset="TACTILE-SWITCH" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6429,6 +6472,13 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="U15" gate="PORT3" pin="PB.0/P3.0"/>
 </segment>
 </net>
+<net name="BUTTON_SIGNAL_" class="0">
+<segment>
+<pinref part="U15" gate="PORT2" pin="PA.D/P2.5/UCA1RXD/UCA1SOMI"/>
+<wire x1="261.62" y1="71.12" x2="259.08" y2="71.12" width="0.1524" layer="91"/>
+<label x="259.08" y="71.12" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -6568,6 +6618,32 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="LED9" gate="G$1" pin="C"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="0" y1="-45.72" x2="0" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<description>BUTTON</description>
+<plain>
+</plain>
+<instances>
+<instance part="SW1" gate="G$1" x="0" y="0" smashed="yes"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="BUTTON_SIGNAL_" class="0">
+<segment>
+<pinref part="SW1" gate="G$1" pin="1"/>
+<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="91"/>
+<label x="-2.54" y="0" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="SW1" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="0" x2="17.78" y2="0" width="0.1524" layer="91"/>
+<label x="17.78" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -9000,7 +9076,7 @@ f = 1/t = 434 kHz</text>
 <wire x1="86.36" y1="-233.68" x2="48.26" y2="-233.68" width="0.1524" layer="95"/>
 <text x="83.312" y="-163.322" size="1.27" layer="95" align="top-left">≤ 1%</text>
 <text x="67.056" y="-245.872" size="1.016" layer="95" align="top-left">Ceff&gt;1uF @ 3.3V bias</text>
-<text x="67.056" y="-220.218" size="1.016" layer="95" align="top-left">Ceff&gt;1uF @ 1.8V bias</text>
+<text x="67.056" y="-220.218" size="1.016" layer="95" align="top-left">Ceff&gt;1uF @ 3.3V bias</text>
 <text x="19.304" y="-24.384" size="1.016" layer="95" align="top-left">BAT_CHRG_LVL_EN must be driven
 by PA11 or PA12 because it needs
 3.3V logic levels, which PA11/PA12
@@ -9015,6 +9091,12 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <text x="76.962" y="-66.802" size="1.016" layer="95" align="top-left">Filtering capacitor to filter
 noise from high-impedance
 BAT_CHRG_LVL signal.</text>
+<text x="48.26" y="-258.318" size="1.778" layer="95">VDDSDMMC Bypass Capacitors</text>
+<wire x1="48.26" y1="-259.08" x2="48.26" y2="-276.86" width="0.1524" layer="95"/>
+<wire x1="48.26" y1="-276.86" x2="86.36" y2="-276.86" width="0.1524" layer="95"/>
+<wire x1="86.36" y1="-276.86" x2="86.36" y2="-259.08" width="0.1524" layer="95"/>
+<wire x1="86.36" y1="-259.08" x2="48.26" y2="-259.08" width="0.1524" layer="95"/>
+<text x="67.056" y="-271.272" size="1.016" layer="95" align="top-left">Ceff&gt;1uF @ 3.3V bias</text>
 </plain>
 <instances>
 <instance part="U24" gate="A" x="-17.78" y="-10.16" smashed="yes">
@@ -9083,11 +9165,11 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="VALUE" x="28.194" y="-218.821" size="1.778" layer="96"/>
 <attribute name="MFG" x="25.4" y="-215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C73" gate="G$1" x="0" y="-231.14" smashed="yes">
-<attribute name="PN" x="0" y="-231.14" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="2.794" y="-231.521" size="1.778" layer="95"/>
-<attribute name="VALUE" x="2.794" y="-234.061" size="1.778" layer="96"/>
-<attribute name="MFG" x="0" y="-231.14" size="1.778" layer="96" display="off"/>
+<instance part="C73" gate="G$1" x="55.88" y="-266.7" smashed="yes">
+<attribute name="PN" x="55.88" y="-266.7" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="58.674" y="-267.081" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.674" y="-269.621" size="1.778" layer="96"/>
+<attribute name="MFG" x="55.88" y="-266.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C74" gate="G$1" x="12.7" y="-231.14" smashed="yes">
 <attribute name="PN" x="12.7" y="-231.14" size="1.778" layer="96" display="off"/>
@@ -9101,41 +9183,41 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="VALUE" x="28.194" y="-234.061" size="1.778" layer="96"/>
 <attribute name="MFG" x="25.4" y="-231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C78" gate="G$1" x="0" y="-246.38" smashed="yes">
-<attribute name="PN" x="0" y="-246.38" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="2.794" y="-246.761" size="1.778" layer="95"/>
-<attribute name="VALUE" x="2.794" y="-249.301" size="1.778" layer="96"/>
-<attribute name="MFG" x="0" y="-246.38" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C79" gate="G$1" x="12.7" y="-246.38" smashed="yes">
-<attribute name="PN" x="12.7" y="-246.38" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="15.494" y="-246.761" size="1.778" layer="95"/>
-<attribute name="VALUE" x="15.494" y="-249.301" size="1.778" layer="96"/>
-<attribute name="MFG" x="12.7" y="-246.38" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C80" gate="G$1" x="25.4" y="-246.38" smashed="yes">
-<attribute name="PN" x="25.4" y="-246.38" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="28.194" y="-246.761" size="1.778" layer="95"/>
-<attribute name="VALUE" x="28.194" y="-249.301" size="1.778" layer="96"/>
-<attribute name="MFG" x="25.4" y="-246.38" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C81" gate="G$1" x="0" y="-261.62" smashed="yes">
+<instance part="C78" gate="G$1" x="0" y="-261.62" smashed="yes">
 <attribute name="PN" x="0" y="-261.62" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="2.794" y="-262.001" size="1.778" layer="95"/>
 <attribute name="VALUE" x="2.794" y="-264.541" size="1.778" layer="96"/>
 <attribute name="MFG" x="0" y="-261.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C82" gate="G$1" x="12.7" y="-261.62" smashed="yes">
+<instance part="C79" gate="G$1" x="0" y="-231.14" smashed="yes">
+<attribute name="PN" x="0" y="-231.14" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="2.794" y="-231.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="2.794" y="-234.061" size="1.778" layer="96"/>
+<attribute name="MFG" x="0" y="-231.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C80" gate="G$1" x="12.7" y="-261.62" smashed="yes">
 <attribute name="PN" x="12.7" y="-261.62" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="15.494" y="-262.001" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.494" y="-264.541" size="1.778" layer="96"/>
 <attribute name="MFG" x="12.7" y="-261.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C83" gate="G$1" x="25.4" y="-261.62" smashed="yes">
-<attribute name="PN" x="25.4" y="-261.62" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="28.194" y="-262.001" size="1.778" layer="95"/>
-<attribute name="VALUE" x="28.194" y="-264.541" size="1.778" layer="96"/>
-<attribute name="MFG" x="25.4" y="-261.62" size="1.778" layer="96" display="off"/>
+<instance part="C81" gate="G$1" x="0" y="-246.38" smashed="yes">
+<attribute name="PN" x="0" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="2.794" y="-246.761" size="1.778" layer="95"/>
+<attribute name="VALUE" x="2.794" y="-249.301" size="1.778" layer="96"/>
+<attribute name="MFG" x="0" y="-246.38" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C82" gate="G$1" x="12.7" y="-246.38" smashed="yes">
+<attribute name="PN" x="12.7" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="15.494" y="-246.761" size="1.778" layer="95"/>
+<attribute name="VALUE" x="15.494" y="-249.301" size="1.778" layer="96"/>
+<attribute name="MFG" x="12.7" y="-246.38" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C83" gate="G$1" x="25.4" y="-246.38" smashed="yes">
+<attribute name="PN" x="25.4" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="28.194" y="-246.761" size="1.778" layer="95"/>
+<attribute name="VALUE" x="28.194" y="-249.301" size="1.778" layer="96"/>
+<attribute name="MFG" x="25.4" y="-246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C84" gate="G$1" x="134.62" y="-261.62" smashed="yes">
 <attribute name="PN" x="134.62" y="-261.62" size="1.778" layer="96" display="off"/>
@@ -9257,11 +9339,11 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="VALUE" x="14.986" y="-279.781" size="1.778" layer="96"/>
 <attribute name="MFG" x="12.7" y="-276.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C88" gate="G$1" x="25.4" y="-276.86" smashed="yes">
-<attribute name="PN" x="25.4" y="-276.86" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="27.686" y="-277.241" size="1.778" layer="95"/>
-<attribute name="VALUE" x="27.686" y="-279.781" size="1.778" layer="96"/>
-<attribute name="MFG" x="25.4" y="-276.86" size="1.778" layer="96" display="off"/>
+<instance part="C88" gate="G$1" x="66.04" y="-266.7" smashed="yes">
+<attribute name="PN" x="66.04" y="-266.7" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="68.326" y="-267.081" size="1.778" layer="95"/>
+<attribute name="VALUE" x="68.326" y="-269.621" size="1.778" layer="96"/>
+<attribute name="MFG" x="66.04" y="-266.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="H1" gate="A" x="213.36" y="-81.28" smashed="yes">
 <attribute name="NAME" x="213.614" y="-80.772" size="1.778" layer="95"/>
@@ -9395,8 +9477,12 @@ BAT_CHRG_LVL signal.</text>
 <label x="0" y="-220.98" size="1.778" layer="95" align="top-left"/>
 </segment>
 <segment>
+<pinref part="C78" gate="G$1" pin="2"/>
+<pinref part="C80" gate="G$1" pin="2"/>
+<wire x1="0" y1="-266.7" x2="12.7" y2="-266.7" width="0.1524" layer="91"/>
+<pinref part="C79" gate="G$1" pin="2"/>
+<label x="0" y="-266.7" size="1.778" layer="95" align="top-left"/>
 <pinref part="C75" gate="G$1" pin="2"/>
-<pinref part="C73" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="-236.22" x2="12.7" y2="-236.22" width="0.1524" layer="91"/>
 <pinref part="C74" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-236.22" x2="0" y2="-236.22" width="0.1524" layer="91"/>
@@ -9404,22 +9490,13 @@ BAT_CHRG_LVL signal.</text>
 <label x="0" y="-236.22" size="1.778" layer="95" align="top-left"/>
 </segment>
 <segment>
-<pinref part="C78" gate="G$1" pin="2"/>
-<pinref part="C80" gate="G$1" pin="2"/>
-<wire x1="0" y1="-251.46" x2="12.7" y2="-251.46" width="0.1524" layer="91"/>
-<pinref part="C79" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-251.46" x2="25.4" y2="-251.46" width="0.1524" layer="91"/>
-<junction x="12.7" y="-251.46"/>
-<label x="0" y="-251.46" size="1.778" layer="95" align="top-left"/>
-</segment>
-<segment>
 <pinref part="C83" gate="G$1" pin="2"/>
 <pinref part="C81" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="-266.7" x2="12.7" y2="-266.7" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-251.46" x2="12.7" y2="-251.46" width="0.1524" layer="91"/>
 <pinref part="C82" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-266.7" x2="0" y2="-266.7" width="0.1524" layer="91"/>
-<junction x="12.7" y="-266.7"/>
-<label x="0" y="-266.7" size="1.778" layer="95" align="top-left"/>
+<wire x1="12.7" y1="-251.46" x2="0" y2="-251.46" width="0.1524" layer="91"/>
+<junction x="12.7" y="-251.46"/>
+<label x="0" y="-251.46" size="1.778" layer="95" align="top-left"/>
 </segment>
 <segment>
 <pinref part="C84" gate="G$1" pin="2"/>
@@ -9508,9 +9585,6 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="C86" gate="G$1" pin="2"/>
 <pinref part="C87" gate="G$1" pin="2"/>
 <wire x1="0" y1="-281.94" x2="12.7" y2="-281.94" width="0.1524" layer="91"/>
-<pinref part="C88" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-281.94" x2="25.4" y2="-281.94" width="0.1524" layer="91"/>
-<junction x="12.7" y="-281.94"/>
 <label x="0" y="-281.94" size="1.778" layer="95" align="top-left"/>
 </segment>
 <segment>
@@ -9527,6 +9601,12 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="-73.66" x2="73.66" y2="-76.2" width="0.1524" layer="91"/>
 <label x="73.66" y="-76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C88" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="-271.78" x2="55.88" y2="-271.78" width="0.1524" layer="91"/>
+<label x="55.88" y="-271.78" size="1.778" layer="95" align="top-left"/>
+<pinref part="C73" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VDD_B_1V8_STM" class="0">
@@ -9579,30 +9659,25 @@ BAT_CHRG_LVL signal.</text>
 </segment>
 <segment>
 <pinref part="C75" gate="G$1" pin="1"/>
-<pinref part="C73" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="-228.6" x2="12.7" y2="-228.6" width="0.1524" layer="91"/>
 <pinref part="C74" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="-228.6" x2="0" y2="-228.6" width="0.1524" layer="91"/>
 <junction x="12.7" y="-228.6"/>
 <label x="0" y="-228.6" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C78" gate="G$1" pin="1"/>
 <pinref part="C80" gate="G$1" pin="1"/>
-<wire x1="0" y1="-243.84" x2="12.7" y2="-243.84" width="0.1524" layer="91"/>
+<wire x1="0" y1="-259.08" x2="12.7" y2="-259.08" width="0.1524" layer="91"/>
 <pinref part="C79" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-243.84" x2="25.4" y2="-243.84" width="0.1524" layer="91"/>
-<junction x="12.7" y="-243.84"/>
-<label x="0" y="-243.84" size="1.778" layer="95"/>
+<label x="0" y="-259.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C83" gate="G$1" pin="1"/>
 <pinref part="C81" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="-259.08" x2="12.7" y2="-259.08" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-243.84" x2="12.7" y2="-243.84" width="0.1524" layer="91"/>
 <pinref part="C82" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-259.08" x2="0" y2="-259.08" width="0.1524" layer="91"/>
-<junction x="12.7" y="-259.08"/>
-<label x="0" y="-259.08" size="1.778" layer="95"/>
+<wire x1="12.7" y1="-243.84" x2="0" y2="-243.84" width="0.1524" layer="91"/>
+<junction x="12.7" y="-243.84"/>
+<label x="0" y="-243.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C65" gate="G$1" pin="1"/>
@@ -9628,9 +9703,6 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="C86" gate="G$1" pin="1"/>
 <pinref part="C87" gate="G$1" pin="1"/>
 <wire x1="0" y1="-274.32" x2="12.7" y2="-274.32" width="0.1524" layer="91"/>
-<pinref part="C88" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-274.32" x2="25.4" y2="-274.32" width="0.1524" layer="91"/>
-<junction x="12.7" y="-274.32"/>
 <label x="0" y="-274.32" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -9788,6 +9860,12 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="C72" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="-213.36" x2="66.04" y2="-213.36" width="0.1524" layer="91"/>
 <label x="55.88" y="-213.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C88" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="-264.16" x2="55.88" y2="-264.16" width="0.1524" layer="91"/>
+<label x="55.88" y="-264.16" size="1.778" layer="95"/>
+<pinref part="C73" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$29" class="0">
