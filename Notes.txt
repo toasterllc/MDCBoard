@@ -1,13 +1,14 @@
-- Rev7 Todo
-    
-    - LED flashing circuit:
-        - Replace LEDs with correct ones after we do our LED testing
-        - Position LEDs properly with respect to hole in enclosure
-        - Choose suitable R/C values depending on our LED testing
-    
+- Future
+
     - Layout: Figure out which parts are breaking when exposed to sunlight. Can we move components to solve?
         - Streaming images breaks in direct sunlight
+
+- Rev7 Todo
     
+    √ LED flashing circuit:
+        √ Replace LEDs with correct ones after we do our LED testing
+        √ Position LEDs properly with respect to hole in enclosure
+        √ Choose suitable R/C values depending on our LED testing
     
     √ Length-match SD traces
     
