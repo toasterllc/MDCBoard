@@ -10,10 +10,10 @@
     
     - Length-match SD traces
     
-    - Length-match RAM traces
     
     
     
+    √ Length-match RAM traces
     
     √ Route BUTTON_SIGNAL_
     
