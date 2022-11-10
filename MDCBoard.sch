@@ -4834,11 +4834,15 @@ Connect</text>
 <attribute name="PN" value=""/>
 </part>
 <part name="Q7" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
-<part name="R44" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="50">
+<part name="U15" library="EagleLibrary" deviceset="TI-MSP430FR2433IRGE" device=""/>
+<part name="R44" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
 <attribute name="MFG" value=""/>
 <attribute name="PN" value=""/>
 </part>
-<part name="U15" library="EagleLibrary" deviceset="TI-MSP430FR2433IRGE" device=""/>
+<part name="R46" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
+<attribute name="MFG" value=""/>
+<attribute name="PN" value=""/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6466,11 +6470,17 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="MFG" x="0" y="-50.8" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="PN" x="0" y="-50.8" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="R44" gate="G$1" x="-30.48" y="-50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="-28.702" y="-50.038" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-28.702" y="-52.578" size="1.778" layer="96"/>
-<attribute name="MFG" x="-30.48" y="-50.8" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PN" x="-30.48" y="-50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R44" gate="G$1" x="-30.48" y="-50.8" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-24.638" y="-50.038" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-24.638" y="-52.578" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MFG" x="-30.48" y="-50.8" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="PN" x="-30.48" y="-50.8" size="1.778" layer="96" rot="MR90" display="off"/>
+</instance>
+<instance part="R46" gate="G$1" x="-20.32" y="-50.8" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-14.478" y="-50.038" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-14.478" y="-52.578" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MFG" x="-20.32" y="-50.8" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="PN" x="-20.32" y="-50.8" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -6510,6 +6520,9 @@ BAT_CHRG_LVL signal.</text>
 <wire x1="-30.48" y1="-55.88" x2="-30.48" y2="-58.42" width="0.1524" layer="91"/>
 <label x="-30.48" y="-58.42" size="1.778" layer="95"/>
 <pinref part="R44" gate="G$1" pin="1"/>
+<pinref part="R46" gate="G$1" pin="1"/>
+<wire x1="-30.48" y1="-55.88" x2="-20.32" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-55.88"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -6538,6 +6551,9 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="LED11" gate="G$1" pin="C"/>
 <wire x1="-30.48" y1="-43.18" x2="-30.48" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="R44" gate="G$1" pin="2"/>
+<pinref part="R46" gate="G$1" pin="2"/>
+<wire x1="-30.48" y1="-45.72" x2="-20.32" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-45.72"/>
 </segment>
 </net>
 <net name="LED_FLASH_GREEN_" class="0">
