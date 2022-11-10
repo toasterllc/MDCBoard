@@ -8,10 +8,8 @@
     - Layout: Figure out which parts are breaking when exposed to sunlight. Can we move components to solve?
         - Streaming images breaks in direct sunlight
     
-    - Length-match SD traces
     
-    
-    
+    √ Length-match SD traces
     
     √ Length-match RAM traces
     
