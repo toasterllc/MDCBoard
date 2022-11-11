@@ -158,6 +158,7 @@
 <wire x1="42.98184375" y1="15.08505625" x2="43.030103125" y2="15.753075" width="0.0762" layer="26"/>
 <text x="38.3667" y="23.1013" size="0.508" layer="26" font="vector" rot="MR0">LED1-4</text>
 <circle x="33.5424" y="17.392" radius="6.63935" width="1.75" layer="39"/>
+<circle x="33.5424" y="4.75" radius="1.8" width="0" layer="39"/>
 </plain>
 <libraries>
 <library name="EagleLibrary">
@@ -2005,10 +2006,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="30.2663375" y="7.1504875" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="30.263415625" y="6.69100625" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R38" library="EagleLibrary" package="0402" value="3k" x="31.174215625" y="5.833159375" smashed="yes" rot="R180">
-<attribute name="MFG" value="Yageo" x="31.174215625" y="5.833159375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="33.327753125" y="6.001059375" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="AC0402FR-073KL" x="31.174215625" y="5.833159375" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R38" library="EagleLibrary" package="0402" value="3k" x="31.587215625" y="7.138159375" smashed="yes" rot="R270">
+<attribute name="MFG" value="Yageo" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="31.419315625" y="9.291696875" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="PN" value="AC0402FR-073KL" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C66" library="EagleLibrary" package="0402" value="100n" x="18.870203125" y="5.433821875" smashed="yes" rot="R180">
 <attribute name="MFG" value="Murata" x="18.362203125" y="5.68781875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5346,8 +5347,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="29.480403125" y1="5.97901875" x2="29.158371875" y2="5.6569875" width="0.127" layer="16"/>
 <wire x1="29.158371875" y1="5.6569875" x2="29.157765625" y2="5.6569875" width="0.127" layer="16"/>
 <via x="29.157765625" y="5.6569875" extent="1-16" drill="0.254"/>
-<wire x1="30.741715625" y1="5.833159375" x2="30.56554375" y2="5.6569875" width="0.127" layer="1"/>
-<wire x1="30.56554375" y1="5.6569875" x2="29.157765625" y2="5.6569875" width="0.127" layer="1"/>
+<wire x1="31.587215625" y1="6.705659375" x2="31.587215625" y2="6.372921875" width="0.127" layer="1"/>
+<wire x1="31.587215625" y1="6.372921875" x2="30.87128125" y2="5.6569875" width="0.127" layer="1"/>
+<wire x1="30.87128125" y1="5.6569875" x2="29.157765625" y2="5.6569875" width="0.127" layer="1"/>
 </signal>
 <signal name="N$25">
 <contactref element="C67" pad="1"/>
