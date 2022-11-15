@@ -2,8 +2,60 @@
 
     - Layout: Figure out which parts are breaking when exposed to sunlight. Can we move components to solve?
         - Streaming images breaks in direct sunlight
+    
+    - Find better battery connector
+        - Just try all the options and choose the best one
 
 - Rev7 Todo
+    
+    - Measure battery voltage as a function of time while camera takes a picture every 5 seconds
+    
+    - Lower VDD_BAT voltage divider resistance so we get better readings with MSP430 / STM32. They both have fairly low input impedance!
+    
+    - Fix 250mV droop when VDD_B turns on
+        - Put a larger resistance on the gate of Q1? 100k?
+            - Doesn't seem to help, at least when using MSP internal GPIO resistor + external 10k
+                - Droop when VDD_B_EN is strongly driven vs weakly driven:
+                    - VDD_BAT idle
+                        4.155
+                    - VDD_BAT min when weakly controlling VDD_B_EN
+                        3.921
+                    - VDD_BAT min when strongly controlling VDD_B_EN
+                        3.911
+        
+        - Put a large ceramic capacitor on VDD_BAT?
+            - 2x 100uF ?
+                - Use 2 to account for lower lower capacitance due bias voltage ?
+            - Apparently we don't want to use tantalum because they're high leakage compared to ceramic
+    
+    - Consider how we can reduce current consumption when motion sensor is asserting that there's motion
+        - Currently it consumes 100 uA while there's motion, due to the pull-down resistor
+            - Do we ignore it because in Rev7, we'll disable the motion sensor when we don't need it anyway,
+              and when we do need it, we end up using a lot more current, so the 100µA is negligable anyway?
+        - Immediately upon the motion interrupt, replace the pull-down resistor with a pull-up
+          resistor, and only re-enable the pull-down resistor when we're ready for motion again
+    
+    - Confirm button stopper height versus chosen button
+    
+    - Confirm button position
+    
+    - Confirm LED positions
+    
+    - Confirm button stopper doesn't contact anything except button
+    
+    
+    
+    
+    X Consider connecting ICE_CDONE to MSP so MSP doesn't need to sleep an arbitrary amount of time
+        X We implemented a 'Ready' message instead, which responds by echoing the input argument, and also indicates whether the PLL clocks are ready
+    
+    √ Rev6 board is using up to 10µA when sleeping (MSP430 in LPM3) which is a lot higher than it should be:
+        - Motion sensor should use ~3µA
+        - MSP430 (in LPM3) should use ~1.2µA
+        √ Think we just had some leakage due to a bad solder joint on the bodge resistor connected to U1.ST
+    
+    X Use low tempco resistors for VDD_BAT voltage divider!
+        √ Nevermind, we don't need to, because 100ppm/C limits voltage divider delta to +/-0.25% with a 50C difference, which is fine
     
     √ LED flashing circuit:
         √ Replace LEDs with correct ones after we do our LED testing
