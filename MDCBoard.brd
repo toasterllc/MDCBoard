@@ -7127,12 +7127,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="32.272146875" y1="4.170225" x2="29.065609375" y2="0.9636875" width="0.127" layer="1"/>
 <wire x1="32.272146875" y1="4.170225" x2="32.272146875" y2="7.2706" width="0.127" layer="1"/>
 <contactref element="C23" pad="1"/>
-<polygon width="0.127" layer="1" thermals="no" rank="2">
-<vertex x="20.342859375" y="5.842"/>
-<vertex x="20.342859375" y="4.318"/>
-<vertex x="21.015959375" y="4.318"/>
-<vertex x="21.015959375" y="5.842"/>
-</polygon>
 <contactref element="C7" pad="1"/>
 <wire x1="42.046596875" y1="14.997796875" x2="41.728384375" y2="14.679584375" width="0.127" layer="1"/>
 <wire x1="41.728384375" y1="14.679584375" x2="41.728384375" y2="14.100478125" width="0.127" layer="1"/>
@@ -7159,6 +7153,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="18.138440625" y1="2.14813125" x2="18.71551875" y2="2.14813125" width="0.127" layer="1"/>
 <wire x1="18.71551875" y1="2.14813125" x2="19.454465625" y2="2.887078125" width="0.127" layer="1"/>
 <wire x1="19.454465625" y1="2.887078125" x2="20.60254375" y2="4.03515625" width="0.127" layer="1"/>
+<wire x1="20.60254375" y1="4.555859375" x2="20.60254375" y2="5.545475" width="0.127" layer="1"/>
+<wire x1="20.60254375" y1="5.545475" x2="20.705403125" y2="5.648334375" width="0.127" layer="1"/>
 </signal>
 <signal name="ICE_STM_SPI_D_READY">
 <contactref element="U18" pad="L5"/>
