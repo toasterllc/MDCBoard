@@ -8,6 +8,10 @@
 
 - Rev7 Todo
     
+    - Our VDDA/VREF+ are exceeding absolute max values
+        - VDDA must be the same potential as VDD!
+        - VREF+ must be <= VDDA!
+    
     - Measure battery voltage as a function of time while camera takes a picture every 5 seconds
     
     - Lower VDD_BAT voltage divider resistance so we get better readings with MSP430 / STM32. They both have fairly low input impedance!
