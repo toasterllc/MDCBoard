@@ -4755,13 +4755,13 @@ Connect</text>
 <part name="U5" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-INVERTER" device="">
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
-<part name="R9" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="300k">
-<attribute name="MFG" value="Walsin"/>
-<attribute name="PN" value="WR04X3003FTL"/>
+<part name="R9" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="MFG" value=""/>
+<attribute name="PN" value=""/>
 </part>
-<part name="R7" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RC0402FR-07100KL"/>
+<part name="R7" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
+<attribute name="MFG" value=""/>
+<attribute name="PN" value=""/>
 </part>
 <part name="C7" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
 <attribute name="MFG" value="Murata"/>
@@ -4961,16 +4961,16 @@ have a max of 10uF (per USB spec).</text>
 it's attached to VDD_USB, which can
 have a max of 10uF (per USB spec).</text>
 <wire x1="256.54" y1="381" x2="256.54" y2="327.66" width="0.1524" layer="95"/>
-<wire x1="256.54" y1="327.66" x2="363.22" y2="327.66" width="0.1524" layer="95"/>
-<wire x1="363.22" y1="327.66" x2="363.22" y2="381" width="0.1524" layer="95"/>
-<wire x1="363.22" y1="381" x2="256.54" y2="381" width="0.1524" layer="95"/>
+<wire x1="256.54" y1="327.66" x2="416.56" y2="327.66" width="0.1524" layer="95"/>
+<wire x1="416.56" y1="327.66" x2="416.56" y2="381" width="0.1524" layer="95"/>
+<wire x1="416.56" y1="381" x2="256.54" y2="381" width="0.1524" layer="95"/>
 <text x="259.334" y="326.136" size="2.54" layer="95" align="top-left">Battery Charge Level</text>
 <wire x1="144.78" y1="434.34" x2="144.78" y2="381" width="0.1524" layer="95"/>
 <wire x1="144.78" y1="381" x2="218.44" y2="381" width="0.1524" layer="95"/>
 <wire x1="218.44" y1="381" x2="218.44" y2="434.34" width="0.1524" layer="95"/>
 <wire x1="218.44" y1="434.34" x2="144.78" y2="434.34" width="0.1524" layer="95"/>
 <text x="145.034" y="379.476" size="2.54" layer="95" align="top-left">Battery Charging</text>
-<text x="260.35" y="341.63" size="1.016" layer="95" align="top-left">This subcircuit divides VDD_BAT by 1.33, and also prevents
+<text x="260.35" y="341.63" size="1.016" layer="95" align="top-left">This subcircuit divides VDD_BAT by 2.8, and also prevents
 the battery drain caused by the voltage divider unless
 we're connected to USB.
 
@@ -4986,15 +4986,8 @@ Requirements:
 
   - reverse working voltage ~= 5V
      since battery will operate up to ~4.2V</text>
-<text x="330.708" y="360.172" size="1.016" layer="95" align="top-left">Users of BAT_CHRG_LVL must have a capacitor
-at their input. This capacitor lowers the output
-impedance (seen at the ADC's input) that would
-otherwise be high due to the high resistance of
-the voltage divider.
-
-The capacitor acts as low-impedance charge storage
-that the ADC will draw from during its sampling.
-</text>
+<text x="327.66" y="360.68" size="1.016" layer="95" align="top-left">Users of BAT_CHRG_LVL should have a capacitor
+at their input to filter noise.</text>
 <text x="333.248" y="435.61" size="1.016" layer="95" align="top-left">Pulldown prevents a floating
 input while MSP430 is resetting</text>
 <wire x1="309.88" y1="398.78" x2="248.92" y2="398.78" width="0.1524" layer="95"/>
@@ -5010,7 +5003,7 @@ input while MSP430 is resetting</text>
 - low drain-source resistance (Rdson): &lt; 50mΩ
     necessary to minimize voltage drop and
     minimize wasted power</text>
-<text x="259.842" y="377.698" size="1.016" layer="95" align="top-left">VDD_BAT current consumption must be &lt; 0.6µA
+<text x="258.826" y="378.968" size="1.016" layer="95" align="top-left">VDD_BAT current consumption must be &lt; 0.6µA
 for MCP73831T battery detection to work (and
 therefore BAT_CHRG_STAT to work properly)!!
 
@@ -5018,6 +5011,43 @@ therefore BAT_CHRG_STAT to work properly)!!
 but may not at other temps, so at extreme temps,
 BAT_CHRG_STAT may report that a battery is
 present when one isn't.</text>
+<text x="366.014" y="377.952" size="1.016" layer="95" font="fixed" align="top-left">Resistor Tolerance Math
+(Why we need 0.1% resistors)
+
+* Formulas
+    KdividerWorstcase
+        = (1*(1+Rtol) / (1.8*(1-Rtol) + 1*(1+Rtol)))
+    KdividerUndo
+        = ((1.8+1)/1)
+        = 2.8
+    VsampleWorstcase
+        = 4.2
+    Vspan
+        = 4.2-3.6
+        = 0.6
+    Err
+        = (KdividerWorstcase * KdividerUndo *
+            VsampleWorstcase - VsampleWorstcase) / Vspan
+
+* 1% resistors:
+    Rtol                = 0.01
+    KdividerWorstcase   = 0.362
+    Err                 = 9%
+
+* 0.5% resistors:
+    Rtol                = 0.005
+    KdividerWorstcase   = 0.359
+    Err                 = 4.5%
+
+* 0.1% resistors:
+    Rtol                = 0.001
+    KdividerWorstcase   = 0.358
+    Err                 = 0.9%</text>
+<text x="316.992" y="359.664" size="1.016" layer="95" align="top-right">0.1% resistors to ensure
+accurate ADC
+measurements.
+
+See math to the right!</text>
 </plain>
 <instances>
 <instance part="C9" gate="G$1" x="165.1" y="297.18" smashed="yes">

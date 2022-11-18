@@ -8,13 +8,7 @@
 
 - Rev7 Todo
     
-    - Our VDDA/VREF+ are exceeding absolute max values
-        - VDDA must be the same potential as VDD!
-        - VREF+ must be <= VDDA!
-    
     - Measure battery voltage as a function of time while camera takes a picture every 5 seconds
-    
-    - Lower VDD_BAT voltage divider resistance so we get better readings with MSP430 / STM32. They both have fairly low input impedance!
     
     - Fix 250mV droop when VDD_B turns on
         - Put a larger resistance on the gate of Q1? 100k?
@@ -49,6 +43,12 @@
     
     
     
+    
+    √ Lower VDD_BAT voltage divider resistance so we get better readings with MSP430 / STM32. They both have fairly low input impedance!
+    
+    √ Our VDDA/VREF+ are exceeding absolute max values! Change them back to 1.8V.
+        - VDDA must be the same potential as VDD!
+        - VREF+ must be <= VDDA!
     
     X Consider connecting ICE_CDONE to MSP so MSP doesn't need to sleep an arbitrary amount of time
         X We implemented a 'Ready' message instead, which responds by echoing the input argument, and also indicates whether the PLL clocks are ready
