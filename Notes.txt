@@ -20,13 +20,6 @@
     
     - Measure battery voltage as a function of time while camera takes a picture every 5 seconds
     
-    - Consider how we can reduce current consumption when motion sensor is asserting that there's motion
-        - Currently it consumes 100 uA while there's motion, due to the pull-down resistor
-            - Do we ignore it because in Rev7, we'll disable the motion sensor when we don't need it anyway,
-              and when we do need it, we end up using a lot more current, so the 100µA is negligable anyway?
-        - Immediately upon the motion interrupt, replace the pull-down resistor with a pull-up
-          resistor, and only re-enable the pull-down resistor when we're ready for motion again
-    
     - Confirm button stopper height versus chosen button
     
     - Confirm button position

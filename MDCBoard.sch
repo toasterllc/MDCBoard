@@ -4885,7 +4885,11 @@ Connect</text>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X1000FQL"/>
 </part>
-<part name="SW1" library="EagleLibrary" deviceset="TACTILE-SWITCH" device=""/>
+<part name="SW1" library="EagleLibrary" deviceset="TACTILE-SWITCH" device="">
+<attribute name="MFG" value="DEALON"/>
+<attribute name="PN" value="
+TD-1624UR-180"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6176,7 +6180,7 @@ caused issues so far.</text>
 because the datasheet says:
 
 "VCCA must not exceed VCCB"</text>
-<text x="102.362" y="75.438" size="1.016" layer="95" align="top-left">Filtering capacitor to filter
+<text x="102.87" y="80.01" size="1.016" layer="95" align="top-left">Filtering capacitor to filter
 noise from high-impedance
 BAT_CHRG_LVL signal.</text>
 </plain>
@@ -6231,11 +6235,11 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="NAME" x="81.788" y="35.179" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="81.788" y="32.639" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
 </instance>
-<instance part="C23" gate="G$1" x="121.92" y="73.66" smashed="yes" rot="MR0">
-<attribute name="PN" x="137.16" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MFG" x="137.16" y="15.24" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="NAME" x="125.222" y="73.279" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="125.222" y="70.739" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
+<instance part="C23" gate="G$1" x="122.428" y="78.232" smashed="yes" rot="MR0">
+<attribute name="PN" x="137.668" y="19.812" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFG" x="137.668" y="19.812" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="NAME" x="125.73" y="77.851" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<attribute name="VALUE" x="125.73" y="75.311" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
 </instance>
 <instance part="U15" gate="POWER" x="58.42" y="83.82" smashed="yes">
 <attribute name="NAME" x="58.42" y="86.106" size="1.778" layer="95" align="top-left"/>
@@ -6319,8 +6323,8 @@ BAT_CHRG_LVL signal.</text>
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="68.58" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
-<label x="121.92" y="66.04" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="122.428" y1="73.152" x2="122.428" y2="70.612" width="0.1524" layer="91"/>
+<label x="122.428" y="70.612" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="U15" gate="POWER" pin="DVSS"/>
@@ -6458,8 +6462,8 @@ BAT_CHRG_LVL signal.</text>
 <net name="BAT_CHRG_LVL" class="0">
 <segment>
 <pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="76.2" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
-<label x="121.92" y="78.74" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="122.428" y1="80.772" x2="122.428" y2="83.312" width="0.1524" layer="91"/>
+<label x="122.428" y="83.312" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="76.2" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
@@ -6657,7 +6661,10 @@ BAT_CHRG_LVL signal.</text>
 <plain>
 </plain>
 <instances>
-<instance part="SW1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="SW1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="PN" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MFG" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

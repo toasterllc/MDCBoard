@@ -2611,7 +2611,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PN" value="WR04X1000FQL" x="34.384" y="31.646" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SW1" library="EagleLibrary" package="DEALON-TD-1624UR-180" value="TACTILE-SWITCH" x="33.5424" y="4.75" smashed="yes" rot="R90">
+<attribute name="MFG" value="DEALON" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="32.4194" y="3.312" size="0.508" layer="25" font="vector" rot="R90"/>
+<attribute name="PN" value="
+TD-1624UR-180" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
