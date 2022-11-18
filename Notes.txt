@@ -5,26 +5,20 @@
     
     - Find better battery connector
         - Just try all the options and choose the best one
+    
+    ? Substitute less-used resistors with more common ones in series/parallel
+        1.8k -> 2x 1k (voltage divider)
+        1.8k -> 1k (LEDs)
+        200k -> 2x 100k
+        5.1k -> 2x 10k (parallel)
+        ? 300k -> 3x 100k
+        ? 3k -> 3x 1k
+
+
 
 - Rev7 Todo
     
     - Measure battery voltage as a function of time while camera takes a picture every 5 seconds
-    
-    - Fix 250mV droop when VDD_B turns on
-        - Put a larger resistance on the gate of Q1? 100k?
-            - Doesn't seem to help, at least when using MSP internal GPIO resistor + external 10k
-                - Droop when VDD_B_EN is strongly driven vs weakly driven:
-                    - VDD_BAT idle
-                        4.155
-                    - VDD_BAT min when weakly controlling VDD_B_EN
-                        3.921
-                    - VDD_BAT min when strongly controlling VDD_B_EN
-                        3.911
-        
-        - Put a large ceramic capacitor on VDD_BAT?
-            - 2x 100uF ?
-                - Use 2 to account for lower lower capacitance due bias voltage ?
-            - Apparently we don't want to use tantalum because they're high leakage compared to ceramic
     
     - Consider how we can reduce current consumption when motion sensor is asserting that there's motion
         - Currently it consumes 100 uA while there's motion, due to the pull-down resistor
@@ -43,6 +37,16 @@
     
     
     
+    √ Fix 250mV droop when VDD_B turns on
+        √ Put a larger resistance on the gate of Q1 -- 365k?
+            √ 365k works well
+                √ Droop reduced to 31mV (also shortened battery wires)
+        
+        X Put a large ceramic capacitor on VDD_BAT?
+            X Tried a 100uF capacitor, but didn't help much -- still significant droop when VDD_B turns on
+            - 2x 100uF ?
+                - Use 2 to account for lower lower capacitance due bias voltage ?
+            - Apparently we don't want to use tantalum because they're high leakage compared to ceramic
     
     √ Lower VDD_BAT voltage divider resistance so we get better readings with MSP430 / STM32. They both have fairly low input impedance!
     

@@ -4767,9 +4767,9 @@ Connect</text>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
-<part name="R5" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RC0402JR-0710KL"/>
+<part name="R5" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="365k">
+<attribute name="MFG" value="Walsin"/>
+<attribute name="PN" value="WR04X3653FTL"/>
 </part>
 <part name="R4" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
 <attribute name="MFG" value="Yageo"/>
