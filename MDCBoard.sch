@@ -4872,18 +4872,18 @@ Connect</text>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="R17" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
-<attribute name="MFG" value=""/>
-<attribute name="PN" value=""/>
+<attribute name="MFG" value="Walsin"/>
+<attribute name="PN" value="WR04X1000FQL"/>
 </part>
 <part name="Q7" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
 <part name="U15" library="EagleLibrary" deviceset="TI-MSP430FR2433IRGE" device=""/>
 <part name="R44" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
-<attribute name="MFG" value=""/>
-<attribute name="PN" value=""/>
+<attribute name="MFG" value="Walsin"/>
+<attribute name="PN" value="WR04X1000FQL"/>
 </part>
 <part name="R46" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
-<attribute name="MFG" value=""/>
-<attribute name="PN" value=""/>
+<attribute name="MFG" value="Walsin"/>
+<attribute name="PN" value="WR04X1000FQL"/>
 </part>
 <part name="SW1" library="EagleLibrary" deviceset="TACTILE-SWITCH" device=""/>
 </parts>

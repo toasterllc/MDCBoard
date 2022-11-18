@@ -2586,9 +2586,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PN" value="GRM155R61H104KE19D" x="35.648053125" y="28.405115625" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R17" library="EagleLibrary" package="0402" value="100" x="34.276115625" y="26.83949375" smashed="yes" rot="R180">
-<attribute name="MFG" value="" x="34.276115625" y="26.83949375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG" value="Walsin" x="34.276115625" y="26.83949375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.030115625" y="26.28349375" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="" x="34.276115625" y="26.83949375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="WR04X1000FQL" x="34.276115625" y="26.83949375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="Q7" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="4.046221875" y="20.43938125" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Diodes Incorporated" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2601,14 +2601,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PN" value="MSP430FR2433IRGE" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R44" library="EagleLibrary" package="0402" value="100" x="34.39" y="30.775" smashed="yes" rot="R180">
-<attribute name="MFG" value="" x="34.39" y="30.775" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG" value="Walsin" x="34.39" y="30.775" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.144" y="30.219" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="" x="34.39" y="30.775" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="WR04X1000FQL" x="34.39" y="30.775" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R46" library="EagleLibrary" package="0402" value="100" x="34.384" y="31.646" smashed="yes" rot="R180">
-<attribute name="MFG" value="" x="34.384" y="31.646" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG" value="Walsin" x="34.384" y="31.646" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.138" y="31.09" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="" x="34.384" y="31.646" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="WR04X1000FQL" x="34.384" y="31.646" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SW1" library="EagleLibrary" package="DEALON-TD-1624UR-180" value="TACTILE-SWITCH" x="33.5424" y="4.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.4194" y="3.312" size="0.508" layer="25" font="vector" rot="R90"/>
