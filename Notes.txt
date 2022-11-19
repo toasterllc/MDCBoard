@@ -20,15 +20,16 @@
     
     - Measure battery voltage as a function of time while camera takes a picture every 5 seconds
     
-    - Confirm button stopper height versus chosen button
-    
-    - Confirm button position
-    
-    - Confirm LED positions
-    
-    - Confirm button stopper doesn't contact anything except button
     
     
+    √ Confirm button stopper doesn't contact anything except button
+    
+    √ Confirm LED positions
+    
+    √ Confirm button position
+    
+    √ Confirm button stopper height versus chosen button
+        √ Added .1mm tolerance
     
     √ Fix 250mV droop when VDD_B turns on
         √ Put a larger resistance on the gate of Q1 -- 365k?
