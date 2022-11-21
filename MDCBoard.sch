@@ -4887,8 +4887,7 @@ Connect</text>
 </part>
 <part name="SW1" library="EagleLibrary" deviceset="TACTILE-SWITCH" device="">
 <attribute name="MFG" value="DEALON"/>
-<attribute name="PN" value="
-TD-1624UR-180"/>
+<attribute name="PN" value="TD-1624UR-180"/>
 </part>
 </parts>
 <sheets>
