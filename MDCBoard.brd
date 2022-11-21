@@ -1858,10 +1858,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="37.315734375" y="19.0176625" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="37.613171875" y="19.968" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="X2" library="EagleLibrary" package="SITIME-SIT8021" value="SITIME-SIT8021" x="31.183578125" y="21.500378125" smashed="yes" rot="R90" grouprefs="_ICE_IMG_CLK">
-<attribute name="MFG" value="SiTime" x="31.183578125" y="21.500378125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="31.071996875" y="20.901796875" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="SIT8021AI-J4-18S-16.000000E" x="31.183578125" y="21.500378125" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="X2" library="EagleLibrary" package="SITIME-SIT8021" value="SITIME-SIT8021" x="31.20135625" y="21.444496875" smashed="yes" rot="R90" grouprefs="_ICE_IMG_CLK">
+<attribute name="MFG" value="SiTime" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="31.089775" y="20.845915625" size="0.508" layer="25" font="vector" rot="R180"/>
+<attribute name="PN" value="SIT8021AI-J4-18S-16.000000E" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J10" library="EagleLibrary" package="MOLEX-1051620001" value="MICROSD-SOCKET" x="8.78433125" y="8.73151875" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Molex" x="8.78433125" y="8.73151875" size="1.778" layer="28" rot="MR135" display="off"/>
@@ -3634,8 +3634,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.775790625" y1="20.43620625" x2="26.297609375" y2="19.958025" width="0.127" layer="1"/>
 <wire x1="26.5237" y1="20.765559375" x2="26.775790625" y2="20.51346875" width="0.127" layer="1"/>
 <wire x1="26.775790625" y1="20.51346875" x2="26.775790625" y2="20.43620625" width="0.127" layer="1"/>
-<wire x1="31.683578125" y1="21.295378125" x2="31.404540625" y2="21.295378125" width="0.127" layer="1"/>
-<wire x1="31.404540625" y1="21.295378125" x2="31.069278125" y2="21.630640625" width="0.127" layer="1"/>
+<wire x1="31.70135625" y1="21.239496875" x2="31.460421875" y2="21.239496875" width="0.127" layer="1"/>
+<wire x1="31.460421875" y1="21.239496875" x2="31.069278125" y2="21.630640625" width="0.127" layer="1"/>
 <via x="33.401" y="22.931121875" extent="1-16" drill="0.254"/>
 <wire x1="33.21423125" y1="22.80158125" x2="33.401" y2="22.931121875" width="0.127" layer="1"/>
 <wire x1="28.066746875" y1="21.7271625" x2="29.251628125" y2="21.7271625" width="0.127" layer="1"/>
@@ -5035,13 +5035,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="28.82794375" y1="20.732534375" x2="28.788359375" y2="20.77211875" width="0.127" layer="16"/>
 <wire x1="27.9874" y1="21.2886" x2="28.702" y2="21.2886" width="0.127" layer="1"/>
 <wire x1="28.702" y1="21.2886" x2="29.45081875" y2="21.2886" width="0.127" layer="1"/>
-<wire x1="29.45081875" y1="21.2886" x2="29.840109375" y2="20.899309375" width="0.127" layer="1"/>
-<wire x1="29.840109375" y1="20.899309375" x2="29.850978125" y2="20.888440625" width="0.127" layer="1"/>
+<wire x1="29.45081875" y1="21.2886" x2="29.842646875" y2="20.896771875" width="0.127" layer="1"/>
 <wire x1="26.39128125" y1="19.69248125" x2="27.9874" y2="21.2886" width="0.127" layer="1"/>
 <wire x1="28.788359375" y1="20.77211875" x2="28.702" y2="20.858478125" width="0.127" layer="1"/>
 <wire x1="28.702" y1="20.858478125" x2="28.702" y2="21.2886" width="0.127" layer="1"/>
-<wire x1="29.840109375" y1="20.899309375" x2="31.854890625" y2="20.899309375" width="0.127" layer="1"/>
-<wire x1="31.854890625" y1="20.899309375" x2="32.7972" y2="19.957" width="0.127" layer="1"/>
+<wire x1="29.842646875" y1="20.896771875" x2="31.857428125" y2="20.896771875" width="0.127" layer="1"/>
+<wire x1="31.857428125" y1="20.896771875" x2="32.7972" y2="19.957" width="0.127" layer="1"/>
 </signal>
 <signal name="IMG_SCLK">
 <contactref element="U22" pad="D1"/>
