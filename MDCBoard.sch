@@ -1104,8 +1104,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <package name="JUMPER-SOLDER">
 <description>Chip, 1.00 X 0.50 X 0.50 mm body
 &lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.50 mm&lt;/p&gt;</description>
-<smd name="1" x="-0.4" y="0" dx="0.65" dy="0.6" layer="1" cream="no"/>
-<smd name="2" x="0.4" y="0" dx="0.65" dy="0.6" layer="1" cream="no"/>
+<smd name="1" x="-0.4" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<smd name="2" x="0.4" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
 <text x="-0.754" y="0.556" size="0.508" layer="25" font="vector">&gt;NAME</text>
 <wire x1="-0.85" y1="0.4" x2="-0.85" y2="-0.4" width="0.05" layer="21"/>
 <wire x1="-0.85" y1="-0.4" x2="0.85" y2="-0.4" width="0.05" layer="21"/>

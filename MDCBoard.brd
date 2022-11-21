@@ -1044,8 +1044,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <package name="JUMPER-SOLDER">
 <description>Chip, 1.00 X 0.50 X 0.50 mm body
 &lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.50 mm&lt;/p&gt;</description>
-<smd name="1" x="-0.4" y="0" dx="0.65" dy="0.6" layer="1" cream="no"/>
-<smd name="2" x="0.4" y="0" dx="0.65" dy="0.6" layer="1" cream="no"/>
+<smd name="1" x="-0.4" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<smd name="2" x="0.4" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
 <text x="-0.754" y="0.556" size="0.508" layer="25" font="vector">&gt;NAME</text>
 <wire x1="-0.85" y1="0.4" x2="-0.85" y2="-0.4" width="0.05" layer="21"/>
 <wire x1="-0.85" y1="-0.4" x2="0.85" y2="-0.4" width="0.05" layer="21"/>
@@ -2561,10 +2561,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="17.582440625" y="1.82663125" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="18.138440625" y="2.58063125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Q6" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="34.681159375" y="30.802578125" smashed="yes" rot="MR90">
-<attribute name="MFG" value="Diodes Incorporated" x="34.681159375" y="30.802578125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="36.3433" y="30.1777375" size="0.762" layer="26" font="vector" rot="MR90"/>
-<attribute name="PN" value="DMG2305UX" x="34.681159375" y="30.802578125" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="Q6" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="34.6837" y="30.802578125" smashed="yes" rot="MR90">
+<attribute name="MFG" value="Diodes Incorporated" x="34.6837" y="30.802578125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="36.345840625" y="30.1777375" size="0.762" layer="26" font="vector" rot="MR90"/>
+<attribute name="PN" value="DMG2305UX" x="34.6837" y="30.802578125" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="LED9" library="EagleLibrary" package="OSRAM-TOPLED-E1608" value="LEDOSRAM-TOPLED-E1608" x="33.1674" y="28.8" smashed="yes" rot="R270">
 <attribute name="MFG" value="OSRAM" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7491,7 +7491,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$6">
 <contactref element="Q6" pad="D"/>
 <contactref element="LED9" pad="A"/>
-<wire x1="34.681159375" y1="31.802578125" x2="33.250421875" y2="31.802578125" width="0.127" layer="16"/>
+<wire x1="34.6837" y1="31.802578125" x2="33.250421875" y2="31.802578125" width="0.127" layer="16"/>
 <wire x1="33.250421875" y1="31.802578125" x2="33.084" y2="31.969" width="0.127" layer="16"/>
 <via x="33.084" y="31.969" extent="1-16" drill="0.254"/>
 <wire x1="33.1698625" y1="30.23528125" x2="33.1674" y2="30.23281875" width="0.127" layer="1"/>
@@ -7511,7 +7511,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="3.881121875" y1="27.213590625" x2="1.524" y2="24.85646875" width="0.127" layer="16"/>
 <wire x1="1.524" y1="24.85646875" x2="1.524" y2="11.43" width="0.127" layer="16"/>
 <wire x1="3.881121875" y1="30.497784375" x2="3.881121875" y2="27.213590625" width="0.127" layer="16"/>
-<wire x1="35.631159375" y1="29.802578125" x2="35.631159375" y2="29.88131875" width="0.127" layer="16"/>
+<wire x1="35.6337" y1="29.802578125" x2="35.631159375" y2="29.88131875" width="0.127" layer="16"/>
 <wire x1="22.4383625" y1="31.275015625" x2="23.2968875" y2="32.133540625" width="0.127" layer="1"/>
 <contactref element="U15" pad="9"/>
 <via x="9.09828125" y="4.307840625" extent="1-16" drill="0.254"/>
