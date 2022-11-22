@@ -20,6 +20,7 @@
     
     - Measure battery voltage as a function of time while camera takes a picture every 5 seconds
     
+    - Get slots working with NextPCB
     
     
     √ Confirm button stopper doesn't contact anything except button
