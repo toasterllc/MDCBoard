@@ -24,7 +24,7 @@
     
     - Add 'Mark Point' per NextDFM
     
-    - Fix Edge to copper gap NextDFM errors?
+    √ Fix Edge to copper gap NextDFM errors?
     
     
     √ Confirm button stopper doesn't contact anything except button
