@@ -3623,6 +3623,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C88" pad="2"/>
 <contactref element="C73" pad="2"/>
 <via x="13.210540625" y="21.02358125" extent="1-16" drill="0.254"/>
+<via x="8.85698125" y="30.35808125" extent="1-16" drill="0.381"/>
+<via x="8.85698125" y="29.530040625" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="ICE_IMG_CLK16MHZ">
 <contactref element="U18" pad="C11"/>
@@ -7652,12 +7654,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R17" pad="2"/>
 <wire x1="33.1674" y1="28.01" x2="33.843615625" y2="27.333784375" width="0.127" layer="1"/>
 <wire x1="33.843615625" y1="27.333784375" x2="33.843615625" y2="26.83949375" width="0.127" layer="1"/>
-</signal>
-<signal name="N$37">
-<via x="8.85698125" y="30.35808125" extent="1-16" drill="0.381"/>
-</signal>
-<signal name="N$39">
-<via x="8.85698125" y="29.530040625" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="BUTTON_SIGNAL_">
 <contactref element="SW1" pad="1"/>
