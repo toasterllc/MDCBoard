@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
@@ -3627,6 +3627,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="13.210540625" y="21.02358125" extent="1-16" drill="0.254"/>
 <via x="8.85698125" y="30.35808125" extent="1-16" drill="0.381"/>
 <via x="8.85698125" y="29.530040625" extent="1-16" drill="0.381"/>
+<polygon width="0.127" layer="16" thermals="no">
+<vertex x="35.854640625" y="9.96188125"/>
+<vertex x="35.854640625" y="9.166859375"/>
+<vertex x="40.259" y="9.166859375"/>
+<vertex x="40.259" y="9.96188125"/>
+</polygon>
 </signal>
 <signal name="ICE_IMG_CLK16MHZ">
 <contactref element="U18" pad="C11"/>
@@ -5752,7 +5758,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="35.227" y="25.7720125"/>
 <vertex x="35.227" y="25.557659375"/>
 </polygon>
-<polygon width="0.127" layer="16" thermals="no">
+<polygon width="0.127" layer="16" thermals="no" rank="2">
 <vertex x="38.6776" y="10.78738125"/>
 <vertex x="38.6776" y="5.24001875"/>
 <vertex x="41.186459375" y="5.24001875"/>
