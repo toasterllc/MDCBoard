@@ -1452,15 +1452,12 @@ Contact Housing: JST SHR-02V-S</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="DRC-OSHPark-4Layer-TentVias *">
-<description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
+<designrules name="DRC-Generic-4Layer">
+<description language="en">&lt;u&gt;Generic 4-Layer Design Rules&lt;/u&gt;
 &lt;p&gt;
-Please make sure your boards conform to these design rules.
-&lt;/p&gt;
+These rules are based on OSH Park's 4-layer design rules, but are made more conservative to support more PCB manufacturers. (Eg several of the 'Clearance' values have been increased from 5mil -&gt; 6mil. We couldn't increase all of the clearance values to 6mil because our MDCBoard design would emit unfixable DRC errors due to its vias between BGA pads.)
 &lt;p&gt;
-Note, that not all DRC settings must be set by the manufacturer. Several can be adjusted for the design, including those listed on our docs page here. 
-&lt;a href=&quot;http://docs.oshpark.com/design-tools/eagle/design-rules-files/&quot;&gt;Adjustable Settings&lt;/a&gt;
-&lt;/p&gt;</description>
+These rules are intended to work for both OSH Park and NextPCB.</description>
 <param name="layerSetup" value="(1*2*15*16)"/>
 <param name="mtCopper" value="0.035559375mm 0.01778125mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.01778125mm 0.035559375mm"/>
 <param name="mtIsolate" value="0.17018125mm 47mil 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.17018125mm"/>
