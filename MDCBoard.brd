@@ -2769,9 +2769,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="16.82598125" y="25.92938125" extent="1-16" drill="0.254"/>
 <polygon width="0.127" layer="1" thermals="no">
 <vertex x="10.422640625" y="25.614421875"/>
-<vertex x="10.422640625" y="25.22071875"/>
-<vertex x="11.337040625" y="25.22071875"/>
-<vertex x="11.337040625" y="25.614421875"/>
+<vertex x="10.422640625" y="25.17171875"/>
+<vertex x="11.955040625" y="25.17171875"/>
+<vertex x="11.955040625" y="25.614421875"/>
 </polygon>
 <polygon width="0.127" layer="1" thermals="no">
 <vertex x="9.279640625" y="26.711696875"/>
@@ -2786,10 +2786,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="17.560040625" y="26.137659375"/>
 </polygon>
 <polygon width="0.127" layer="1" thermals="no">
-<vertex x="13.81608125" y="26.91998125"/>
-<vertex x="14.219940625" y="26.91998125"/>
+<vertex x="13.279" y="26.87398125"/>
+<vertex x="14.219940625" y="26.87398125"/>
 <vertex x="14.219940625" y="27.82421875"/>
-<vertex x="13.81608125" y="27.82421875"/>
+<vertex x="13.8" y="27.82421875"/>
+<vertex x="13.8" y="27.252"/>
+<vertex x="13.279" y="27.252"/>
 </polygon>
 <polygon width="0.127" layer="1" thermals="no">
 <vertex x="12.688321875" y="28.07821875"/>
