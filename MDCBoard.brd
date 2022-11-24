@@ -113,8 +113,8 @@
 <wire x1="4.75" y1="32.65" x2="0" y2="27.9" width="0" layer="20" curve="90"/>
 <wire x1="12.066021875" y1="25.0607" x2="11.2583" y2="24.1691625" width="0.0762" layer="26"/>
 <wire x1="14.397740625" y1="27.35685625" x2="13.635740625" y2="26.59485625" width="0.0762" layer="26"/>
-<wire x1="25.401015625" y1="1.540296875" x2="25.507696875" y2="2.6706" width="0.0762" layer="25"/>
-<wire x1="24.372315625" y1="1.58601875" x2="24.47645625" y2="2.729021875" width="0.0762" layer="25"/>
+<wire x1="25.434034375" y1="1.535215625" x2="25.540715625" y2="2.66551875" width="0.0762" layer="25"/>
+<wire x1="24.308815625" y1="1.52251875" x2="24.382475" y2="2.729021875" width="0.0762" layer="25"/>
 <wire x1="18.97481875" y1="16.81331875" x2="19.40408125" y2="16.7295" width="0.0762" layer="26"/>
 <wire x1="19.081503125" y1="20.821440625" x2="20.028921875" y2="20.755403125" width="0.0762" layer="26"/>
 <wire x1="19.559015625" y1="7.278159375" x2="20.006053125" y2="7.229896875" width="0.0762" layer="25"/>
@@ -122,7 +122,6 @@
 <wire x1="13.06678125" y1="7.2110625" x2="13.516359375" y2="7.292340625" width="0.0762" layer="25"/>
 <wire x1="30.335178125" y1="4.79298125" x2="30.675540625" y2="3.970021875" width="0.0762" layer="25"/>
 <wire x1="5.473659375" y1="3.144521875" x2="4.87168125" y2="3.15468125" width="0.0762" layer="25"/>
-<wire x1="27.53715625" y1="6.237184375" x2="27.587953125" y2="6.12035" width="0.0762" layer="25"/>
 <wire x1="26.9580375" y1="6.75788125" x2="26.8564375" y2="6.11780625" width="0.0762" layer="25"/>
 <wire x1="28.074578125" y1="29.471621875" x2="27.8180375" y2="29.1439625" width="0.0762" layer="26"/>
 <wire x1="29.569159375" y1="24.415540625" x2="28.84018125" y2="24.32918125" width="0.0762" layer="26"/>
@@ -132,16 +131,13 @@
 <wire x1="23.612859375" y1="15.92178125" x2="22.975321875" y2="16.03608125" width="0.0762" layer="26"/>
 <wire x1="19.251678125" y1="9.950240625" x2="19.147540625" y2="10.539521875" width="0.0762" layer="26"/>
 <wire x1="29.317696875" y1="21.862840625" x2="29.0256" y2="21.545340625" width="0.0762" layer="26"/>
-<text x="35.5244625" y="32.099634375" size="0.508" layer="25" font="vector" ratio="10">GND</text>
+<text x="35.2857" y="32.145353125" size="0.381" layer="25" font="vector" ratio="10">GND</text>
 <text x="16.832578125" y="29.0578" size="0.762" layer="25" font="vector" ratio="10">MDC Rev 7</text>
 <wire x1="26.61408125" y1="8.6080625" x2="26.23054375" y2="8.37438125" width="0.0762" layer="25"/>
 <wire x1="43.855" y1="4.75" x2="43.855" y2="27.94" width="0" layer="20"/>
 <wire x1="41.5" y1="27.94" x2="43.855" y2="27.94" width="0" layer="20"/>
 <wire x1="41.5" y1="27.94" x2="41.5" y2="32.00200625" width="0" layer="20"/>
 <wire x1="41.5" y1="32.00200625" x2="39.105" y2="32.65" width="0" layer="20" curve="30.278974"/>
-<wire x1="8.232103125" y1="10.33271875" x2="8.33624375" y2="10.8102375" width="0.0762" layer="25"/>
-<wire x1="26.79191875" y1="25.778459375" x2="27.360878125" y2="25.77338125" width="0.0762" layer="25"/>
-<wire x1="27.360878125" y1="25.77338125" x2="27.599640625" y2="25.52954375" width="0.0762" layer="25"/>
 <wire x1="36.807103125" y1="31.081978125" x2="36.705503125" y2="31.516315625" width="0.0762" layer="26"/>
 <text x="41.777921875" y="15.4813" size="0.508" layer="26" font="vector" rot="MR0">LED7-10</text>
 <circle x="33.5424" y="17.392" radius="6.63935" width="1.75" layer="39"/>
@@ -149,13 +145,14 @@
 <wire x1="28.10764375" y1="29.13888125" x2="28.28798125" y2="28.9026625" width="0.0762" layer="25"/>
 <wire x1="35.351715625" y1="30.408884375" x2="35.49395625" y2="32.049721875" width="0.0762" layer="25"/>
 <wire x1="20.967703125" y1="2.555240625" x2="21.22678125" y2="2.3368" width="0.0762" layer="25"/>
-<wire x1="21.363940625" y1="3.230878125" x2="22.293578125" y2="2.95401875" width="0.0762" layer="25"/>
-<wire x1="31.084515625" y1="28.778203125" x2="31.208975" y2="28.831540625" width="0.0762" layer="25"/>
+<wire x1="21.699221875" y1="3.345178125" x2="22.298659375" y2="3.154678125" width="0.0762" layer="25"/>
 <wire x1="32.9946" y1="27.54884375" x2="33.11651875" y2="27.8257" width="0.0762" layer="26"/>
 <wire x1="27.35071875" y1="29.060140625" x2="27.54121875" y2="29.37001875" width="0.0762" layer="26"/>
 <wire x1="26.489659375" y1="26.3753625" x2="26.624278125" y2="27.002740625" width="0.0762" layer="26"/>
 <wire x1="31.06928125" y1="20.340321875" x2="31.51631875" y2="19.9618625" width="0.0762" layer="26"/>
 <text x="43.70578125" y="11.4020625" size="0.508" layer="26" font="vector" rot="MR0">R40-43</text>
+<wire x1="35.796215625" y1="6.04011875" x2="35.163759375" y2="6.2636375" width="0.0762" layer="26"/>
+<text x="32.755859375" y="27.97213125" size="0.381" layer="25" font="vector" ratio="10" rot="R90">LED1-2</text>
 </plain>
 <libraries>
 <library name="EagleLibrary">
@@ -1973,7 +1970,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C84" library="EagleLibrary" package="0402" value="2.2u" x="28.482075" y="2.585153125" smashed="yes" rot="R270">
 <attribute name="MFG" value="Taiyo Yuden" x="28.482075" y="2.585153125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="28.301475" y="1.571315625" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="28.237975" y="1.672915625" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="28.482075" y="2.585153125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C71" library="EagleLibrary" package="0402" value="100n" x="19.405340625" y="8.970396875" smashed="yes" rot="MR270">
@@ -1988,7 +1985,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C76" library="EagleLibrary" package="0402" value="100n" x="27.841884375" y="5.173984375" smashed="yes" rot="R270">
 <attribute name="MFG" value="Murata" x="27.841884375" y="5.173984375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="27.402203125" y="6.29374375" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="27.841884375" y="5.173984375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C77" library="EagleLibrary" package="0402" value="2.2u" x="29.3709625" y="4.99618125" smashed="yes">
@@ -2071,7 +2067,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C18" library="EagleLibrary" package="0402" value="22p" x="16.5439" y="2.7506" smashed="yes" rot="R90">
 <attribute name="MFG" value="Murata" x="16.5439" y="2.7506" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="17.232496875" y="1.8315" size="0.508" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="16.70925625" y="1.785778125" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GRM1555C1H220JA01D" x="16.5439" y="2.7506" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C17" library="EagleLibrary" package="0402" value="22p" x="16.5439" y="4.8334" smashed="yes" rot="R270">
@@ -2209,7 +2205,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="U20" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-BUFFER" x="33.5534" y="21.9202" smashed="yes" rot="MR0" grouprefs="_IMG_CLK_BLOCKER">
 <attribute name="MFG" value="Nexperia" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="34.2138" y="23.140578125" size="0.762" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="32.7761625" y="22.90181875" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="X1" library="EagleLibrary" package="EPSON-FC-135" value="EPSON-FC-135" x="15.030059375" y="3.792" smashed="yes" rot="R90">
@@ -2229,14 +2225,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C86" library="EagleLibrary" package="0402" value="2.2u" x="26.311828125" y="3.380815625" smashed="yes" rot="R90">
 <attribute name="MFG" value="Taiyo Yuden" x="26.311828125" y="3.380815625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="28.09770625" y="4.8950375" size="0.508" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="26.807384375" y="3.6733" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="26.311828125" y="3.380815625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J6" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="23.400421875" y="21.817140625" smashed="yes" rot="MR270" grouprefs="_VDD_B_1V2_BUCK">
 <attribute name="NAME" x="24.40144375" y="21.618640625" size="0.508" layer="26" font="vector" rot="MR270"/>
 </element>
 <element name="J7" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="25.00919375" y="23.201103125" smashed="yes" grouprefs="_VDD_B_1V8_BUCK">
-<attribute name="NAME" x="25.248334375" y="22.22294375" size="0.508" layer="25" font="vector"/>
+<attribute name="NAME" x="25.9900125" y="22.92398125" size="0.508" layer="25" font="vector"/>
 </element>
 <element name="U2" library="EagleLibrary" package="DIODESINC-AP7350" value="DIODESINC-AP7350" x="4.438178125" y="27.78268125" smashed="yes" grouprefs="_VDD_A_3V3_LDO">
 <attribute name="MFG" value="Diodes Incorporated" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
@@ -2245,7 +2241,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="U1" library="EagleLibrary" package="TI-TPS2116DRLR" value="TI-TPS2116" x="34.854940625" y="25.972121875" smashed="yes" rot="MR0" grouprefs="_POWER_MUX">
 <attribute name="MFG" value="Texas Instruments" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="33.647775" y="26.3892625" size="0.508" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="33.62999375" y="26.038740625" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="TPS2116DRLR" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U4" library="EagleLibrary" package="MICROCHIP-MIC550X-SOT23-5" value="MICROCHIP-MCP7383X" x="40.07301875" y="21.689059375" smashed="yes" rot="MR270" grouprefs="_BAT_CHARGE">
@@ -2260,12 +2256,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="Q3" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.796784375" y="28.354759375" smashed="yes" rot="MR180" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <attribute name="MFG" value="Nexperia" x="38.796784375" y="28.354759375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="40.100303125" y="28.33478125" size="0.762" layer="26" font="vector" rot="MR180"/>
+<attribute name="NAME" x="40.100303125" y="28.33478125" size="0.635" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="PMPB10UPX" x="38.796784375" y="28.354759375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="Q2" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.795884375" y="30.514759375" smashed="yes" rot="MR0" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <attribute name="MFG" value="Nexperia" x="38.795884375" y="30.514759375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="39.747884375" y="31.609159375" size="0.762" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="39.836784375" y="31.642178125" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="PMPB10UPX" x="38.795884375" y="30.514759375" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R12" library="EagleLibrary" package="0402" value="100k" x="39.578121875" y="26.35318125" smashed="yes" rot="MR270" grouprefs="_REVERSE_BATTERY_PROTECTION">
@@ -2275,12 +2271,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R9" library="EagleLibrary" package="0402" value="100k" x="37.18968125" y="30.086978125" smashed="yes" rot="MR270" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <attribute name="MFG" value="Yageo" x="37.18968125" y="30.086978125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="36.915621875" y="32.4132375" size="0.508" layer="26" font="vector" rot="MR270"/>
+<attribute name="NAME" x="36.8064" y="32.367515625" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="37.18968125" y="30.086978125" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R2" library="EagleLibrary" package="0402" value="300k" x="34.13211875" y="24.40898125" smashed="yes" rot="MR180" grouprefs="_POWER_MUX">
 <attribute name="MFG" value="Walsin" x="34.13211875" y="24.40898125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="33.37811875" y="23.85298125" size="0.508" layer="26" font="vector" rot="MR180"/>
+<attribute name="NAME" x="34.2341" y="23.919021875" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="WR04X3003FTL" x="34.13211875" y="24.40898125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R4" library="EagleLibrary" package="0402" value="100k" x="35.9411375" y="24.500096875" smashed="yes" rot="MR180" grouprefs="_POWER_MUX">
@@ -2348,7 +2344,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C1" library="EagleLibrary" package="0402" value="2.2u" x="36.58935625" y="27.00624375" smashed="yes" rot="R180" grouprefs="_POWER_MUX">
 <attribute name="MFG" value="Taiyo Yuden" x="36.58935625" y="27.00624375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.11145625" y="26.5213625" size="0.508" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="36.9039375" y="25.8609625" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="36.58935625" y="27.00624375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C3" library="EagleLibrary" package="0402" value="100n" x="6.64918125" y="28.661359375" smashed="yes" grouprefs="_VDD_A_3V3_LDO">
@@ -2363,7 +2359,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C6" library="EagleLibrary" package="0805" value="10u" x="42.47961875" y="22.053475" smashed="yes" rot="MR270" grouprefs="_BAT_CHARGE">
 <attribute name="MFG" value="Samsung" x="42.47961875" y="22.053475" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="42.776853125" y="24.734053125" size="0.762" layer="26" font="vector" rot="MR270"/>
+<attribute name="NAME" x="43.277234375" y="20.40589375" size="0.762" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="42.47961875" y="22.053475" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U6" library="EagleLibrary" package="EATON-STN101" value="EATON-STN101" x="40.7516375" y="29.99803125" smashed="yes" rot="MR270">
@@ -2395,7 +2391,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="U5" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-INVERTER" x="41.889021875" y="12.097940625" smashed="yes" rot="R90">
 <attribute name="MFG" value="Nexperia" x="41.889021875" y="12.097940625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="39.959984375" y="12.882803125" size="0.635" layer="25" font="vector"/>
+<attribute name="NAME" x="39.761865625" y="12.7405625" size="0.635" layer="25" font="vector"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="41.889021875" y="12.097940625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R11" library="EagleLibrary" package="0402" value="1k" x="42.479096875" y="14.997796875" smashed="yes">
@@ -2415,7 +2411,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R6" library="EagleLibrary" package="0402" value="365k" x="30.5907375" y="28.25243125" smashed="yes" rot="R270" grouprefs="_VDD_B_CONTROL">
 <attribute name="MFG" value="Walsin" x="30.5907375" y="28.25243125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.2839" y="28.68639375" size="0.508" layer="25" font="vector"/>
+<attribute name="NAME" x="31.090859375" y="27.61959375" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="WR04X3653FTL" x="30.5907375" y="28.25243125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="EagleLibrary" package="0402" value="100k" x="30.140653125" y="25.041859375" smashed="yes" rot="R180" grouprefs="_VDD_B_CONTROL">
@@ -2435,12 +2431,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="L3" library="EagleLibrary" package="0806" value="1u" x="29.480259375" y="27.985721875" smashed="yes" rot="MR180" grouprefs="_VDD_B_2V8_BUCK">
 <attribute name="MFG" value="Samsung" x="29.480259375" y="27.985721875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="31.2157625" y="27.039665625" size="0.635" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="31.1141625" y="27.02950625" size="0.635" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="CIGT201610LH1R0MNE" x="29.480259375" y="27.985721875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R17" library="EagleLibrary" package="0402" value="365k" x="29.693621875" y="29.8983375" smashed="yes" rot="MR90" grouprefs="_VDD_B_2V8_BUCK">
 <attribute name="MFG" value="Walsin" x="29.693621875" y="29.8983375" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="30.320740625" y="30.81565625" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="WR04X3653FTL" x="29.693621875" y="29.8983375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R18" library="EagleLibrary" package="0402" value="100k" x="29.2516625" y="31.831278125" smashed="yes" rot="MR180" grouprefs="_VDD_B_2V8_BUCK">
@@ -2460,12 +2455,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="L2" library="EagleLibrary" package="0806" value="1u" x="25.708359375" y="24.69388125" smashed="yes" rot="R180" grouprefs="_VDD_B_1V8_BUCK">
 <attribute name="MFG" value="Samsung" x="25.708359375" y="27.74188125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="23.31499375" y="24.77398125" size="0.762" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="23.266734375" y="24.758740625" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="CIGT201610LH1R0MNE" x="25.708359375" y="27.74188125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R15" library="EagleLibrary" package="0402" value="200k" x="26.3078" y="26.6166625" smashed="yes" rot="R90" grouprefs="_VDD_B_1V8_BUCK">
 <attribute name="MFG" value="Yageo" x="26.0538" y="26.6166625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="27.91334375" y="24.2497625" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="RC0402FR-13200KL" x="26.0538" y="26.6166625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R16" library="EagleLibrary" package="0402" value="100k" x="26.30271875" y="28.39719375" smashed="yes" rot="R90" grouprefs="_VDD_B_1V8_BUCK">
@@ -2504,16 +2498,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PN" value="CL21A226MQQNNNG" x="26.9148625" y="31.010859375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="H1" library="EagleLibrary" package="TAGCONNECT-TC2030-NL-EDGE" value="TAGCONNECT-TC2030-NLEDGE" x="31.327" y="2.115" smashed="yes" rot="MR270">
-<attribute name="NAME" x="33.09991875" y="5.640521875" size="1.016" layer="26" font="vector" rot="MR270"/>
+<attribute name="NAME" x="33.7425375" y="2.109921875" size="1.016" layer="26" font="vector" rot="MR270"/>
 </element>
 <element name="R10" library="EagleLibrary" package="0402" value="100k" x="40.307559375" y="11.63149375" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="40.307559375" y="11.63149375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="39.7185375" y="11.941753125" size="0.508" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="39.25625625" y="10.9486125" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="40.307559375" y="11.63149375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="EagleLibrary" package="0402" value="10k" x="32.531340625" y="24.690665625" smashed="yes" rot="MR90">
 <attribute name="MFG" value="Yageo" x="32.531340625" y="24.690665625" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="33.087340625" y="23.936665625" size="0.508" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="31.5328625" y="23.8680875" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="32.531340625" y="24.690665625" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="MH1" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="1.94" y="28.4" smashed="yes"/>
@@ -2550,12 +2544,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="Q5" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="34.6837" y="30.792415625" smashed="yes" rot="MR90">
 <attribute name="MFG" value="Diodes Incorporated" x="34.6837" y="30.792415625" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="36.135021875" y="30.185353125" size="0.635" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="36.198521875" y="30.1828125" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="DMG2305UX" x="34.6837" y="30.792415625" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="LED2" library="EagleLibrary" package="OSRAM-TOPLED-E1608" value="LEDOSRAM-TOPLED-E1608" x="33.1674" y="28.8" smashed="yes" rot="R270">
 <attribute name="MFG" value="OSRAM" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="33.6574" y="29.905" size="0.508" layer="25" font="vector" rot="R90" align="top-right"/>
 <attribute name="PN" value="KR DELPS1.22-UHVI-26-H3Q4" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q4" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="33.7312375" y="28.5903" smashed="yes" rot="MR270">
@@ -2569,7 +2562,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C25" library="EagleLibrary" package="0402" value="100n" x="35.648053125" y="28.405115625" smashed="yes" rot="MR270">
 <attribute name="MFG" value="Murata" x="35.648053125" y="28.405115625" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="35.092053125" y="29.159115625" size="0.508" layer="26" font="vector" rot="MR270"/>
+<attribute name="NAME" x="36.633834375" y="29.463915625" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="35.648053125" y="28.405115625" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R21" library="EagleLibrary" package="0402" value="100" x="34.276115625" y="26.83949375" smashed="yes" rot="R180">
@@ -2594,7 +2587,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R20" library="EagleLibrary" package="0402" value="100" x="34.384" y="31.646" smashed="yes" rot="R180">
 <attribute name="MFG" value="Walsin" x="34.384" y="31.646" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="34.99321875" y="32.59368125" size="0.508" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="34.462359375" y="32.50224375" size="0.381" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="WR04X1000FQL" x="34.384" y="31.646" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SW1" library="EagleLibrary" package="DEALON-TD-1624UR-180" value="TACTILE-SWITCH" x="33.5424" y="4.75" smashed="yes" rot="R90">
