@@ -20,11 +20,13 @@
     
     - Measure battery voltage as a function of time while camera takes a picture every 5 seconds
     
-    - Get slots working with NextPCB
-    
     - Add 'Mark Point' per NextDFM
     
     
+    
+    √ Get slots working with NextPCB
+        - Implemented as suggested by NextPCB docs:
+            https://www.nextpcb.com/pcb-vocabulary/pcb-milling
     
     √ Fix Edge to copper gap NextDFM errors?
     
