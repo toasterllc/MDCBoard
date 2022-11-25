@@ -1591,6 +1591,12 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.05" layer="21"/>
 <wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.05" layer="21"/>
 <wire x1="1.5" y1="1" x2="-1.5" y2="1" width="0.05" layer="21"/>
+<polygon width="0.05" layer="41">
+<vertex x="-1.5" y="1"/>
+<vertex x="-1.5" y="-1"/>
+<vertex x="1.5" y="-1"/>
+<vertex x="1.5" y="1"/>
+</polygon>
 <polygon width="0.05" layer="39">
 <vertex x="-1.5" y="1"/>
 <vertex x="-1.5" y="-1"/>
