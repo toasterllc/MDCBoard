@@ -4386,7 +4386,7 @@ Connect</text>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X203 JTL"/>
 </part>
-<part name="TP2" library="EagleLibrary" deviceset="TEST-POINT" device=""/>
+<part name="TP1" library="EagleLibrary" deviceset="TEST-POINT" device=""/>
 <part name="U24" library="EagleLibrary" deviceset="STM-STM32F730" device="">
 <attribute name="PN" value="STM32F730I8K6"/>
 </part>
@@ -4756,12 +4756,12 @@ Connect</text>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="R11" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
-<attribute name="MFG" value=""/>
-<attribute name="PN" value=""/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RT0402BRD071KL"/>
 </part>
 <part name="R8" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value=""/>
-<attribute name="PN" value=""/>
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RT0402BRE071K8L"/>
 </part>
 <part name="C65" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
 <attribute name="MFG" value="Murata"/>
@@ -4848,7 +4848,9 @@ Connect</text>
 </part>
 <part name="Q8" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
 <part name="Q7" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
-<part name="U23" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-INVERTER" device=""/>
+<part name="U23" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-INVERTER" device="">
+<attribute name="PN" value="74LVC1G98GW,125"/>
+</part>
 <part name="R33" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
@@ -6926,7 +6928,7 @@ should be a high voltage during power up.</text>
 <attribute name="NAME" x="170.18" y="-80.518" size="1.778" layer="95"/>
 <attribute name="PN" x="170.18" y="-93.98" size="1.778" layer="95"/>
 </instance>
-<instance part="TP2" gate="G$1" x="190.5" y="-83.82" smashed="yes" rot="R90">
+<instance part="TP1" gate="G$1" x="190.5" y="-83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.04" y="-73.66" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="R28" gate="G$1" x="68.58" y="-101.6" smashed="yes">
@@ -7217,7 +7219,7 @@ should be a high voltage during power up.</text>
 <label x="193.294" y="-85.852" size="1.778" layer="95"/>
 <wire x1="187.96" y1="-86.36" x2="190.5" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="OUT"/>
-<pinref part="TP2" gate="G$1" pin="X"/>
+<pinref part="TP1" gate="G$1" pin="X"/>
 <wire x1="190.5" y1="-86.36" x2="193.04" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-86.36" x2="190.5" y2="-83.82" width="0.1524" layer="91"/>
 <junction x="190.5" y="-86.36"/>
@@ -8901,6 +8903,7 @@ f = 1/t = 434 kHz</text>
 </instance>
 <instance part="U23" gate="G$1" x="-2.54" y="-83.82" smashed="yes">
 <attribute name="NAME" x="2.54" y="-85.598" size="1.778" layer="95"/>
+<attribute name="PN" x="-2.54" y="-83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R33" gate="G$1" x="-5.08" y="-60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="-6.858" y="-59.944" size="1.778" layer="95" align="bottom-right"/>
