@@ -4894,8 +4894,8 @@ Connect</text>
 <attribute name="PN" value="WR04X1000FQL"/>
 </part>
 <part name="SW1" library="EagleLibrary" deviceset="TACTILE-SWITCH" device="">
-<attribute name="MFG" value="DEALON"/>
-<attribute name="PN" value="TD-1624UR-180"/>
+<attribute name="MFG" value="SHOU HAN"/>
+<attribute name="PN" value="TS2306A 240gf MSM 9"/>
 </part>
 </parts>
 <sheets>

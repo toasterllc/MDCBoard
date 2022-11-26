@@ -2595,9 +2595,9 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="WR04X1000FQL" x="34.384" y="31.646" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SW1" library="EagleLibrary" package="DEALON-TD-1624UR-180" value="TACTILE-SWITCH" x="33.5424" y="4.75" smashed="yes" rot="R90">
-<attribute name="MFG" value="DEALON" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG" value="SHOU HAN" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="34.2101" y="2.661759375" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="TD-1624UR-180" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN" value="TS2306A 240gf MSM 9" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
