@@ -15,14 +15,17 @@
         ? 3k -> 3x 1k
 
 
+- Rev8 Todo
+
+    - Update battery receptacle to one that works better (ordered 2 options from Mouser)
+
 
 - Rev7 Todo
     
-    - Measure battery voltage as a function of time while camera takes a picture every 5 seconds
+    √ Measure battery voltage as a function of time while camera takes a picture every 5 seconds
     
-    - Add 'Mark Point' per NextDFM
-    
-    
+    X Add 'Mark Point' per NextDFM
+        X Not sure we need it
     
     √ Get slots working with NextPCB
         - Implemented as suggested by NextPCB docs:
