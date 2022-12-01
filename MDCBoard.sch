@@ -4926,9 +4926,14 @@ mode</text>
 <wire x1="355.6" y1="391.16" x2="355.6" y2="444.5" width="0.1524" layer="95"/>
 <wire x1="355.6" y1="444.5" x2="287.02" y2="444.5" width="0.1524" layer="95"/>
 <text x="289.814" y="389.636" size="2.54" layer="95" align="top-left">VDD_B Control</text>
-<text x="316.992" y="410.464" size="1.016" layer="95" align="top-left">Limits drive strength to limit inrush current.
-If the gate resistance is too low, VDD_A will
-droop and MSP430 will brown out.</text>
+<text x="318.008" y="414.782" size="1.016" layer="95" align="top-left">Resistor limits drive strength to limit inrush
+current. If the gate resistance is too low,
+VDD_A will droop and MSP430 will brown out.
+
+Originally we used a 10k here, but found that
+the VDD_BAT drooped ~500mV when the
+MOSFET turned on. At 365k, VDD_BAT
+droops ~30mV.</text>
 <text x="181.102" y="329.438" size="1.524" layer="95" align="top-left">From Linear Tech Application Note 171 </text>
 <wire x1="177.8" y1="375.92" x2="177.8" y2="335.28" width="0.1524" layer="95"/>
 <wire x1="177.8" y1="335.28" x2="231.14" y2="335.28" width="0.1524" layer="95"/>
