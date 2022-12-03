@@ -7223,19 +7223,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="42.557821875" y1="13.087140625" x2="42.557821875" y2="14.064915625" width="0.127" layer="1"/>
 <wire x1="42.557821875" y1="14.064915625" x2="42.593384375" y2="14.100478125" width="0.127" layer="1"/>
 </signal>
-<signal name="MSP_HOST_MODE_">
-<contactref element="U14" pad="17"/>
-<contactref element="U24" pad="A2"/>
-<via x="12.639046875" y="1.15061875" extent="1-16" drill="0.254"/>
-<wire x1="12.404" y1="1.8795" x2="12.425859375" y2="1.857640625" width="0.127" layer="1"/>
-<wire x1="12.425859375" y1="1.857640625" x2="12.425859375" y2="1.36380625" width="0.127" layer="1"/>
-<wire x1="12.425859375" y1="1.36380625" x2="12.639046875" y2="1.15061875" width="0.127" layer="1"/>
-<wire x1="21.030403125" y1="0.786640625" x2="21.030403125" y2="0.7210125" width="0.127" layer="16"/>
-<wire x1="21.030403125" y1="0.7210125" x2="20.77929375" y2="0.469903125" width="0.127" layer="16"/>
-<wire x1="12.639046875" y1="1.15061875" x2="12.688959375" y2="1.15061875" width="0.127" layer="16"/>
-<wire x1="13.369675" y1="0.469903125" x2="12.688959375" y2="1.15061875" width="0.127" layer="16"/>
-<wire x1="13.369675" y1="0.469903125" x2="20.77929375" y2="0.469903125" width="0.127" layer="16"/>
-</signal>
 <signal name="N$11">
 <contactref element="R6" pad="1"/>
 <contactref element="Q1" pad="3"/>

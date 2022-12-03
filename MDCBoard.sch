@@ -6446,13 +6446,6 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="U14" gate="PORT1" pin="PA.0/P1.0/UCB0STE/TA0CLK/A0/VEREF+"/>
 </segment>
 </net>
-<net name="MSP_HOST_MODE_" class="0">
-<segment>
-<wire x1="261.62" y1="68.58" x2="259.08" y2="68.58" width="0.1524" layer="91"/>
-<label x="259.08" y="68.58" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="PORT2" pin="PA.E/P2.6/UCA1TXD/UCA1SIMO"/>
-</segment>
-</net>
 <net name="ICE_MSP_SPI_CLK" class="0">
 <segment>
 <wire x1="78.74" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
@@ -10055,13 +10048,6 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <wire x1="2.54" y1="-111.76" x2="5.08" y2="-111.76" width="0.1524" layer="91"/>
 <label x="5.08" y="-111.76" size="1.778" layer="95"/>
 <pinref part="U24" gate="E" pin="PE15_R11"/>
-</segment>
-</net>
-<net name="MSP_HOST_MODE_" class="0">
-<segment>
-<wire x1="2.54" y1="-78.74" x2="5.08" y2="-78.74" width="0.1524" layer="91"/>
-<label x="5.08" y="-78.74" size="1.778" layer="95"/>
-<pinref part="U24" gate="E" pin="PE2_A2"/>
 </segment>
 </net>
 </nets>
