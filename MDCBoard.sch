@@ -4769,10 +4769,6 @@ Connect</text>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RT0402BRE071K8L"/>
 </part>
-<part name="C65" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
-<attribute name="MFG" value="Murata"/>
-<attribute name="PN" value="GRM155R61H104KE19D"/>
-</part>
 <part name="R6" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="365k">
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X3653FTL"/>
@@ -9127,20 +9123,8 @@ f = 1/t = 434 kHz</text>
 <text x="83.312" y="-163.322" size="1.27" layer="95" align="top-left">≤ 1%</text>
 <text x="67.056" y="-245.872" size="1.016" layer="95" align="top-left">Ceff&gt;1uF @ 3.3V bias</text>
 <text x="67.056" y="-220.218" size="1.016" layer="95" align="top-left">Ceff&gt;1uF @ 3.3V bias</text>
-<text x="19.304" y="-24.384" size="1.016" layer="95" align="top-left">BAT_CHRG_LVL_EN must be driven
-by PA11 or PA12 because it needs
-3.3V logic levels, which PA11/PA12
-have by being powered by VDDUSB.
-
-BAT_CHRG_LVL_EN needs 3.3V
-logic levels because 74LVC1G98GW
-Vih~=2.7V when powered by
-VDD_BAT=4.2V.</text>
 <text x="122.428" y="-254.762" size="0.762" layer="95" align="top-left">"If no external battery is used in the application,
 it is recommended to connect the VBAT pin to VDD"</text>
-<text x="76.962" y="-66.802" size="1.016" layer="95" align="top-left">Filtering capacitor to filter
-noise from high-impedance
-BAT_CHRG_LVL signal.</text>
 <text x="48.26" y="-258.318" size="1.778" layer="95">VDDSDMMC Bypass Capacitors</text>
 <wire x1="48.26" y1="-259.08" x2="48.26" y2="-276.86" width="0.1524" layer="95"/>
 <wire x1="48.26" y1="-276.86" x2="86.36" y2="-276.86" width="0.1524" layer="95"/>
@@ -9398,10 +9382,6 @@ BAT_CHRG_LVL signal.</text>
 <instance part="H1" gate="A" x="213.36" y="-81.28" smashed="yes">
 <attribute name="NAME" x="213.614" y="-80.772" size="1.778" layer="95"/>
 </instance>
-<instance part="C65" gate="G$1" x="73.66" y="-68.58" smashed="yes" rot="MR0">
-<attribute name="NAME" x="72.136" y="-65.659" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="72.136" y="-68.199" size="1.778" layer="96" rot="MR0"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -9646,11 +9626,6 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="H1" gate="A" pin="5"/>
 <wire x1="233.68" y1="-96.52" x2="236.22" y2="-96.52" width="0.1524" layer="91"/>
 <label x="236.22" y="-96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C65" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="-73.66" x2="73.66" y2="-76.2" width="0.1524" layer="91"/>
-<label x="73.66" y="-76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C86" gate="G$1" pin="2"/>
@@ -10061,18 +10036,6 @@ BAT_CHRG_LVL signal.</text>
 <label x="134.62" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BAT_CHRG_LVL" class="0">
-<segment>
-<wire x1="68.58" y1="-81.28" x2="71.12" y2="-81.28" width="0.1524" layer="91"/>
-<label x="71.12" y="-81.28" size="1.778" layer="95"/>
-<pinref part="U24" gate="F" pin="PF3_J2"/>
-</segment>
-<segment>
-<pinref part="C65" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="-66.04" x2="73.66" y2="-63.5" width="0.1524" layer="91"/>
-<label x="73.66" y="-63.5" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="ICE_STM_FLASH_EN" class="0">
 <segment>
 <wire x1="68.58" y1="-86.36" x2="71.12" y2="-86.36" width="0.1524" layer="91"/>
@@ -10087,32 +10050,11 @@ BAT_CHRG_LVL signal.</text>
 <label x="236.22" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VDD_B_1V8_IMG_SD_EN" class="0">
-<segment>
-<wire x1="2.54" y1="-86.36" x2="5.08" y2="-86.36" width="0.1524" layer="91"/>
-<label x="5.08" y="-86.36" size="1.778" layer="95"/>
-<pinref part="U24" gate="E" pin="PE5_B2"/>
-</segment>
-</net>
 <net name="BAT_CHRG_STAT" class="0">
 <segment>
 <wire x1="2.54" y1="-111.76" x2="5.08" y2="-111.76" width="0.1524" layer="91"/>
 <label x="5.08" y="-111.76" size="1.778" layer="95"/>
 <pinref part="U24" gate="E" pin="PE15_R11"/>
-</segment>
-</net>
-<net name="BAT_CHRG_LVL_EN" class="0">
-<segment>
-<wire x1="15.24" y1="-43.18" x2="17.78" y2="-43.18" width="0.1524" layer="91"/>
-<label x="17.78" y="-43.18" size="1.778" layer="95"/>
-<pinref part="U24" gate="A" pin="PA12_B15"/>
-</segment>
-</net>
-<net name="VDD_B_2V8_IMG_SD_EN" class="0">
-<segment>
-<wire x1="2.54" y1="-81.28" x2="5.08" y2="-81.28" width="0.1524" layer="91"/>
-<label x="5.08" y="-81.28" size="1.778" layer="95"/>
-<pinref part="U24" gate="E" pin="PE3_A1"/>
 </segment>
 </net>
 <net name="MSP_HOST_MODE_" class="0">
