@@ -4761,13 +4761,13 @@ Connect</text>
 <part name="U5" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-INVERTER" device="">
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
-<part name="R11" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<part name="R11" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="3k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="PN" value="RT0402BRD073KL"/>
+</part>
+<part name="R8" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RT0402BRD071KL"/>
-</part>
-<part name="R8" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RT0402BRE071K8L"/>
 </part>
 <part name="R6" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="365k">
 <attribute name="MFG" value="Walsin"/>
