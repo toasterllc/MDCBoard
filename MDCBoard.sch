@@ -1262,28 +1262,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="0.6" y="0.4"/>
 </polygon>
 </package>
-<package name="JST-SM02B-SRSS-TB">
-<description>Header: JST SM02B-SRSS-TB
-Contact Housing: JST SHR-02V-S</description>
-<smd name="GND1" x="-1.8" y="0" dx="1.2" dy="1.8" layer="1"/>
-<text x="-2.247321875" y="6.099178125" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<wire x1="-2" y1="4.35" x2="-2" y2="-0.6" width="0.05" layer="21"/>
-<wire x1="2" y1="-0.6" x2="2" y2="4.35" width="0.05" layer="21"/>
-<wire x1="2" y1="4.35" x2="-2" y2="4.35" width="0.05" layer="21"/>
-<smd name="L" x="-0.5" y="4.775" dx="0.6" dy="1.55" layer="1"/>
-<smd name="GND2" x="1.8" y="0" dx="1.2" dy="1.8" layer="1"/>
-<smd name="R" x="0.5" y="4.775" dx="0.6" dy="1.55" layer="1"/>
-<polygon width="0.05" layer="39">
-<vertex x="-2" y="4.35"/>
-<vertex x="-2" y="-1.2"/>
-<vertex x="2" y="-1.2"/>
-<vertex x="2" y="4.35"/>
-</polygon>
-<wire x1="-2" y1="-0.6" x2="-2" y2="-1.2" width="0.05" layer="21"/>
-<wire x1="-2" y1="-1.2" x2="2" y2="-1.2" width="0.05" layer="21"/>
-<wire x1="2" y1="-1.2" x2="2" y2="-0.6" width="0.05" layer="21"/>
-<wire x1="2" y1="-0.6" x2="-2" y2="-0.6" width="0.05" layer="21"/>
-</package>
 <package name="KOREANHRO-TYPE-C-31-M-08A">
 <text x="-4.168" y="2.4509" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <smd name="B9" x="-1.8" y="1.125" dx="0.2" dy="0.95" layer="1"/>
@@ -1602,6 +1580,56 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="-1.5" y="-1"/>
 <vertex x="1.5" y="-1"/>
 <vertex x="1.5" y="1"/>
+</polygon>
+</package>
+<package name="MOLEX-532610271">
+<smd name="3" x="-3.175" y="2.9" dx="2.1" dy="3" layer="1" cream="no"/>
+<text x="-4.077" y="6.169" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<smd name="4" x="3.175" y="2.9" dx="2.1" dy="3" layer="1" cream="no"/>
+<smd name="2" x="-0.625" y="0" dx="0.8" dy="1.6" layer="1" cream="no"/>
+<smd name="1" x="0.625" y="0" dx="0.8" dy="1.6" layer="1" cream="no"/>
+<polygon width="0.05" layer="31">
+<vertex x="-3.7" y="3.8"/>
+<vertex x="-3.7" y="1.9"/>
+<vertex x="-2.6" y="1.9"/>
+<vertex x="-2.6" y="3.8"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="2.6" y="3.8"/>
+<vertex x="2.6" y="1.9"/>
+<vertex x="3.7" y="1.9"/>
+<vertex x="3.7" y="3.8"/>
+</polygon>
+<wire x1="-4.025" y1="0.4" x2="-4.025" y2="6" width="0.05" layer="21"/>
+<wire x1="-4.025" y1="6" x2="4.025" y2="6" width="0.05" layer="21"/>
+<wire x1="4.025" y1="6" x2="4.025" y2="0.4" width="0.05" layer="21"/>
+<wire x1="4.025" y1="0.4" x2="-4.025" y2="0.4" width="0.05" layer="21"/>
+<polygon width="0.05" layer="39">
+<vertex x="4.025" y="0.4"/>
+<vertex x="-4.025" y="0.4"/>
+<vertex x="-4.025" y="6"/>
+<vertex x="4.025" y="6"/>
+</polygon>
+</package>
+<package name="MOLEX-781710002">
+<smd name="4" x="-1.75" y="-3.775" dx="0.7" dy="0.8" layer="1" cream="no"/>
+<text x="-2.577" y="0.769" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<smd name="3" x="1.75" y="-3.775" dx="0.7" dy="0.8" layer="1" cream="no"/>
+<smd name="1" x="-0.6" y="0" dx="0.6" dy="0.85" layer="1" cream="no"/>
+<smd name="2" x="0.6" y="0" dx="0.6" dy="0.85" layer="1" cream="no"/>
+<wire x1="-2.5" y1="-4.715" x2="-2.5" y2="0.6" width="0.05" layer="21"/>
+<wire x1="-2.5" y1="0.6" x2="2.5" y2="0.6" width="0.05" layer="21"/>
+<wire x1="2.5" y1="0.6" x2="2.5" y2="-4.715" width="0.05" layer="21"/>
+<wire x1="2.5" y1="-4.715" x2="-2.5" y2="-4.715" width="0.05" layer="21"/>
+<wire x1="-2.5" y1="-4.715" x2="-2.5" y2="0.6" width="0.05" layer="21"/>
+<wire x1="-2.5" y1="0.6" x2="2.5" y2="0.6" width="0.05" layer="21"/>
+<wire x1="2.5" y1="0.6" x2="2.5" y2="-4.715" width="0.05" layer="21"/>
+<wire x1="2.5" y1="-4.715" x2="-2.5" y2="-4.715" width="0.05" layer="21"/>
+<polygon width="0.05" layer="39">
+<vertex x="2.5" y="-4.715"/>
+<vertex x="-2.5" y="-4.715"/>
+<vertex x="-2.5" y="0.6"/>
+<vertex x="2.5" y="0.6"/>
 </polygon>
 </package>
 </packages>
@@ -2559,19 +2587,6 @@ Charger</text>
 <pin name="2" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
 <text x="2.54" y="-3.302" size="1.778" layer="94">ESD</text>
 </symbol>
-<symbol name="BATTERY-HEADER">
-<wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="-15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="15.24" y2="0" width="0.254" layer="94"/>
-<wire x1="15.24" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="L" x="17.78" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="R" x="17.78" y="-2.54" visible="pin" length="short" rot="R180"/>
-<text x="0" y="-17.78" size="1.778" layer="95">&gt;PN</text>
-<text x="0" y="2.54" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<pin name="GND" x="17.78" y="-7.62" visible="pin" length="short" rot="R180"/>
-<text x="1.27" y="-13.716" size="1.778" layer="94">Battery
-Header</text>
-</symbol>
 <symbol name="USB-C-JACK">
 <wire x1="0" y1="0" x2="0" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="0" y1="-33.02" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
@@ -2715,6 +2730,19 @@ Connect</text>
 <wire x1="5.842" y1="4.318" x2="7.62" y2="4.318" width="0.254" layer="94"/>
 <wire x1="7.62" y1="4.318" x2="9.398" y2="4.318" width="0.254" layer="94"/>
 <wire x1="7.62" y1="4.318" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="BATTERY-HEADER">
+<wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="L" x="17.78" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="R" x="17.78" y="-2.54" visible="pin" length="short" rot="R180"/>
+<text x="0" y="-17.78" size="1.778" layer="95">&gt;PN</text>
+<text x="0" y="2.54" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="GND" x="17.78" y="-7.62" visible="pin" length="short" rot="R180"/>
+<text x="1.27" y="-13.716" size="1.778" layer="94">Battery
+Header</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3881,26 +3909,6 @@ Connect</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JST-SM02B-SRSS-TB" prefix="J">
-<gates>
-<gate name="G$1" symbol="BATTERY-HEADER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JST-SM02B-SRSS-TB">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND1 GND2"/>
-<connect gate="G$1" pin="L" pad="L"/>
-<connect gate="G$1" pin="R" pad="R"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MFG" value="JST"/>
-<attribute name="PN" value="SM02B-SRSS-TB"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="USB-C-RECEPTACLE" prefix="J">
 <gates>
 <gate name="G$1" symbol="USB-C-JACK" x="0" y="0"/>
@@ -4111,6 +4119,39 @@ Connect</text>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BATTERY-HEADER" prefix="J">
+<gates>
+<gate name="G$1" symbol="BATTERY-HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MOLEX-532610271" package="MOLEX-532610271">
+<connects>
+<connect gate="G$1" pin="GND" pad="3 4"/>
+<connect gate="G$1" pin="L" pad="1"/>
+<connect gate="G$1" pin="R" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Molex"/>
+<attribute name="PN" value="532610271"/>
+</technology>
+</technologies>
+</device>
+<device name="-MOLEX-781710002" package="MOLEX-781710002">
+<connects>
+<connect gate="G$1" pin="GND" pad="3 4"/>
+<connect gate="G$1" pin="L" pad="1"/>
+<connect gate="G$1" pin="R" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Molex"/>
+<attribute name="PN" value="781710002"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4747,7 +4788,6 @@ Connect</text>
 <part name="U6" library="EagleLibrary" deviceset="EATON-STN101" device="">
 <attribute name="PN" value="STN101050B101"/>
 </part>
-<part name="J5" library="EagleLibrary" deviceset="JST-SM02B-SRSS-TB" device=""/>
 <part name="J10" library="EagleLibrary" deviceset="USB-C-RECEPTACLE" device="-KOREANHRO"/>
 <part name="R45" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="5.1k">
 <attribute name="MFG" value="Yageo"/>
@@ -4901,6 +4941,7 @@ Connect</text>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
+<part name="J11" library="EagleLibrary" deviceset="BATTERY-HEADER" device="-MOLEX-781710002"/>
 </parts>
 <sheets>
 <sheet>
@@ -5247,10 +5288,6 @@ See math to the right!</text>
 <attribute name="NAME" x="154.178" y="345.44" size="1.778" layer="95" align="top-right"/>
 <attribute name="PN" x="154.94" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="J5" gate="G$1" x="124.46" y="355.6" smashed="yes">
-<attribute name="PN" x="124.46" y="337.82" size="1.778" layer="95"/>
-<attribute name="NAME" x="124.46" y="358.14" size="1.778" layer="95" align="top-left"/>
-</instance>
 <instance part="J4" gate="G$1" x="226.06" y="383.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="228.6" y="384.81" size="1.778" layer="95" rot="R270" align="top-left"/>
 </instance>
@@ -5383,6 +5420,10 @@ See math to the right!</text>
 <attribute name="VALUE" x="260.858" y="445.262" size="1.778" layer="96"/>
 <attribute name="MFG" x="259.08" y="447.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="259.08" y="447.04" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="J11" gate="G$1" x="124.46" y="355.6" smashed="yes">
+<attribute name="PN" x="124.46" y="337.82" size="1.778" layer="95"/>
+<attribute name="NAME" x="124.46" y="358.14" size="1.778" layer="95" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -5588,14 +5629,14 @@ See math to the right!</text>
 <label x="157.48" y="330.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="GND"/>
 <wire x1="142.24" y1="347.98" x2="144.78" y2="347.98" width="0.1524" layer="91"/>
 <label x="144.78" y="347.98" size="1.778" layer="95"/>
+<pinref part="J11" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="R"/>
 <wire x1="142.24" y1="353.06" x2="144.78" y2="353.06" width="0.1524" layer="91"/>
 <label x="144.78" y="353.06" size="1.778" layer="95"/>
+<pinref part="J11" gate="G$1" pin="R"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="GND"/>
@@ -5949,9 +5990,9 @@ See math to the right!</text>
 <wire x1="157.48" y1="350.52" x2="142.24" y2="350.52" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="347.98" x2="157.48" y2="350.52" width="0.1524" layer="91"/>
 <junction x="157.48" y="350.52"/>
-<pinref part="J5" gate="G$1" pin="L"/>
 <wire x1="157.48" y1="350.52" x2="157.48" y2="355.6" width="0.1524" layer="91"/>
 <label x="157.48" y="355.6" size="1.778" layer="95"/>
+<pinref part="J11" gate="G$1" pin="L"/>
 </segment>
 </net>
 <net name="N$3" class="0">
