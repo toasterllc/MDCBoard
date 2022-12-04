@@ -7514,7 +7514,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="33.084" y1="31.969" x2="33.22828125" y2="31.82471875" width="0.127" layer="1"/>
 <wire x1="33.22828125" y1="31.82471875" x2="33.22828125" y2="29.183721875" width="0.127" layer="1"/>
 </signal>
-<signal name="LED_FLASH_RED_">
+<signal name="LED_RED_">
 <contactref element="Q5" pad="G"/>
 <via x="22.4383625" y="31.275015625" extent="1-16" drill="0.254"/>
 <wire x1="1.524" y1="11.43" x2="3.81" y2="9.144" width="0.127" layer="16"/>
@@ -7565,7 +7565,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="33.9575" y1="30.775" x2="33.9575" y2="29.6301" width="0.127" layer="1"/>
 <wire x1="33.9575" y1="29.6301" x2="33.9174" y2="29.59" width="0.127" layer="1"/>
 </signal>
-<signal name="LED_FLASH_GREEN_">
+<signal name="LED_GREEN_">
 <contactref element="Q4" pad="G"/>
 <via x="32.750759375" y="30.408878125" extent="1-16" drill="0.254"/>
 <wire x1="32.7812375" y1="29.5903" x2="32.750759375" y2="29.620778125" width="0.127" layer="16"/>

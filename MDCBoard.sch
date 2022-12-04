@@ -6495,7 +6495,7 @@ BAT_CHRG_LVL signal.</text>
 <label x="142.24" y="66.04" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="LED_FLASH_GREEN_" class="0">
+<net name="LED_GREEN_" class="0">
 <segment>
 <wire x1="144.78" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
 <label x="142.24" y="81.28" size="1.778" layer="95" align="bottom-right"/>
@@ -6537,7 +6537,7 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="U14" gate="PORT3" pin="PB.0/P3.0"/>
 </segment>
 </net>
-<net name="LED_FLASH_RED_" class="0">
+<net name="LED_RED_" class="0">
 <segment>
 <wire x1="261.62" y1="78.74" x2="259.08" y2="78.74" width="0.1524" layer="91"/>
 <label x="259.08" y="78.74" size="1.778" layer="95" align="bottom-right"/>
@@ -6671,7 +6671,7 @@ BAT_CHRG_LVL signal.</text>
 <wire x1="0" y1="-33.02" x2="0" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED_FLASH_RED_" class="0">
+<net name="LED_RED_" class="0">
 <segment>
 <pinref part="Q5" gate="G$1" pin="G"/>
 <wire x1="7.62" y1="-27.94" x2="10.16" y2="-27.94" width="0.1524" layer="91"/>
@@ -6695,7 +6695,7 @@ BAT_CHRG_LVL signal.</text>
 <junction x="-30.48" y="-45.72"/>
 </segment>
 </net>
-<net name="LED_FLASH_GREEN_" class="0">
+<net name="LED_GREEN_" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="G"/>
 <wire x1="-38.1" y1="-27.94" x2="-40.64" y2="-27.94" width="0.1524" layer="91"/>
