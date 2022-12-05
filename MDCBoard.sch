@@ -4297,9 +4297,9 @@ Header</text>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
-<part name="R24" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RC0402FR-071K8L"/>
+<part name="R24" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="MFG" value="Kamaya"/>
+<attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="U17" library="EagleLibrary" deviceset="LATTICE-ICE40HX4K-BG121" device=""/>
 <part name="C36" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
@@ -4514,8 +4514,8 @@ Header</text>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="R44" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="3k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RT0402BRD073KL"/>
+<attribute name="MFG" value="Susumu"/>
+<attribute name="PN" value="RR0510P-302-D"/>
 </part>
 <part name="C66" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
 <attribute name="MFG" value="Murata"/>
@@ -4532,9 +4532,9 @@ Header</text>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
-<part name="R43" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RC0402FR-071K8L"/>
+<part name="R43" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="MFG" value="Kamaya"/>
+<attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="R28" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
 <attribute name="MFG" value="Yageo"/>
@@ -4611,49 +4611,49 @@ Header</text>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
-<part name="R22" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RC0402FR-071K8L"/>
+<part name="R22" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="MFG" value="Kamaya"/>
+<attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED4" library="EagleLibrary" deviceset="LED" device="LED-0603">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
-<part name="R23" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RC0402FR-071K8L"/>
+<part name="R23" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="MFG" value="Kamaya"/>
+<attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED6" library="EagleLibrary" deviceset="LED" device="LED-0603">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
-<part name="R25" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RC0402FR-071K8L"/>
+<part name="R25" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="MFG" value="Kamaya"/>
+<attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED9" library="EagleLibrary" deviceset="LED" device="LED-0603">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
-<part name="R42" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RC0402FR-071K8L"/>
+<part name="R42" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="MFG" value="Kamaya"/>
+<attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED8" library="EagleLibrary" deviceset="LED" device="LED-0603">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
-<part name="R41" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RC0402FR-071K8L"/>
+<part name="R41" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="MFG" value="Kamaya"/>
+<attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED7" library="EagleLibrary" deviceset="LED" device="LED-0603">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
-<part name="R40" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1.8k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RC0402FR-071K8L"/>
+<part name="R40" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="MFG" value="Kamaya"/>
+<attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="C51" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
 <attribute name="MFG" value="Murata"/>
@@ -4802,12 +4802,12 @@ Header</text>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="R11" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="3k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RT0402BRD073KL"/>
+<attribute name="MFG" value="Susumu"/>
+<attribute name="PN" value="RR0510P-302-D"/>
 </part>
 <part name="R8" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
-<attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="RT0402BRD071KL"/>
+<attribute name="MFG" value="Kamaya"/>
+<attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="R6" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="365k">
 <attribute name="MFG" value="Walsin"/>
@@ -5031,7 +5031,7 @@ have a max of 10uF (per USB spec).</text>
 <wire x1="218.44" y1="381" x2="218.44" y2="434.34" width="0.1524" layer="95"/>
 <wire x1="218.44" y1="434.34" x2="144.78" y2="434.34" width="0.1524" layer="95"/>
 <text x="145.034" y="379.476" size="2.54" layer="95" align="top-left">Battery Charging</text>
-<text x="260.35" y="341.63" size="1.016" layer="95" align="top-left">This subcircuit divides VDD_BAT by 2.8, and also prevents
+<text x="260.35" y="341.63" size="1.016" layer="95" align="top-left">This subcircuit divides VDD_BAT by 1.33, and also prevents
 the battery drain caused by the voltage divider unless
 we're connected to USB.
 
@@ -5073,14 +5073,14 @@ but may not at other temps, so at extreme temps,
 BAT_CHRG_STAT may report that a battery is
 present when one isn't.</text>
 <text x="366.014" y="377.952" size="1.016" layer="95" font="fixed" align="top-left">Resistor Tolerance Math
-(Why we need 0.1% resistors)
+(Why we need 0.5% resistors)
 
 * Formulas
     KdividerWorstcase
-        = (1*(1+Rtol) / (1.8*(1-Rtol) + 1*(1+Rtol)))
+        = (3*(1-Rtol) / (1*(1+Rtol) + 3*(1-Rtol)))
     KdividerUndo
-        = ((1.8+1)/1)
-        = 2.8
+        = 1/(3/(3+1))
+        = 4/3
     VsampleWorstcase
         = 4.2
     Vspan
@@ -5092,19 +5092,20 @@ present when one isn't.</text>
 
 * 1% resistors:
     Rtol                = 0.01
-    KdividerWorstcase   = 0.362
-    Err                 = 9%
+    KdividerWorstcase   = 0.746
+    Err                 = 3.5%
 
 * 0.5% resistors:
     Rtol                = 0.005
-    KdividerWorstcase   = 0.359
-    Err                 = 4.5%
+    KdividerWorstcase   = 0.748
+    Err                 = 1.8%
 
 * 0.1% resistors:
     Rtol                = 0.001
-    KdividerWorstcase   = 0.358
-    Err                 = 0.9%</text>
-<text x="316.992" y="359.664" size="1.016" layer="95" align="top-right">0.1% resistors to ensure
+    KdividerWorstcase   = 0.750
+    Err                 = 0.35%
+</text>
+<text x="316.992" y="359.664" size="1.016" layer="95" align="top-right">0.5% resistors to ensure
 accurate ADC
 measurements.
 
@@ -6260,17 +6261,17 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="MFG" x="243.84" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PN" x="243.84" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="C20" gate="G$1" x="33.02" y="96.52" smashed="yes">
-<attribute name="MFG" x="55.88" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="55.88" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="35.814" y="96.139" size="1.778" layer="95"/>
-<attribute name="VALUE" x="35.814" y="93.599" size="1.778" layer="96"/>
+<instance part="C20" gate="G$1" x="53.34" y="96.52" smashed="yes">
+<attribute name="MFG" x="76.2" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="76.2" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="56.134" y="96.139" size="1.778" layer="95"/>
+<attribute name="VALUE" x="56.134" y="93.599" size="1.778" layer="96"/>
 </instance>
-<instance part="C19" gate="G$1" x="22.86" y="96.52" smashed="yes">
-<attribute name="PN" x="7.62" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MFG" x="7.62" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="25.654" y="96.139" size="1.778" layer="95"/>
-<attribute name="VALUE" x="25.654" y="93.599" size="1.778" layer="96"/>
+<instance part="C19" gate="G$1" x="43.18" y="96.52" smashed="yes">
+<attribute name="PN" x="27.94" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MFG" x="27.94" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="45.974" y="96.139" size="1.778" layer="95"/>
+<attribute name="VALUE" x="45.974" y="93.599" size="1.778" layer="96"/>
 </instance>
 <instance part="U15" gate="G$1" x="76.2" y="25.4" smashed="yes" rot="MR0">
 <attribute name="PN" x="76.2" y="0" size="1.778" layer="95" rot="MR0"/>
@@ -6334,8 +6335,8 @@ BAT_CHRG_LVL signal.</text>
 <segment>
 <pinref part="C19" gate="G$1" pin="1"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<label x="22.86" y="99.06" size="1.778" layer="95"/>
+<wire x1="43.18" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
+<label x="43.18" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="VCCB"/>
@@ -6381,8 +6382,8 @@ BAT_CHRG_LVL signal.</text>
 </segment>
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
-<label x="22.86" y="91.44" size="1.778" layer="95" align="top-left"/>
+<wire x1="53.34" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+<label x="43.18" y="91.44" size="1.778" layer="95" align="top-left"/>
 <pinref part="C19" gate="G$1" pin="2"/>
 </segment>
 <segment>

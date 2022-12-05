@@ -1710,10 +1710,10 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="24.80385625" y="12.717396875" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="24.24785625" y="13.741396875" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R24" library="EagleLibrary" package="0402" value="1.8k" x="41.995234375" y="25.1594375" smashed="yes" rot="R180">
-<attribute name="MFG" value="Yageo" x="41.995234375" y="25.1594375" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R24" library="EagleLibrary" package="0402" value="1k" x="41.995234375" y="25.1594375" smashed="yes" rot="R180">
+<attribute name="MFG" value="Kamaya" x="41.995234375" y="25.1594375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="42.241234375" y="22.5714375" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="RC0402FR-071K8L" x="41.995234375" y="25.1594375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="RGC1/16SC1001DTH" x="41.995234375" y="25.1594375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U22" library="EagleLibrary" package="ALLIANCE-AS4C8M16MSA-6BIN" value="ALLIANCE-AS4C8M16MSA-6BIN" x="12.87855625" y="25.953009375" smashed="yes" rot="R45">
 <attribute name="MFG" value="Alliance Memory" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
@@ -1995,9 +1995,9 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="30.263415625" y="6.69100625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R44" library="EagleLibrary" package="0402" value="3k" x="31.587215625" y="7.138159375" smashed="yes" rot="R270">
-<attribute name="MFG" value="Yageo" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG" value="Susumu" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="32.067015625" y="7.975975" size="0.508" layer="25" font="vector" rot="R270"/>
-<attribute name="PN" value="RT0402BRD073KL" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value="RR0510P-302-D" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C66" library="EagleLibrary" package="0402" value="100n" x="18.870203125" y="5.433821875" smashed="yes" rot="R180">
 <attribute name="MFG" value="Murata" x="18.362203125" y="5.68781875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2018,9 +2018,9 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="MFG" value="OSRAM" x="38.164765625" y="12.47884375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="38.164765625" y="12.47884375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R43" library="EagleLibrary" package="0402" value="1.8k" x="42.6984125" y="15.08998125" smashed="yes" rot="MR180">
-<attribute name="MFG" value="Yageo" x="42.6984125" y="24.23398125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PN" value="RC0402FR-071K8L" x="42.6984125" y="24.23398125" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R43" library="EagleLibrary" package="0402" value="1k" x="42.6984125" y="15.08998125" smashed="yes" rot="MR180">
+<attribute name="MFG" value="Kamaya" x="42.6984125" y="24.23398125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PN" value="RGC1/16SC1001DTH" x="42.6984125" y="24.23398125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R28" library="EagleLibrary" package="0402" value="10k" x="21.955696875" y="16.391346875" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Yageo" x="21.955696875" y="16.391346875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2115,52 +2115,52 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="MFG" value="OSRAM" x="41.83585" y="23.760240625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="41.83585" y="23.760240625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R22" library="EagleLibrary" package="0402" value="1.8k" x="41.9794625" y="26.95683125" smashed="yes" rot="R180">
-<attribute name="MFG" value="Yageo" x="41.9794625" y="29.24283125" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R22" library="EagleLibrary" package="0402" value="1k" x="41.9794625" y="26.95683125" smashed="yes" rot="R180">
+<attribute name="MFG" value="Kamaya" x="41.9794625" y="29.24283125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="42.2254625" y="23.86083125" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="RC0402FR-071K8L" x="41.9794625" y="29.24283125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="RGC1/16SC1001DTH" x="41.9794625" y="29.24283125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED4" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="41.83585" y="25.58190625" smashed="yes" rot="MR180">
 <attribute name="MFG" value="OSRAM" x="41.83585" y="23.04190625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="41.83585" y="23.04190625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R23" library="EagleLibrary" package="0402" value="1.8k" x="41.97699375" y="26.060771875" smashed="yes" rot="R180">
-<attribute name="MFG" value="Yageo" x="41.97699375" y="28.346771875" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R23" library="EagleLibrary" package="0402" value="1k" x="41.97699375" y="26.060771875" smashed="yes" rot="R180">
+<attribute name="MFG" value="Kamaya" x="41.97699375" y="28.346771875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="42.22299375" y="23.218771875" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="RC0402FR-071K8L" x="41.97699375" y="28.346771875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="RGC1/16SC1001DTH" x="41.97699375" y="28.346771875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED6" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="41.83585" y="24.1452375" smashed="yes" rot="MR180">
 <attribute name="MFG" value="OSRAM" x="41.83585" y="21.6052375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="41.83585" y="21.6052375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R25" library="EagleLibrary" package="0402" value="1.8k" x="41.990096875" y="24.2705375" smashed="yes" rot="R180">
-<attribute name="MFG" value="Yageo" x="41.990096875" y="26.5565375" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R25" library="EagleLibrary" package="0402" value="1k" x="41.990096875" y="24.2705375" smashed="yes" rot="R180">
+<attribute name="MFG" value="Kamaya" x="41.990096875" y="26.5565375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.971178125" y="24.524796875" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="RC0402FR-071K8L" x="41.990096875" y="26.5565375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="RGC1/16SC1001DTH" x="41.990096875" y="26.5565375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED9" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="40.704765625" y="14.278915625" smashed="yes" rot="MR180">
 <attribute name="MFG" value="OSRAM" x="40.704765625" y="11.738915625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="40.704765625" y="11.738915625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R42" library="EagleLibrary" package="0402" value="1.8k" x="42.6984125" y="14.22638125" smashed="yes" rot="MR180">
-<attribute name="MFG" value="Yageo" x="42.6984125" y="16.51238125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PN" value="RC0402FR-071K8L" x="42.6984125" y="16.51238125" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R42" library="EagleLibrary" package="0402" value="1k" x="42.6984125" y="14.22638125" smashed="yes" rot="MR180">
+<attribute name="MFG" value="Kamaya" x="42.6984125" y="16.51238125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PN" value="RGC1/16SC1001DTH" x="42.6984125" y="16.51238125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="LED8" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="40.704765625" y="13.5389875" smashed="yes" rot="MR180">
 <attribute name="MFG" value="OSRAM" x="40.704765625" y="10.9989875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="40.704765625" y="10.9989875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R41" library="EagleLibrary" package="0402" value="1.8k" x="42.6984125" y="13.36278125" smashed="yes" rot="MR180">
-<attribute name="MFG" value="Yageo" x="42.6984125" y="15.64878125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PN" value="RC0402FR-071K8L" x="42.6984125" y="15.64878125" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R41" library="EagleLibrary" package="0402" value="1k" x="42.6984125" y="13.36278125" smashed="yes" rot="MR180">
+<attribute name="MFG" value="Kamaya" x="42.6984125" y="15.64878125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PN" value="RGC1/16SC1001DTH" x="42.6984125" y="15.64878125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="LED7" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="40.704765625" y="12.799059375" smashed="yes" rot="MR180">
 <attribute name="MFG" value="OSRAM" x="40.704765625" y="10.259059375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="40.704765625" y="10.259059375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R40" library="EagleLibrary" package="0402" value="1.8k" x="42.6984125" y="12.49918125" smashed="yes" rot="MR180">
-<attribute name="MFG" value="Yageo" x="42.6984125" y="14.78518125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="PN" value="RC0402FR-071K8L" x="42.6984125" y="14.78518125" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R40" library="EagleLibrary" package="0402" value="1k" x="42.6984125" y="12.49918125" smashed="yes" rot="MR180">
+<attribute name="MFG" value="Kamaya" x="42.6984125" y="14.78518125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PN" value="RGC1/16SC1001DTH" x="42.6984125" y="14.78518125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C51" library="EagleLibrary" package="0402" value="100n" x="34.781409375" y="13.297959375" smashed="yes" rot="MR270">
 <attribute name="MFG" value="Murata" x="34.781409375" y="13.297959375" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2388,14 +2388,14 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="74LVC1G98GW,125" x="41.889021875" y="12.097940625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R11" library="EagleLibrary" package="0402" value="3k" x="42.479096875" y="14.997796875" smashed="yes">
-<attribute name="MFG" value="Yageo" x="42.479096875" y="14.997796875" size="1.778" layer="27" display="off"/>
+<attribute name="MFG" value="Susumu" x="42.479096875" y="14.997796875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.289996875" y="14.771475" size="0.508" layer="25" font="vector"/>
-<attribute name="PN" value="RT0402BRD073KL" x="42.479096875" y="14.997796875" size="1.778" layer="27" display="off"/>
+<attribute name="PN" value="RR0510P-302-D" x="42.479096875" y="14.997796875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R8" library="EagleLibrary" package="0402" value="1k" x="42.160884375" y="14.100478125" smashed="yes" rot="R180">
-<attribute name="MFG" value="Yageo" x="42.160884375" y="14.100478125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG" value="Kamaya" x="42.160884375" y="14.100478125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="41.068303125" y="14.28361875" size="0.508" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="RT0402BRD071KL" x="42.160884375" y="14.100478125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="RGC1/16SC1001DTH" x="42.160884375" y="14.100478125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R6" library="EagleLibrary" package="0402" value="365k" x="30.5907375" y="28.25243125" smashed="yes" rot="R270" grouprefs="_VDD_B_CONTROL">
 <attribute name="MFG" value="Walsin" x="30.5907375" y="28.25243125" size="1.778" layer="27" rot="R270" display="off"/>
