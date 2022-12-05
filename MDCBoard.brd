@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,33 +23,33 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Power" color="42" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -2253,25 +2253,25 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="39.08301875" y="17.16561875" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="CR0402-JW-272GLF" x="39.116296875" y="18.84925625" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="Q3" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.796784375" y="28.354759375" smashed="yes" rot="MR180" grouprefs="_REVERSE_BATTERY_PROTECTION">
-<attribute name="MFG" value="Nexperia" x="38.796784375" y="28.354759375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="40.100303125" y="28.33478125" size="0.635" layer="26" font="vector" rot="MR180"/>
-<attribute name="PN" value="PMPB10UPX" x="38.796784375" y="28.354759375" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="Q3" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.796784375" y="28.354759375" smashed="yes" rot="R180" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<attribute name="MFG" value="Nexperia" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="37.493265625" y="28.33478125" size="0.635" layer="25" font="vector" rot="R180"/>
+<attribute name="PN" value="PMPB10UPX" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q2" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.795884375" y="30.514759375" smashed="yes" rot="MR0" grouprefs="_REVERSE_BATTERY_PROTECTION">
-<attribute name="MFG" value="Nexperia" x="38.795884375" y="30.514759375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="39.836784375" y="31.642178125" size="0.635" layer="26" font="vector" rot="MR0"/>
-<attribute name="PN" value="PMPB10UPX" x="38.795884375" y="30.514759375" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="Q2" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.795884375" y="30.514759375" smashed="yes" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<attribute name="MFG" value="Nexperia" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="37.754984375" y="31.642178125" size="0.635" layer="25" font="vector"/>
+<attribute name="PN" value="PMPB10UPX" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R12" library="EagleLibrary" package="0402" value="100k" x="39.578121875" y="26.35318125" smashed="yes" rot="MR270" grouprefs="_REVERSE_BATTERY_PROTECTION">
-<attribute name="MFG" value="Yageo" x="39.578121875" y="26.35318125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="38.752884375" y="25.4358625" size="0.508" layer="26" font="vector" rot="MR180"/>
-<attribute name="PN" value="RC0402FR-07100KL" x="39.578121875" y="26.35318125" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="R12" library="EagleLibrary" package="0402" value="100k" x="39.578121875" y="26.35318125" smashed="yes" rot="R270" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<attribute name="MFG" value="Yageo" x="39.578121875" y="26.35318125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="40.403359375" y="25.4358625" size="0.508" layer="25" font="vector" rot="R180"/>
+<attribute name="PN" value="RC0402FR-07100KL" x="39.578121875" y="26.35318125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R9" library="EagleLibrary" package="0402" value="100k" x="37.18968125" y="30.086978125" smashed="yes" rot="MR270" grouprefs="_REVERSE_BATTERY_PROTECTION">
-<attribute name="MFG" value="Yageo" x="37.18968125" y="30.086978125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="36.8064" y="32.367515625" size="0.508" layer="26" font="vector" rot="MR270"/>
-<attribute name="PN" value="RC0402FR-07100KL" x="37.18968125" y="30.086978125" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="R9" library="EagleLibrary" package="0402" value="100k" x="36.68168125" y="30.086978125" smashed="yes" rot="R270" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<attribute name="MFG" value="Yageo" x="36.68168125" y="30.086978125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="35.63768125" y="30.940978125" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="PN" value="RC0402FR-07100KL" x="36.68168125" y="30.086978125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="EagleLibrary" package="0402" value="300k" x="34.13211875" y="24.40898125" smashed="yes" rot="MR180" grouprefs="_POWER_MUX">
 <attribute name="MFG" value="Walsin" x="34.13211875" y="24.40898125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2361,10 +2361,10 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="43.277234375" y="20.40589375" size="0.762" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="42.47961875" y="22.053475" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="U6" library="EagleLibrary" package="EATON-STN101" value="EATON-STN101" x="40.7516375" y="29.99803125" smashed="yes" rot="MR270">
-<attribute name="MFG" value="Eaton" x="40.7516375" y="29.99803125" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="41.07731875" y="31.639490625" size="0.635" layer="26" font="vector" rot="MR270"/>
-<attribute name="PN" value="STN101050B101" x="40.7516375" y="29.99803125" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="U6" library="EagleLibrary" package="EATON-STN101" value="EATON-STN101" x="40.7516375" y="29.99803125" smashed="yes" rot="R270">
+<attribute name="MFG" value="Eaton" x="40.7516375" y="29.99803125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="40.42595625" y="31.639490625" size="0.635" layer="25" font="vector" rot="R270"/>
+<attribute name="PN" value="STN101050B101" x="40.7516375" y="29.99803125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J10" library="EagleLibrary" package="KOREANHRO-TYPE-C-31-M-08A" value="USB-C-RECEPTACLE-KOREANHRO" x="38.099525" y="5.25348125" smashed="yes" rot="R90" grouprefs="_USB_C_RECEPTACLE">
 <attribute name="MFG" value="Korean Hroparts Electronics" x="38.099525" y="5.25348125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2381,8 +2381,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="36.3962625" y="7.557340625" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="AC0402FR-075K1L" x="36.7845" y="6.584259375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="J4" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="37.1869" y="27.732615625" smashed="yes" rot="MR90" grouprefs="_REVERSE_BATTERY_PROTECTION">
-<attribute name="NAME" x="36.178259375" y="26.87955625" size="0.508" layer="26" font="vector" rot="MR90"/>
+<element name="J4" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="36.82621875" y="28.276175" smashed="yes" rot="R90" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<attribute name="NAME" x="37.834859375" y="27.423115625" size="0.508" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="U5" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-INVERTER" x="41.889021875" y="12.097940625" smashed="yes" rot="R90">
 <attribute name="MFG" value="Nexperia" x="41.889021875" y="12.097940625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3596,7 +3596,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </polygon>
 <via x="32.1030625" y="30.606996875" extent="1-16" drill="0.381"/>
 <via x="35.85718125" y="31.88208125" extent="1-16" drill="0.381"/>
-<via x="36.49725625" y="27.957778125" extent="1-16" drill="0.254"/>
 <contactref element="R19" pad="1"/>
 <contactref element="R20" pad="1"/>
 <contactref element="SW1" pad="2"/>
@@ -3624,6 +3623,123 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="51.798" y1="30.947" x2="55.298" y2="30.947" width="0" layer="19" extent="1-1"/>
 <wire x1="52.948" y1="27.172" x2="51.798" y2="30.947" width="0" layer="19" extent="1-1"/>
 <wire x1="43.14071875" y1="23.01761875" x2="52.948" y2="27.172" width="0" layer="19" extent="1-1"/>
+<wire x1="42.47961875" y1="21.178075" x2="43.14071875" y2="23.01761875" width="0" layer="19" extent="1-16"/>
+<wire x1="30.70135625" y1="21.649496875" x2="30.700071875" y2="21.6434375" width="0" layer="19" extent="1-16"/>
+<wire x1="23.678546875" y1="4.115015625" x2="23.630403125" y2="4.036640625" width="0" layer="19" extent="1-16"/>
+<wire x1="25.445690625" y1="4.134075" x2="25.580403125" y2="4.036640625" width="0" layer="19" extent="1-16"/>
+<wire x1="42.911596875" y1="14.997796875" x2="43.1309125" y2="15.08998125" width="0" layer="19" extent="1-16"/>
+<wire x1="26.311828125" y1="3.813315625" x2="26.230403125" y2="4.036640625" width="0" layer="19" extent="1-16"/>
+<wire x1="18.437703125" y1="5.433821875" x2="18.310740625" y2="5.657196875" width="0" layer="19" extent="1-16"/>
+<wire x1="23.678546875" y1="4.97673125" x2="23.630403125" y2="4.686640625" width="0" layer="19" extent="1-16"/>
+<wire x1="24.77696875" y1="8.203615625" x2="24.930403125" y2="7.936640625" width="0" layer="19" extent="1-16"/>
+<wire x1="24.565009375" y1="5.840778125" x2="24.280403125" y2="5.986640625" width="0" layer="19" extent="1-16"/>
+<wire x1="27.841884375" y1="4.741484375" x2="27.530403125" y2="4.686640625" width="0" layer="19" extent="1-16"/>
+<wire x1="24.57193125" y1="4.139809375" x2="24.280403125" y2="4.036640625" width="0" layer="19" extent="1-16"/>
+<wire x1="26.024809375" y1="5.02545" x2="26.230403125" y2="5.336640625" width="0" layer="19" extent="1-16"/>
+<wire x1="30.70135625" y1="21.239496875" x2="30.700071875" y2="21.6434375" width="0" layer="19" extent="1-16"/>
+<wire x1="20.3794" y1="15.963" x2="19.9324" y2="16.0557" width="0" layer="19" extent="1-16"/>
+<wire x1="21.9794" y1="17.563" x2="22.3835" y2="17.3917375" width="0" layer="19" extent="1-16"/>
+<wire x1="19.57551875" y1="8.942903125" x2="19.405340625" y2="8.537896875" width="0" layer="19" extent="1-16"/>
+<wire x1="34.907503125" y1="13.330978125" x2="34.781409375" y2="12.865459375" width="0" layer="19" extent="1-16"/>
+<wire x1="21.1794" y1="17.563" x2="20.8221" y2="17.8598" width="0" layer="19" extent="1-16"/>
+<wire x1="32.7972" y1="15.407" x2="33.107378125" y2="15.0139375" width="0" layer="19" extent="1-1"/>
+<wire x1="12.31286875" y1="28.781434375" x2="12.287" y2="29.3152" width="0" layer="19" extent="1-1"/>
+<wire x1="13.444240625" y1="27.650065625" x2="13.4452375" y2="28.174740625" width="0" layer="19" extent="1-1"/>
+<wire x1="20.3794" y1="17.563" x2="20.8221" y2="17.8598" width="0" layer="19" extent="1-16"/>
+<wire x1="12.878553125" y1="21.427525" x2="13.210540625" y2="21.02358125" width="0" layer="19" extent="1-1"/>
+<wire x1="23.676009375" y1="3.255846875" x2="23.630403125" y2="2.736640625" width="0" layer="19" extent="1-16"/>
+<wire x1="20.3794" y1="16.763" x2="20.7706" y2="16.3612" width="0" layer="19" extent="1-1"/>
+<wire x1="10.6158125" y1="25.953009375" x2="10.05688125" y2="25.934459375" width="0" layer="19" extent="1-1"/>
+<wire x1="11.747184375" y1="24.8216375" x2="12.287003125" y2="24.7838375" width="0" layer="19" extent="1-1"/>
+<wire x1="21.1794" y1="18.363" x2="20.8221" y2="18.825" width="0" layer="19" extent="1-16"/>
+<wire x1="21.9794" y1="18.363" x2="21.5834" y2="17.9614" width="0" layer="19" extent="1-1"/>
+<wire x1="21.1794" y1="16.763" x2="20.7706" y2="16.3612" width="0" layer="19" extent="1-1"/>
+<wire x1="21.9794" y1="16.763" x2="21.5834" y2="17.174" width="0" layer="19" extent="1-1"/>
+<wire x1="20.94658125" y1="8.006165625" x2="20.380403125" y2="7.936640625" width="0" layer="19" extent="1-16"/>
+<wire x1="31.4972" y1="16.707" x2="30.9306" y2="16.901159375" width="0" layer="19" extent="1-1"/>
+<wire x1="9.484440625" y1="27.084378125" x2="9.089140625" y2="27.52958125" width="0" layer="19" extent="1-1"/>
+<wire x1="26.9315875" y1="4.712375" x2="27.530403125" y2="4.686640625" width="0" layer="19" extent="1-16"/>
+<wire x1="40.7516375" y1="29.67303125" x2="40.769525" y2="29.03728125" width="0" layer="19" extent="1-1"/>
+<wire x1="36.15685625" y1="27.00624375" x2="35.594940625" y2="26.722121875" width="0" layer="19" extent="1-16"/>
+<wire x1="25.0124" y1="28.198184375" x2="25.266496875" y2="28.763025" width="0" layer="19" extent="1-16"/>
+<wire x1="20.3794" y1="18.363" x2="20.8221" y2="18.825" width="0" layer="19" extent="1-16"/>
+<wire x1="24.77540625" y1="7.3217" x2="24.930403125" y2="7.936640625" width="0" layer="19" extent="1-16"/>
+<wire x1="19.57551875" y1="9.592903125" x2="19.57551875" y2="8.942903125" width="0" layer="19" extent="1-1"/>
+<wire x1="13.5665" y1="4.542" x2="14.10933125" y2="4.14901875" width="0" layer="19" extent="1-16"/>
+<wire x1="10.56711875" y1="8.1350625" x2="10.6807" y2="8.818875" width="0" layer="19" extent="1-1"/>
+<wire x1="27.0676375" y1="26.110340625" x2="27.00629375" y2="26.8478" width="0" layer="19" extent="1-1"/>
+<wire x1="12.904" y1="1.8795" x2="13.114021875" y2="1.168390625" width="0" layer="19" extent="1-1"/>
+<wire x1="27.0676375" y1="27.590340625" x2="27.00629375" y2="26.8478" width="0" layer="19" extent="1-1"/>
+<wire x1="34.708615625" y1="26.83949375" x2="35.405059375" y2="27.264359375" width="0" layer="19" extent="1-1"/>
+<wire x1="31.587215625" y1="7.570659375" x2="31.496" y2="8.382" width="0" layer="19" extent="1-1"/>
+<wire x1="29.35475" y1="3.131846875" x2="30.051759375" y2="2.715259375" width="0" layer="19" extent="1-1"/>
+<wire x1="40.307559375" y1="12.06399375" x2="39.624" y2="11.551915625" width="0" layer="19" extent="1-1"/>
+<wire x1="39.578121875" y1="25.92068125" x2="38.707059375" y2="26.007059375" width="0" layer="19" extent="1-1"/>
+<wire x1="29.06505" y1="18.573546875" x2="28.23401875" y2="18.847859375" width="0" layer="19" extent="1-16"/>
+<wire x1="29.06505" y1="19.46" x2="29.06505" y2="18.573546875" width="0" layer="19" extent="1-1"/>
+<wire x1="29.8034625" y1="4.99618125" x2="30.350459375" y2="5.679440625" width="0" layer="19" extent="1-1"/>
+<wire x1="18.824240625" y1="4.21963125" x2="18.034" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="32.1472" y1="17.357" x2="31.4972" y2="16.707" width="0" layer="19" extent="1-1"/>
+<wire x1="32.1472" y1="18.007" x2="32.1472" y2="17.357" width="0" layer="19" extent="1-1"/>
+<wire x1="32.7972" y1="18.007" x2="32.1472" y2="18.007" width="0" layer="19" extent="1-1"/>
+<wire x1="32.7972" y1="18.657" x2="32.7972" y2="18.007" width="0" layer="19" extent="1-1"/>
+<wire x1="32.1472" y1="18.657" x2="32.1472" y2="18.007" width="0" layer="19" extent="1-1"/>
+<wire x1="32.1472" y1="19.307" x2="32.1472" y2="18.657" width="0" layer="19" extent="1-1"/>
+<wire x1="32.7972" y1="17.357" x2="32.1472" y2="17.357" width="0" layer="19" extent="1-1"/>
+<wire x1="33.4472" y1="17.357" x2="32.7972" y2="17.357" width="0" layer="19" extent="1-1"/>
+<wire x1="16.223059375" y1="11.058034375" x2="16.0655" y2="11.98371875" width="0" layer="19" extent="1-1"/>
+<wire x1="38.420896875" y1="17.770203125" x2="39.116296875" y2="18.41675625" width="0" layer="19" extent="1-16"/>
+<wire x1="4.263178125" y1="27.60768125" x2="4.40181875" y2="26.654759375" width="0" layer="19" extent="1-1"/>
+<wire x1="8.97138125" y1="9.966640625" x2="9.164321875" y2="10.906759375" width="0" layer="19" extent="1-1"/>
+<wire x1="7.23711875" y1="4.97388125" x2="6.282440625" y2="5.011421875" width="0" layer="19" extent="1-1"/>
+<wire x1="7.2396625" y1="2.13558125" x2="6.28244375" y2="2.298703125" width="0" layer="19" extent="1-1"/>
+<wire x1="36.6275" y1="21.308503125" x2="37.536084375" y2="21.70535625" width="0" layer="19" extent="1-16"/>
+<wire x1="26.30271875" y1="28.82969375" x2="25.266496875" y2="28.763025" width="0" layer="19" extent="1-16"/>
+<wire x1="29.708153125" y1="25.041859375" x2="28.8036" y2="25.562559375" width="0" layer="19" extent="1-1"/>
+<wire x1="14.923059375" y1="12.998834375" x2="14.61961875" y2="13.99431875" width="0" layer="19" extent="1-16"/>
+<wire x1="15.573059375" y1="12.998834375" x2="14.923059375" y2="12.998834375" width="0" layer="19" extent="1-1"/>
+<wire x1="34.8165" y1="31.646" x2="35.85718125" y2="31.88208125" width="0" layer="19" extent="1-1"/>
+<wire x1="34.8225" y1="30.775" x2="34.8165" y2="31.646" width="0" layer="19" extent="1-1"/>
+<wire x1="30.695915625" y1="6.69100625" x2="30.350459375" y2="5.679440625" width="0" layer="19" extent="1-1"/>
+<wire x1="8.42860625" y1="6.4558" x2="7.60701875" y2="7.1831" width="0" layer="19" extent="1-1"/>
+<wire x1="8.35254375" y1="2.277603125" x2="7.2396625" y2="2.13558125" width="0" layer="19" extent="1-1"/>
+<wire x1="8.35761875" y1="5.195225" x2="7.23711875" y2="4.97388125" width="0" layer="19" extent="1-1"/>
+<wire x1="25.625203125" y1="9.595084375" x2="26.35351875" y2="10.507984375" width="0" layer="19" extent="1-1"/>
+<wire x1="3.564178125" y1="25.860984375" x2="4.40181875" y2="26.654759375" width="0" layer="19" extent="1-1"/>
+<wire x1="7.73634375" y1="29.957821875" x2="8.85698125" y2="29.530040625" width="0" layer="19" extent="1-1"/>
+<wire x1="41.889021875" y1="11.127540625" x2="41.175940625" y2="10.149840625" width="0" layer="19" extent="1-1"/>
+<wire x1="42.539021875" y1="11.127540625" x2="41.889021875" y2="11.127540625" width="0" layer="19" extent="1-1"/>
+<wire x1="29.2735" y1="28.2537375" x2="28.916" y2="29.437740625" width="0" layer="19" extent="1-16"/>
+<wire x1="35.3972" y1="15.407" x2="36.4143" y2="14.71458125" width="0" layer="19" extent="1-16"/>
+<wire x1="36.0472" y1="16.057" x2="35.3972" y2="15.407" width="0" layer="19" extent="1-1"/>
+<wire x1="36.0472" y1="16.707" x2="36.0472" y2="16.057" width="0" layer="19" extent="1-1"/>
+<wire x1="21.751828125" y1="2.383178125" x2="22.980403125" y2="2.736640625" width="0" layer="19" extent="1-16"/>
+<wire x1="21.7518375" y1="1.520234375" x2="21.751828125" y2="2.383178125" width="0" layer="19" extent="1-1"/>
+<wire x1="34.0972" y1="18.657" x2="32.7972" y2="18.657" width="0" layer="19" extent="1-1"/>
+<wire x1="36.974525" y1="7.85348125" x2="37.217" y2="6.584259375" width="0" layer="19" extent="1-16"/>
+<wire x1="36.974525" y1="8.25348125" x2="36.974525" y2="7.85348125" width="0" layer="19" extent="1-1"/>
+<wire x1="36.974525" y1="2.65348125" x2="37.217" y2="3.92" width="0" layer="19" extent="1-16"/>
+<wire x1="36.974525" y1="2.25348125" x2="36.974525" y2="2.65348125" width="0" layer="19" extent="1-1"/>
+<wire x1="28.482075" y1="2.152653125" x2="29.35475" y2="3.131846875" width="0" layer="19" extent="1-1"/>
+<wire x1="32.8431" y1="21.812040625" x2="33.710878125" y2="20.77211875" width="0" layer="19" extent="1-1"/>
+<wire x1="41.239021875" y1="13.068340625" x2="40.307559375" y2="12.06399375" width="0" layer="19" extent="1-1"/>
+<wire x1="11.801596875" y1="7.437478125" x2="10.56711875" y2="8.1350625" width="0" layer="19" extent="1-1"/>
+<wire x1="12.538821875" y1="7.02748125" x2="11.801596875" y2="7.437478125" width="0" layer="19" extent="1-1"/>
+<wire x1="7.08168125" y1="28.661359375" x2="7.73634375" y2="29.957821875" width="0" layer="19" extent="1-1"/>
+<wire x1="22.38118125" y1="8.756165625" x2="22.330403125" y2="7.286640625" width="0" layer="19" extent="1-16"/>
+<wire x1="21.93470625" y1="5.83590625" x2="21.030403125" y2="4.686640625" width="0" layer="19" extent="1-16"/>
+<wire x1="26.85863125" y1="1.90768125" x2="25.580403125" y2="2.736640625" width="0" layer="19" extent="1-16"/>
+<wire x1="8.353071875" y1="25.953009375" x2="9.484440625" y2="27.084378125" width="0" layer="19" extent="1-1"/>
+<wire x1="29.8810375" y1="8.646903125" x2="31.496" y2="8.382" width="0" layer="19" extent="1-1"/>
+<wire x1="28.346978125" y1="9.3113625" x2="29.8810375" y2="8.646903125" width="0" layer="19" extent="1-1"/>
+<wire x1="33.5424" y1="6.375" x2="34.8488" y2="5.25348125" width="0" layer="19" extent="1-1"/>
+<wire x1="37.613171875" y1="19.5355" x2="39.116296875" y2="18.41675625" width="0" layer="19" extent="1-16"/>
+<wire x1="41.49369375" y1="25.85503125" x2="39.578121875" y2="25.92068125" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4961625" y1="26.751090625" x2="41.49369375" y2="25.85503125" width="0" layer="19" extent="1-1"/>
+<wire x1="41.511934375" y1="24.953696875" x2="41.49369375" y2="25.85503125" width="0" layer="19" extent="1-1"/>
+<wire x1="32.6904" y1="26.417784375" x2="34.708615625" y2="26.83949375" width="0" layer="19" extent="1-1"/>
+<wire x1="11.654" y1="3.792" x2="13.5665" y2="4.542" width="0" layer="19" extent="1-1"/>
+<wire x1="30.446503125" y1="13.759178125" x2="28.416" y2="14.224" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ICE_IMG_CLK16MHZ">
 <contactref element="U17" pad="C11"/>
@@ -6888,7 +7004,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="41.52269375" y1="12.1158375" x2="41.574059375" y2="12.1158375" width="0.381" layer="1"/>
 <wire x1="41.889021875" y1="12.4308" x2="41.889021875" y2="13.068340625" width="0.381" layer="1"/>
 <wire x1="41.889021875" y1="12.4308" x2="41.574059375" y2="12.1158375" width="0.381" layer="1"/>
-<polygon width="0.127" layer="16" thermals="no">
+<polygon width="0.127" layer="1" thermals="no">
 <vertex x="36.83" y="27.589478125"/>
 <vertex x="36.83" y="26.67"/>
 <vertex x="38.989" y="26.67"/>
@@ -6912,6 +7028,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="38.65" y1="26.95934375" x2="38.01214375" y2="26.95934375" width="0.381" layer="15"/>
 <wire x1="38.65" y1="26.95934375" x2="38.764209375" y2="26.95934375" width="0.381" layer="15"/>
 <wire x1="38.764209375" y1="26.95934375" x2="39.791640625" y2="25.9319125" width="0.381" layer="15"/>
+<wire x1="38.01214375" y1="26.95934375" x2="36.82621875" y2="27.876175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_B_EN">
 <contactref element="U3" pad="6"/>
@@ -7056,19 +7173,20 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <contactref element="Q3" pad="6" route="any" routetag="G$1.D"/>
 <contactref element="Q2" pad="3"/>
 <contactref element="R12" pad="1"/>
-<polygon width="0.127" layer="16" thermals="no" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<polygon width="0.127" layer="1" thermals="no" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <vertex x="39.912621875" y="28.480959375"/>
 <vertex x="37.730759375" y="28.480959375"/>
 <vertex x="37.730759375" y="27.4421"/>
 <vertex x="39.912621875" y="27.4421"/>
 </polygon>
-<wire x1="39.578121875" y1="26.78568125" x2="39.731784375" y2="26.93934375" width="0.127" layer="16"/>
-<wire x1="39.731784375" y1="26.93934375" x2="39.731784375" y2="27.704759375" width="0.127" layer="16"/>
-<wire x1="39.731784375" y1="28.354759375" x2="39.8613625" y2="28.354759375" width="0.127" layer="16"/>
-<wire x1="40.2084" y1="28.701796875" x2="39.8613625" y2="28.354759375" width="0.127" layer="16"/>
-<wire x1="39.730884375" y1="29.864759375" x2="39.941703125" y2="29.864759375" width="0.127" layer="16"/>
-<wire x1="40.2084" y1="29.5980625" x2="39.941703125" y2="29.864759375" width="0.127" layer="16"/>
-<wire x1="40.2084" y1="29.5980625" x2="40.2084" y2="28.701796875" width="0.127" layer="16"/>
+<wire x1="39.578121875" y1="26.78568125" x2="39.731784375" y2="26.93934375" width="0.127" layer="1"/>
+<via x="39.731784375" y="26.93934375" extent="1-16" drill="0.35"/>
+<wire x1="37.860884375" y1="29.864759375" x2="37.8377" y2="29.864759375" width="0.127" layer="1"/>
+<wire x1="37.8377" y1="29.864759375" x2="37.387709375" y2="29.41476875" width="0.127" layer="1"/>
+<wire x1="37.387709375" y1="29.41476875" x2="37.387709375" y2="28.701834375" width="0.127" layer="1"/>
+<wire x1="37.734784375" y1="28.354759375" x2="37.387709375" y2="28.701834375" width="0.127" layer="1"/>
+<wire x1="37.734784375" y1="28.354759375" x2="37.861784375" y2="28.354759375" width="0.127" layer="1"/>
+<wire x1="39.731784375" y1="27.704759375" x2="39.731784375" y2="26.93934375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_BAT_IN">
 <contactref element="Q3" pad="3"/>
@@ -7079,28 +7197,31 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <contactref element="Q2" pad="6" route="any" routetag="G$1.D"/>
 <contactref element="R9" pad="1"/>
 <contactref element="U6" pad="1"/>
-<polygon width="0.127" layer="16" thermals="no" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<polygon width="0.127" layer="1" thermals="no" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <vertex x="41.1849625" y="32.212578125"/>
 <vertex x="36.9223" y="32.212578125"/>
-<vertex x="36.9223" y="30.145115625"/>
-<vertex x="41.1849625" y="30.145115625"/>
+<vertex x="36.9223" y="30.195915625"/>
+<vertex x="41.1849625" y="30.195915625"/>
 </polygon>
 <via x="37.18559375" y="31.27558125" extent="1-16" drill="0.381"/>
 <via x="37.1795125" y="31.90141875" extent="1-16" drill="0.381"/>
 <via x="37.8342125" y="31.92758125" extent="1-16" drill="0.381"/>
 <polygon width="0.127" layer="1" thermals="no">
-<vertex x="34.488259375" y="29.263540625"/>
-<vertex x="34.488259375" y="28.6695"/>
-<vertex x="38.119953125" y="28.6695"/>
-<vertex x="38.119953125" y="32.2"/>
-<vertex x="36.8575125" y="32.2"/>
-<vertex x="36.8575125" y="29.263540625"/>
+<vertex x="34.488259375" y="36.163540625"/>
+<vertex x="34.488259375" y="35.5695"/>
+<vertex x="38.119953125" y="35.5695"/>
+<vertex x="38.119953125" y="39.1"/>
+<vertex x="36.8575125" y="39.1"/>
+<vertex x="36.8575125" y="36.163540625"/>
 </polygon>
-<via x="37.256709375" y="28.97885625" extent="1-16" drill="0.254"/>
-<wire x1="37.861784375" y1="29.004759375" x2="37.83588125" y2="28.97885625" width="0.127" layer="16"/>
-<wire x1="37.83588125" y1="28.97885625" x2="37.256709375" y2="28.97885625" width="0.127" layer="16"/>
 <contactref element="J11" pad="1"/>
-<wire x1="40.7516375" y1="30.32303125" x2="54.148" y2="27.172" width="0" layer="19" extent="1-16"/>
+<wire x1="40.200175" y1="30.084778125" x2="40.42316875" y2="30.307771875" width="0.127" layer="1"/>
+<wire x1="40.42316875" y1="30.307771875" x2="40.736378125" y2="30.307771875" width="0.127" layer="1"/>
+<wire x1="40.736378125" y1="30.307771875" x2="40.7516375" y2="30.32303125" width="0.127" layer="1"/>
+<wire x1="39.731784375" y1="29.004759375" x2="39.731784375" y2="29.1111125" width="0.127" layer="1"/>
+<wire x1="39.731784375" y1="29.1111125" x2="40.200175" y2="29.579503125" width="0.127" layer="1"/>
+<wire x1="40.200175" y1="29.579503125" x2="40.200175" y2="30.084778125" width="0.127" layer="1"/>
+<wire x1="40.7516375" y1="30.32303125" x2="54.148" y2="27.172" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="J2" pad="1"/>
@@ -7233,7 +7354,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <contactref element="Q2" pad="4"/>
 <contactref element="R9" pad="2"/>
 <contactref element="J4" pad="2"/>
-<polygon width="0.127" layer="16" thermals="no" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<polygon width="0.127" layer="2" thermals="no" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <vertex x="39.384303125" y="29.88411875"/>
 <vertex x="36.745325" y="29.88411875"/>
 <vertex x="36.745325" y="27.84481875"/>
@@ -7243,6 +7364,18 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="39.89738125" y="29.255659375"/>
 <vertex x="39.384303125" y="29.255659375"/>
 </polygon>
+<polygon width="0.127" layer="1" thermals="no">
+<vertex x="38.354" y="29.92628125"/>
+<vertex x="38.354" y="29.21"/>
+<vertex x="37.592" y="29.21"/>
+<vertex x="37.592" y="28.956"/>
+<vertex x="39.116" y="28.956"/>
+<vertex x="39.116" y="29.718"/>
+<vertex x="39.878" y="29.718"/>
+<vertex x="39.878" y="29.92628125"/>
+</polygon>
+<wire x1="36.68168125" y1="29.654478125" x2="37.861784375" y2="29.004759375" width="0" layer="19" extent="1-1"/>
+<wire x1="36.82621875" y1="28.676175" x2="37.861784375" y2="29.004759375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NIL">
 <polygon width="0.127" layer="1" pour="cutout" thermals="no">
