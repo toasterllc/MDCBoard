@@ -155,6 +155,7 @@
 <wire x1="39.27935625" y1="26.60711875" x2="39.39601875" y2="30.7573375" width="0.0762" layer="26"/>
 <wire x1="38.22364375" y1="30.70188125" x2="37.991640625" y2="26.56864375" width="0.0762" layer="26"/>
 <text x="40.16851875" y="25.885471875" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">LED3-6</text>
+<wire x1="17.189659375" y1="6.70915625" x2="17.296340625" y2="6.345940625" width="0.0762" layer="26"/>
 </plain>
 <libraries>
 <library name="EagleLibrary">
@@ -2087,7 +2088,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="C20" library="EagleLibrary" package="0805" value="10u" x="16.304365625" y="7.6403625" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Samsung" x="16.304365625" y="7.6403625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="17.476965625" y="6.0224375" size="0.635" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="17.5861875" y="5.5906375" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="16.304365625" y="7.6403625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C19" library="EagleLibrary" package="0402" value="100n" x="15.02785625" y="6.30428125" smashed="yes" rot="MR180">
