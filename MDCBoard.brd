@@ -1997,7 +1997,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="R44" library="EagleLibrary" package="0402" value="3k" x="31.587215625" y="7.138159375" smashed="yes" rot="R270">
 <attribute name="MFG" value="Yageo" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="32.067015625" y="7.975975" size="0.508" layer="25" font="vector" rot="R270"/>
-<attribute name="PN" value="AC0402FR-073KL" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value="RT0402BRD073KL" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C66" library="EagleLibrary" package="0402" value="100n" x="18.870203125" y="5.433821875" smashed="yes" rot="R180">
 <attribute name="MFG" value="Murata" x="18.362203125" y="5.68781875" size="1.778" layer="27" rot="R180" display="off"/>

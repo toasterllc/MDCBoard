@@ -4515,7 +4515,7 @@ Header</text>
 </part>
 <part name="R44" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="3k">
 <attribute name="MFG" value="Yageo"/>
-<attribute name="PN" value="AC0402FR-073KL"/>
+<attribute name="PN" value="RT0402BRD073KL"/>
 </part>
 <part name="C66" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
 <attribute name="MFG" value="Murata"/>
