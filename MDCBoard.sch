@@ -6315,18 +6315,6 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="NAME" x="345.44" y="88.646" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="345.44" y="75.438" size="1.778" layer="95" align="top-left"/>
 </instance>
-<instance part="R20" gate="G$1" x="114.3" y="101.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="112.014" y="101.854" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="112.014" y="99.314" size="1.778" layer="96" align="bottom-right"/>
-<attribute name="MFG" x="165.1" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PN" x="165.1" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="R19" gate="G$1" x="129.54" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="127.254" y="104.394" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="127.254" y="101.854" size="1.778" layer="96" align="bottom-right"/>
-<attribute name="MFG" x="180.34" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PN" x="180.34" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -6352,16 +6340,6 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="U14" gate="POWER" pin="DVCC"/>
 <wire x1="55.88" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
 <label x="53.34" y="81.28" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-<segment>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="106.68" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
-<label x="114.3" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="109.22" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
-<label x="129.54" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6544,13 +6522,6 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="U14" gate="PORT1" pin="PA.1/P1.1/UCB0CLK/TA0.1/A1"/>
 </segment>
 </net>
-<net name="BAT_CHRG_LVL_EN" class="0">
-<segment>
-<wire x1="261.62" y1="66.04" x2="259.08" y2="66.04" width="0.1524" layer="91"/>
-<label x="259.08" y="66.04" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U14" gate="PORT2" pin="PA.F/P2.7"/>
-</segment>
-</net>
 <net name="BUTTON_SIGNAL_" class="0">
 <segment>
 <pinref part="U14" gate="PORT2" pin="PA.D/P2.5/UCA1RXD/UCA1SOMI"/>
@@ -6592,11 +6563,6 @@ BAT_CHRG_LVL signal.</text>
 <wire x1="144.78" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
 <label x="142.24" y="78.74" size="1.778" layer="95" align="bottom-right"/>
 </segment>
-<segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="99.06" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
-<label x="129.54" y="96.52" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MSP_STM_I2C_SCL" class="0">
 <segment>
@@ -6604,10 +6570,19 @@ BAT_CHRG_LVL signal.</text>
 <wire x1="144.78" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
 <label x="142.24" y="76.2" size="1.778" layer="95" align="bottom-right"/>
 </segment>
+</net>
+<net name="BAT_CHRG_LVL_EN" class="0">
 <segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="96.52" x2="114.3" y2="93.98" width="0.1524" layer="91"/>
-<label x="114.3" y="93.98" size="1.778" layer="95"/>
+<wire x1="261.62" y1="68.58" x2="259.08" y2="68.58" width="0.1524" layer="91"/>
+<label x="259.08" y="68.58" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U14" gate="PORT2" pin="PA.E/P2.6/UCA1TXD/UCA1SIMO"/>
+</segment>
+</net>
+<net name="VDD_B_3V3_STM" class="0">
+<segment>
+<pinref part="U14" gate="PORT2" pin="PA.F/P2.7"/>
+<wire x1="261.62" y1="66.04" x2="259.08" y2="66.04" width="0.1524" layer="91"/>
+<label x="259.08" y="66.04" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
@@ -9471,6 +9446,18 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <instance part="H1" gate="A" x="213.36" y="-81.28" smashed="yes">
 <attribute name="NAME" x="213.614" y="-80.772" size="1.778" layer="95"/>
 </instance>
+<instance part="R20" gate="G$1" x="50.8" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.514" y="7.874" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="48.514" y="5.334" size="1.778" layer="96" align="bottom-right"/>
+<attribute name="MFG" x="101.6" y="35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PN" x="101.6" y="35.56" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R19" gate="G$1" x="55.88" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="58.674" y="7.874" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.674" y="5.334" size="1.778" layer="96"/>
+<attribute name="MFG" x="106.68" y="35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PN" x="106.68" y="35.56" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9983,6 +9970,14 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <wire x1="124.46" y1="-248.92" x2="121.92" y2="-248.92" width="0.1524" layer="91"/>
 <junction x="121.92" y="-248.92"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="12.7" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
+<label x="50.8" y="15.24" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
+<junction x="50.8" y="12.7"/>
+</segment>
 </net>
 <net name="N$29" class="0">
 <segment>
@@ -10152,12 +10147,22 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <wire x1="68.58" y1="-33.02" x2="71.12" y2="-33.02" width="0.1524" layer="91"/>
 <label x="71.12" y="-33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="2.54" x2="50.8" y2="0" width="0.1524" layer="91"/>
+<label x="50.8" y="0" size="1.778" layer="95" align="bottom-right"/>
+</segment>
 </net>
 <net name="MSP_STM_I2C_SDA" class="0">
 <segment>
 <pinref part="U24" gate="B" pin="PB9_B4"/>
 <wire x1="68.58" y1="-35.56" x2="71.12" y2="-35.56" width="0.1524" layer="91"/>
 <label x="71.12" y="-35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="2.54" x2="55.88" y2="0" width="0.1524" layer="91"/>
+<label x="55.88" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
