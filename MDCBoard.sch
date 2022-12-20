@@ -5110,6 +5110,13 @@ accurate ADC
 measurements.
 
 See math to the right!</text>
+<text x="248.666" y="433.324" size="1.016" layer="95" align="top-left">Pullup to VDD_USB (TPS2116's VIN1, not its VOUT
+as shown in the datasheet) to avoid a leakage
+current that would exist when battery powered.
+If we did pullup to VDD_A (TPS2116's VOUT),
+ST would be driven to GND when battery powered,
+and we'd have a huge leakage current between
+VDD_A and GND (4.2V/10k = 420uA).</text>
 </plain>
 <instances>
 <instance part="C8" gate="G$1" x="165.1" y="297.18" smashed="yes">
