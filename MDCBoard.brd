@@ -6666,7 +6666,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="13.637621875" y1="2.470878125" x2="13.5665" y2="2.542" width="0.127" layer="1"/>
 <wire x1="13.9615375" y1="1.09304375" x2="13.637621875" y2="1.416959375" width="0.127" layer="1"/>
 </signal>
-<signal name="N$14">
+<signal name="MSP_XIN">
 <contactref element="C17" pad="1"/>
 <contactref element="X1" pad="2"/>
 <contactref element="U14" pad="22"/>
@@ -6675,7 +6675,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="16.5439" y1="5.2659" x2="15.030059375" y2="5.2659" width="0.508" layer="1"/>
 <wire x1="15.030059375" y1="5.2659" x2="15.030059375" y2="5.042" width="0.508" layer="1"/>
 </signal>
-<signal name="N$17">
+<signal name="MSP_XOUT">
 <contactref element="C18" pad="1"/>
 <contactref element="X1" pad="1"/>
 <contactref element="U14" pad="21"/>

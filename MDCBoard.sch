@@ -6460,7 +6460,7 @@ BAT_CHRG_LVL signal.</text>
 <label x="78.74" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="MSP_XIN" class="0">
 <segment>
 <wire x1="248.92" y1="101.6" x2="248.92" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="81.28" x2="261.62" y2="81.28" width="0.1524" layer="91"/>
@@ -6469,9 +6469,10 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="X1" gate="G$1" pin="B"/>
 <junction x="248.92" y="101.6"/>
 <pinref part="U14" gate="PORT2" pin="PA.9/P2.1/XIN"/>
+<label x="248.92" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="MSP_XOUT" class="0">
 <segment>
 <wire x1="261.62" y1="83.82" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="83.82" x2="256.54" y2="101.6" width="0.1524" layer="91"/>
@@ -6480,6 +6481,7 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="X1" gate="G$1" pin="A"/>
 <junction x="256.54" y="101.6"/>
 <pinref part="U14" gate="PORT2" pin="PA.8/P2.0/XOUT"/>
+<label x="256.54" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VDD_B_EN" class="0">
