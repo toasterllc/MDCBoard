@@ -5016,7 +5016,7 @@ droops ~30mV.</text>
 <wire x1="231.14" y1="335.28" x2="231.14" y2="375.92" width="0.1524" layer="95"/>
 <wire x1="231.14" y1="375.92" x2="177.8" y2="375.92" width="0.1524" layer="95"/>
 <text x="180.594" y="333.756" size="2.54" layer="95" align="top-left">Battery reverse polarity protection</text>
-<text x="152.908" y="391.922" size="1.016" layer="95" align="top-left">Resistor sets battery
+<text x="135.128" y="407.162" size="1.016" layer="95" align="top-left">Resistor sets battery
 charge current:
 
 I = 1000 / R
@@ -5057,11 +5057,11 @@ have a max of 10uF (per USB spec).</text>
 <wire x1="426.72" y1="325.12" x2="426.72" y2="381" width="0.1524" layer="95"/>
 <wire x1="426.72" y1="381" x2="256.54" y2="381" width="0.1524" layer="95"/>
 <text x="259.334" y="323.596" size="2.54" layer="95" align="top-left">Battery Charge Level</text>
-<wire x1="144.78" y1="434.34" x2="144.78" y2="381" width="0.1524" layer="95"/>
-<wire x1="144.78" y1="381" x2="218.44" y2="381" width="0.1524" layer="95"/>
-<wire x1="218.44" y1="381" x2="218.44" y2="434.34" width="0.1524" layer="95"/>
-<wire x1="218.44" y1="434.34" x2="144.78" y2="434.34" width="0.1524" layer="95"/>
-<text x="145.034" y="379.476" size="2.54" layer="95" align="top-left">Battery Charging</text>
+<wire x1="132.08" y1="434.34" x2="132.08" y2="388.62" width="0.1524" layer="95"/>
+<wire x1="132.08" y1="388.62" x2="218.44" y2="388.62" width="0.1524" layer="95"/>
+<wire x1="218.44" y1="388.62" x2="218.44" y2="434.34" width="0.1524" layer="95"/>
+<wire x1="218.44" y1="434.34" x2="132.08" y2="434.34" width="0.1524" layer="95"/>
+<text x="132.334" y="387.096" size="2.54" layer="95" align="top-left">Battery Charging</text>
 <text x="260.35" y="346.71" size="1.524" layer="95" align="top-left">This subcircuit divides VDD_BAT by 1.33, and also prevents
 the battery drain caused by the voltage divider unless
 we're connected to USB.
@@ -5223,11 +5223,11 @@ VDD_A and GND (4.2V/10k = 420uA).</text>
 <attribute name="NAME" x="170.255" y="414.9119" size="1.778" layer="95" ratio="10" rot="SR0"/>
 <attribute name="PN" x="170.255" y="393.5759" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="R7" gate="G$1" x="157.48" y="401.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="155.448" y="401.32" size="1.778" layer="95" align="top-right"/>
-<attribute name="VALUE" x="155.448" y="398.78" size="1.778" layer="96" align="top-right"/>
-<attribute name="MFG" x="157.48" y="401.32" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PN" x="157.48" y="401.32" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R7" gate="G$1" x="154.94" y="401.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="152.908" y="401.32" size="1.778" layer="95" align="top-right"/>
+<attribute name="VALUE" x="152.908" y="398.78" size="1.778" layer="96" align="top-right"/>
+<attribute name="MFG" x="154.94" y="401.32" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PN" x="154.94" y="401.32" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q3" gate="G$1" x="220.98" y="355.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="219.964" y="364.744" size="1.778" layer="95" align="bottom-right"/>
@@ -5604,11 +5604,6 @@ VDD_A and GND (4.2V/10k = 420uA).</text>
 <label x="165.1" y="401.32" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="396.24" x2="157.48" y2="393.7" width="0.1524" layer="91"/>
-<label x="157.48" y="393.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="340.36" x2="220.98" y2="337.82" width="0.1524" layer="91"/>
 <label x="220.98" y="337.82" size="1.778" layer="95" rot="MR0"/>
@@ -5979,7 +5974,7 @@ VDD_A and GND (4.2V/10k = 420uA).</text>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="U4" gate="G$1" pin="PROG"/>
-<wire x1="157.48" y1="406.4" x2="167.64" y2="406.4" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="406.4" x2="167.64" y2="406.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -6210,6 +6205,13 @@ VDD_A and GND (4.2V/10k = 420uA).</text>
 <junction x="309.88" y="370.84"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="309.88" y1="370.84" x2="317.5" y2="370.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BAT_CHRG_EN_" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="396.24" x2="154.94" y2="393.7" width="0.1524" layer="91"/>
+<label x="154.94" y="393.7" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
@@ -10213,6 +10215,13 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="2.54" x2="55.88" y2="0" width="0.1524" layer="91"/>
 <label x="55.88" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BAT_CHRG_EN_" class="0">
+<segment>
+<pinref part="U24" gate="E" pin="PE14_P11"/>
+<wire x1="2.54" y1="-109.22" x2="5.08" y2="-109.22" width="0.1524" layer="91"/>
+<label x="5.08" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

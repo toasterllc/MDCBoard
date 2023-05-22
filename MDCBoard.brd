@@ -8,8 +8,8 @@
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Ground" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,40 +22,40 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Power" color="42" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Power" color="42" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -3185,7 +3185,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <contactref element="U2" pad="2"/>
 <contactref element="U1" pad="1"/>
 <contactref element="U4" pad="2"/>
-<contactref element="R7" pad="1"/>
 <contactref element="R12" pad="2"/>
 <contactref element="R4" pad="2"/>
 <contactref element="R1" pad="2"/>
@@ -3648,8 +3647,21 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="41.66361875" y1="21.082" x2="41.65035625" y2="22.4505375" width="0" layer="19" extent="16-16"/>
 <wire x1="40.894" y1="21.082" x2="41.66361875" y2="21.082" width="0" layer="19" extent="1-1"/>
 <wire x1="42.59015625" y1="20.50858125" x2="41.66361875" y2="21.082" width="0" layer="19" extent="1-1"/>
-<wire x1="39.880834375" y1="18.945078125" x2="40.894" y2="21.082" width="0" layer="19" extent="16-16"/>
-<wire x1="38.420896875" y1="17.770203125" x2="39.880834375" y2="18.945078125" width="0" layer="19" extent="1-16"/>
+<wire x1="38.862" y1="23.368" x2="41.557596875" y2="24.2705375" width="0" layer="19" extent="1-1"/>
+<wire x1="37.2802375" y1="24.5112625" x2="38.862" y2="23.368" width="0" layer="19" extent="16-16"/>
+<wire x1="36.3736375" y1="24.500096875" x2="37.2802375" y2="24.5112625" width="0" layer="19" extent="16-16"/>
+<wire x1="38.351459375" y1="25.50921875" x2="37.2802375" y2="24.5112625" width="0" layer="19" extent="16-16"/>
+<wire x1="36.819840625" y1="22.933659375" x2="36.3736375" y2="24.500096875" width="0" layer="19" extent="16-16"/>
+<wire x1="37.536084375" y1="21.70535625" x2="36.819840625" y2="22.933659375" width="0" layer="19" extent="16-16"/>
+<wire x1="36.6275" y1="21.308503125" x2="37.536084375" y2="21.70535625" width="0" layer="19" extent="1-16"/>
+<wire x1="37.134640625" y1="27.1094" x2="38.351459375" y2="25.50921875" width="0" layer="19" extent="1-1"/>
+<wire x1="37.0634625" y1="27.654040625" x2="37.134640625" y2="27.1094" width="0" layer="19" extent="1-16"/>
+<wire x1="35.648053125" y1="27.972615625" x2="37.0634625" y2="27.654040625" width="0" layer="19" extent="16-16"/>
+<wire x1="35.405059375" y1="27.264359375" x2="35.648053125" y2="27.972615625" width="0" layer="19" extent="16-16"/>
+<wire x1="35.594940625" y1="26.722121875" x2="35.405059375" y2="27.264359375" width="0" layer="19" extent="16-16"/>
+<wire x1="34.708615625" y1="26.83949375" x2="35.405059375" y2="27.264359375" width="0" layer="19" extent="1-1"/>
+<wire x1="37.613171875" y1="19.5355" x2="36.6275" y2="21.308503125" width="0" layer="19" extent="1-1"/>
+<wire x1="38.420896875" y1="17.770203125" x2="37.613171875" y2="19.5355" width="0" layer="19" extent="1-1"/>
 <wire x1="37.592" y1="16.764" x2="38.420896875" y2="17.770203125" width="0" layer="19" extent="1-1"/>
 <wire x1="36.0472" y1="16.707" x2="37.592" y2="16.764" width="0" layer="19" extent="1-1"/>
 <wire x1="36.0472" y1="16.057" x2="36.0472" y2="16.707" width="0" layer="19" extent="1-1"/>
@@ -3660,20 +3672,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="34.907503125" y1="13.330978125" x2="36.29" y2="12.954" width="0" layer="19" extent="1-1"/>
 <wire x1="34.781409375" y1="12.865459375" x2="34.907503125" y2="13.330978125" width="0" layer="19" extent="1-16"/>
 <wire x1="37.740184375" y1="13.563021875" x2="36.29" y2="13.716" width="0" layer="19" extent="16-16"/>
-<wire x1="37.613171875" y1="19.5355" x2="38.420896875" y2="17.770203125" width="0" layer="19" extent="1-1"/>
-<wire x1="36.6275" y1="21.308503125" x2="37.613171875" y2="19.5355" width="0" layer="19" extent="1-1"/>
-<wire x1="37.536084375" y1="21.70535625" x2="36.6275" y2="21.308503125" width="0" layer="19" extent="1-16"/>
-<wire x1="36.819840625" y1="22.933659375" x2="37.536084375" y2="21.70535625" width="0" layer="19" extent="16-16"/>
-<wire x1="36.3736375" y1="24.500096875" x2="36.819840625" y2="22.933659375" width="0" layer="19" extent="16-16"/>
-<wire x1="37.2802375" y1="24.5112625" x2="36.3736375" y2="24.500096875" width="0" layer="19" extent="16-16"/>
-<wire x1="38.351459375" y1="25.50921875" x2="37.2802375" y2="24.5112625" width="0" layer="19" extent="16-16"/>
-<wire x1="38.862" y1="23.368" x2="37.2802375" y2="24.5112625" width="0" layer="19" extent="16-16"/>
-<wire x1="37.134640625" y1="27.1094" x2="38.351459375" y2="25.50921875" width="0" layer="19" extent="1-1"/>
-<wire x1="37.0634625" y1="27.654040625" x2="37.134640625" y2="27.1094" width="0" layer="19" extent="1-16"/>
-<wire x1="35.648053125" y1="27.972615625" x2="37.0634625" y2="27.654040625" width="0" layer="19" extent="16-16"/>
-<wire x1="35.405059375" y1="27.264359375" x2="35.648053125" y2="27.972615625" width="0" layer="19" extent="16-16"/>
-<wire x1="35.594940625" y1="26.722121875" x2="35.405059375" y2="27.264359375" width="0" layer="19" extent="16-16"/>
-<wire x1="34.708615625" y1="26.83949375" x2="35.405059375" y2="27.264359375" width="0" layer="19" extent="1-1"/>
 <wire x1="32.6904" y1="26.417784375" x2="34.708615625" y2="26.83949375" width="0" layer="19" extent="1-1"/>
 <wire x1="34.5238" y1="21.2702" x2="36.6275" y2="21.308503125" width="0" layer="19" extent="1-16"/>
 <wire x1="34.5238" y1="21.9202" x2="34.5238" y2="21.2702" width="0" layer="19" extent="16-16"/>
@@ -3873,14 +3871,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="12.904" y1="1.8795" x2="11.654" y2="3.792" width="0" layer="19" extent="1-1"/>
 <wire x1="13.17751875" y1="1.224284375" x2="12.904" y2="1.8795" width="0" layer="19" extent="1-1"/>
 <wire x1="14.10933125" y1="1.53901875" x2="13.17751875" y2="1.224284375" width="0" layer="19" extent="16-16"/>
-<wire x1="41.9" y1="17.392" x2="39.880834375" y2="18.945078125" width="0" layer="19" extent="16-16"/>
 <wire x1="24.75078125" y1="19.558" x2="27.282159375" y2="19.158140625" width="0" layer="19" extent="1-1"/>
 <wire x1="24.44668125" y1="20.247403125" x2="24.75078125" y2="19.558" width="0" layer="19" extent="16-16"/>
-<wire x1="43.1309125" y1="15.08998125" x2="41.9" y2="17.392" width="0" layer="19" extent="16-16"/>
-<wire x1="42.911596875" y1="14.997796875" x2="43.1309125" y2="15.08998125" width="0" layer="19" extent="1-16"/>
-<wire x1="43.1309125" y1="14.22638125" x2="42.911596875" y2="14.997796875" width="0" layer="19" extent="1-16"/>
-<wire x1="43.1309125" y1="13.36278125" x2="43.1309125" y2="14.22638125" width="0" layer="19" extent="16-16"/>
-<wire x1="43.1309125" y1="12.49918125" x2="43.1309125" y2="13.36278125" width="0" layer="19" extent="16-16"/>
 <wire x1="31.962" y1="0.845" x2="30.051759375" y2="2.715259375" width="0" layer="19" extent="16-16"/>
 <wire x1="34.8225" y1="30.775" x2="32.1030625" y2="30.606996875" width="0" layer="19" extent="1-1"/>
 <wire x1="34.8165" y1="31.646" x2="34.8225" y2="30.775" width="0" layer="19" extent="1-1"/>
@@ -3921,6 +3913,12 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="21.1794" y1="16.763" x2="21.5834" y2="17.174" width="0" layer="19" extent="1-1"/>
 <wire x1="21.9794" y1="16.763" x2="21.5834" y2="17.174" width="0" layer="19" extent="1-1"/>
 <wire x1="20.3794" y1="18.363" x2="20.8221" y2="18.825" width="0" layer="19" extent="1-16"/>
+<wire x1="43.1309125" y1="12.49918125" x2="41.175940625" y2="10.149840625" width="0" layer="19" extent="16-16"/>
+<wire x1="43.1309125" y1="13.36278125" x2="43.1309125" y2="12.49918125" width="0" layer="19" extent="16-16"/>
+<wire x1="43.1309125" y1="14.22638125" x2="43.1309125" y2="13.36278125" width="0" layer="19" extent="16-16"/>
+<wire x1="42.911596875" y1="14.997796875" x2="43.1309125" y2="14.22638125" width="0" layer="19" extent="1-16"/>
+<wire x1="43.1309125" y1="15.08998125" x2="42.911596875" y2="14.997796875" width="0" layer="19" extent="1-16"/>
+<wire x1="41.9" y1="17.392" x2="42.911596875" y2="14.997796875" width="0" layer="19" extent="1-1"/>
 <wire x1="1.682" y1="8.172" x2="3.45933125" y2="5.29401875" width="0" layer="19" extent="16-16"/>
 <wire x1="19.812" y1="30.48" x2="23.671278125" y2="29.25571875" width="0" layer="19" extent="1-1"/>
 <wire x1="9.29605" y1="15.595946875" x2="13.462" y2="15.748" width="0" layer="19" extent="1-1"/>
@@ -7962,6 +7960,11 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="42.557821875" y1="14.064915625" x2="42.593384375" y2="14.100478125" width="0.127" layer="1"/>
 <wire x1="-0.8157" y1="-13.32" x2="42.557821875" y2="13.087140625" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.8157" y1="-13.97" x2="-0.8157" y2="-13.32" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT_CHRG_EN_">
+<contactref element="R7" pad="1"/>
+<contactref element="U24" pad="P11"/>
+<wire x1="26.880403125" y1="9.236640625" x2="39.880834375" y2="18.945078125" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
