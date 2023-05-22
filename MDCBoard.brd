@@ -2391,11 +2391,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="J4" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="40.493978125" y="27.958671875" smashed="yes" rot="R90" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <attribute name="NAME" x="41.50261875" y="27.9216125" size="0.508" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="U5" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-INVERTER" x="41.889021875" y="12.097940625" smashed="yes" rot="R90">
-<attribute name="MFG" value="Nexperia" x="41.889021875" y="12.097940625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="39.761865625" y="12.7405625" size="0.635" layer="25" font="vector"/>
-<attribute name="PN" value="74LVC1G98GW,125" x="41.889021875" y="12.097940625" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
 <element name="R11" library="EagleLibrary" package="0402" value="3k" x="42.479096875" y="14.997796875" smashed="yes">
 <attribute name="MFG" value="Susumu" x="42.479096875" y="14.997796875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.289996875" y="14.771475" size="0.508" layer="25" font="vector"/>
@@ -2496,11 +2491,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="H1" library="EagleLibrary" package="TAGCONNECT-TC2030-NL-EDGE" value="TAGCONNECT-TC2030-NLEDGE" x="31.327" y="2.115" smashed="yes" rot="MR270">
 <attribute name="NAME" x="33.7425375" y="2.109921875" size="1.016" layer="26" font="vector" rot="MR270"/>
-</element>
-<element name="R10" library="EagleLibrary" package="0402" value="100k" x="40.307559375" y="11.63149375" smashed="yes" rot="R90">
-<attribute name="MFG" value="Yageo" x="40.307559375" y="11.63149375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="39.25625625" y="10.9486125" size="0.508" layer="25" font="vector" rot="R90"/>
-<attribute name="PN" value="RC0402FR-07100KL" x="40.307559375" y="11.63149375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="EagleLibrary" package="0402" value="10k" x="32.531340625" y="24.690665625" smashed="yes" rot="MR90">
 <attribute name="MFG" value="Yageo" x="32.531340625" y="24.690665625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2607,6 +2597,11 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U27" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" x="-2.032" y="-9.906" smashed="yes">
 <attribute name="MFG" value="Nexperia" x="-2.032" y="-9.906" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-2.6924" y="-8.685621875" size="0.762" layer="25" font="vector"/>
+</element>
+<element name="U28" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="-1.778" y="-13.97" smashed="yes">
+<attribute name="MFG" value="Texas Instruments" x="-1.778" y="-13.97" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.4384" y="-12.71548125" size="1.016" layer="25" font="vector"/>
+<attribute name="PN" value="TPS22919DCK" x="-1.778" y="-13.97" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3296,8 +3291,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="26.4221" y="9.398"/>
 <vertex x="26.4221" y="10.632440625"/>
 </polygon>
-<contactref element="U5" pad="3"/>
-<contactref element="U5" pad="2"/>
 <contactref element="R11" pad="2"/>
 <contactref element="R5" pad="2"/>
 <contactref element="C12" pad="2"/>
@@ -3475,7 +3468,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="10.8458" y="7.851140625"/>
 <vertex x="10.8458" y="8.9916"/>
 </polygon>
-<contactref element="R10" pad="2"/>
 <contactref element="MH1" pad="1"/>
 <contactref element="MH2" pad="1"/>
 <contactref element="MH3" pad="1"/>
@@ -3485,7 +3477,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <contactref element="C22" pad="2"/>
 <contactref element="C25" pad="2"/>
 <contactref element="R23" pad="1"/>
-<contactref element="U5" pad="6"/>
 <via x="29.8" y="21.6" extent="1-16" drill="0.254"/>
 <polygon width="0.127" layer="1">
 <vertex x="29.58338125" y="21.821140625"/>
@@ -3645,6 +3636,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </polygon>
 <contactref element="U26" pad="2"/>
 <contactref element="U27" pad="2"/>
+<contactref element="U28" pad="2"/>
 <wire x1="42.164" y1="27.94" x2="41.897175" y2="29.70350625" width="0" layer="19" extent="1-1"/>
 <wire x1="41.5469625" y1="26.95683125" x2="42.164" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="41.54449375" y1="26.060771875" x2="41.5469625" y2="26.95683125" width="0" layer="19" extent="1-1"/>
@@ -3744,16 +3736,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="36.974525" y1="7.85348125" x2="36.974525" y2="8.25348125" width="0" layer="19" extent="1-1"/>
 <wire x1="37.217" y1="6.584259375" x2="36.974525" y2="7.85348125" width="0" layer="19" extent="1-16"/>
 <wire x1="41.175940625" y1="10.149840625" x2="39.874525" y2="9.57348125" width="0" layer="19" extent="1-1"/>
-<wire x1="41.889021875" y1="11.127540625" x2="41.175940625" y2="10.149840625" width="0" layer="19" extent="1-1"/>
-<wire x1="42.539021875" y1="11.127540625" x2="41.889021875" y2="11.127540625" width="0" layer="19" extent="1-1"/>
-<wire x1="43.1309125" y1="12.49918125" x2="42.539021875" y2="11.127540625" width="0" layer="19" extent="1-16"/>
-<wire x1="43.1309125" y1="13.36278125" x2="43.1309125" y2="12.49918125" width="0" layer="19" extent="16-16"/>
-<wire x1="43.1309125" y1="14.22638125" x2="43.1309125" y2="13.36278125" width="0" layer="19" extent="16-16"/>
-<wire x1="42.911596875" y1="14.997796875" x2="43.1309125" y2="14.22638125" width="0" layer="19" extent="1-16"/>
-<wire x1="43.1309125" y1="15.08998125" x2="42.911596875" y2="14.997796875" width="0" layer="19" extent="1-16"/>
-<wire x1="40.307559375" y1="12.06399375" x2="41.889021875" y2="11.127540625" width="0" layer="19" extent="1-1"/>
-<wire x1="39.624" y1="11.551915625" x2="40.307559375" y2="12.06399375" width="0" layer="19" extent="1-1"/>
-<wire x1="41.239021875" y1="13.068340625" x2="40.307559375" y2="12.06399375" width="0" layer="19" extent="1-1"/>
+<wire x1="39.624" y1="11.551915625" x2="39.874525" y2="9.57348125" width="0" layer="19" extent="1-1"/>
 <wire x1="35.735840625" y1="5.25348125" x2="37.217" y2="6.584259375" width="0" layer="19" extent="16-16"/>
 <wire x1="34.8488" y1="5.25348125" x2="35.735840625" y2="5.25348125" width="0" layer="19" extent="16-16"/>
 <wire x1="33.5424" y1="6.375" x2="34.8488" y2="5.25348125" width="0" layer="19" extent="1-1"/>
@@ -3893,6 +3876,11 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="41.9" y1="17.392" x2="39.880834375" y2="18.945078125" width="0" layer="19" extent="16-16"/>
 <wire x1="24.75078125" y1="19.558" x2="27.282159375" y2="19.158140625" width="0" layer="19" extent="1-1"/>
 <wire x1="24.44668125" y1="20.247403125" x2="24.75078125" y2="19.558" width="0" layer="19" extent="16-16"/>
+<wire x1="43.1309125" y1="15.08998125" x2="41.9" y2="17.392" width="0" layer="19" extent="16-16"/>
+<wire x1="42.911596875" y1="14.997796875" x2="43.1309125" y2="15.08998125" width="0" layer="19" extent="1-16"/>
+<wire x1="43.1309125" y1="14.22638125" x2="42.911596875" y2="14.997796875" width="0" layer="19" extent="1-16"/>
+<wire x1="43.1309125" y1="13.36278125" x2="43.1309125" y2="14.22638125" width="0" layer="19" extent="16-16"/>
+<wire x1="43.1309125" y1="12.49918125" x2="43.1309125" y2="13.36278125" width="0" layer="19" extent="16-16"/>
 <wire x1="31.962" y1="0.845" x2="30.051759375" y2="2.715259375" width="0" layer="19" extent="16-16"/>
 <wire x1="34.8225" y1="30.775" x2="32.1030625" y2="30.606996875" width="0" layer="19" extent="1-1"/>
 <wire x1="34.8165" y1="31.646" x2="34.8225" y2="30.775" width="0" layer="19" extent="1-1"/>
@@ -3972,6 +3960,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="5.165565625" y1="22.232075" x2="4.318" y2="23.114" width="0" layer="19" extent="16-16"/>
 <wire x1="-3.0024" y1="-6.35" x2="3.45933125" y2="2.10901875" width="0" layer="19" extent="1-16"/>
 <wire x1="-3.0024" y1="-9.906" x2="-3.0024" y2="-6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.7403" y1="-13.97" x2="-3.0024" y2="-9.906" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ICE_IMG_CLK16MHZ">
 <contactref element="U17" pad="C11"/>
@@ -7221,7 +7210,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <contactref element="U4" pad="3"/>
 <contactref element="C6" pad="1"/>
 <contactref element="J4" pad="1"/>
-<contactref element="U5" pad="5"/>
 <polygon width="0.127" layer="16" thermals="no" rank="2">
 <vertex x="34.465" y="25.865"/>
 <vertex x="33.040059375" y="25.865"/>
@@ -7230,22 +7218,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="33.591240625" y="25.611"/>
 <vertex x="34.465" y="25.611"/>
 </polygon>
-<via x="33.32708125" y="25.161421875" extent="1-16" drill="0.381"/>
-<via x="41.951653125" y="23.470284375" extent="1-16" drill="0.381"/>
-<via x="41.326815625" y="23.462659375" extent="1-16" drill="0.381"/>
-<wire x1="41.951653125" y1="23.470284375" x2="41.951646875" y2="23.470278125" width="0.381" layer="15"/>
-<wire x1="41.951646875" y1="23.470278125" x2="41.334434375" y2="23.470278125" width="0.381" layer="15"/>
-<wire x1="41.326815625" y1="23.462659375" x2="41.334434375" y2="23.470278125" width="0.381" layer="15"/>
-<via x="41.52269375" y="12.1158375" extent="1-16" drill="0.381"/>
-<wire x1="41.52269375" y1="12.1158375" x2="41.574059375" y2="12.1158375" width="0.381" layer="1"/>
-<wire x1="41.889021875" y1="12.4308" x2="41.889021875" y2="13.068340625" width="0.381" layer="1"/>
-<wire x1="41.889021875" y1="12.4308" x2="41.574059375" y2="12.1158375" width="0.381" layer="1"/>
-<wire x1="41.52269375" y1="12.1158375" x2="41.4602" y2="12.1158375" width="0.381" layer="15"/>
-<wire x1="41.4602" y1="12.1158375" x2="39.34991875" y2="14.22611875" width="0.381" layer="15"/>
-<wire x1="39.34991875" y1="14.22611875" x2="39.34991875" y2="21.4857625" width="0.381" layer="15"/>
-<wire x1="39.34991875" y1="21.4857625" x2="41.326815625" y2="23.462659375" width="0.381" layer="15"/>
-<wire x1="36.712215625" y1="24.805821875" x2="33.68268125" y2="24.805821875" width="0.381" layer="15"/>
-<wire x1="33.68268125" y1="24.805821875" x2="33.32708125" y2="25.161421875" width="0.381" layer="15"/>
 <polygon width="0.127" layer="16" thermals="no">
 <vertex x="43.2689" y="23.695659375"/>
 <vertex x="41.071803125" y="23.695659375"/>
@@ -7262,8 +7234,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="42.21988125" y="23.2054375"/>
 <vertex x="42.21988125" y="23.708359375"/>
 </polygon>
-<via x="40.36568125" y="26.77668125" extent="1-16" drill="0.381"/>
-<via x="39.745921875" y="26.7589" extent="1-16" drill="0.381"/>
 <polygon width="0.127" layer="1" thermals="no">
 <vertex x="40.1701" y="27.83331875"/>
 <vertex x="40.1701" y="27.02051875"/>
@@ -7272,13 +7242,11 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="40.894" y="26.5176"/>
 <vertex x="40.894" y="27.83331875"/>
 </polygon>
-<wire x1="39.745921875" y1="26.7589" x2="38.66529375" y2="26.7589" width="0.381" layer="15"/>
-<wire x1="38.66529375" y1="26.7589" x2="36.712215625" y2="24.805821875" width="0.381" layer="15"/>
-<wire x1="41.951653125" y1="25.358346875" x2="41.951653125" y2="23.470284375" width="0.381" layer="15"/>
-<wire x1="40.36568125" y1="26.77668125" x2="40.53331875" y2="26.77668125" width="0.381" layer="15"/>
-<wire x1="40.53331875" y1="26.77668125" x2="41.951653125" y2="25.358346875" width="0.381" layer="15"/>
-<wire x1="40.36568125" y1="26.77668125" x2="40.3479" y2="26.7589" width="0.381" layer="15"/>
-<wire x1="40.3479" y1="26.7589" x2="39.745921875" y2="26.7589" width="0.381" layer="15"/>
+<contactref element="U28" pad="1"/>
+<wire x1="41.106371875" y1="22.2668375" x2="40.493978125" y2="27.558671875" width="0" layer="19" extent="1-1"/>
+<wire x1="42.60035625" y1="22.4505375" x2="41.106371875" y2="22.2668375" width="0" layer="19" extent="1-16"/>
+<wire x1="34.114940625" y1="25.722121875" x2="40.493978125" y2="27.558671875" width="0" layer="19" extent="1-16"/>
+<wire x1="-2.7403" y1="-13.32" x2="34.114940625" y2="25.722121875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD_B_EN">
 <contactref element="U3" pad="6"/>
@@ -7614,13 +7582,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="13.788" y="6.29931875"/>
 </polygon>
 </signal>
-<signal name="N$9">
-<contactref element="U5" pad="4"/>
-<contactref element="R8" pad="1"/>
-<wire x1="42.539021875" y1="13.068340625" x2="42.557821875" y2="13.087140625" width="0.127" layer="1"/>
-<wire x1="42.557821875" y1="13.087140625" x2="42.557821875" y2="14.064915625" width="0.127" layer="1"/>
-<wire x1="42.557821875" y1="14.064915625" x2="42.593384375" y2="14.100478125" width="0.127" layer="1"/>
-</signal>
 <signal name="N$11">
 <contactref element="R6" pad="1"/>
 <contactref element="Q1" pad="3"/>
@@ -7758,20 +7719,16 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="27.10720625" y1="24.069046875" x2="27.24690625" y2="24.208746875" width="0.127" layer="16"/>
 </signal>
 <signal name="BAT_CHRG_LVL_EN">
-<contactref element="U5" pad="1"/>
-<contactref element="R10" pad="1"/>
 <wire x1="29.1896875" y1="0.723909375" x2="32.388759375" y2="3.92298125" width="0.127" layer="1"/>
 <wire x1="32.388759375" y1="3.92298125" x2="32.388759375" y2="6.955740625" width="0.127" layer="1"/>
 <wire x1="40.188178125" y1="11.0796125" x2="36.51263125" y2="11.0796125" width="0.127" layer="1"/>
-<wire x1="40.188178125" y1="11.0796125" x2="40.307559375" y2="11.19899375" width="0.127" layer="1"/>
 <wire x1="36.51263125" y1="11.0796125" x2="32.388759375" y2="6.955740625" width="0.127" layer="1"/>
-<wire x1="40.307559375" y1="11.19899375" x2="40.403746875" y2="11.29518125" width="0.127" layer="1"/>
-<wire x1="41.07138125" y1="11.29518125" x2="40.403746875" y2="11.29518125" width="0.127" layer="1"/>
-<wire x1="41.07138125" y1="11.29518125" x2="41.239021875" y2="11.127540625" width="0.127" layer="1"/>
 <contactref element="U14" pad="17"/>
 <wire x1="12.7711125" y1="0.723909375" x2="29.1896875" y2="0.723909375" width="0.127" layer="1"/>
 <wire x1="12.404" y1="1.091021875" x2="12.404" y2="1.8795" width="0.127" layer="1"/>
 <wire x1="12.7711125" y1="0.723909375" x2="12.404" y2="1.091021875" width="0.127" layer="1"/>
+<contactref element="U28" pad="3"/>
+<wire x1="12.404" y1="1.8795" x2="-2.7403" y2="-14.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_USB_EN">
 <contactref element="U1" pad="8"/>
@@ -7877,37 +7834,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <contactref element="U27" pad="4"/>
 <wire x1="-1.0616" y1="-10.556" x2="33.1674" y2="29.125" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LED_RED_">
-<via x="22.4383625" y="31.275015625" extent="1-16" drill="0.254"/>
-<wire x1="1.524" y1="11.43" x2="3.81" y2="9.144" width="0.127" layer="16"/>
-<wire x1="3.81" y1="9.144" x2="3.81" y2="7.194209375" width="0.127" layer="16"/>
-<wire x1="22.4383625" y1="31.275015625" x2="22.125940625" y2="31.275015625" width="0.127" layer="16"/>
-<wire x1="22.125940625" y1="31.275015625" x2="21.22240625" y2="32.17855" width="0.127" layer="16"/>
-<wire x1="5.5618875" y1="32.17855" x2="3.881121875" y2="30.497784375" width="0.127" layer="16"/>
-<wire x1="21.22240625" y1="32.17855" x2="5.5618875" y2="32.17855" width="0.127" layer="16"/>
-<wire x1="3.881121875" y1="27.213590625" x2="1.524" y2="24.85646875" width="0.127" layer="16"/>
-<wire x1="1.524" y1="24.85646875" x2="1.524" y2="11.43" width="0.127" layer="16"/>
-<wire x1="3.881121875" y1="30.497784375" x2="3.881121875" y2="27.213590625" width="0.127" layer="16"/>
-<wire x1="22.4383625" y1="31.275015625" x2="23.2968875" y2="32.133540625" width="0.127" layer="1"/>
-<via x="8.328659375" y="3.596640625" extent="1-16" drill="0.254"/>
-<wire x1="5.822703125" y1="5.18150625" x2="5.822703125" y2="4.4669875" width="0.127" layer="16"/>
-<wire x1="5.822703125" y1="4.4669875" x2="6.982609375" y2="3.30708125" width="0.127" layer="16"/>
-<wire x1="8.0391" y1="3.30708125" x2="8.328659375" y2="3.596640625" width="0.127" layer="16"/>
-<wire x1="8.0391" y1="3.30708125" x2="6.982609375" y2="3.30708125" width="0.127" layer="16"/>
-<wire x1="3.81" y1="7.194209375" x2="5.822703125" y2="5.18150625" width="0.127" layer="16"/>
-<wire x1="33.063184375" y1="31.00578125" x2="34.506696875" y2="31.00578125" width="0.127" layer="16"/>
-<wire x1="33.063184375" y1="31.00578125" x2="32.71774375" y2="31.351221875" width="0.127" layer="16"/>
-<via x="32.71774375" y="31.351221875" extent="1-16" drill="0.254"/>
-<wire x1="31.935425" y1="32.133540625" x2="32.71774375" y2="31.351221875" width="0.127" layer="1"/>
-<wire x1="23.2968875" y1="32.133540625" x2="31.935425" y2="32.133540625" width="0.127" layer="1"/>
-<wire x1="34.506696875" y1="31.00578125" x2="35.6337" y2="29.878778125" width="0.127" layer="16"/>
-<contactref element="U14" pad="11"/>
-<wire x1="9.7415" y1="3.042" x2="9.7405" y2="3.041" width="0.127" layer="1"/>
-<wire x1="9.7405" y1="3.041" x2="9.303446875" y2="3.041" width="0.127" layer="1"/>
-<wire x1="9.0195875" y1="3.324859375" x2="8.600440625" y2="3.324859375" width="0.127" layer="1"/>
-<wire x1="8.328659375" y1="3.596640625" x2="8.600440625" y2="3.324859375" width="0.127" layer="1"/>
-<wire x1="9.0195875" y1="3.324859375" x2="9.303446875" y2="3.041" width="0.127" layer="1"/>
-</signal>
 <signal name="N$45">
 <contactref element="LED1" pad="C"/>
 <contactref element="R21" pad="2"/>
@@ -7916,34 +7842,6 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="33.9575" y1="31.64" x2="33.9575" y2="30.775" width="0.127" layer="1"/>
 <wire x1="33.9575" y1="30.775" x2="33.9575" y2="29.6301" width="0.127" layer="1"/>
 <wire x1="33.9575" y1="29.6301" x2="33.9174" y2="29.59" width="0.127" layer="1"/>
-</signal>
-<signal name="LED_GREEN_">
-<via x="32.750759375" y="30.408878125" extent="1-16" drill="0.254"/>
-<wire x1="32.750759375" y1="30.408878125" x2="32.750759375" y2="29.620778125" width="0.127" layer="16"/>
-<via x="22.93805625" y="30.9219625" extent="1-16" drill="0.254"/>
-<wire x1="1.778" y1="11.551921875" x2="4.064" y2="9.265921875" width="0.127" layer="16"/>
-<wire x1="4.064" y1="9.265921875" x2="4.064" y2="7.327365625" width="0.127" layer="16"/>
-<wire x1="22.93805625" y1="30.9219625" x2="22.7907375" y2="30.77464375" width="0.127" layer="16"/>
-<wire x1="22.7907375" y1="30.77464375" x2="22.198915625" y2="30.77464375" width="0.127" layer="16"/>
-<wire x1="22.198915625" y1="30.77464375" x2="21.06170625" y2="31.911853125" width="0.127" layer="16"/>
-<wire x1="21.06170625" y1="31.911853125" x2="5.73608125" y2="31.911853125" width="0.127" layer="16"/>
-<wire x1="5.73608125" y1="31.911853125" x2="4.16814375" y2="30.343915625" width="0.127" layer="16"/>
-<wire x1="4.16814375" y1="30.343915625" x2="4.16814375" y2="27.1414" width="0.127" layer="16"/>
-<wire x1="1.778" y1="24.75125625" x2="1.778" y2="11.551921875" width="0.127" layer="16"/>
-<wire x1="4.16814375" y1="27.1414" x2="1.778" y2="24.75125625" width="0.127" layer="16"/>
-<wire x1="22.93805625" y1="30.9219625" x2="23.870234375" y2="31.854140625" width="0.127" layer="1"/>
-<contactref element="U14" pad="8"/>
-<via x="9.0652625" y="5.14604375" extent="1-16" drill="0.254"/>
-<wire x1="5.8948" y1="5.496565625" x2="6.435721875" y2="5.496565625" width="0.127" layer="16"/>
-<wire x1="6.78624375" y1="5.14604375" x2="9.0652625" y2="5.14604375" width="0.127" layer="16"/>
-<wire x1="6.435721875" y1="5.496565625" x2="6.78624375" y2="5.14604375" width="0.127" layer="16"/>
-<wire x1="4.064" y1="7.327365625" x2="5.8948" y2="5.496565625" width="0.127" layer="16"/>
-<wire x1="32.750759375" y1="30.408878125" x2="32.750759375" y2="30.6832" width="0.127" layer="1"/>
-<wire x1="32.750759375" y1="30.6832" x2="31.57981875" y2="31.854140625" width="0.127" layer="1"/>
-<wire x1="23.870234375" y1="31.854140625" x2="31.57981875" y2="31.854140625" width="0.127" layer="1"/>
-<wire x1="9.0652625" y1="5.14604375" x2="9.0652625" y2="5.017575" width="0.127" layer="1"/>
-<wire x1="9.5408375" y1="4.542" x2="9.0652625" y2="5.017575" width="0.127" layer="1"/>
-<wire x1="9.5408375" y1="4.542" x2="9.7415" y2="4.542" width="0.127" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="Q6" pad="D"/>
@@ -8033,15 +7931,19 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="20.24955625" y1="1.12074375" x2="21.81125" y2="1.12074375" width="0.127" layer="16"/>
 <wire x1="18.392021875" y1="2.362475" x2="18.90791875" y2="1.846578125" width="0.127" layer="16"/>
 </signal>
-<signal name="LED_PWM">
+<signal name="LED_SIGNAL">
 <contactref element="U26" pad="1"/>
 <contactref element="U27" pad="3"/>
+<contactref element="U14" pad="8"/>
 <wire x1="-3.0024" y1="-5.7" x2="-3.0024" y2="-10.556" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7415" y1="4.542" x2="-3.0024" y2="-5.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_SEL">
 <contactref element="U26" pad="6"/>
 <contactref element="U27" pad="6"/>
-<wire x1="-1.0616" y1="-5.7" x2="-1.0616" y2="-9.256" width="0" layer="19" extent="1-1"/>
+<contactref element="U14" pad="11"/>
+<wire x1="-1.0616" y1="-5.7" x2="9.7415" y2="3.042" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.0616" y1="-9.256" x2="-1.0616" y2="-5.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U26" pad="4"/>
@@ -8051,6 +7953,15 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <via x="34.49018125" y="27.495" extent="1-16" drill="0.254"/>
 <wire x1="34.39488125" y1="27.5903" x2="34.49018125" y2="27.495" width="0.127" layer="16"/>
 <wire x1="-1.0616" y1="-7" x2="34.39488125" y2="27.5903" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$17">
+<contactref element="U28" pad="5"/>
+<contactref element="U28" pad="6"/>
+<contactref element="R8" pad="1"/>
+<wire x1="42.557821875" y1="13.087140625" x2="42.557821875" y2="14.064915625" width="0.127" layer="1"/>
+<wire x1="42.557821875" y1="14.064915625" x2="42.593384375" y2="14.100478125" width="0.127" layer="1"/>
+<wire x1="-0.8157" y1="-13.32" x2="42.557821875" y2="13.087140625" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.8157" y1="-13.97" x2="-0.8157" y2="-13.32" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
