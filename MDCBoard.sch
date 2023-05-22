@@ -1014,32 +1014,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="1.6" y="-1"/>
 </polygon>
 </package>
-<package name="TI-TXB0102YZP">
-<smd name="A1" x="-0.25" y="0.75" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
-<smd name="A2" x="0.25" y="0.75" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
-<smd name="B1" x="-0.25" y="0.25" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
-<smd name="B2" x="0.25" y="0.25" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
-<smd name="C1" x="-0.25" y="-0.25" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
-<smd name="C2" x="0.25" y="-0.25" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
-<text x="-0.479740625" y="1.067990625" size="0.508" layer="25" font="vector" rot="SR0">&gt;NAME</text>
-<wire x1="-0.5" y1="-1" x2="0.5" y2="-1" width="0.05" layer="21"/>
-<wire x1="0.5" y1="-1" x2="0.5" y2="1" width="0.05" layer="21"/>
-<wire x1="0.5" y1="1" x2="-0.5" y2="1" width="0.05" layer="21"/>
-<wire x1="-0.5" y1="1" x2="-0.5" y2="-1" width="0.05" layer="21"/>
-<polygon width="0.05" layer="39">
-<vertex x="-0.5" y="1"/>
-<vertex x="-0.5" y="-1"/>
-<vertex x="0.5" y="-1"/>
-<vertex x="0.5" y="1"/>
-</polygon>
-<smd name="D1" x="-0.25" y="-0.75" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
-<smd name="D2" x="0.25" y="-0.75" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
-<polygon width="0.05" layer="21">
-<vertex x="-0.5" y="1"/>
-<vertex x="-0.5" y="0.2"/>
-<vertex x="0.5" y="1"/>
-</polygon>
-</package>
 <package name="NEXPERIA-SOT363" urn="urn:adsk.eagle:footprint:29433204/1" locally_modified="yes">
 <description>6-SOT23, 0.65 mm pitch, 2.10 mm span, 2.00 X 1.25 X 1.10 mm body
 &lt;p&gt;6-pin SOT23 package with 0.65 mm pitch, 2.10 mm span with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
@@ -1630,6 +1604,32 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="-2.5" y="-4.715"/>
 <vertex x="-2.5" y="0.6"/>
 <vertex x="2.5" y="0.6"/>
+</polygon>
+</package>
+<package name="NEXPERIA-NXB0102UN">
+<smd name="A1" x="-0.2" y="0.6" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="A2" x="0.2" y="0.6" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="B1" x="-0.2" y="0.2" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="B2" x="0.2" y="0.2" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="C1" x="-0.2" y="-0.2" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="C2" x="0.2" y="-0.2" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<text x="-0.479740625" y="1.067990625" size="0.508" layer="25" font="vector" rot="SR0">&gt;NAME</text>
+<wire x1="-0.4" y1="-0.8" x2="0.4" y2="-0.8" width="0.05" layer="21"/>
+<wire x1="0.4" y1="-0.8" x2="0.4" y2="0.8" width="0.05" layer="21"/>
+<wire x1="0.4" y1="0.8" x2="-0.4" y2="0.8" width="0.05" layer="21"/>
+<wire x1="-0.4" y1="0.8" x2="-0.4" y2="-0.8" width="0.05" layer="21"/>
+<polygon width="0.05" layer="39">
+<vertex x="-0.4" y="0.8"/>
+<vertex x="-0.4" y="-0.8"/>
+<vertex x="0.4" y="-0.8"/>
+<vertex x="0.4" y="0.8"/>
+</polygon>
+<smd name="D1" x="-0.2" y="-0.6" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<smd name="D2" x="0.2" y="-0.6" dx="0.2" dy="0.2" layer="1" roundness="100" cream="no"/>
+<polygon width="0.05" layer="21">
+<vertex x="-0.4" y="0.8"/>
+<vertex x="-0.4" y="0.2"/>
+<vertex x="0.4" y="0.8"/>
 </polygon>
 </package>
 </packages>
@@ -2419,23 +2419,6 @@ Switch</text>
 <pin name="1" x="0" y="-5.08" visible="pad" length="short" rot="R90"/>
 <pin name="2" x="2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
 </symbol>
-<symbol name="TI-TXB0102">
-<pin name="A1" x="-2.54" y="-15.24" visible="pin" length="short"/>
-<wire x1="0" y1="-22.86" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
-<text x="0" y="-25.4" size="1.778" layer="95">&gt;PN</text>
-<text x="0" y="2.54" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<pin name="B1" x="22.86" y="-15.24" visible="pin" length="short" rot="R180"/>
-<pin name="OE" x="-2.54" y="-10.16" visible="pin" length="short"/>
-<pin name="VCCA" x="-2.54" y="-2.54" visible="pin" length="short"/>
-<pin name="GND" x="-2.54" y="-5.08" visible="pin" length="short"/>
-<pin name="A2" x="-2.54" y="-20.32" visible="pin" length="short"/>
-<pin name="B2" x="22.86" y="-20.32" visible="pin" length="short" rot="R180"/>
-<pin name="VCCB" x="22.86" y="-2.54" visible="pin" length="short" rot="R180"/>
-<text x="0" y="-27.94" size="1.778" layer="95">Level Shifter</text>
-</symbol>
 <symbol name="NEXPERIA-74LVC1G98-NOR">
 <pin name="VDD" x="2.54" y="2.54" visible="off" length="short" rot="R270"/>
 <text x="7.62" y="-12.7" size="1.778" layer="95">&gt;NAME</text>
@@ -2758,6 +2741,23 @@ Header</text>
 <pin name="SEL" x="5.08" y="-27.94" visible="pin" length="short" rot="R90"/>
 <circle x="11.176" y="-12.7" radius="0.762" width="0.254" layer="94"/>
 <wire x1="11.938" y1="-12.7" x2="15.24" y2="-12.7" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="NXP-NTB0102">
+<pin name="A1" x="-2.54" y="-15.24" visible="pin" length="short"/>
+<wire x1="0" y1="-22.86" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<text x="0" y="-25.4" size="1.778" layer="95">&gt;PN</text>
+<text x="0" y="2.54" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="B1" x="22.86" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="OE" x="-2.54" y="-10.16" visible="pin" length="short"/>
+<pin name="VCCA" x="-2.54" y="-2.54" visible="pin" length="short"/>
+<pin name="GND" x="-2.54" y="-5.08" visible="pin" length="short"/>
+<pin name="A2" x="-2.54" y="-20.32" visible="pin" length="short"/>
+<pin name="B2" x="22.86" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="VCCB" x="22.86" y="-2.54" visible="pin" length="short" rot="R180"/>
+<text x="0" y="-27.94" size="1.778" layer="95">Level Shifter</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3691,31 +3691,6 @@ Header</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TI-TXB0102" prefix="U">
-<gates>
-<gate name="G$1" symbol="TI-TXB0102" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TI-TXB0102YZP">
-<connects>
-<connect gate="G$1" pin="A1" pad="D2"/>
-<connect gate="G$1" pin="A2" pad="D1"/>
-<connect gate="G$1" pin="B1" pad="A2"/>
-<connect gate="G$1" pin="B2" pad="A1"/>
-<connect gate="G$1" pin="GND" pad="B1"/>
-<connect gate="G$1" pin="OE" pad="C2"/>
-<connect gate="G$1" pin="VCCA" pad="C1"/>
-<connect gate="G$1" pin="VCCB" pad="B2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MFG" value="TI"/>
-<attribute name="PN" value="TXB0102YZP"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="NEXPERIA-74LVC1G98-NOR" prefix="U">
 <gates>
 <gate name="G$1" symbol="NEXPERIA-74LVC1G98-NOR" x="0" y="0"/>
@@ -4188,6 +4163,31 @@ Header</text>
 <technologies>
 <technology name="">
 <attribute name="MFG" value="Nexperia"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NEXPERIA-NXB0102" prefix="U">
+<gates>
+<gate name="G$1" symbol="NXP-NTB0102" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NEXPERIA-NXB0102UN">
+<connects>
+<connect gate="G$1" pin="A1" pad="D2"/>
+<connect gate="G$1" pin="A2" pad="D1"/>
+<connect gate="G$1" pin="B1" pad="A2"/>
+<connect gate="G$1" pin="B2" pad="A1"/>
+<connect gate="G$1" pin="GND" pad="B1"/>
+<connect gate="G$1" pin="OE" pad="C2"/>
+<connect gate="G$1" pin="VCCA" pad="C1"/>
+<connect gate="G$1" pin="VCCB" pad="B2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="Nexperia"/>
+<attribute name="PN" value="NXB0102UN"/>
 </technology>
 </technologies>
 </device>
@@ -4700,7 +4700,6 @@ Header</text>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
-<part name="U15" library="EagleLibrary" deviceset="TI-TXB0102" device=""/>
 <part name="Q1" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
 <attribute name="PN" value="PMPB10UPX"/>
 </part>
@@ -4973,6 +4972,7 @@ Header</text>
 <part name="U26" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" device=""/>
 <part name="U27" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" device=""/>
 <part name="U28" library="EagleLibrary" deviceset="TI-TPS22919DCK" device=""/>
+<part name="U5" library="EagleLibrary" deviceset="NEXPERIA-NXB0102" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6293,10 +6293,6 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="NAME" x="45.974" y="96.139" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.974" y="93.599" size="1.778" layer="96"/>
 </instance>
-<instance part="U15" gate="G$1" x="76.2" y="25.4" smashed="yes" rot="MR0">
-<attribute name="PN" x="76.2" y="0" size="1.778" layer="95" rot="MR0"/>
-<attribute name="NAME" x="76.2" y="27.94" size="1.778" layer="95" rot="MR0" align="top-left"/>
-</instance>
 <instance part="X1" gate="G$1" x="254" y="104.14" smashed="yes" rot="MR0">
 <attribute name="NAME" x="254" y="106.426" size="1.778" layer="95" rot="MR0" align="top-left"/>
 <attribute name="PN" x="254" y="104.14" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -6335,6 +6331,10 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="NAME" x="345.44" y="88.646" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="345.44" y="75.438" size="1.778" layer="95" align="top-left"/>
 </instance>
+<instance part="U5" gate="G$1" x="76.2" y="25.4" smashed="yes" rot="MR0">
+<attribute name="PN" x="76.2" y="0" size="1.778" layer="95" rot="MR0"/>
+<attribute name="NAME" x="76.2" y="27.94" size="1.778" layer="95" rot="MR0" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6347,9 +6347,9 @@ BAT_CHRG_LVL signal.</text>
 <label x="43.18" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U15" gate="G$1" pin="VCCB"/>
 <wire x1="53.34" y1="22.86" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
 <label x="50.8" y="22.86" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U5" gate="G$1" pin="VCCB"/>
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="1"/>
@@ -6385,9 +6385,9 @@ BAT_CHRG_LVL signal.</text>
 <pinref part="C19" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U15" gate="G$1" pin="GND"/>
 <wire x1="78.74" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 <label x="81.28" y="20.32" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
@@ -6433,7 +6433,7 @@ BAT_CHRG_LVL signal.</text>
 <segment>
 <wire x1="53.34" y1="5.08" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
 <label x="50.8" y="5.08" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U15" gate="G$1" pin="B2"/>
+<pinref part="U5" gate="G$1" pin="B2"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="73.66" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
@@ -6448,7 +6448,7 @@ BAT_CHRG_LVL signal.</text>
 <segment>
 <wire x1="53.34" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
 <label x="50.8" y="10.16" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="U15" gate="G$1" pin="B1"/>
+<pinref part="U5" gate="G$1" pin="B1"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
@@ -6458,14 +6458,14 @@ BAT_CHRG_LVL signal.</text>
 </net>
 <net name="VDD_B_1V8" class="0">
 <segment>
-<pinref part="U15" gate="G$1" pin="VCCA"/>
 <wire x1="78.74" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 <label x="81.28" y="22.86" size="1.778" layer="95"/>
+<pinref part="U5" gate="G$1" pin="VCCA"/>
 </segment>
 <segment>
-<pinref part="U15" gate="G$1" pin="OE"/>
 <wire x1="78.74" y1="15.24" x2="81.28" y2="15.24" width="0.1524" layer="91"/>
 <label x="81.28" y="15.24" size="1.778" layer="95"/>
+<pinref part="U5" gate="G$1" pin="OE"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
@@ -6515,14 +6515,14 @@ BAT_CHRG_LVL signal.</text>
 <segment>
 <wire x1="78.74" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
 <label x="81.28" y="10.16" size="1.778" layer="95"/>
-<pinref part="U15" gate="G$1" pin="A1"/>
+<pinref part="U5" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="ICE_MSP_SPI_DATA" class="0">
 <segment>
 <wire x1="78.74" y1="5.08" x2="81.28" y2="5.08" width="0.1524" layer="91"/>
 <label x="81.28" y="5.08" size="1.778" layer="95"/>
-<pinref part="U15" gate="G$1" pin="A2"/>
+<pinref part="U5" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="BAT_CHRG_LVL" class="0">
