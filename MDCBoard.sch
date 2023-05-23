@@ -2732,13 +2732,13 @@ Header</text>
 <wire x1="0" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-25.4" x2="10.16" y2="0" width="0.254" layer="94"/>
 <wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="OUT" x="15.24" y="-12.7" visible="off" length="point" rot="R180"/>
-<pin name="VDD" x="2.54" y="2.54" visible="pin" length="short" rot="R270"/>
+<pin name="OUT" x="15.24" y="-12.7" visible="pad" length="point" rot="R180"/>
+<pin name="VDD" x="2.54" y="2.54" length="short" rot="R270"/>
 <text x="12.7" y="-25.4" size="1.778" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<pin name="GND" x="7.62" y="2.54" visible="pin" length="short" rot="R270"/>
-<pin name="0" x="-2.54" y="-10.16" visible="pin" length="short"/>
-<pin name="1" x="-2.54" y="-15.24" visible="pin" length="short"/>
-<pin name="SEL" x="5.08" y="-27.94" visible="pin" length="short" rot="R90"/>
+<pin name="GND" x="7.62" y="2.54" length="short" rot="R270"/>
+<pin name="0" x="-2.54" y="-10.16" length="short"/>
+<pin name="1" x="-2.54" y="-15.24" length="short"/>
+<pin name="SEL" x="5.08" y="-27.94" length="short" rot="R90"/>
 <circle x="11.176" y="-12.7" radius="0.762" width="0.254" layer="94"/>
 <wire x1="11.938" y1="-12.7" x2="15.24" y2="-12.7" width="0.1524" layer="94"/>
 </symbol>
@@ -4565,14 +4565,6 @@ Header</text>
 <part name="X3" library="EagleLibrary" deviceset="SITIME-SIT8021" device="">
 <attribute name="PN" value="SIT8021AI-J4-18S-16.000000E"/>
 </part>
-<part name="LED10" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="MFG" value="OSRAM"/>
-<attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
-</part>
-<part name="R45" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
-<attribute name="MFG" value="Kamaya"/>
-<attribute name="PN" value="RGC1/16SC1001DTH"/>
-</part>
 <part name="R30" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
@@ -4665,14 +4657,6 @@ Header</text>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R27" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
-<attribute name="MFG" value="Kamaya"/>
-<attribute name="PN" value="RGC1/16SC1001DTH"/>
-</part>
-<part name="LED9" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="MFG" value="OSRAM"/>
-<attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
-</part>
-<part name="R44" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
 <attribute name="MFG" value="Kamaya"/>
 <attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
@@ -9433,28 +9417,6 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <attribute name="NAME" x="241.3" y="-17.018" size="1.778" layer="95"/>
 <attribute name="PN" x="241.3" y="-30.48" size="1.778" layer="95"/>
 </instance>
-<instance part="LED10" gate="G$1" x="246.38" y="-48.26" smashed="yes">
-<attribute name="NAME" x="249.936" y="-52.832" size="1.778" layer="95" rot="R90"/>
-<attribute name="MFG" x="246.38" y="-48.26" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="246.38" y="-48.26" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R45" gate="G$1" x="246.38" y="-60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="247.65" y="-58.42" size="1.778" layer="95"/>
-<attribute name="VALUE" x="247.65" y="-60.96" size="1.778" layer="96"/>
-<attribute name="MFG" x="246.38" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="PN" x="246.38" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
-<instance part="LED9" gate="G$1" x="231.14" y="-48.26" smashed="yes">
-<attribute name="NAME" x="234.696" y="-52.832" size="1.778" layer="95" rot="R90"/>
-<attribute name="MFG" x="231.14" y="-48.26" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="231.14" y="-48.26" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R44" gate="G$1" x="231.14" y="-60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="232.41" y="-58.42" size="1.778" layer="95"/>
-<attribute name="VALUE" x="232.41" y="-60.96" size="1.778" layer="96"/>
-<attribute name="MFG" x="231.14" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="PN" x="231.14" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
 <instance part="LED8" gate="G$1" x="215.9" y="-48.26" smashed="yes">
 <attribute name="NAME" x="219.456" y="-52.832" size="1.778" layer="95" rot="R90"/>
 <attribute name="MFG" x="215.9" y="-48.26" size="1.778" layer="96" display="off"/>
@@ -9715,19 +9677,9 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <label x="213.36" y="-30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R45" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="-66.04" x2="246.38" y2="-68.58" width="0.1524" layer="91"/>
-<label x="246.38" y="-68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U24" gate="J" pin="BYPASS_REG_L4"/>
 <wire x1="78.74" y1="-142.24" x2="81.28" y2="-142.24" width="0.1524" layer="91"/>
 <label x="81.28" y="-142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="-66.04" x2="231.14" y2="-68.58" width="0.1524" layer="91"/>
-<label x="231.14" y="-68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
@@ -9982,25 +9934,6 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <label x="175.26" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="LED10" gate="G$1" pin="C"/>
-<wire x1="246.38" y1="-53.34" x2="246.38" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="R45" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="STM_LED0" class="0">
-<segment>
-<pinref part="LED10" gate="G$1" pin="A"/>
-<wire x1="246.38" y1="-45.72" x2="246.38" y2="-43.18" width="0.1524" layer="91"/>
-<label x="246.38" y="-43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U24" gate="B" pin="PB10_R12"/>
-<wire x1="68.58" y1="-38.1" x2="71.12" y2="-38.1" width="0.1524" layer="91"/>
-<label x="71.12" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VDD_B_3V3_STM" class="0">
 <segment>
 <pinref part="C75" gate="G$1" pin="1"/>
@@ -10031,13 +9964,6 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <junction x="50.8" y="12.7"/>
 </segment>
 </net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="LED9" gate="G$1" pin="C"/>
-<wire x1="231.14" y1="-53.34" x2="231.14" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="R44" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="LED8" gate="G$1" pin="C"/>
@@ -10050,18 +9976,6 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <pinref part="LED7" gate="G$1" pin="C"/>
 <wire x1="200.66" y1="-53.34" x2="200.66" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="STM_LED1" class="0">
-<segment>
-<pinref part="LED9" gate="G$1" pin="A"/>
-<wire x1="231.14" y1="-45.72" x2="231.14" y2="-43.18" width="0.1524" layer="91"/>
-<label x="231.14" y="-43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U24" gate="B" pin="PB12_P12"/>
-<wire x1="68.58" y1="-43.18" x2="71.12" y2="-43.18" width="0.1524" layer="91"/>
-<label x="71.12" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="STM_LED2" class="0">
@@ -10186,13 +10100,6 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <label x="236.22" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BAT_CHRG_STAT" class="0">
-<segment>
-<wire x1="2.54" y1="-111.76" x2="5.08" y2="-111.76" width="0.1524" layer="91"/>
-<label x="5.08" y="-111.76" size="1.778" layer="95"/>
-<pinref part="U24" gate="E" pin="PE15_R11"/>
-</segment>
-</net>
 <net name="MSP_STM_I2C_SCL" class="0">
 <segment>
 <pinref part="U24" gate="B" pin="PB8_A5"/>
@@ -10217,11 +10124,18 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <label x="55.88" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="BAT_CHRG_STAT" class="0">
+<segment>
+<wire x1="68.58" y1="-38.1" x2="71.12" y2="-38.1" width="0.1524" layer="91"/>
+<label x="71.12" y="-38.1" size="1.778" layer="95"/>
+<pinref part="U24" gate="B" pin="PB10_R12"/>
+</segment>
+</net>
 <net name="BAT_CHRG_EN_" class="0">
 <segment>
-<pinref part="U24" gate="E" pin="PE14_P11"/>
-<wire x1="2.54" y1="-109.22" x2="5.08" y2="-109.22" width="0.1524" layer="91"/>
-<label x="5.08" y="-109.22" size="1.778" layer="95"/>
+<wire x1="2.54" y1="-111.76" x2="5.08" y2="-111.76" width="0.1524" layer="91"/>
+<label x="5.08" y="-111.76" size="1.778" layer="95"/>
+<pinref part="U24" gate="E" pin="PE15_R11"/>
 </segment>
 </net>
 </nets>
