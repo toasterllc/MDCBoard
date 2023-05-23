@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -156,6 +156,18 @@
 <wire x1="38.22364375" y1="30.70188125" x2="37.991640625" y2="26.56864375" width="0.0762" layer="26"/>
 <text x="40.16851875" y="25.885471875" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">LED3-6</text>
 <wire x1="17.189659375" y1="6.70915625" x2="17.296340625" y2="6.345940625" width="0.0762" layer="26"/>
+<circle x="0" y="16.325" radius="1.6" width="0" layer="46" grouprefs="CUTOUT-LEFT"/>
+<polygon width="0" layer="46" grouprefs="CUTOUT-LEFT">
+<vertex x="0" y="18.575"/>
+<vertex x="0" y="14.075"/>
+<vertex x="1.5" y="16.325"/>
+</polygon>
+<polygon width="0" layer="46">
+<vertex x="43.855" y="18.575"/>
+<vertex x="43.855" y="14.075"/>
+<vertex x="42.355" y="16.325"/>
+</polygon>
+<circle x="43.855" y="16.325" radius="1.6" width="0" layer="46"/>
 </plain>
 <libraries>
 <library name="EagleLibrary">
@@ -1647,6 +1659,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <board_group name="_POWER_MUX"/>
 <board_group name="_LEVEL_SHIFTER"/>
 <board_group name="_USB_C_RECEPTACLE"/>
+<board_group name="CUTOUT-LEFT"/>
 </groups>
 <elements>
 <element name="C40" library="EagleLibrary" package="0402" value="10n" x="30.700071875" y="22.0759375" smashed="yes" rot="MR270" grouprefs="_ICE_IMG_CLK">
