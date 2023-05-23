@@ -8,7 +8,7 @@
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -22,33 +22,33 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Power" color="42" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Power" color="42" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -3595,7 +3595,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="37.338" y="26.6319"/>
 </polygon>
 <via x="28.8036" y="22.725378125" extent="1-16" drill="0.381"/>
-<wire x1="30.695915625" y1="6.69100625" x2="30.350459375" y2="5.679440625" width="0" layer="19" extent="1-1"/>
+<via x="32.258" y="8.636" extent="1-16" drill="0.381"/>
+<via x="31.48838125" y="8.33628125" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="ICE_IMG_CLK16MHZ">
 <contactref element="U17" pad="C11"/>
@@ -5964,7 +5965,11 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="40.78705" y1="8.89" x2="41.85514375" y2="9.95809375" width="0.127" layer="15"/>
 <wire x1="29.98255625" y1="7.8994" x2="29.980640625" y2="7.8994" width="0.127" layer="15"/>
 <wire x1="30.97315625" y1="8.89" x2="29.98255625" y2="7.8994" width="0.127" layer="15"/>
-<wire x1="40.78705" y1="8.89" x2="30.97315625" y2="8.89" width="0.127" layer="15"/>
+<wire x1="40.78705" y1="8.89" x2="32.7304375" y2="8.89" width="0.127" layer="15"/>
+<wire x1="32.7304375" y1="8.89" x2="32.4764375" y2="9.144" width="0.127" layer="15"/>
+<wire x1="32.4764375" y1="9.144" x2="32.03701875" y2="9.144" width="0.127" layer="15"/>
+<wire x1="32.03701875" y1="9.144" x2="31.78301875" y2="8.89" width="0.127" layer="15"/>
+<wire x1="31.78301875" y1="8.89" x2="30.97315625" y2="8.89" width="0.127" layer="15"/>
 <wire x1="41.85514375" y1="9.95809375" x2="41.85514375" y2="10.314934375" width="0.127" layer="15"/>
 <wire x1="41.85514375" y1="10.314934375" x2="41.855140625" y2="10.3149375" width="0.127" layer="15"/>
 </signal>
@@ -6542,7 +6547,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="43.402" y="10.21334375"/>
 </polygon>
 <via x="42.703503125" y="9.959340625" extent="1-16" drill="0.381"/>
-<wire x1="32.34835" y1="8.027" x2="40.46286875" y2="8.027" width="0.381" layer="15"/>
+<wire x1="32.60235" y1="8.027" x2="40.46286875" y2="8.027" width="0.381" layer="15"/>
 <via x="25.255521875" y="1.75778125" extent="1-16" drill="0.254"/>
 <polygon width="0.127" layer="16" thermals="no">
 <vertex x="24.892" y="2.13868125"/>
@@ -6579,8 +6584,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="28.507528125" y1="5.506628125" x2="29.078225" y2="4.93593125" width="0.381" layer="15"/>
 <wire x1="29.7789625" y1="5.4576125" x2="29.7789625" y2="5.91616875" width="0.381" layer="15"/>
 <wire x1="29.7789625" y1="5.91616875" x2="30.1137375" y2="6.25094375" width="0.381" layer="15"/>
-<wire x1="30.1137375" y1="6.25094375" x2="30.57229375" y2="6.25094375" width="0.381" layer="15"/>
-<wire x1="30.57229375" y1="6.25094375" x2="32.34835" y2="8.027" width="0.381" layer="15"/>
+<wire x1="30.1137375" y1="6.25094375" x2="30.82629375" y2="6.25094375" width="0.381" layer="15"/>
+<wire x1="30.82629375" y1="6.25094375" x2="32.60235" y2="8.027" width="0.381" layer="15"/>
 <wire x1="29.078225" y1="4.756875" x2="29.7789625" y2="5.4576125" width="0.381" layer="15"/>
 <contactref element="R20" pad="2"/>
 <contactref element="R19" pad="2"/>
