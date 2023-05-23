@@ -4636,22 +4636,6 @@ Header</text>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
-<part name="LED3" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="MFG" value="OSRAM"/>
-<attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
-</part>
-<part name="R24" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
-<attribute name="MFG" value="Kamaya"/>
-<attribute name="PN" value="RGC1/16SC1001DTH"/>
-</part>
-<part name="LED4" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="MFG" value="OSRAM"/>
-<attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
-</part>
-<part name="R25" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
-<attribute name="MFG" value="Kamaya"/>
-<attribute name="PN" value="RGC1/16SC1001DTH"/>
-</part>
 <part name="LED6" library="EagleLibrary" deviceset="LED" device="LED-0603">
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
@@ -7044,28 +7028,6 @@ should be a high voltage during power up.</text>
 <attribute name="MFG" x="68.58" y="-101.6" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="68.58" y="-101.6" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED3" gate="G$1" x="167.64" y="-33.02" smashed="yes">
-<attribute name="NAME" x="171.196" y="-37.592" size="1.778" layer="95" rot="R90"/>
-<attribute name="MFG" x="167.64" y="-33.02" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="167.64" y="-33.02" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R24" gate="G$1" x="167.64" y="-45.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="168.91" y="-43.18" size="1.778" layer="95"/>
-<attribute name="VALUE" x="168.91" y="-45.72" size="1.778" layer="96"/>
-<attribute name="MFG" x="167.64" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="PN" x="167.64" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
-<instance part="LED4" gate="G$1" x="182.88" y="-33.02" smashed="yes">
-<attribute name="NAME" x="186.436" y="-37.592" size="1.778" layer="95" rot="R90"/>
-<attribute name="MFG" x="182.88" y="-33.02" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="182.88" y="-33.02" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R25" gate="G$1" x="182.88" y="-45.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="184.15" y="-43.18" size="1.778" layer="95"/>
-<attribute name="VALUE" x="184.15" y="-45.72" size="1.778" layer="96"/>
-<attribute name="MFG" x="182.88" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="PN" x="182.88" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
 <instance part="LED6" gate="G$1" x="213.36" y="-33.02" smashed="yes">
 <attribute name="NAME" x="216.916" y="-37.592" size="1.778" layer="95" rot="R90"/>
 <attribute name="MFG" x="213.36" y="-33.02" size="1.778" layer="96" display="off"/>
@@ -7284,16 +7246,6 @@ should be a high voltage during power up.</text>
 <pinref part="C40" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="-91.44" x2="149.86" y2="-93.98" width="0.1524" layer="91"/>
 <label x="149.86" y="-93.98" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-<segment>
-<pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="-50.8" x2="167.64" y2="-53.34" width="0.1524" layer="91"/>
-<label x="167.64" y="-53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="-50.8" x2="182.88" y2="-53.34" width="0.1524" layer="91"/>
-<label x="182.88" y="-53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
@@ -7806,20 +7758,6 @@ should be a high voltage during power up.</text>
 <label x="215.9" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="167.64" y1="-38.1" x2="167.64" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="LED4" gate="G$1" pin="C"/>
-<wire x1="182.88" y1="-38.1" x2="182.88" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="LED6" gate="G$1" pin="C"/>
@@ -7837,30 +7775,6 @@ should be a high voltage during power up.</text>
 <pinref part="U17" gate="B" pin="B11"/>
 <wire x1="88.9" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
 <label x="91.44" y="66.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ICE_LED1" class="0">
-<segment>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="182.88" y1="-30.48" x2="182.88" y2="-27.94" width="0.1524" layer="91"/>
-<label x="182.88" y="-27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U17" gate="A" pin="A11"/>
-<wire x1="33.02" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
-<label x="35.56" y="40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ICE_LED0" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="167.64" y1="-30.48" x2="167.64" y2="-27.94" width="0.1524" layer="91"/>
-<label x="167.64" y="-27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U17" gate="A" pin="A10"/>
-<wire x1="33.02" y1="43.18" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
-<label x="35.56" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IMG_RST_" class="0">
