@@ -4937,8 +4937,12 @@ Header</text>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
 <part name="J5" library="EagleLibrary" deviceset="BATTERY-HEADER" device="-MOLEX-781710002"/>
-<part name="U26" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" device=""/>
-<part name="U27" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" device=""/>
+<part name="U26" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" device="">
+<attribute name="PN" value="74LVC1G98GW,125"/>
+</part>
+<part name="U27" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" device="">
+<attribute name="PN" value="74LVC1G98GW,125"/>
+</part>
 <part name="U28" library="EagleLibrary" deviceset="TI-TPS22919DCK" device=""/>
 <part name="U5" library="EagleLibrary" deviceset="NEXPERIA-NXB0102" device=""/>
 </parts>
@@ -5046,7 +5050,7 @@ Requirements:
 
   - reverse working voltage ~= 5V
      since battery will operate up to ~4.2V</text>
-<text x="337.82" y="368.3" size="1.016" layer="95" align="top-left">Users of BAT_CHRG_LVL should have a capacitor
+<text x="337.82" y="368.3" size="1.016" layer="95" align="top-left">Users of BAT_CHRG_LVL must have a capacitor
 at their input to filter noise.</text>
 <text x="333.248" y="435.61" size="1.016" layer="95" align="top-left">Pulldown prevents a floating
 input while MSP430 is resetting</text>
@@ -6624,9 +6628,25 @@ BAT_CHRG_LVL signal.</text>
 </instance>
 <instance part="U26" gate="G$1" x="2.54" y="-25.4" smashed="yes">
 <attribute name="NAME" x="-2.54" y="-27.94" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U27" gate="G$1" x="2.54" y="-88.9" smashed="yes">
 <attribute name="NAME" x="-2.54" y="-91.44" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>

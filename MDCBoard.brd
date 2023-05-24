@@ -9,7 +9,7 @@
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Ground" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,40 +22,40 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Power" color="42" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Power" color="42" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -2600,10 +2600,12 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U26" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" x="35.4965" y="28.17368125" smashed="yes" rot="R270">
 <attribute name="MFG" value="Nexperia" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="36.716878125" y="28.83408125" size="0.762" layer="25" font="vector" rot="R270"/>
+<attribute name="PN" value="74LVC1G98GW,125" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U27" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" x="33.80231875" y="29.49448125" smashed="yes" rot="MR90">
 <attribute name="MFG" value="Nexperia" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="35.022696875" y="28.83408125" size="0.762" layer="26" font="vector" rot="MR90"/>
+<attribute name="PN" value="74LVC1G98GW,125" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U28" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="41.656" y="11.938" smashed="yes">
 <attribute name="MFG" value="Texas Instruments" x="41.656" y="11.938" size="1.778" layer="27" display="off"/>
@@ -5663,10 +5665,9 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <signal name="ICE_MSP_SPI_CLK_X">
 <contactref element="U14" pad="5"/>
 <contactref element="U5" pad="A2"/>
-<wire x1="11.08301875" y1="6.86308125" x2="11.08301875" y2="6.89701875" width="0.127" layer="1"/>
-<wire x1="11.08301875" y1="6.89701875" x2="11.424" y2="7.238" width="0.127" layer="1"/>
-<wire x1="10.904" y1="6.6840625" x2="11.08301875" y2="6.86308125" width="0.127" layer="1"/>
-<wire x1="10.904" y1="5.7045" x2="10.904" y2="6.6840625" width="0.127" layer="1"/>
+<wire x1="11.424" y1="7.160884375" x2="10.904" y2="6.640884375" width="0.127" layer="1"/>
+<wire x1="11.424" y1="7.160884375" x2="11.424" y2="7.238" width="0.127" layer="1"/>
+<wire x1="10.904" y1="5.7045" x2="10.904" y2="6.640884375" width="0.127" layer="1"/>
 </signal>
 <signal name="ICE_MSP_SPI_CLK">
 <contactref element="U17" pad="K2"/>
