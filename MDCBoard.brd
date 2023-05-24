@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
@@ -155,52 +155,6 @@
 <wire x1="38.22364375" y1="30.70188125" x2="37.991640625" y2="26.56864375" width="0.0762" layer="26"/>
 <text x="40.16851875" y="25.885471875" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">LED3-6</text>
 <wire x1="17.189659375" y1="6.70915625" x2="17.296340625" y2="6.345940625" width="0.0762" layer="26"/>
-<wire x1="0" y1="17.925" x2="0" y2="14.725" width="0" layer="46" curve="-180"/>
-<wire x1="0" y1="17.925" x2="0" y2="14.725" width="0" layer="46"/>
-<wire x1="0" y1="18.575" x2="0" y2="14.075" width="0" layer="46"/>
-<wire x1="0" y1="14.075" x2="1.5" y2="16.325" width="0" layer="46"/>
-<wire x1="1.5" y1="16.325" x2="0" y2="18.575" width="0" layer="46"/>
-<polygon width="0" layer="41">
-<vertex x="1.5" y="16.325"/>
-<vertex x="0" y="14.075"/>
-<vertex x="0" y="18.575"/>
-</polygon>
-<polygon width="0" layer="41">
-<vertex x="0" y="17.925" curve="-180"/>
-<vertex x="0" y="14.725"/>
-</polygon>
-<polygon width="0" layer="42" grouprefs="CUTOUT-LEFT">
-<vertex x="1.5" y="16.325"/>
-<vertex x="0" y="14.075"/>
-<vertex x="0" y="18.575"/>
-</polygon>
-<polygon width="0" layer="42">
-<vertex x="0" y="17.925" curve="-180"/>
-<vertex x="0" y="14.725"/>
-</polygon>
-<polygon width="0" layer="41">
-<vertex x="43.855" y="14.075"/>
-<vertex x="42.355" y="16.325"/>
-<vertex x="43.855" y="18.575"/>
-</polygon>
-<polygon width="0" layer="41">
-<vertex x="43.855" y="17.925" curve="180"/>
-<vertex x="43.855" y="14.725"/>
-</polygon>
-<wire x1="43.855" y1="14.075" x2="42.355" y2="16.325" width="0" layer="46"/>
-<wire x1="42.355" y1="16.325" x2="43.855" y2="18.575" width="0" layer="46"/>
-<wire x1="43.855" y1="18.575" x2="43.855" y2="14.075" width="0" layer="46"/>
-<wire x1="43.855" y1="17.925" x2="43.855" y2="14.725" width="0" layer="46" curve="180"/>
-<wire x1="43.855" y1="17.925" x2="43.855" y2="14.725" width="0" layer="46"/>
-<polygon width="0" layer="42">
-<vertex x="43.855" y="14.075"/>
-<vertex x="42.355" y="16.325"/>
-<vertex x="43.855" y="18.575"/>
-</polygon>
-<polygon width="0" layer="42">
-<vertex x="43.855" y="17.925" curve="180"/>
-<vertex x="43.855" y="14.725"/>
-</polygon>
 </plain>
 <libraries>
 <library name="EagleLibrary">
@@ -1486,6 +1440,37 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="0.4" y="0.8"/>
 </polygon>
 </package>
+<package name="MDC-CUTOUT">
+<description>Chip, 3.20 X 2.50 X 0.70 mm body
+&lt;p&gt;Chip package with body size 3.20 X 2.50 X 0.70 mm&lt;/p&gt;</description>
+<polygon width="0" layer="41">
+<vertex x="0" y="2.25"/>
+<vertex x="0" y="-2.25"/>
+<vertex x="1.5" y="0"/>
+</polygon>
+<polygon width="0" layer="41">
+<vertex x="0" y="1.6" curve="-180"/>
+<vertex x="0" y="-1.6"/>
+</polygon>
+<polygon width="0" layer="42">
+<vertex x="0" y="2.25"/>
+<vertex x="0" y="-2.25"/>
+<vertex x="1.5" y="0"/>
+</polygon>
+<polygon width="0" layer="42">
+<vertex x="0" y="1.6" curve="-180"/>
+<vertex x="0" y="-1.6"/>
+</polygon>
+<polygon width="0" layer="46">
+<vertex x="0" y="2.25"/>
+<vertex x="0" y="-2.25"/>
+<vertex x="1.5" y="0"/>
+</polygon>
+<polygon width="0" layer="46">
+<vertex x="0" y="1.6" curve="-180"/>
+<vertex x="0" y="-1.6"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="SON50P300X200X80-8N" urn="urn:adsk.eagle:package:36180302/1" type="model">
@@ -2618,6 +2603,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="12.103740625" y="6.770009375" size="0.508" layer="25" font="vector" rot="SR180"/>
 <attribute name="PN" value="NXB0102UN" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
+<element name="X4" library="EagleLibrary" package="MDC-CUTOUT" value="MDC-CUTOUT" x="43.855" y="16.325" smashed="yes" rot="R180"/>
+<element name="X5" library="EagleLibrary" package="MDC-CUTOUT" value="MDC-CUTOUT" x="0" y="16.325" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VDD_B">

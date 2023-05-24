@@ -1650,6 +1650,37 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </polygon>
 <wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.381" layer="53"/>
 </package>
+<package name="MDC-CUTOUT">
+<description>Chip, 3.20 X 2.50 X 0.70 mm body
+&lt;p&gt;Chip package with body size 3.20 X 2.50 X 0.70 mm&lt;/p&gt;</description>
+<polygon width="0" layer="41">
+<vertex x="0" y="2.25"/>
+<vertex x="0" y="-2.25"/>
+<vertex x="1.5" y="0"/>
+</polygon>
+<polygon width="0" layer="41">
+<vertex x="0" y="1.6" curve="-180"/>
+<vertex x="0" y="-1.6"/>
+</polygon>
+<polygon width="0" layer="42">
+<vertex x="0" y="2.25"/>
+<vertex x="0" y="-2.25"/>
+<vertex x="1.5" y="0"/>
+</polygon>
+<polygon width="0" layer="42">
+<vertex x="0" y="1.6" curve="-180"/>
+<vertex x="0" y="-1.6"/>
+</polygon>
+<polygon width="0" layer="46">
+<vertex x="0" y="2.25"/>
+<vertex x="0" y="-2.25"/>
+<vertex x="1.5" y="0"/>
+</polygon>
+<polygon width="0" layer="46">
+<vertex x="0" y="1.6" curve="-180"/>
+<vertex x="0" y="-1.6"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="SON50P300X200X80-8N" urn="urn:adsk.eagle:package:36180302/1" type="model">
@@ -2776,6 +2807,11 @@ Header</text>
 <pin name="B2" x="22.86" y="-20.32" visible="pin" length="short" rot="R180"/>
 <pin name="VCCB" x="22.86" y="-2.54" visible="pin" length="short" rot="R180"/>
 <text x="0" y="-27.94" size="1.778" layer="95">Level Shifter</text>
+</symbol>
+<symbol name="MDC-CUTOUT">
+<text x="0" y="-5.08" size="1.778" layer="95">Cutout</text>
+<text x="0" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4220,6 +4256,18 @@ Header</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MDC-CUTOUT" prefix="X">
+<gates>
+<gate name="G$1" symbol="MDC-CUTOUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MDC-CUTOUT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4972,6 +5020,8 @@ Header</text>
 </part>
 <part name="U5" library="EagleLibrary" deviceset="TI-TPS22919DCK" device=""/>
 <part name="U15" library="EagleLibrary" deviceset="NEXPERIA-NXB0102" device=""/>
+<part name="X4" library="EagleLibrary" deviceset="MDC-CUTOUT" device=""/>
+<part name="X5" library="EagleLibrary" deviceset="MDC-CUTOUT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10254,6 +10304,12 @@ Ferrite bead specs:
 </instance>
 <instance part="MH3" gate="G$1" x="5.08" y="-25.4" smashed="yes">
 <attribute name="NAME" x="5.08" y="-22.098" size="1.778" layer="95"/>
+</instance>
+<instance part="X4" gate="G$1" x="-2.54" y="-43.18" smashed="yes">
+<attribute name="NAME" x="-2.54" y="-39.878" size="1.778" layer="95"/>
+</instance>
+<instance part="X5" gate="G$1" x="12.7" y="-43.18" smashed="yes">
+<attribute name="NAME" x="12.7" y="-39.878" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
