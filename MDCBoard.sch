@@ -7544,7 +7544,7 @@ should be a high voltage during power up.</text>
 <label x="50.8" y="-175.26" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="ICE_LED2" class="0">
+<net name="ICE_LED0" class="0">
 <segment>
 <pinref part="LED5" gate="G$1" pin="A"/>
 <wire x1="198.12" y1="-30.48" x2="198.12" y2="-27.94" width="0.1524" layer="91"/>
@@ -7765,7 +7765,7 @@ should be a high voltage during power up.</text>
 <pinref part="R27" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="ICE_LED3" class="0">
+<net name="ICE_LED1" class="0">
 <segment>
 <pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="213.36" y1="-30.48" x2="213.36" y2="-27.94" width="0.1524" layer="91"/>
@@ -9892,7 +9892,7 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <pinref part="R42" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="STM_LED2" class="0">
+<net name="STM_LED0" class="0">
 <segment>
 <pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="215.9" y1="-45.72" x2="215.9" y2="-43.18" width="0.1524" layer="91"/>
@@ -9904,7 +9904,7 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <label x="71.12" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="STM_LED3" class="0">
+<net name="STM_LED1" class="0">
 <segment>
 <pinref part="LED7" gate="G$1" pin="A"/>
 <wire x1="200.66" y1="-45.72" x2="200.66" y2="-43.18" width="0.1524" layer="91"/>

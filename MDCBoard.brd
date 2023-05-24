@@ -4535,7 +4535,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="27.08758125" y1="10.8850875" x2="26.09965" y2="11.87301875" width="0.127" layer="1"/>
 <wire x1="27.08758125" y1="6.87938125" x2="27.08758125" y2="10.8850875" width="0.127" layer="1"/>
 </signal>
-<signal name="ICE_LED2">
+<signal name="ICE_LED0">
 <contactref element="LED5" pad="A"/>
 <contactref element="U17" pad="C9"/>
 <wire x1="23.5794" y1="19.963" x2="23.5794" y2="19.966503125" width="0.127" layer="1"/>
@@ -6688,7 +6688,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="42.422596875" y1="24.2705375" x2="42.57075625" y2="24.122378125" width="0.127" layer="1"/>
 <wire x1="42.57075625" y1="24.122378125" x2="43.1937125" y2="24.122378125" width="0.127" layer="1"/>
 </signal>
-<signal name="ICE_LED3">
+<signal name="ICE_LED1">
 <contactref element="LED6" pad="A"/>
 <contactref element="U17" pad="B11"/>
 <via x="40.421553125" y="24.1173" extent="1-16" drill="0.254"/>
@@ -6720,7 +6720,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <contactref element="R42" pad="1"/>
 <wire x1="33.070034375" y1="9.548875" x2="34.18278125" y2="9.548875" width="0.127" layer="16"/>
 </signal>
-<signal name="STM_LED2">
+<signal name="STM_LED0">
 <contactref element="LED8" pad="A"/>
 <contactref element="U24" pad="R13"/>
 <wire x1="28.180403125" y1="9.886640625" x2="28.180403125" y2="10.0551" width="0.127" layer="16"/>
@@ -6729,7 +6729,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="31.446034375" y1="10.4245875" x2="31.954034375" y2="10.4245875" width="0.127" layer="16"/>
 <wire x1="31.446034375" y1="10.4245875" x2="30.678321875" y2="11.1923" width="0.127" layer="16"/>
 </signal>
-<signal name="STM_LED3">
+<signal name="STM_LED1">
 <contactref element="LED7" pad="A"/>
 <contactref element="U24" pad="P13"/>
 <wire x1="28.509" y1="9.75106875" x2="28.509" y2="10.024484375" width="0.127" layer="16"/>
