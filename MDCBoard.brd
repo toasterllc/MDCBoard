@@ -60,8 +60,8 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="53" name="tJumper" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bJumper" color="7" fill="1" visible="no" active="yes"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
@@ -1057,7 +1057,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="0" y="1.02"/>
 </polygon>
 </package>
-<package name="JUMPER-SOLDER">
+<package name="JUMPER-SOLDER-CLOSED">
 <description>Chip, 1.00 X 0.50 X 0.50 mm body
 &lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.50 mm&lt;/p&gt;</description>
 <smd name="1" x="-0.4" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
@@ -1073,6 +1073,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="0.85" y="-0.4"/>
 <vertex x="0.85" y="0.4"/>
 </polygon>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.381" layer="53"/>
 </package>
 <package name="DIODESINC-AP7350">
 <wire x1="0.405" y1="-0.405" x2="-0.405" y2="-0.405" width="0.05" layer="21"/>
@@ -2198,7 +2199,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="28.870025" y="31.395840625" size="0.762" layer="25" font="vector"/>
 <attribute name="PN" value="PMPB10UPX" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J3" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="27.772425" y="31.030221875" smashed="yes" rot="R180" grouprefs="_VDD_B_CONTROL">
+<element name="J3" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="27.772425" y="31.030221875" smashed="yes" rot="R180" grouprefs="_VDD_B_CONTROL">
 <attribute name="NAME" x="27.510425" y="31.998221875" size="0.508" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="U3" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-NOR" x="31.72" y="26.417784375" smashed="yes" rot="R180" grouprefs="_VDD_B_CONTROL">
@@ -2241,10 +2242,10 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="26.807384375" y="3.6733" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="26.311828125" y="3.380815625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J6" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="23.400421875" y="21.817140625" smashed="yes" rot="MR270" grouprefs="_VDD_B_1V2_BUCK">
+<element name="J6" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="23.400421875" y="21.817140625" smashed="yes" rot="MR270" grouprefs="_VDD_B_1V2_BUCK">
 <attribute name="NAME" x="24.40144375" y="22.018640625" size="0.508" layer="26" font="vector" rot="MR270"/>
 </element>
-<element name="J7" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="25.00919375" y="23.201103125" smashed="yes" grouprefs="_VDD_B_1V8_BUCK">
+<element name="J7" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="25.00919375" y="23.201103125" smashed="yes" grouprefs="_VDD_B_1V8_BUCK">
 <attribute name="NAME" x="25.9900125" y="22.92398125" size="0.508" layer="25" font="vector"/>
 </element>
 <element name="U2" library="EagleLibrary" package="DIODESINC-AP7350" value="DIODESINC-AP7350" x="4.438178125" y="27.78268125" smashed="yes" grouprefs="_VDD_A_3V3_LDO">
@@ -2297,10 +2298,10 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="35.220153125" y="24.002515625" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="35.9411375" y="24.500096875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="J1" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="40.32338125" y="4.718203125" smashed="yes" rot="MR180">
+<element name="J1" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="40.32338125" y="4.718203125" smashed="yes" rot="MR180">
 <attribute name="NAME" x="40.432984375" y="4.228246875" size="0.508" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="J2" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="4.002840625" y="24.99318125" smashed="yes" rot="R180" grouprefs="_VDD_A_3V3_LDO">
+<element name="J2" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="4.002840625" y="24.99318125" smashed="yes" rot="R180" grouprefs="_VDD_A_3V3_LDO">
 <attribute name="NAME" x="2.948359375" y="25.22204375" size="0.508" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R1" library="EagleLibrary" package="0402" value="100k" x="40.317240625" y="5.588" smashed="yes" rot="MR0">
@@ -2308,7 +2309,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="40.10604375" y="6.088121875" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="40.317240625" y="5.588" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="J8" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="30.5216625" y="26.051721875" smashed="yes" rot="MR270" grouprefs="_VDD_B_2V8_BUCK">
+<element name="J8" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="30.5216625" y="26.051721875" smashed="yes" rot="MR270" grouprefs="_VDD_B_2V8_BUCK">
 <attribute name="NAME" x="31.504903125" y="25.952284375" size="0.508" layer="26" font="vector" rot="MR270"/>
 </element>
 <element name="U18" library="EagleLibrary" package="WINBOND-W25Q40EWUXIE" package3d_urn="urn:adsk.eagle:package:36180302/1" value="WINBOND-W25Q40EW" x="22.38118125" y="8.756165625" smashed="yes">
@@ -2395,7 +2396,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="36.3962625" y="7.557340625" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="AC0402FR-075K1L" x="36.7845" y="6.584259375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="J4" library="EagleLibrary" package="JUMPER-SOLDER" value="JUMPER-SOLDER" x="40.493978125" y="27.958671875" smashed="yes" rot="R90" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<element name="J4" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="40.493978125" y="27.958671875" smashed="yes" rot="R90" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <attribute name="NAME" x="41.50261875" y="27.9216125" size="0.508" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="R11" library="EagleLibrary" package="0402" value="3k" x="41.46695625" y="14.82525625" smashed="yes" rot="R90">

@@ -60,8 +60,8 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="53" name="tJumper" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bJumper" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
@@ -1631,6 +1631,24 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="-0.4" y="0.2"/>
 <vertex x="0.4" y="0.8"/>
 </polygon>
+</package>
+<package name="JUMPER-SOLDER-CLOSED">
+<description>Chip, 1.00 X 0.50 X 0.50 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.50 mm&lt;/p&gt;</description>
+<smd name="1" x="-0.4" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<smd name="2" x="0.4" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<text x="-0.754" y="0.556" size="0.508" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-0.85" y1="0.4" x2="-0.85" y2="-0.4" width="0.05" layer="21"/>
+<wire x1="-0.85" y1="-0.4" x2="0.85" y2="-0.4" width="0.05" layer="21"/>
+<wire x1="0.85" y1="-0.4" x2="0.85" y2="0.4" width="0.05" layer="21"/>
+<wire x1="0.85" y1="0.4" x2="-0.85" y2="0.4" width="0.05" layer="21"/>
+<polygon width="0.05" layer="39">
+<vertex x="-0.85" y="0.4"/>
+<vertex x="-0.85" y="-0.4"/>
+<vertex x="0.85" y="-0.4"/>
+<vertex x="0.85" y="0.4"/>
+</polygon>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.381" layer="53"/>
 </package>
 </packages>
 <packages3d>
@@ -3689,6 +3707,15 @@ Header</text>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-SOLDER-CLOSED" package="JUMPER-SOLDER-CLOSED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="NEXPERIA-74LVC1G98-NOR" prefix="U">
@@ -4671,7 +4698,7 @@ Header</text>
 <part name="Q1" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
 <attribute name="PN" value="PMPB10UPX"/>
 </part>
-<part name="J3" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER" value="JUMPER-SOLDER"/>
+<part name="J3" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
 <part name="U3" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-NOR" device="">
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
@@ -4698,8 +4725,8 @@ Header</text>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
-<part name="J6" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER"/>
-<part name="J7" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER"/>
+<part name="J6" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
+<part name="J7" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
 <part name="U2" library="EagleLibrary" deviceset="DIODESINC-AP7350" device="">
 <attribute name="PN" value="AP7350-33CF4-7"/>
 </part>
@@ -4735,13 +4762,13 @@ Header</text>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
-<part name="J1" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER" value="JUMPER-SOLDER"/>
-<part name="J2" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER" value="JUMPER-SOLDER"/>
+<part name="J1" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
+<part name="J2" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
 <part name="R1" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
-<part name="J8" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER"/>
+<part name="J8" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
 <part name="U18" library="EagleLibrary" deviceset="WINBOND-W25Q40EW" device="" package3d_urn="urn:adsk.eagle:package:36180302/1">
 <attribute name="PN" value="W25Q40EWUXIE"/>
 </part>
@@ -4801,7 +4828,7 @@ Header</text>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="AC0402FR-075K1L"/>
 </part>
-<part name="J4" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER" value="JUMPER-SOLDER"/>
+<part name="J4" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
 <part name="R11" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="3k">
 <attribute name="MFG" value="Susumu"/>
 <attribute name="PN" value="RR0510P-302-D"/>
