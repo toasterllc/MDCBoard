@@ -6183,7 +6183,7 @@ VDD_A and GND (4.2V/10k = 420uA).</text>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="396.24" x2="154.94" y2="393.7" width="0.1524" layer="91"/>
-<label x="154.94" y="393.7" size="1.778" layer="95" align="bottom-right"/>
+<label x="154.94" y="393.7" size="1.778" layer="95" align="top-right"/>
 </segment>
 </net>
 </nets>
