@@ -1671,15 +1671,9 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="0" y="1.6" curve="-180"/>
 <vertex x="0" y="-1.6"/>
 </polygon>
-<polygon width="0" layer="46">
-<vertex x="0" y="2.25"/>
-<vertex x="0" y="-2.25"/>
-<vertex x="1.5" y="0"/>
-</polygon>
-<polygon width="0" layer="46">
-<vertex x="0" y="1.6" curve="-180"/>
-<vertex x="0" y="-1.6"/>
-</polygon>
+<wire x1="0.5" y1="1.5" x2="0" y2="2.25" width="0" layer="20"/>
+<wire x1="0.5" y1="1.5" x2="0.5" y2="-1.5" width="0" layer="20" curve="-145"/>
+<wire x1="0.5" y1="-1.5" x2="0" y2="-2.25" width="0" layer="20"/>
 </package>
 </packages>
 <packages3d>

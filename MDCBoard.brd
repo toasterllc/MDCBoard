@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
@@ -105,11 +105,13 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="27.9" x2="0" y2="4.75" width="0" layer="20"/>
+<wire x1="0" y1="27.9" x2="0" y2="18.575" width="0" layer="20"/>
+<wire x1="0" y1="14.075" x2="0" y2="4.75" width="0" layer="20"/>
 <wire x1="0" y1="4.75" x2="4.75" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="4.75" y1="0" x2="39.105" y2="0" width="0" layer="20"/>
 <wire x1="39.105" y1="0" x2="43.855" y2="4.75" width="0" layer="20" curve="90"/>
-<wire x1="43.855" y1="4.75" x2="43.855" y2="27.9" width="0" layer="20"/>
+<wire x1="43.855" y1="4.75" x2="43.855" y2="14.075" width="0" layer="20"/>
+<wire x1="43.855" y1="18.575" x2="43.855" y2="27.9" width="0" layer="20"/>
 <wire x1="43.855" y1="27.9" x2="39.105" y2="32.65" width="0" layer="20" curve="90"/>
 <wire x1="39.105" y1="32.65" x2="4.75" y2="32.65" width="0" layer="20"/>
 <wire x1="4.75" y1="32.65" x2="0" y2="27.9" width="0" layer="20" curve="90"/>
@@ -1458,15 +1460,9 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="0" y="1.6" curve="-180"/>
 <vertex x="0" y="-1.6"/>
 </polygon>
-<polygon width="0" layer="46">
-<vertex x="0" y="2.25"/>
-<vertex x="0" y="-2.25"/>
-<vertex x="1.5" y="0"/>
-</polygon>
-<polygon width="0" layer="46">
-<vertex x="0" y="1.6" curve="-180"/>
-<vertex x="0" y="-1.6"/>
-</polygon>
+<wire x1="0.5" y1="1.5" x2="0" y2="2.25" width="0" layer="20"/>
+<wire x1="0.5" y1="1.5" x2="0.5" y2="-1.5" width="0" layer="20" curve="-145"/>
+<wire x1="0.5" y1="-1.5" x2="0" y2="-2.25" width="0" layer="20"/>
 </package>
 </packages>
 <packages3d>
