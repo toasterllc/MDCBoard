@@ -1675,6 +1675,52 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <wire x1="0.5" y1="1.5" x2="0.5" y2="-1.5" width="0" layer="20" curve="-145"/>
 <wire x1="0.5" y1="-1.5" x2="0" y2="-2.25" width="0" layer="20"/>
 </package>
+<package name="GSWITCH-GT-USB-7030A">
+<text x="-4.98" y="3.8099" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<smd name="A8" x="-1.25" y="-3.75" dx="0.2" dy="1.3" layer="1"/>
+<smd name="B7" x="0.75" y="-3.75" dx="0.2" dy="1.3" layer="1"/>
+<smd name="A5" x="1.25" y="-3.75" dx="0.2" dy="1.3" layer="1"/>
+<smd name="B8" x="1.75" y="-3.75" dx="0.2" dy="1.3" layer="1"/>
+<smd name="A6" x="0.25" y="-3.75" dx="0.2" dy="1.3" layer="1"/>
+<smd name="B9A4" x="2.4" y="-3.75" dx="0.6" dy="1.3" layer="1"/>
+<smd name="A7" x="-0.25" y="-3.75" dx="0.2" dy="1.3" layer="1"/>
+<smd name="B12A1" x="3.2" y="-3.75" dx="0.6" dy="1.3" layer="1"/>
+<smd name="B6" x="-0.75" y="-3.75" dx="0.2" dy="1.3" layer="1"/>
+<smd name="A9B4" x="-2.4" y="-3.75" dx="0.6" dy="1.3" layer="1"/>
+<pad name="GND1" x="-4.9" y="-0.675" drill="0.55" diameter="1.35" rot="R90"/>
+<pad name="GND2" x="-4.9" y="-1.575" drill="0.55" diameter="1.35" rot="R90"/>
+<wire x1="-4.9" y1="-0.675" x2="-4.9" y2="-1.575" width="0.55" layer="46"/>
+<smd name="B5" x="-1.75" y="-3.75" dx="0.2" dy="1.3" layer="1"/>
+<smd name="A12B1" x="-3.2" y="-3.75" dx="0.6" dy="1.3" layer="1"/>
+<hole x="-2" y="-2.05" drill="1"/>
+<hole x="2" y="-2.05" drill="1"/>
+<wire x1="-4.9" y1="-0.675" x2="-4.9" y2="-1.575" width="1.35" layer="1"/>
+<wire x1="-4.9" y1="-0.675" x2="-4.9" y2="-1.575" width="1.35" layer="16"/>
+<wire x1="-4.9" y1="-0.675" x2="-4.9" y2="-1.575" width="1.35" layer="2"/>
+<wire x1="-4.9" y1="-0.675" x2="-4.9" y2="-1.575" width="1.35" layer="29"/>
+<wire x1="-4.9" y1="-0.675" x2="-4.9" y2="-1.575" width="1.35" layer="30"/>
+<wire x1="-4.9" y1="-0.675" x2="-4.9" y2="-1.575" width="1.35" layer="15"/>
+<pad name="GND3" x="4.9" y="-0.675" drill="0.55" diameter="1.35" rot="R90"/>
+<pad name="GND4" x="4.9" y="-1.575" drill="0.55" diameter="1.35" rot="R90"/>
+<wire x1="4.9" y1="-0.675" x2="4.9" y2="-1.575" width="0.55" layer="46"/>
+<wire x1="4.9" y1="-0.675" x2="4.9" y2="-1.575" width="1.35" layer="1"/>
+<wire x1="4.9" y1="-0.675" x2="4.9" y2="-1.575" width="1.35" layer="16"/>
+<wire x1="4.9" y1="-0.675" x2="4.9" y2="-1.575" width="1.35" layer="2"/>
+<wire x1="4.9" y1="-0.675" x2="4.9" y2="-1.575" width="1.35" layer="29"/>
+<wire x1="4.9" y1="-0.675" x2="4.9" y2="-1.575" width="1.35" layer="30"/>
+<wire x1="4.9" y1="-0.675" x2="4.9" y2="-1.575" width="1.35" layer="15"/>
+<wire x1="-4.9" y1="3.45" x2="-4.9" y2="-3.7" width="0.05" layer="21"/>
+<wire x1="-4.9" y1="-3.7" x2="4.9" y2="-3.7" width="0.05" layer="21"/>
+<wire x1="4.9" y1="-3.7" x2="4.9" y2="3.45" width="0.05" layer="21"/>
+<wire x1="4.9" y1="3.45" x2="-4.9" y2="3.45" width="0.05" layer="21"/>
+<polygon width="0.05" layer="39">
+<vertex x="-4.9" y="3.45"/>
+<vertex x="-4.9" y="-3.7"/>
+<vertex x="4.9" y="-3.7"/>
+<vertex x="4.9" y="3.45"/>
+</polygon>
+<wire x1="-2" y1="0" x2="2" y2="0" width="0.05" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SON50P300X200X80-8N" urn="urn:adsk.eagle:package:36180302/1" type="model">
@@ -2613,7 +2659,7 @@ Charger</text>
 <pin name="2" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
 <text x="2.54" y="-3.302" size="1.778" layer="94">ESD</text>
 </symbol>
-<symbol name="USB-C-JACK">
+<symbol name="USB-C-RECEPTACLE">
 <wire x1="0" y1="0" x2="0" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="0" y1="-33.02" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-33.02" x2="15.24" y2="0" width="0.254" layer="94"/>
@@ -2623,7 +2669,7 @@ Charger</text>
 <pin name="D+" x="17.78" y="-10.16" visible="pin" length="short" rot="R180"/>
 <pin name="D-" x="17.78" y="-12.7" visible="pin" length="short" rot="R180"/>
 <text x="0" y="0.508" size="1.778" layer="95">&gt;NAME</text>
-<text x="0.762" y="-32.258" size="1.778" layer="94">USB-C Jack</text>
+<text x="0.762" y="-32.258" size="1.778" layer="94">USB-C</text>
 <text x="0" y="-35.56" size="1.778" layer="95">&gt;PN</text>
 <pin name="SBU1" x="17.78" y="-25.4" visible="pin" length="short" rot="R180"/>
 <pin name="SBU2" x="17.78" y="-27.94" visible="pin" length="short" rot="R180"/>
@@ -3958,10 +4004,10 @@ Header</text>
 </deviceset>
 <deviceset name="USB-C-RECEPTACLE" prefix="J">
 <gates>
-<gate name="G$1" symbol="USB-C-JACK" x="0" y="0"/>
+<gate name="G$1" symbol="USB-C-RECEPTACLE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-GSWITCH" package="GSWITCH-GT-USB-7010ASV">
+<device name="-GSWITCH-7010ASV" package="GSWITCH-GT-USB-7010ASV">
 <connects>
 <connect gate="G$1" pin="CC1" pad="A5"/>
 <connect gate="G$1" pin="CC2" pad="B5"/>
@@ -3994,6 +4040,24 @@ Header</text>
 <technology name="">
 <attribute name="MFG" value="Korean Hroparts Electronics"/>
 <attribute name="PN" value="TYPE-C-31-M-08A"/>
+</technology>
+</technologies>
+</device>
+<device name="-GSWITCH-7030A" package="GSWITCH-GT-USB-7030A">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="D+" pad="A6 B6"/>
+<connect gate="G$1" pin="D-" pad="A7 B7"/>
+<connect gate="G$1" pin="GND" pad="A12B1 B12A1 GND1 GND2 GND3 GND4"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="VBUS" pad="A9B4 B9A4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG" value="G-Switch"/>
+<attribute name="PN" value="GT-USB-7030A"/>
 </technology>
 </technologies>
 </device>
