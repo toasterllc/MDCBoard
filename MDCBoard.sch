@@ -5079,9 +5079,10 @@ Header</text>
 </part>
 <part name="U5" library="EagleLibrary" deviceset="TI-TPS22919DCK" device=""/>
 <part name="U15" library="EagleLibrary" deviceset="NEXPERIA-NXB0102" device=""/>
-<part name="X5" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-FULL"/>
 <part name="J11" library="EagleLibrary" deviceset="USB-C-RECEPTACLE" device="-GSWITCH-7030A"/>
 <part name="X6" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF"/>
+<part name="X4" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF"/>
+<part name="X5" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF"/>
 </parts>
 <sheets>
 <sheet>
@@ -10365,11 +10366,14 @@ Ferrite bead specs:
 <instance part="MH3" gate="G$1" x="5.08" y="-25.4" smashed="yes">
 <attribute name="NAME" x="5.08" y="-22.098" size="1.778" layer="95"/>
 </instance>
-<instance part="X5" gate="G$1" x="12.7" y="-43.18" smashed="yes">
-<attribute name="NAME" x="12.7" y="-39.878" size="1.778" layer="95"/>
+<instance part="X6" gate="G$1" x="-35.56" y="-40.64" smashed="yes">
+<attribute name="NAME" x="-35.56" y="-37.338" size="1.778" layer="95"/>
 </instance>
-<instance part="X6" gate="G$1" x="-40.64" y="-40.64" smashed="yes">
-<attribute name="NAME" x="-40.64" y="-37.338" size="1.778" layer="95"/>
+<instance part="X4" gate="G$1" x="-25.4" y="-40.64" smashed="yes">
+<attribute name="NAME" x="-25.4" y="-37.338" size="1.778" layer="95"/>
+</instance>
+<instance part="X5" gate="G$1" x="-15.24" y="-40.64" smashed="yes">
+<attribute name="NAME" x="-15.24" y="-37.338" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
