@@ -9775,15 +9775,15 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <label x="81.28" y="-139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="H1" gate="A" pin="5"/>
-<wire x1="233.68" y1="-96.52" x2="236.22" y2="-96.52" width="0.1524" layer="91"/>
-<label x="236.22" y="-96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C85" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="-271.78" x2="55.88" y2="-271.78" width="0.1524" layer="91"/>
 <label x="55.88" y="-271.78" size="1.778" layer="95" align="top-left"/>
 <pinref part="C84" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="233.68" y1="-88.9" x2="236.22" y2="-88.9" width="0.1524" layer="91"/>
+<label x="236.22" y="-88.9" size="1.778" layer="95"/>
+<pinref part="H1" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="VDD_B_1V8_STM" class="0">
@@ -9956,9 +9956,9 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <label x="17.78" y="-45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="H1" gate="A" pin="6"/>
-<wire x1="233.68" y1="-99.06" x2="236.22" y2="-99.06" width="0.1524" layer="91"/>
-<label x="236.22" y="-99.06" size="1.778" layer="95"/>
+<wire x1="233.68" y1="-96.52" x2="236.22" y2="-96.52" width="0.1524" layer="91"/>
+<label x="236.22" y="-96.52" size="1.778" layer="95"/>
+<pinref part="H1" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="STM_SWCLK" class="0">
@@ -9968,9 +9968,9 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <label x="17.78" y="-48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="H1" gate="A" pin="4"/>
-<wire x1="233.68" y1="-93.98" x2="236.22" y2="-93.98" width="0.1524" layer="91"/>
-<label x="236.22" y="-93.98" size="1.778" layer="95"/>
+<wire x1="233.68" y1="-99.06" x2="236.22" y2="-99.06" width="0.1524" layer="91"/>
+<label x="236.22" y="-99.06" size="1.778" layer="95"/>
+<pinref part="H1" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="ICE_STM_SPI_D2" class="0">
