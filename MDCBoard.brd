@@ -3545,6 +3545,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="33.695640625" y="2.54"/>
 <vertex x="33.695640625" y="3.81"/>
 </polygon>
+<via x="31.3334375" y="10.175240625" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="ICE_IMG_CLK16MHZ">
 <contactref element="U19" pad="C11"/>
