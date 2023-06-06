@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
@@ -134,7 +134,6 @@
 <text x="38.122040625" y="26.462053125" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">GND</text>
 <text x="16.832578125" y="29.0578" size="0.762" layer="25" font="vector" ratio="10">MDC Rev 8</text>
 <wire x1="26.61408125" y1="8.6080625" x2="26.23054375" y2="8.37438125" width="0.0762" layer="25"/>
-<text x="41.777921875" y="15.4813" size="0.508" layer="26" font="vector" rot="MR0">LED7-10</text>
 <circle x="33.5424" y="17.392" radius="6.63935" width="1.75" layer="39"/>
 <circle x="33.5424" y="4.75" radius="1.8" width="0" layer="39"/>
 <wire x1="28.10764375" y1="29.13888125" x2="28.28798125" y2="28.9026625" width="0.0762" layer="25"/>
@@ -143,19 +142,17 @@
 <wire x1="27.35071875" y1="29.060140625" x2="27.54121875" y2="29.37001875" width="0.0762" layer="26"/>
 <wire x1="26.489659375" y1="26.3753625" x2="26.624278125" y2="27.002740625" width="0.0762" layer="26"/>
 <wire x1="31.06928125" y1="20.340321875" x2="31.51631875" y2="19.9618625" width="0.0762" layer="26"/>
-<text x="43.70578125" y="11.4020625" size="0.508" layer="26" font="vector" rot="MR0">R42-45</text>
-<wire x1="35.796215625" y1="6.78941875" x2="35.163759375" y2="6.2636375" width="0.0762" layer="26"/>
 <wire x1="21.73311875" y1="5.30464375" x2="22.2803375" y2="5.29698125" width="0.0762" layer="25"/>
 <wire x1="28.64811875" y1="26.14264375" x2="29.1233375" y2="26.13498125" width="0.0762" layer="26"/>
 <text x="39.4497" y="26.449353125" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">VDD_BAT_IN</text>
 <wire x1="39.27935625" y1="26.60711875" x2="39.39601875" y2="30.7573375" width="0.0762" layer="26"/>
 <wire x1="38.22364375" y1="30.70188125" x2="37.991640625" y2="26.56864375" width="0.0762" layer="26"/>
-<text x="40.16851875" y="25.885471875" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">LED3-6</text>
-<wire x1="17.189659375" y1="6.70915625" x2="17.296340625" y2="6.345940625" width="0.0762" layer="26"/>
+<wire x1="17.189659375" y1="6.70915625" x2="17.443659375" y2="6.173221875" width="0.0762" layer="26"/>
 <wire x1="42.255" y1="16.325" x2="42.255" y2="11.35" width="0" layer="20"/>
 <wire x1="41.604" y1="11.35" x2="42.255" y2="11.35" width="0" layer="20"/>
 <wire x1="39.105" y1="0" x2="41.604" y2="0.710065625" width="0" layer="20" curve="31.732565"/>
 <wire x1="41.604" y1="1.15" x2="41.604" y2="0.710065625" width="0" layer="20"/>
+<wire x1="26.27908125" y1="7.6400625" x2="26.10854375" y2="7.42738125" width="0.0762" layer="25"/>
 </plain>
 <libraries>
 <library name="EagleLibrary">
@@ -1372,14 +1369,12 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <smd name="A9B4" x="-2.4" y="-3.85" dx="0.6" dy="1.3" layer="1"/>
 <pad name="GND1" x="-4.9" y="-0.775" drill="0.55" rot="R90"/>
 <pad name="GND2" x="-4.9" y="-1.675" drill="0.55" rot="R90"/>
-<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="0.55" layer="46"/>
 <smd name="B5" x="-1.75" y="-3.85" dx="0.2" dy="1.3" layer="1"/>
 <smd name="A12B1" x="-3.2" y="-3.85" dx="0.6" dy="1.3" layer="1"/>
 <hole x="-2" y="-2.15" drill="1"/>
 <hole x="2" y="-2.15" drill="1"/>
 <pad name="GND3" x="4.9" y="-0.775" drill="0.55" rot="R90"/>
 <pad name="GND4" x="4.9" y="-1.675" drill="0.55" rot="R90"/>
-<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="0.55" layer="46"/>
 <wire x1="-4.9" y1="3.35" x2="-4.9" y2="-3.8" width="0.05" layer="21"/>
 <wire x1="-4.9" y1="-3.8" x2="4.9" y2="-3.8" width="0.05" layer="21"/>
 <wire x1="4.9" y1="-3.8" x2="4.9" y2="3.35" width="0.05" layer="21"/>
@@ -1391,9 +1386,23 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="4.9" y="3.35"/>
 </polygon>
 <wire x1="-5.1" y1="-0.1" x2="5.1" y2="-0.1" width="0" layer="20"/>
-<text x="-0.778759375" y="-0.5138" size="0.254" layer="25" font="vector">PCB edge</text>
-<wire x1="-2" y1="0" x2="2" y2="0" width="0" layer="21"/>
-<text x="-0.778759375" y="0.1862" size="0.254" layer="25" font="vector">Overhang</text>
+<text x="-0.778759375" y="-0.5138" size="0.254" layer="27" font="vector">PCB edge</text>
+<wire x1="-2" y1="0" x2="2" y2="0" width="0" layer="27"/>
+<text x="-0.778759375" y="0.1862" size="0.254" layer="27" font="vector">Overhang</text>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="1"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="15"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="16"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="29"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="30"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="0.55" layer="46"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="2"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="1"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="15"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="16"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="29"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="30"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="0.55" layer="46"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="2"/>
 </package>
 <package name="MDC-CUTOUT-HALF">
 <description>Chip, 3.20 X 2.50 X 0.70 mm body
@@ -1673,6 +1682,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="LED3" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="41.83585" y="24.863571875" smashed="yes" rot="MR180">
 <attribute name="MFG" value="OSRAM" x="41.83585" y="24.863571875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="40.73085" y="25.773571875" size="0.508" layer="26" font="vector" rot="MR0" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="41.83585" y="24.863571875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R26" library="EagleLibrary" package="0402" value="10k" x="24.24785625" y="11.963396875" smashed="yes" rot="R270">
@@ -1792,7 +1802,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="C53" library="EagleLibrary" package="0805" value="10u" x="36.660684375" y="21.70535625" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Samsung" x="36.660684375" y="21.70535625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="36.545503125" y="20.658934375" size="0.762" layer="26" font="vector" rot="MR180"/>
+<attribute name="NAME" x="38.344503125" y="22.517934375" size="0.762" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="36.660684375" y="21.70535625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C54" library="EagleLibrary" package="0402" value="100n" x="29.49755" y="19.46" smashed="yes" rot="R180">
@@ -1869,7 +1879,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U26" library="EagleLibrary" package="STM-STM32F730I8" value="STM-STM32F730" x="24.930403125" y="5.336640625" smashed="yes" rot="MR180">
 <attribute name="MFG" value="STMicroelectronics" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="30.16788125" y="9.68678125" size="0.762" layer="26" font="vector" rot="MR180"/>
+<attribute name="NAME" x="30.223759375" y="0.36498125" size="0.762" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="STM32F730I8K6" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C67" library="EagleLibrary" package="0402" value="100n" x="26.024809375" y="5.45795" smashed="yes" rot="R270">
@@ -1943,12 +1953,12 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="C70" library="EagleLibrary" package="0402" value="100n" x="19.405340625" y="8.970396875" smashed="yes" rot="MR270">
 <attribute name="MFG" value="Murata" x="19.405340625" y="8.970396875" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="17.8562" y="8.782059375" size="0.508" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="18.374359375" y="7.743196875" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="19.405340625" y="8.970396875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C71" library="EagleLibrary" package="0402" value="2.2u" x="18.96994375" y="10.756496875" smashed="yes" rot="MR90">
 <attribute name="MFG" value="Taiyo Yuden" x="18.96994375" y="10.756496875" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="17.971465625" y="10.42921875" size="0.508" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="17.94860625" y="9.852640625" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="18.96994375" y="10.756496875" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C75" library="EagleLibrary" package="0402" value="100n" x="27.841884375" y="5.173984375" smashed="yes" rot="R270">
@@ -1967,7 +1977,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="R41" library="EagleLibrary" package="0402" value="3k" x="31.587215625" y="7.138159375" smashed="yes" rot="R270">
 <attribute name="MFG" value="Susumu" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="32.067015625" y="7.975975" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="31.367015625" y="9.375975" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="RR0510P-302-D" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C65" library="EagleLibrary" package="0402" value="100n" x="18.870203125" y="5.433821875" smashed="yes" rot="R180">
@@ -1997,7 +2007,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="FB1" library="EagleLibrary" package="0402" value="FERRITE-BEAD0402" x="38.52320625" y="5.4505625" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Taiyo Yuden" x="19.47320625" y="-3.4394375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="37.703165625" y="6.433803125" size="0.508" layer="26" font="vector" rot="MR180"/>
+<attribute name="NAME" x="37.859165625" y="4.955803125" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="BKP1005EM100-T" x="19.47320625" y="-3.4394375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C21" library="EagleLibrary" package="0402" value="22p" x="15.23049375" y="4.240334375" smashed="yes" rot="MR90">
@@ -2022,7 +2032,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U27" library="EagleLibrary" package="DIODESINC-DT1446-04V-7" value="DIODESINC-DT1446-04V-7" x="36.531640625" y="6.00278125" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Diodes Incorporated" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="33.2005" y="8.087921875" size="0.762" layer="26" font="vector" rot="MR180"/>
+<attribute name="NAME" x="32.9465" y="6.309921875" size="0.762" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="DT1446-04V-7" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C18" library="EagleLibrary" package="0402" value="22p" x="16.5439" y="2.7506" smashed="yes" rot="R90">
@@ -2042,12 +2052,12 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="C20" library="EagleLibrary" package="0805" value="10u" x="16.304365625" y="7.6403625" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Samsung" x="16.304365625" y="7.6403625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="17.5861875" y="5.5906375" size="0.635" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="17.863046875" y="5.48395625" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="16.304365625" y="7.6403625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C19" library="EagleLibrary" package="0402" value="100n" x="15.48185625" y="6.30428125" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Murata" x="13.181859375" y="8.70428125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="15.159653125" y="5.77368125" size="0.508" layer="26" font="vector" rot="MR180"/>
+<attribute name="NAME" x="14.651653125" y="5.77368125" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="13.181859375" y="8.70428125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C13" library="EagleLibrary" package="0402" value="2.2u" x="8.35761875" y="4.762725" smashed="yes" rot="R90">
@@ -2076,6 +2086,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="LED4" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="41.83585" y="24.1452375" smashed="yes" rot="MR180">
 <attribute name="MFG" value="OSRAM" x="41.83585" y="21.6052375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="40.73085" y="23.0552375" size="0.508" layer="26" font="vector" rot="MR0" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="41.83585" y="21.6052375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R22" library="EagleLibrary" package="0402" value="1k" x="41.990096875" y="24.2705375" smashed="yes" rot="R180">
@@ -2085,6 +2096,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="LED6" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.91010625" smashed="yes" rot="MR180">
 <attribute name="MFG" value="OSRAM" x="31.77019375" y="9.37010625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="28.96519375" y="12.22010625" size="0.508" layer="26" font="vector" rot="MR0" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="31.77019375" y="9.37010625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R40" library="EagleLibrary" package="0402" value="1k" x="33.790440625" y="11.91010625" smashed="yes" rot="MR180">
@@ -2093,6 +2105,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="LED5" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.03439375" smashed="yes" rot="MR180">
 <attribute name="MFG" value="OSRAM" x="31.77019375" y="8.49439375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="28.96519375" y="11.24439375" size="0.508" layer="26" font="vector" rot="MR0" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="31.77019375" y="8.49439375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R39" library="EagleLibrary" package="0402" value="1k" x="33.790440625" y="11.03439375" smashed="yes" rot="MR180">
@@ -2124,7 +2137,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U13" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="36.136984375" y="1.4005625" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Texas Instruments" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="35.809321875" y="2.678421875" size="0.762" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="39.379603125" y="1.720521875" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="TPS22919DCK" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C16" library="EagleLibrary" package="0402" value="2.2u" x="34.062928125" y="1.348021875" smashed="yes" rot="MR90">
@@ -2175,12 +2188,12 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U4" library="EagleLibrary" package="MICROCHIP-MIC550X-SOT23-5" value="MICROCHIP-MCP7383X" x="38.34835625" y="18.6461375" smashed="yes" rot="MR270" grouprefs="_BAT_CHARGE">
 <attribute name="MFG" value="Microchip" x="38.34835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="36.011996875" y="18.121278125" size="0.762" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="35.9499375" y="18.38471875" size="0.762" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="MCP73831T-2ACI/OT" x="38.34835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R7" library="EagleLibrary" package="0402" value="2.7k" x="38.242534375" y="16.8656" smashed="yes" rot="MR90" grouprefs="_BAT_CHARGE">
 <attribute name="MFG" value="Bourns" x="38.242534375" y="16.8656" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="37.25725625" y="16.0299625" size="0.508" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="37.16835625" y="15.9944" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="CR0402-JW-272GLF" x="38.242534375" y="16.8656" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="Q3" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.796784375" y="28.354759375" smashed="yes" rot="R180" grouprefs="_REVERSE_BATTERY_PROTECTION">
@@ -2214,14 +2227,14 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="RC0402FR-07100KL" x="35.9411375" y="24.500096875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J1" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="39.4056" y="6.3505625" smashed="yes" rot="MR180">
-<attribute name="NAME" x="39.515203125" y="5.86060625" size="0.508" layer="26" font="vector" rot="MR180"/>
+<attribute name="NAME" x="39.615203125" y="7.36060625" size="0.508" layer="26" font="vector" rot="MR180"/>
 </element>
 <element name="J2" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="4.002840625" y="24.99318125" smashed="yes" rot="R180" grouprefs="_VDD_A_3V3_LDO">
 <attribute name="NAME" x="2.948359375" y="25.22204375" size="0.508" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R1" library="EagleLibrary" package="0402" value="100k" x="40.307459375" y="5.456359375" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Yageo" x="40.307459375" y="5.456359375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="40.51865625" y="4.9562375" size="0.508" layer="26" font="vector" rot="MR180"/>
+<attribute name="NAME" x="40.41865625" y="4.9562375" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="40.307459375" y="5.456359375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J8" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="30.5216625" y="26.051721875" smashed="yes" rot="MR270" grouprefs="_VDD_B_2V8_BUCK">
@@ -2298,12 +2311,12 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="R42" library="EagleLibrary" package="0402" value="5.1k" x="37.4142" y="3.9708" smashed="yes" rot="MR270">
 <attribute name="MFG" value="Yageo" x="37.4142" y="3.9708" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="36.89121875" y="4.5241375" size="0.508" layer="26" font="vector" rot="MR270"/>
+<attribute name="NAME" x="37.08171875" y="3.005215625" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="AC0402FR-075K1L" x="37.4142" y="3.9708" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R43" library="EagleLibrary" package="0402" value="5.1k" x="35.5092" y="7.333559375" smashed="yes" rot="MR0">
 <attribute name="MFG" value="Yageo" x="35.5092" y="7.333559375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="35.8974375" y="6.360478125" size="0.508" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="34.563940625" y="6.98531875" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="AC0402FR-075K1L" x="35.5092" y="7.333559375" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J4" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="40.493978125" y="27.958671875" smashed="yes" rot="R90" grouprefs="_REVERSE_BATTERY_PROTECTION">
@@ -2408,7 +2421,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="CL21A226MQQNNNG" x="26.9148625" y="31.010859375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="H1" library="EagleLibrary" package="TAGCONNECT-TC2030-NL-EDGE" value="TAGCONNECT-TC2030-NLEDGE" x="33.401" y="3.95141875" smashed="yes" rot="MR0">
-<attribute name="NAME" x="32.224078125" y="-3.11504375" size="1.016" layer="26" font="vector" rot="MR180"/>
+<attribute name="NAME" x="30.446078125" y="3.99695625" size="0.762" layer="26" font="vector" rot="MR90"/>
 </element>
 <element name="R3" library="EagleLibrary" package="0402" value="10k" x="32.531340625" y="24.690665625" smashed="yes" rot="MR90">
 <attribute name="MFG" value="Yageo" x="32.531340625" y="24.690665625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2518,7 +2531,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U5" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="34.185140625" y="9.42168125" smashed="yes" rot="MR0">
 <attribute name="MFG" value="Texas Instruments" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="36.4573" y="10.63461875" size="1.016" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="37.4663" y="9.32461875" size="1.016" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="TPS22919DCK" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U15" library="EagleLibrary" package="NEXPERIA-NXB0102UN" value="NEXPERIA-NXB0102" x="11.624" y="7.838" smashed="yes" rot="R180">
@@ -2526,14 +2539,14 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="10.753221875" y="6.18975" size="0.508" layer="25" font="vector" rot="SR0"/>
 <attribute name="PN" value="NXB0102UN" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J11" library="EagleLibrary" package="GSWITCH-GT-USB-7030A" value="USB-C-RECEPTACLE-GSWITCH-7030A" x="41.704" y="6.25" smashed="yes" rot="R270">
+<element name="J10" library="EagleLibrary" package="GSWITCH-GT-USB-7030A" value="USB-C-RECEPTACLE-GSWITCH-7030A" x="41.704" y="6.25" smashed="yes" rot="R270">
 <attribute name="MFG" value="G-Switch" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="45.4139" y="11.23" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="35.7139" y="3.23" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GT-USB-7030A" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="X6" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="43.855" y="16.325" smashed="yes" rot="MR0"/>
-<element name="X4" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes"/>
-<element name="X5" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes" rot="MR180"/>
+<element name="X4" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="43.855" y="16.325" smashed="yes" rot="MR0"/>
+<element name="X5" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes"/>
+<element name="X6" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes" rot="MR180"/>
 </elements>
 <signals>
 <signal name="VDD_B">
@@ -3516,12 +3529,12 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <via x="28.8036" y="22.725378125" extent="1-16" drill="0.381"/>
 <via x="22.606" y="31.242" extent="1-16" drill="0.381"/>
 <via x="1.016" y="20.394" extent="1-16" drill="0.381"/>
-<contactref element="J11" pad="GND4"/>
-<contactref element="J11" pad="GND2"/>
-<contactref element="J11" pad="A12B1"/>
-<contactref element="J11" pad="GND3"/>
-<contactref element="J11" pad="B12A1"/>
-<contactref element="J11" pad="GND1"/>
+<contactref element="J10" pad="GND4"/>
+<contactref element="J10" pad="GND2"/>
+<contactref element="J10" pad="A12B1"/>
+<contactref element="J10" pad="GND3"/>
+<contactref element="J10" pad="B12A1"/>
+<contactref element="J10" pad="GND1"/>
 <via x="36.51758125" y="6.00278125" extent="1-16" drill="0.254"/>
 <via x="36.34231875" y="13.197840625" extent="1-16" drill="0.381" diameter="0.381"/>
 <via x="31.752540625" y="2.065021875" extent="1-16" drill="0.381"/>
@@ -5211,8 +5224,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="29.356134375" y1="9.56818125" x2="29.0023" y2="9.71474375" width="0.127" layer="16" curve="-45"/>
 <wire x1="29.0023" y1="9.71474375" x2="28.830403125" y2="9.886640625" width="0.127" layer="16"/>
 <via x="34.989525" y="5.51548125" extent="1-16" drill="0.254" grouprefs="_USB_C_RECEPTACLE"/>
-<contactref element="J11" pad="A7"/>
-<contactref element="J11" pad="B7"/>
+<contactref element="J10" pad="A7"/>
+<contactref element="J10" pad="B7"/>
 <wire x1="37.854" y1="6.5" x2="38.608" y2="6.5" width="0.127" layer="1"/>
 <wire x1="38.608" y1="5.5" x2="37.854" y2="5.5" width="0.127" layer="1"/>
 <wire x1="37.83691875" y1="5.51708125" x2="37.854" y2="5.5" width="0.127" layer="1"/>
@@ -5238,8 +5251,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <via x="34.989525" y="6.49008125" extent="1-16" drill="0.254" grouprefs="_USB_C_RECEPTACLE"/>
 <wire x1="30.956" y1="8.756178125" x2="30.956" y2="8.08441875" width="0.127" layer="16"/>
 <wire x1="34.989525" y1="6.49008125" x2="34.991125" y2="6.48848125" width="0.127" layer="1" grouprefs="_USB_C_RECEPTACLE"/>
-<contactref element="J11" pad="A6"/>
-<contactref element="J11" pad="B6"/>
+<contactref element="J10" pad="A6"/>
+<contactref element="J10" pad="B6"/>
 <wire x1="37.854" y1="6" x2="37.084" y2="6" width="0.127" layer="1"/>
 <wire x1="37.084" y1="7" x2="37.854" y2="7" width="0.127" layer="1"/>
 <wire x1="37.084" y1="6" x2="37.084" y2="6.21466875" width="0.127" layer="1"/>
@@ -5450,8 +5463,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <via x="36.77768125" y="8.625840625" extent="1-16" drill="0.381" grouprefs="_USB_C_RECEPTACLE"/>
 <wire x1="38.09070625" y1="5.4505625" x2="38.09070625" y2="7.620396875" width="0.381" layer="16"/>
 <via x="39.122103125" y="3.126740625" extent="1-16" drill="0.381"/>
-<contactref element="J11" pad="B9A4"/>
-<contactref element="J11" pad="A9B4"/>
+<contactref element="J10" pad="B9A4"/>
+<contactref element="J10" pad="A9B4"/>
 <wire x1="36.77768125" y1="8.625840625" x2="36.801840625" y2="8.65" width="0.381" layer="1"/>
 <wire x1="36.801840625" y1="8.65" x2="37.854" y2="8.65" width="0.381" layer="1"/>
 <wire x1="37.0852625" y1="8.625840625" x2="36.77768125" y2="8.625840625" width="0.381" layer="16"/>
@@ -6991,7 +7004,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </signal>
 <signal name="N$35">
 <contactref element="R42" pad="1"/>
-<contactref element="J11" pad="A5"/>
+<contactref element="J10" pad="A5"/>
 <wire x1="37.854" y1="5" x2="36.996884375" y2="5" width="0.127" layer="1"/>
 <wire x1="36.996884375" y1="5" x2="36.75188125" y2="4.754996875" width="0.127" layer="1"/>
 <via x="36.75188125" y="4.754996875" extent="1-16" drill="0.254"/>
@@ -7000,7 +7013,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </signal>
 <signal name="N$36">
 <contactref element="R43" pad="1"/>
-<contactref element="J11" pad="B5"/>
+<contactref element="J10" pad="B5"/>
 <wire x1="37.854" y1="8" x2="36.704" y2="8" width="0.127" layer="1"/>
 <wire x1="36.704" y1="8" x2="36.576" y2="8.128" width="0.127" layer="1"/>
 <wire x1="36.576" y1="8.128" x2="36.322" y2="8.128" width="0.127" layer="1"/>

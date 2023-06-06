@@ -1689,14 +1689,12 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <smd name="A9B4" x="-2.4" y="-3.85" dx="0.6" dy="1.3" layer="1"/>
 <pad name="GND1" x="-4.9" y="-0.775" drill="0.55" rot="R90"/>
 <pad name="GND2" x="-4.9" y="-1.675" drill="0.55" rot="R90"/>
-<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="0.55" layer="46"/>
 <smd name="B5" x="-1.75" y="-3.85" dx="0.2" dy="1.3" layer="1"/>
 <smd name="A12B1" x="-3.2" y="-3.85" dx="0.6" dy="1.3" layer="1"/>
 <hole x="-2" y="-2.15" drill="1"/>
 <hole x="2" y="-2.15" drill="1"/>
 <pad name="GND3" x="4.9" y="-0.775" drill="0.55" rot="R90"/>
 <pad name="GND4" x="4.9" y="-1.675" drill="0.55" rot="R90"/>
-<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="0.55" layer="46"/>
 <wire x1="-4.9" y1="3.35" x2="-4.9" y2="-3.8" width="0.05" layer="21"/>
 <wire x1="-4.9" y1="-3.8" x2="4.9" y2="-3.8" width="0.05" layer="21"/>
 <wire x1="4.9" y1="-3.8" x2="4.9" y2="3.35" width="0.05" layer="21"/>
@@ -1708,9 +1706,23 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="4.9" y="3.35"/>
 </polygon>
 <wire x1="-5.1" y1="-0.1" x2="5.1" y2="-0.1" width="0" layer="20"/>
-<text x="-0.778759375" y="-0.5138" size="0.254" layer="25" font="vector">PCB edge</text>
-<wire x1="-2" y1="0" x2="2" y2="0" width="0" layer="21"/>
-<text x="-0.778759375" y="0.1862" size="0.254" layer="25" font="vector">Overhang</text>
+<text x="-0.778759375" y="-0.5138" size="0.254" layer="27" font="vector">PCB edge</text>
+<wire x1="-2" y1="0" x2="2" y2="0" width="0" layer="27"/>
+<text x="-0.778759375" y="0.1862" size="0.254" layer="27" font="vector">Overhang</text>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="1"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="15"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="16"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="29"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="30"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="0.55" layer="46"/>
+<wire x1="-4.9" y1="-0.775" x2="-4.9" y2="-1.675" width="1.05" layer="2"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="1"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="15"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="16"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="29"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="30"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="0.55" layer="46"/>
+<wire x1="4.9" y1="-0.775" x2="4.9" y2="-1.675" width="1.05" layer="2"/>
 </package>
 <package name="MDC-CUTOUT-HALF">
 <description>Chip, 3.20 X 2.50 X 0.70 mm body
@@ -5079,10 +5091,10 @@ Header</text>
 </part>
 <part name="U5" library="EagleLibrary" deviceset="TI-TPS22919DCK" device=""/>
 <part name="U15" library="EagleLibrary" deviceset="NEXPERIA-NXB0102" device=""/>
-<part name="J11" library="EagleLibrary" deviceset="USB-C-RECEPTACLE" device="-GSWITCH-7030A"/>
-<part name="X6" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF"/>
+<part name="J10" library="EagleLibrary" deviceset="USB-C-RECEPTACLE" device="-GSWITCH-7030A"/>
 <part name="X4" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF"/>
 <part name="X5" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF"/>
+<part name="X6" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF"/>
 </parts>
 <sheets>
 <sheet>
@@ -10254,7 +10266,7 @@ Ferrite bead specs:
 <attribute name="MFG" x="5.08" y="-30.48" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="5.08" y="-30.48" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="J11" gate="G$1" x="-17.78" y="-5.08" smashed="yes">
+<instance part="J10" gate="G$1" x="-17.78" y="-5.08" smashed="yes">
 <attribute name="NAME" x="-17.78" y="-4.572" size="1.778" layer="95"/>
 <attribute name="PN" x="-17.78" y="-40.64" size="1.778" layer="95"/>
 </instance>
@@ -10271,7 +10283,7 @@ Ferrite bead specs:
 <wire x1="40.64" y1="-40.64" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="40.64" y="-10.16"/>
 <pinref part="U27" gate="G$1" pin="GND"/>
-<pinref part="J11" gate="G$1" pin="GND"/>
+<pinref part="J10" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
@@ -10293,7 +10305,7 @@ Ferrite bead specs:
 <wire x1="35.56" y1="-48.26" x2="43.18" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-48.26" x2="35.56" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="35.56" y="-15.24"/>
-<pinref part="J11" gate="G$1" pin="D+"/>
+<pinref part="J10" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
@@ -10305,7 +10317,7 @@ Ferrite bead specs:
 <pinref part="U27" gate="G$1" pin="IO1"/>
 <wire x1="38.1" y1="-45.72" x2="38.1" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-45.72" x2="43.18" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="D-"/>
+<pinref part="J10" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -10326,7 +10338,7 @@ Ferrite bead specs:
 <wire x1="43.18" y1="-53.34" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-53.34" x2="30.48" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="30.48" y="-7.62"/>
-<pinref part="J11" gate="G$1" pin="VBUS"/>
+<pinref part="J10" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="VDD_USB_IN" class="0">
@@ -10340,14 +10352,14 @@ Ferrite bead specs:
 <segment>
 <pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="0" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="CC1"/>
+<pinref part="J10" gate="G$1" pin="CC1"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="-25.4" x2="0" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="CC2"/>
+<pinref part="J10" gate="G$1" pin="CC2"/>
 </segment>
 </net>
 </nets>
@@ -10366,13 +10378,13 @@ Ferrite bead specs:
 <instance part="MH3" gate="G$1" x="5.08" y="-25.4" smashed="yes">
 <attribute name="NAME" x="5.08" y="-22.098" size="1.778" layer="95"/>
 </instance>
-<instance part="X6" gate="G$1" x="-35.56" y="-40.64" smashed="yes">
+<instance part="X4" gate="G$1" x="-35.56" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-35.56" y="-37.338" size="1.778" layer="95"/>
 </instance>
-<instance part="X4" gate="G$1" x="-25.4" y="-40.64" smashed="yes">
+<instance part="X5" gate="G$1" x="-25.4" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-25.4" y="-37.338" size="1.778" layer="95"/>
 </instance>
-<instance part="X5" gate="G$1" x="-15.24" y="-40.64" smashed="yes">
+<instance part="X6" gate="G$1" x="-15.24" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-15.24" y="-37.338" size="1.778" layer="95"/>
 </instance>
 </instances>
