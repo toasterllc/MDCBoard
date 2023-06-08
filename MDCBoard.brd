@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
@@ -2430,7 +2430,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="MH1" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="1.94" y="28.4" smashed="yes"/>
 <element name="MH2" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="1.682" y="8.172" smashed="yes"/>
-<element name="MH3" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="39.362540625" y="23.511040625" smashed="yes"/>
+<element name="MH3" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="39.4" y="23.5" smashed="yes"/>
 <element name="R31" library="EagleLibrary" package="0402" value="20k" x="7.6568" y="10.4049" smashed="yes" rot="R90">
 <attribute name="MFG" value="Walsin" x="7.6568" y="10.4049" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.875503125" y="11.858159375" size="0.508" layer="25" font="vector" rot="R90"/>
@@ -4488,9 +4488,9 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="23.952540625" y1="20.33964375" x2="23.952540625" y2="20.8761" width="0.127" layer="1"/>
 <wire x1="23.952540625" y1="20.8761" x2="24.273540625" y2="21.1971" width="0.127" layer="1"/>
 <via x="39.565571875" y="26.090878125" extent="1-16" drill="0.254"/>
-<wire x1="38.455590625" y1="25.595575" x2="37.27195625" y2="24.411940625" width="0.127" layer="1"/>
-<wire x1="39.07026875" y1="25.595575" x2="38.455590625" y2="25.595575" width="0.127" layer="1"/>
-<wire x1="39.07026875" y1="25.595575" x2="39.565571875" y2="26.090878125" width="0.127" layer="1"/>
+<wire x1="38.449590625" y1="25.589575" x2="37.27195625" y2="24.411940625" width="0.127" layer="1"/>
+<wire x1="39.06426875" y1="25.589575" x2="38.449590625" y2="25.589575" width="0.127" layer="1"/>
+<wire x1="39.06426875" y1="25.589575" x2="39.565571875" y2="26.090878125" width="0.127" layer="1"/>
 <wire x1="37.27195625" y1="24.411940625" x2="35.901009375" y2="24.411940625" width="0.127" layer="1"/>
 <wire x1="24.273540625" y1="21.1971" x2="25.3309625" y2="21.1971" width="0.127" layer="1"/>
 <wire x1="33.91958125" y1="23.400375" x2="33.69033125" y2="23.629625" width="0.127" layer="1"/>
@@ -6593,9 +6593,10 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <contactref element="U19" pad="B11"/>
 <via x="40.076109375" y="25.582878125" extent="1-16" drill="0.254"/>
 <wire x1="35.96811875" y1="24.1198375" x2="34.994653125" y2="23.146371875" width="0.127" layer="1"/>
-<wire x1="40.076109375" y1="25.582878125" x2="39.83226875" y2="25.3390375" width="0.127" layer="1"/>
-<wire x1="39.83226875" y1="25.3390375" x2="38.567353125" y2="25.3390375" width="0.127" layer="1"/>
-<wire x1="38.567353125" y1="25.3390375" x2="37.348153125" y2="24.1198375" width="0.127" layer="1"/>
+<wire x1="40.076109375" y1="25.582878125" x2="39.417109375" y2="25.582878125" width="0.127" layer="1"/>
+<wire x1="39.417109375" y1="25.582878125" x2="39.16726875" y2="25.3330375" width="0.127" layer="1"/>
+<wire x1="39.16726875" y1="25.3330375" x2="38.561353125" y2="25.3330375" width="0.127" layer="1"/>
+<wire x1="38.561353125" y1="25.3330375" x2="37.348153125" y2="24.1198375" width="0.127" layer="1"/>
 <wire x1="35.96811875" y1="24.1198375" x2="37.348153125" y2="24.1198375" width="0.127" layer="1"/>
 <wire x1="25.1794" y1="20.763" x2="25.3595" y2="20.9431" width="0.127" layer="1"/>
 <wire x1="25.3595" y1="20.9431" x2="25.436175" y2="20.9431" width="0.127" layer="1"/>
