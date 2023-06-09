@@ -4817,6 +4817,7 @@ Header</text>
 </part>
 <part name="Q1" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
 <attribute name="PN" value="PMPB10UPX"/>
+<attribute name="PN2" value="PMPB16EP"/>
 </part>
 <part name="J3" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
 <part name="U3" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-NOR" device="">
@@ -4862,9 +4863,11 @@ Header</text>
 </part>
 <part name="Q3" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
 <attribute name="PN" value="PMPB10UPX"/>
+<attribute name="PN2" value="PMPB16EP"/>
 </part>
 <part name="Q2" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
 <attribute name="PN" value="PMPB10UPX"/>
+<attribute name="PN2" value="PMPB16EP"/>
 </part>
 <part name="R11" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
 <attribute name="MFG" value="Yageo"/>
@@ -5309,6 +5312,7 @@ VDD_A and GND (4.2V/10k = 420uA).</text>
 <instance part="Q1" gate="G$1" x="320.04" y="396.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="318.77" y="399.542" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="PN" x="287.02" y="609.6" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PN2" x="320.04" y="396.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="360.68" y="401.32" smashed="yes">
 <attribute name="NAME" x="359.41" y="403.86" size="1.778" layer="95" align="top-left"/>
@@ -5354,10 +5358,12 @@ VDD_A and GND (4.2V/10k = 420uA).</text>
 <instance part="Q3" gate="G$1" x="220.98" y="355.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="219.964" y="364.744" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="PN" x="220.98" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PN2" x="220.98" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q2" gate="G$1" x="195.58" y="355.6" smashed="yes" rot="MR90">
 <attribute name="NAME" x="196.596" y="364.744" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="PN" x="195.58" y="355.6" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="PN2" x="195.58" y="355.6" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="220.98" y="345.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="223.266" y="347.218" size="1.778" layer="95" rot="MR180"/>

@@ -2126,6 +2126,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="MFG" value="Nexperia" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.870025" y="31.395840625" size="0.762" layer="25" font="vector"/>
 <attribute name="PN" value="PMPB10UPX" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
+<attribute name="PN2" value="PMPB16EP" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J3" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="27.772425" y="31.030221875" smashed="yes" rot="R180" grouprefs="_VDD_B_CONTROL">
 <attribute name="NAME" x="27.510425" y="31.998221875" size="0.508" layer="25" font="vector" rot="R180"/>
@@ -2200,11 +2201,13 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="MFG" value="Nexperia" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="39.179265625" y="27.16478125" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="PMPB10UPX" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN2" value="PMPB16EP" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="Q2" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.795884375" y="30.514759375" smashed="yes" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <attribute name="MFG" value="Nexperia" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.754984375" y="31.642178125" size="0.635" layer="25" font="vector"/>
 <attribute name="PN" value="PMPB10UPX" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
+<attribute name="PN2" value="PMPB16EP" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R11" library="EagleLibrary" package="0402" value="100k" x="37.134640625" y="27.5419" smashed="yes" rot="R270" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <attribute name="MFG" value="Yageo" x="37.134640625" y="27.5419" size="1.778" layer="27" rot="R270" display="off"/>
