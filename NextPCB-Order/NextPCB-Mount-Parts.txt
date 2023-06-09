@@ -1,19 +1,21 @@
 # Parts for NextPCB to Mount
 
-- All resistors
+√ All resistors
 
-- All capacitors
+√ All capacitors
 
-- Tactile switch
+√ All inductors
+
+√ Tactile switch
     - SHOU HAN / TS2306A 240gf MSM 9
 
-- Transistor
+√ Transistor
     - Diodes Inc / DMG2305UX
 
-- Level shifters
+√ Level shifters
     - Nexperia / NXB0102UN
 
-- SD card receptacles
+√ SD card receptacles
     - Molex / 105162-0001
 
 - LEDs
