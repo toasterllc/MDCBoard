@@ -1,0 +1,24 @@
+# Parts for NextPCB to Mount
+
+- All resistors
+
+- All capacitors
+
+- Tactile switch
+    - SHOU HAN / TS2306A 240gf MSM 9
+
+- Transistor
+    - Diodes Inc / DMG2305UX
+
+- Level shifters
+    - Nexperia / NXB0102UN
+
+- SD card receptacles
+    - Molex / 105162-0001
+
+- LEDs
+    - OSRAM / KR DELPS1.22-UHVI-26-H3Q4
+    - OSRAM / KT DELQS1.12-TIVH-36-S446-10-S
+
+- Battery wire headers
+    - Molex / 781710002
