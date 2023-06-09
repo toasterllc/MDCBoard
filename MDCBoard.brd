@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,33 +23,33 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Power" color="42" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -60,8 +60,8 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="53" name="tJumper" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="54" name="bJumper" color="7" fill="1" visible="no" active="yes"/>
+<layer number="53" name="tJumper" color="7" fill="1" visible="no" active="yes"/>
+<layer number="54" name="bJumper" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
@@ -131,7 +131,7 @@
 <wire x1="23.612859375" y1="15.92178125" x2="22.975321875" y2="16.03608125" width="0.0762" layer="26"/>
 <wire x1="19.251678125" y1="9.950240625" x2="19.147540625" y2="10.539521875" width="0.0762" layer="26"/>
 <wire x1="29.317696875" y1="21.862840625" x2="29.0256" y2="21.545340625" width="0.0762" layer="26"/>
-<text x="38.122040625" y="26.462053125" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">GND</text>
+<text x="36.02908125" y="29.70309375" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">GND</text>
 <text x="16.832578125" y="29.0578" size="0.762" layer="25" font="vector" ratio="10">MDC Rev 8</text>
 <wire x1="26.61408125" y1="8.6080625" x2="26.23054375" y2="8.37438125" width="0.0762" layer="25"/>
 <circle x="33.5424" y="17.392" radius="6.63935" width="1.75" layer="39"/>
@@ -144,9 +144,9 @@
 <wire x1="31.06928125" y1="20.340321875" x2="31.51631875" y2="19.9618625" width="0.0762" layer="26"/>
 <wire x1="21.73311875" y1="5.30464375" x2="22.2803375" y2="5.29698125" width="0.0762" layer="25"/>
 <wire x1="28.64811875" y1="26.14264375" x2="29.1233375" y2="26.13498125" width="0.0762" layer="26"/>
-<text x="39.4497" y="26.449353125" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">VDD_BAT_IN</text>
-<wire x1="39.27935625" y1="26.60711875" x2="39.39601875" y2="30.7573375" width="0.0762" layer="26"/>
-<wire x1="38.22364375" y1="30.70188125" x2="37.991640625" y2="26.56864375" width="0.0762" layer="26"/>
+<text x="42.0497" y="29.649353125" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">VDD_BAT_IN</text>
+<wire x1="41.51935625" y1="29.69711875" x2="39.39601875" y2="30.7573375" width="0.0762" layer="26"/>
+<wire x1="38.177925" y1="30.813640625" x2="36.1857" y2="29.60394375" width="0.0762" layer="26"/>
 <wire x1="17.189659375" y1="6.70915625" x2="17.443659375" y2="6.173221875" width="0.0762" layer="26"/>
 <wire x1="42.255" y1="16.325" x2="42.255" y2="11.35" width="0" layer="20"/>
 <wire x1="41.604" y1="11.35" x2="42.255" y2="11.35" width="0" layer="20"/>
@@ -1682,7 +1682,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="LED3" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="42.61816875" y="24.9453375" smashed="yes" rot="MR270">
 <attribute name="MFG" value="OSRAM" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="43.52816875" y="26.0503375" size="0.508" layer="26" font="vector" rot="MR90" align="top-right"/>
+<attribute name="NAME" x="43.58913125" y="25.8725375" size="0.508" layer="26" font="vector" rot="MR90" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R26" library="EagleLibrary" package="0402" value="10k" x="24.24785625" y="11.963396875" smashed="yes" rot="R270">
@@ -1692,7 +1692,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="R21" library="EagleLibrary" package="0402" value="1k" x="42.670875" y="22.896396875" smashed="yes" rot="MR270">
 <attribute name="MFG" value="Kamaya" x="42.670875" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="42.114875" y="23.650396875" size="0.508" layer="26" font="vector" rot="MR270"/>
+<attribute name="NAME" x="42.950534375" y="21.902875" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="42.670875" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U24" library="EagleLibrary" package="ALLIANCE-AS4C8M16MSA-6BIN" value="ALLIANCE-AS4C8M16MSA-6BIN" x="12.87855625" y="25.953009375" smashed="yes" rot="R45">
@@ -2086,12 +2086,12 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="LED4" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="41.858709375" y="24.9453375" smashed="yes" rot="MR270">
 <attribute name="MFG" value="OSRAM" x="39.318709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="40.768709375" y="26.0503375" size="0.508" layer="26" font="vector" rot="MR90" align="top-right"/>
+<attribute name="NAME" x="41.34783125" y="25.981753125" size="0.508" layer="26" font="vector" rot="MR90" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="39.318709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R22" library="EagleLibrary" package="0402" value="1k" x="41.791978125" y="22.896396875" smashed="yes" rot="MR270">
 <attribute name="MFG" value="Kamaya" x="44.077978125" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="41.235978125" y="23.650396875" size="0.508" layer="26" font="vector" rot="MR270"/>
+<attribute name="NAME" x="42.163078125" y="21.88255625" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="44.077978125" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="LED6" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.91010625" smashed="yes" rot="MR180">
@@ -2286,7 +2286,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="C1" library="EagleLibrary" package="0402" value="2.2u" x="37.2802375" y="24.9437625" smashed="yes" rot="MR270" grouprefs="_POWER_MUX">
 <attribute name="MFG" value="Taiyo Yuden" x="37.2802375" y="24.9437625" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="38.276175" y="24.8468625" size="0.508" layer="26" font="vector" rot="MR270"/>
+<attribute name="NAME" x="38.276175" y="25.8628625" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="37.2802375" y="24.9437625" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C3" library="EagleLibrary" package="0402" value="100n" x="6.64918125" y="28.661359375" smashed="yes" grouprefs="_VDD_A_3V3_LDO">
@@ -2301,7 +2301,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="C6" library="EagleLibrary" package="0805" value="10u" x="41.90303125" y="25.939678125" smashed="yes" rot="R270" grouprefs="_BAT_CHARGE">
 <attribute name="MFG" value="Samsung" x="41.90303125" y="25.939678125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="41.915415625" y="28.640096875" size="0.762" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="42.015415625" y="24.140096875" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="41.90303125" y="25.939678125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U6" library="EagleLibrary" package="EATON-STN101" value="EATON-STN101" x="41.897175" y="30.02850625" smashed="yes" rot="R270">
@@ -2320,7 +2320,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="AC0402FR-075K1L" x="35.5092" y="7.333559375" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J4" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="40.493978125" y="27.958671875" smashed="yes" rot="R90" grouprefs="_REVERSE_BATTERY_PROTECTION">
-<attribute name="NAME" x="41.50261875" y="26.9056125" size="0.508" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="41.50261875" y="27.9056125" size="0.508" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="R9" library="EagleLibrary" package="0402" value="3k" x="32.550584375" y="8.0432625" smashed="yes" rot="MR180">
 <attribute name="MFG" value="Susumu" x="32.550584375" y="8.0432625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2516,7 +2516,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="J5" library="EagleLibrary" package="MOLEX-781710002" value="BATTERY-HEADER-MOLEX-781710002" x="38.8134625" y="31.429040625" smashed="yes" rot="MR0">
 <attribute name="MFG" value="Molex" x="38.8134625" y="31.429040625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="42.1294625" y="29.863040625" size="0.6096" layer="26" font="vector" rot="MR270"/>
+<attribute name="NAME" x="42.0294625" y="31.063040625" size="0.6096" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="781710002" x="38.8134625" y="31.429040625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U16" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" x="35.4965" y="28.17368125" smashed="yes" rot="R270">
@@ -2526,7 +2526,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U17" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" x="33.80231875" y="29.49448125" smashed="yes" rot="MR90">
 <attribute name="MFG" value="Nexperia" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="34.976975" y="29.034740625" size="0.762" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="34.587875" y="27.19911875" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U5" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="34.185140625" y="9.42168125" smashed="yes" rot="MR0">
