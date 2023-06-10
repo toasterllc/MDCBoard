@@ -1,0 +1,50 @@
+# Gerbers
+
+    - In Eagle:
+        - From MDCBoard.brd, File > CAM Processor…
+        - Click 'Load job file' button in toolbar
+            - Load Export-NextPCB.cam
+        - Click 'Process Job'
+            - Export MDCBoard.zip
+
+
+# Centroid.zip
+
+    - In Eagle:
+        - From MDCBoard.brd, execute `run mountsmd-toaster`
+            - Export MDCBoard.mnb / MDCBoard.mnt to the Centroid directory
+
+    - Zip the Centroid directory
+
+
+# BOM.xlsx
+
+    - In Eagle:
+        - From MDCBoard.sch, execute `run bom-toaster`
+            - Export MDCBoard.csv to the BOM directory
+
+    - In Numbers:
+        - Open MDCBoard.csv
+            - Select all
+            - Copy
+    
+        - Open BOM.numbers
+            - Update data:
+                - Activate the 'BOM' sheet
+                - Select all
+                - Delete
+                - Select very first cell
+                - Paste
+        
+            - Sort:
+                - Select 'Organize' button in upper-right
+                - Select 'Sort' section
+                - Click 'Sort Now'
+        
+            - Export:
+                - Right click 'BOM-NextPCB' sheet > 'Copy Sheet'
+                - Create new document
+                - Right click 'Sheet 1' > 'Paste Sheet'
+                - Delete 'Sheet 1'
+                - File > Export To > Excel…
+                    - Export to BOM.xlsx
