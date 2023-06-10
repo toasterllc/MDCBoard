@@ -1,0 +1,5 @@
+- Are there any issues placing BGA parts?
+
+- Need solderpaste everywhere specified by MDCBoard.toppaste.ger and MDCBoard.bottompaste.ger, not just for placed parts
+
+- Do you accept cut-tape parts that aren't on a reel?
