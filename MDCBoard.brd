@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
@@ -2547,9 +2547,9 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="35.7139" y="3.23" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GT-USB-7030A" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="X4" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="43.855" y="16.325" smashed="yes" rot="MR0"/>
-<element name="X5" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes"/>
-<element name="X6" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes" rot="MR180"/>
+<element name="MH4" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="43.855" y="16.325" smashed="yes" rot="MR0"/>
+<element name="MH5" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes"/>
+<element name="MH6" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes" rot="MR180"/>
 </elements>
 <signals>
 <signal name="VDD_B">
