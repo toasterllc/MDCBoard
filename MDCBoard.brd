@@ -1618,6 +1618,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <board_group name="_LEVEL_SHIFTER"/>
 <board_group name="_USB_C_RECEPTACLE"/>
 <board_group name="CUTOUT-LEFT"/>
+<board_group name="TMP"/>
 </groups>
 <elements>
 <element name="C40" library="EagleLibrary" package="0402" value="10n" x="30.700071875" y="22.0759375" smashed="yes" rot="MR270" grouprefs="_ICE_IMG_CLK">
@@ -1717,8 +1718,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="CL21A106KOQNNNE" x="29.2735" y="27.3783375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED3" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="42.61816875" y="24.9453375" smashed="yes" rot="MR270">
-<attribute name="AS-MOUNT" value="1" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="OSRAM" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="43.58913125" y="25.8725375" size="0.508" layer="26" font="vector" rot="MR90" align="top-right"/>
@@ -1742,7 +1743,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U24" library="EagleLibrary" package="ALLIANCE-AS4C8M16MSA-6BIN" value="ALLIANCE-AS4C8M16MSA-6BIN" x="12.87855625" y="25.953009375" smashed="yes" rot="R45">
 <attribute name="AS-MOUNT" value="1" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MFG" value="Alliance Memory" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="NAME" x="11.8931125" y="32.603353125" size="1.27" layer="25" font="vector" rot="R225"/>
@@ -1750,7 +1751,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U19" library="EagleLibrary" package="LATTICE-ICE40HX4K-BG121" value="LATTICE-ICE40HX4K-BG121" x="21.1794" y="17.563" smashed="yes">
 <attribute name="AS-MOUNT" value="1" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Lattice" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="16.7444" y="22.258" size="1.016" layer="25" font="vector"/>
@@ -1854,7 +1855,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U23" library="EagleLibrary" package="ON-AR0330CS1C12SPKA0" value="ON-AR0330CS1C12SPKA0" x="33.5424" y="17.392" smashed="yes" rot="R90">
 <attribute name="AS-MOUNT" value="1" x="33.5424" y="17.392" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.5424" y="17.392" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="33.5424" y="17.392" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="33.5424" y="17.392" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="ON Semiconductor" x="33.5424" y="17.392" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="38.034059375" y="14.559796875" size="0.762" layer="25" font="vector" rot="R90"/>
@@ -1958,7 +1959,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="X2" library="EagleLibrary" package="SITIME-SIT8021" value="SITIME-SIT8021" x="31.20135625" y="21.444496875" smashed="yes" rot="R90" grouprefs="_ICE_IMG_CLK">
 <attribute name="AS-MOUNT" value="1" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="SiTime" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.0034125" y="22.532475" size="0.508" layer="25" font="vector" rot="R180"/>
@@ -2028,14 +2029,14 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="WR04X203 JTL" x="11.181253125" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP1" library="EagleLibrary" package="TEST-POINT" value="TEST-POINT" x="26.5237" y="20.765559375" smashed="yes">
-<attribute name="AS-MOUNT" value="1" x="26.5237" y="20.765559375" size="1.778" layer="27" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.5237" y="20.765559375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="26.5237" y="20.765559375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="26.5237" y="20.765559375" size="1.778" layer="27" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="26.5237" y="20.765559375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.721821875" y="19.914" size="0.508" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="U26" library="EagleLibrary" package="STM-STM32F730I8" value="STM-STM32F730" x="24.930403125" y="5.336640625" smashed="yes" rot="MR180">
 <attribute name="AS-MOUNT" value="1" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="STMicroelectronics" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="30.223759375" y="0.36498125" size="0.762" layer="26" font="vector" rot="MR90"/>
@@ -2217,7 +2218,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="X3" library="EagleLibrary" package="SITIME-SIT8021" value="SITIME-SIT8021" x="19.301340625" y="5.199296875" smashed="yes" rot="MR0">
 <attribute name="AS-MOUNT" value="1" x="19.301340625" y="5.199296875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="19.301340625" y="5.199296875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="19.301340625" y="5.199296875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="19.301340625" y="5.199296875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="SiTime" x="19.301340625" y="2.887896875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="19.81101875" y="4.21105625" size="0.508" layer="26" font="vector" rot="MR270"/>
@@ -2242,7 +2243,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="FB1" library="EagleLibrary" package="0402" value="FERRITE-BEAD0402" x="38.52320625" y="5.4505625" smashed="yes" rot="MR180">
 <attribute name="AS-MOUNT" value="1" x="38.52320625" y="5.4505625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="38.52320625" y="5.4505625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="38.52320625" y="5.4505625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="38.52320625" y="5.4505625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="19.47320625" y="-3.4394375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="37.859165625" y="4.955803125" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="BKP1005EM100-T" x="19.47320625" y="-3.4394375" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2258,7 +2259,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U10" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="6.27481875" y="4.97388125" smashed="yes" rot="R180">
 <attribute name="AS-MOUNT" value="1" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="3.930396875" y="5.3703625" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TPS22919DCK" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2266,7 +2267,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U11" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="6.2773625" y="2.13558125" smashed="yes" rot="R180">
 <attribute name="AS-MOUNT" value="1" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="4.01168125" y="2.417765625" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TPS22919DCK" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2274,7 +2275,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U12" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="28.346978125" y="8.3490625" smashed="yes" rot="R270">
 <attribute name="AS-MOUNT" value="1" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="27.61775625" y="10.055940625" size="0.635" layer="25" font="vector"/>
 <attribute name="PN" value="TPS22919DCK" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2282,7 +2283,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U27" library="EagleLibrary" package="DIODESINC-DT1446-04V-7" value="DIODESINC-DT1446-04V-7" x="36.531640625" y="6.00278125" smashed="yes" rot="MR180">
 <attribute name="AS-MOUNT" value="1" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Diodes Incorporated" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="32.9465" y="6.309921875" size="0.762" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="DT1446-04V-7" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2305,7 +2306,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U18" library="EagleLibrary" package="PANASONIC-EKMB110711X" value="PANASONIC-EKMB110711X" x="7.5" y="17.392" smashed="yes" rot="R135">
 <attribute name="AS-MOUNT" value="1" x="7.5" y="17.392" size="1.778" layer="27" rot="R135" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="7.5" y="17.392" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="7.5" y="17.392" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="7.5" y="17.392" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MFG" value="Panasonic" x="7.5" y="17.392" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="NAME" x="15.04988125" y="15.431246875" size="1.27" layer="25" font="vector" rot="R90"/>
@@ -2367,8 +2368,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="GRM155R61H104KE19D" x="36.195" y="21.308503125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED4" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="41.858709375" y="24.9453375" smashed="yes" rot="MR270">
-<attribute name="AS-MOUNT" value="1" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="OSRAM" x="39.318709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="41.34783125" y="25.981753125" size="0.508" layer="26" font="vector" rot="MR90" align="top-right"/>
@@ -2383,8 +2384,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="44.077978125" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="LED6" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.91010625" smashed="yes" rot="MR180">
-<attribute name="AS-MOUNT" value="1" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="OSRAM" x="31.77019375" y="9.37010625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="28.96519375" y="12.22010625" size="0.508" layer="26" font="vector" rot="MR0" align="top-right"/>
@@ -2398,8 +2399,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="33.790440625" y="14.19610625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="LED5" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.03439375" smashed="yes" rot="MR180">
-<attribute name="AS-MOUNT" value="1" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="OSRAM" x="31.77019375" y="8.49439375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="28.96519375" y="11.24439375" size="0.508" layer="26" font="vector" rot="MR0" align="top-right"/>
@@ -2431,22 +2432,22 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="Q1" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="29.882984375" y="30.230321875" smashed="yes" grouprefs="_VDD_B_CONTROL">
 <attribute name="AS-MOUNT" value="1" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Nexperia" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.870025" y="31.395840625" size="0.762" layer="25" font="vector"/>
 <attribute name="PN" value="PMPB10UPX" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 <attribute name="PN2" value="PMPB16EP" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J3" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="27.772425" y="31.030221875" smashed="yes" rot="R180" grouprefs="_VDD_B_CONTROL">
-<attribute name="AS-MOUNT" value="1" x="27.772425" y="31.030221875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="27.772425" y="31.030221875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="27.772425" y="31.030221875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="27.772425" y="31.030221875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="27.772425" y="31.030221875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="27.510425" y="31.998221875" size="0.508" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="U3" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-NOR" x="31.72" y="26.417784375" smashed="yes" rot="R180" grouprefs="_VDD_B_CONTROL">
 <attribute name="AS-MOUNT" value="1" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Nexperia" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="32.95951875" y="25.22535" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2454,7 +2455,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U13" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="36.136984375" y="1.4005625" smashed="yes" rot="MR180">
 <attribute name="AS-MOUNT" value="1" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="39.379603125" y="1.720521875" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="TPS22919DCK" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2470,14 +2471,14 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U22" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-BUFFER" x="33.5534" y="21.9202" smashed="yes" rot="MR0" grouprefs="_IMG_CLK_BLOCKER">
 <attribute name="AS-MOUNT" value="1" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Nexperia" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="32.7761625" y="22.90181875" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="X1" library="EagleLibrary" package="EPSON-FC-135" value="EPSON-FC-135" x="15.030059375" y="3.792" smashed="yes" rot="R90">
 <attribute name="AS-MOUNT" value="1" x="15.030059375" y="3.792" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="15.030059375" y="3.792" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="15.030059375" y="3.792" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="15.030059375" y="3.792" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Epson" x="15.030059375" y="3.792" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.379659375" y="5.870275" size="0.762" layer="25" font="vector" rot="R90"/>
@@ -2508,28 +2509,28 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="26.311828125" y="3.380815625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J6" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="23.400421875" y="21.817140625" smashed="yes" rot="MR270" grouprefs="_VDD_B_1V2_BUCK">
-<attribute name="AS-MOUNT" value="1" x="23.400421875" y="21.817140625" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="23.400421875" y="21.817140625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="23.400421875" y="21.817140625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="23.400421875" y="21.817140625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="23.400421875" y="21.817140625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="24.40144375" y="22.018640625" size="0.508" layer="26" font="vector" rot="MR270"/>
 </element>
 <element name="J7" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="25.00919375" y="23.201103125" smashed="yes" grouprefs="_VDD_B_1V8_BUCK">
-<attribute name="AS-MOUNT" value="1" x="25.00919375" y="23.201103125" size="1.778" layer="27" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="25.00919375" y="23.201103125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="25.00919375" y="23.201103125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="25.00919375" y="23.201103125" size="1.778" layer="27" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="25.00919375" y="23.201103125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.9900125" y="22.92398125" size="0.508" layer="25" font="vector"/>
 </element>
 <element name="U2" library="EagleLibrary" package="DIODESINC-AP7350" value="DIODESINC-AP7350" x="4.438178125" y="27.78268125" smashed="yes" grouprefs="_VDD_A_3V3_LDO">
 <attribute name="AS-MOUNT" value="1" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Diodes Incorporated" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="4.08905625" y="28.354803125" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="AP7350-33CF4-7" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="EagleLibrary" package="TI-TPS2116DRLR" value="TI-TPS2116" x="34.854940625" y="25.972121875" smashed="yes" rot="MR0" grouprefs="_POWER_MUX">
 <attribute name="AS-MOUNT" value="1" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="33.62999375" y="26.038740625" size="0.508" layer="26" font="vector" rot="MR0"/>
@@ -2537,7 +2538,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U4" library="EagleLibrary" package="MICROCHIP-MIC550X-SOT23-5" value="MICROCHIP-MCP7383X" x="39.61835625" y="18.6461375" smashed="yes" rot="MR270" grouprefs="_BAT_CHARGE">
 <attribute name="AS-MOUNT" value="1" x="39.61835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="39.61835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="39.61835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="39.61835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Microchip" x="39.61835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="37.2199375" y="18.38471875" size="0.762" layer="26" font="vector" rot="MR90"/>
@@ -2554,7 +2555,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="Q3" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.796784375" y="28.354759375" smashed="yes" rot="R180" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <attribute name="AS-MOUNT" value="1" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Nexperia" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="39.179265625" y="27.16478125" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="PMPB10UPX" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2563,7 +2564,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="Q2" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.795884375" y="30.514759375" smashed="yes" grouprefs="_REVERSE_BATTERY_PROTECTION">
 <attribute name="AS-MOUNT" value="1" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Nexperia" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.754984375" y="31.642178125" size="0.635" layer="25" font="vector"/>
 <attribute name="PN" value="PMPB10UPX" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
@@ -2602,14 +2603,14 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="RC0402FR-07100KL" x="35.9411375" y="24.500096875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J1" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="39.4056" y="6.3505625" smashed="yes" rot="MR180">
-<attribute name="AS-MOUNT" value="1" x="39.4056" y="6.3505625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="39.4056" y="6.3505625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="39.4056" y="6.3505625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="39.4056" y="6.3505625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="39.4056" y="6.3505625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="39.615203125" y="7.36060625" size="0.508" layer="26" font="vector" rot="MR180"/>
 </element>
 <element name="J2" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="4.002840625" y="24.99318125" smashed="yes" rot="R180" grouprefs="_VDD_A_3V3_LDO">
-<attribute name="AS-MOUNT" value="1" x="4.002840625" y="24.99318125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="4.002840625" y="24.99318125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="4.002840625" y="24.99318125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="4.002840625" y="24.99318125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="4.002840625" y="24.99318125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="2.948359375" y="25.22204375" size="0.508" layer="25" font="vector" rot="R180"/>
 </element>
@@ -2622,14 +2623,14 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="RC0402FR-07100KL" x="40.307459375" y="5.456359375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J8" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="30.5216625" y="26.051721875" smashed="yes" rot="MR270" grouprefs="_VDD_B_2V8_BUCK">
-<attribute name="AS-MOUNT" value="1" x="30.5216625" y="26.051721875" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="30.5216625" y="26.051721875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="30.5216625" y="26.051721875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="30.5216625" y="26.051721875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="30.5216625" y="26.051721875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="31.504903125" y="25.952284375" size="0.508" layer="26" font="vector" rot="MR270"/>
 </element>
 <element name="U20" library="EagleLibrary" package="WINBOND-W25Q40EWUXIE" package3d_urn="urn:adsk.eagle:package:36180302/1" value="WINBOND-W25Q40EW" x="22.38118125" y="8.756165625" smashed="yes">
 <attribute name="AS-MOUNT" value="1" x="22.38118125" y="8.756165625" size="1.778" layer="27" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="22.38118125" y="8.756165625" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="22.38118125" y="8.756165625" size="1.778" layer="27" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="22.38118125" y="8.756165625" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Winbond" x="22.38118125" y="8.756165625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.80978125" y="9.89300625" size="0.508" layer="25" font="vector"/>
@@ -2638,7 +2639,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U21" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-OR-INV-INPUT" x="18.60511875" y="8.942903125" smashed="yes" rot="R180">
 <attribute name="AS-MOUNT" value="1" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Nexperia" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="19.29599375" y="10.740046875" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2654,7 +2655,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="D1" library="EagleLibrary" package="ROHM-SOD-123FL" value="ROHM-RB168MM-40" x="5.958459375" y="25.8391" smashed="yes" rot="R90" grouprefs="_VDD_A_3V3_LDO">
 <attribute name="AS-MOUNT" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="ROHM" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.185878125" y="24.2292" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="RB168MM-40" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2733,7 +2734,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U6" library="EagleLibrary" package="EATON-STN101" value="EATON-STN101" x="41.897175" y="30.02850625" smashed="yes" rot="R270">
 <attribute name="AS-MOUNT" value="1" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Eaton" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="41.752875" y="29.24850625" size="0.635" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="STN101050B101" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2755,8 +2756,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="AC0402FR-075K1L" x="35.5092" y="7.333559375" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J4" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="40.493978125" y="27.958671875" smashed="yes" rot="R90" grouprefs="_REVERSE_BATTERY_PROTECTION">
-<attribute name="AS-MOUNT" value="1" x="40.493978125" y="27.958671875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="40.493978125" y="27.958671875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="40.493978125" y="27.958671875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="40.493978125" y="27.958671875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="40.493978125" y="27.958671875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="41.50261875" y="27.9056125" size="0.508" layer="25" font="vector" rot="R90"/>
 </element>
@@ -2795,7 +2796,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U9" library="EagleLibrary" package="TI-TPS62A01DRLR" value="TI-TPS62A01" x="28.416" y="30.177740625" smashed="yes" rot="MR90" grouprefs="_VDD_B_2V8_BUCK">
 <attribute name="AS-MOUNT" value="1" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="27.52391875" y="28.350384375" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="TPS62A01DRLR" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2842,7 +2843,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U8" library="EagleLibrary" package="TI-TPS62A01DRLR" value="TI-TPS62A01" x="27.5676375" y="26.850340625" smashed="yes" rot="R90" grouprefs="_VDD_B_1V8_BUCK">
 <attribute name="AS-MOUNT" value="1" x="27.5676375" y="26.850340625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="27.5676375" y="26.850340625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="27.5676375" y="26.850340625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="27.5676375" y="26.850340625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="24.0116375" y="23.294340625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.139678125" y="28.78528125" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TPS62A01DRLR" x="24.0116375" y="23.294340625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2881,7 +2882,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U7" library="EagleLibrary" package="TI-TPS62A01DRLR" value="TI-TPS62A01" x="26.452578125" y="25.460959375" smashed="yes" rot="MR180" grouprefs="_VDD_B_1V2_BUCK">
 <attribute name="AS-MOUNT" value="1" x="26.452578125" y="25.460959375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.452578125" y="25.460959375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="26.452578125" y="25.460959375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="26.452578125" y="25.460959375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="22.896578125" y="21.904959375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="26.481959375" y="27.73734375" size="0.635" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="TPS62A01DRLR" x="22.896578125" y="21.904959375" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2919,8 +2920,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="CL21A226MQQNNNG" x="26.9148625" y="31.010859375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="H1" library="EagleLibrary" package="TAGCONNECT-TC2030-NL-EDGE" value="TAGCONNECT-TC2030-NLEDGE" x="33.401" y="3.95141875" smashed="yes" rot="MR0">
-<attribute name="AS-MOUNT" value="1" x="33.401" y="3.95141875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.401" y="3.95141875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="33.401" y="3.95141875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="33.401" y="3.95141875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="33.401" y="3.95141875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="30.446078125" y="3.99695625" size="0.762" layer="26" font="vector" rot="MR90"/>
 </element>
@@ -2933,18 +2934,18 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="PN" value="RC0402JR-0710KL" x="32.531340625" y="24.690665625" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="MH1" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="1.94" y="28.4" smashed="yes">
-<attribute name="AS-MOUNT" value="1" x="1.94" y="28.4" size="1.778" layer="27" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="1.94" y="28.4" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="1.94" y="28.4" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="1.94" y="28.4" size="1.778" layer="27" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="1.94" y="28.4" size="1.778" layer="27" display="off"/>
 </element>
 <element name="MH2" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="1.682" y="8.172" smashed="yes">
-<attribute name="AS-MOUNT" value="1" x="1.682" y="8.172" size="1.778" layer="27" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="1.682" y="8.172" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="1.682" y="8.172" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="1.682" y="8.172" size="1.778" layer="27" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="1.682" y="8.172" size="1.778" layer="27" display="off"/>
 </element>
 <element name="MH3" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="39.4" y="23.5" smashed="yes">
-<attribute name="AS-MOUNT" value="1" x="39.4" y="23.5" size="1.778" layer="27" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="39.4" y="23.5" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="39.4" y="23.5" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="39.4" y="23.5" size="1.778" layer="27" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="39.4" y="23.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R31" library="EagleLibrary" package="0402" value="20k" x="7.6568" y="10.4049" smashed="yes" rot="R90">
@@ -2958,7 +2959,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="Q6" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="12.9232" y="11.824040625" smashed="yes" rot="R270">
 <attribute name="AS-MOUNT" value="1" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Diodes Incorporated" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.558421875" y="13.7493625" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="DMG2305UX" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2966,7 +2967,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="Q5" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="5.751525" y="7.59434375" smashed="yes" rot="R180">
 <attribute name="AS-MOUNT" value="1" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Diodes Incorporated" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="4.986984375" y="6.9964625" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="DMG2305UX" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2974,7 +2975,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U25" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-INVERTER" x="15.573059375" y="12.028434375" smashed="yes" rot="R270">
 <attribute name="AS-MOUNT" value="1" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Nexperia" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="14.304234375" y="13.61339375" size="0.635" layer="25" font="vector"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3028,14 +3029,14 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="Q4" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="4.046221875" y="20.43938125" smashed="yes" rot="MR180">
 <attribute name="AS-MOUNT" value="1" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Diodes Incorporated" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="3.42138125" y="18.777240625" size="0.762" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="DMG2305UX" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U14" library="EagleLibrary" package="TI-MSP430FR2433IRGE" value="TI-MSP430FR2433IRGE" x="11.654" y="3.792" smashed="yes" rot="R270">
 <attribute name="AS-MOUNT" value="1" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="10.296640625" y="0.74908125" size="0.635" layer="25" font="vector"/>
@@ -3060,7 +3061,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="SW1" library="EagleLibrary" package="DEALON-TD-1624UR-180" value="TACTILE-SWITCH" x="33.5424" y="4.75" smashed="yes" rot="R90">
 <attribute name="AS-MOUNT" value="1" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="SHOU HAN" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="34.4061" y="7.336759375" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TS2306A 240gf MSM 9" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3092,7 +3093,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U16" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" x="35.4965" y="28.17368125" smashed="yes" rot="R270">
 <attribute name="AS-MOUNT" value="1" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Nexperia" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="36.653375" y="29.8678625" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3100,7 +3101,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U17" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" x="33.80231875" y="29.49448125" smashed="yes" rot="MR90">
 <attribute name="AS-MOUNT" value="1" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Nexperia" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="34.587875" y="27.19911875" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3108,7 +3109,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <element name="U5" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="34.185140625" y="9.42168125" smashed="yes" rot="MR0">
 <attribute name="AS-MOUNT" value="1" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="37.4663" y="9.32461875" size="1.016" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="TPS22919DCK" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3123,25 +3124,25 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="J10" library="EagleLibrary" package="GSWITCH-GT-USB-7030A" value="USB-C-RECEPTACLE-GSWITCH-7030A" x="41.704" y="6.25" smashed="yes" rot="R270">
 <attribute name="AS-MOUNT" value="1" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="G-Switch" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.7139" y="3.23" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GT-USB-7030A" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="MH4" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="43.855" y="16.325" smashed="yes" rot="MR0">
-<attribute name="AS-MOUNT" value="1" x="43.855" y="16.325" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="43.855" y="16.325" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="43.855" y="16.325" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="43.855" y="16.325" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="43.855" y="16.325" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="MH5" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes">
-<attribute name="AS-MOUNT" value="1" x="0" y="16.325" size="1.778" layer="27" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="0" y="16.325" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="0" y="16.325" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="0" y="16.325" size="1.778" layer="27" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="0" y="16.325" size="1.778" layer="27" display="off"/>
 </element>
 <element name="MH6" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes" rot="MR180">
-<attribute name="AS-MOUNT" value="1" x="0" y="16.325" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1" x="0" y="16.325" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT" value="0" x="0" y="16.325" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0" x="0" y="16.325" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="0" y="16.325" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 </elements>

@@ -4366,8 +4366,8 @@ Header</text>
 <attribute name="PN" value="CL05B103KB5NNNC"/>
 </part>
 <part name="LED3" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
@@ -4400,7 +4400,7 @@ Header</text>
 </part>
 <part name="U24" library="EagleLibrary" deviceset="ALLIANCE-AS4C8M16MSA-6BIN" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="C61" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
@@ -4536,7 +4536,7 @@ Header</text>
 </part>
 <part name="U19" library="EagleLibrary" deviceset="LATTICE-ICE40HX4K-BG121" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="C36" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
@@ -4625,7 +4625,7 @@ Header</text>
 </part>
 <part name="U23" library="EagleLibrary" deviceset="ON-AR0330CS1C12SPKA0" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="AR0330CS1C12SPKA0-CR"/>
 </part>
@@ -4715,7 +4715,7 @@ Header</text>
 </part>
 <part name="X2" library="EagleLibrary" deviceset="SITIME-SIT8021" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="SIT8021AI-J4-18S-16.000000E"/>
 </part>
@@ -4774,13 +4774,13 @@ Header</text>
 <attribute name="PN" value="WR04X203 JTL"/>
 </part>
 <part name="TP1" library="EagleLibrary" deviceset="TEST-POINT" device="">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="U26" library="EagleLibrary" deviceset="STM-STM32F730" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="STM32F730I8K6"/>
 </part>
@@ -4940,7 +4940,7 @@ Header</text>
 </part>
 <part name="X3" library="EagleLibrary" deviceset="SITIME-SIT8021" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="SIT8021AI-J4-18S-16.000000E"/>
 </part>
@@ -4961,7 +4961,7 @@ Header</text>
 <part name="FB1" library="EagleLibrary" deviceset="FERRITE-BEAD" device="0402" value="FERRITE-BEAD0402">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="BKP1005EM100-T"/>
 </part>
@@ -4981,22 +4981,22 @@ Header</text>
 <part name="U10" library="EagleLibrary" deviceset="TI-TPS22919DCK" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="U11" library="EagleLibrary" deviceset="TI-TPS22919DCK" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="U12" library="EagleLibrary" deviceset="TI-TPS22919DCK" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="U27" library="EagleLibrary" deviceset="DIODESINC-DT1446-04V-7" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="C18" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="22p">
 <spice>
@@ -5020,7 +5020,7 @@ Header</text>
 </part>
 <part name="U18" library="EagleLibrary" deviceset="PANASONIC-EKMB110711X" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="EKMB1107112"/>
 </part>
@@ -5074,8 +5074,8 @@ Header</text>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="LED4" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
@@ -5088,8 +5088,8 @@ Header</text>
 <attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED6" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
@@ -5102,8 +5102,8 @@ Header</text>
 <attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED5" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
@@ -5132,25 +5132,25 @@ Header</text>
 <part name="Q1" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="PMPB10UPX"/>
 <attribute name="PN2" value="PMPB16EP"/>
 </part>
 <part name="J3" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="U3" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-NOR" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="U13" library="EagleLibrary" deviceset="TI-TPS22919DCK" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="C16" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
 <attribute name="AS-MOUNT" value="1"/>
@@ -5162,12 +5162,12 @@ Header</text>
 <part name="U22" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-BUFFER" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="X1" library="EagleLibrary" deviceset="EPSON-FC-135" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="Q13FC13500005"/>
 </part>
@@ -5193,30 +5193,30 @@ Header</text>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="J6" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="J7" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="U2" library="EagleLibrary" deviceset="DIODESINC-AP7350" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="AP7350-33CF4-7"/>
 </part>
 <part name="U1" library="EagleLibrary" deviceset="TI-TPS2116" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="TPS2116DRLR"/>
 </part>
 <part name="U4" library="EagleLibrary" deviceset="MICROCHIP-MCP7383X" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="MCP73831T-2ACI/OT"/>
 </part>
@@ -5230,14 +5230,14 @@ Header</text>
 <part name="Q3" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="PMPB10UPX"/>
 <attribute name="PN2" value="PMPB16EP"/>
 </part>
 <part name="Q2" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="PMPB10UPX"/>
 <attribute name="PN2" value="PMPB16EP"/>
 </part>
@@ -5270,13 +5270,13 @@ Header</text>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
 <part name="J1" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="J2" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="R1" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
@@ -5287,20 +5287,20 @@ Header</text>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
 <part name="J8" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="U20" library="EagleLibrary" deviceset="WINBOND-W25Q40EW" device="" package3d_urn="urn:adsk.eagle:package:36180302/1">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="W25Q40EWUXIE"/>
 </part>
 <part name="U21" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-OR-INV-INPUT" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="R27" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
@@ -5313,7 +5313,7 @@ Header</text>
 <part name="D1" library="EagleLibrary" deviceset="ROHM-RB168MM-40" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="C23" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
 <attribute name="AS-MOUNT" value="1"/>
@@ -5381,7 +5381,7 @@ Header</text>
 <part name="U6" library="EagleLibrary" deviceset="EATON-STN101" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="STN101050B101"/>
 </part>
 <part name="R42" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="5.1k">
@@ -5399,8 +5399,8 @@ Header</text>
 <attribute name="PN" value="AC0402FR-075K1L"/>
 </part>
 <part name="J4" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="R9" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="3k">
@@ -5434,7 +5434,7 @@ Header</text>
 <part name="U9" library="EagleLibrary" deviceset="TI-TPS62A01" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="C12" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
 <attribute name="AS-MOUNT" value="1"/>
@@ -5474,7 +5474,7 @@ Header</text>
 <part name="U8" library="EagleLibrary" deviceset="TI-TPS62A01" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="L2" library="EagleLibrary" deviceset="INDUCTOR" device="0806" value="1u">
 <attribute name="AS-MOUNT" value="1"/>
@@ -5507,7 +5507,7 @@ Header</text>
 <part name="U7" library="EagleLibrary" deviceset="TI-TPS62A01" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="L1" library="EagleLibrary" deviceset="INDUCTOR" device="0806" value="1u">
 <attribute name="AS-MOUNT" value="1"/>
@@ -5538,8 +5538,8 @@ Header</text>
 <attribute name="PN" value="CL21A226MQQNNNG"/>
 </part>
 <part name="H1" library="EagleLibrary" deviceset="TAGCONNECT-TC2030-NL" device="EDGE" value="TAGCONNECT-TC2030-NLEDGE">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="R3" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
@@ -5550,18 +5550,18 @@ Header</text>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
 <part name="MH1" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device="">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="MH2" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device="">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="MH3" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device="">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="R31" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="20k">
@@ -5574,17 +5574,17 @@ Header</text>
 <part name="Q6" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="Q5" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="U25" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-INVERTER" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="R30" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
@@ -5632,11 +5632,11 @@ Header</text>
 <part name="Q4" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="U14" library="EagleLibrary" deviceset="TI-MSP430FR2433IRGE" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="R18" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
@@ -5656,7 +5656,7 @@ Header</text>
 <part name="SW1" library="EagleLibrary" deviceset="TACTILE-SWITCH" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="MFG" value="SHOU HAN"/>
 <attribute name="PN" value="TS2306A 240gf MSM 9"/>
 </part>
@@ -5682,19 +5682,19 @@ Header</text>
 <part name="U16" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="U17" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="U5" library="EagleLibrary" deviceset="TI-TPS22919DCK" device="">
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-NEXTPCB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="U15" library="EagleLibrary" deviceset="NEXPERIA-NXB0102" device="">
 <attribute name="AS-MOUNT" value="1"/>
@@ -5703,22 +5703,22 @@ Header</text>
 </part>
 <part name="J10" library="EagleLibrary" deviceset="USB-C-RECEPTACLE" device="-GSWITCH-7030A">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="MH4" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="MH5" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="MH6" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF">
-<attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-MOUNT" value="0"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 </parts>
