@@ -4359,10 +4359,16 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL05B103KB5NNNC"/>
 </part>
 <part name="LED3" library="EagleLibrary" deviceset="LED" device="LED-0603">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
@@ -4373,6 +4379,9 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
@@ -4383,10 +4392,17 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
-<part name="U24" library="EagleLibrary" deviceset="ALLIANCE-AS4C8M16MSA-6BIN" device=""/>
+<part name="U24" library="EagleLibrary" deviceset="ALLIANCE-AS4C8M16MSA-6BIN" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="C61" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
 <spice>
 <pinmapping spiceprefix="C">
@@ -4394,6 +4410,9 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
@@ -4404,6 +4423,9 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
@@ -4414,6 +4436,9 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
@@ -4424,6 +4449,9 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL05B103KB5NNNC"/>
 </part>
@@ -4434,6 +4462,9 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL05B103KB5NNNC"/>
 </part>
@@ -4444,6 +4475,9 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
@@ -4454,6 +4488,9 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL05B103KB5NNNC"/>
 </part>
@@ -4464,6 +4501,9 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
@@ -4474,253 +4514,454 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="R26" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
 <part name="R21" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Kamaya"/>
 <attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
-<part name="U19" library="EagleLibrary" deviceset="LATTICE-ICE40HX4K-BG121" device=""/>
+<part name="U19" library="EagleLibrary" deviceset="LATTICE-ICE40HX4K-BG121" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="C36" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C37" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="10n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL05B103KB5NNNC"/>
 </part>
 <part name="R24" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X1000FQL"/>
 </part>
 <part name="C41" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="C42" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="R23" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X1000FQL"/>
 </part>
 <part name="C38" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="C39" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C29" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C34" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C30" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="10n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL05B103KB5NNNC"/>
 </part>
 <part name="C35" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="10n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL05B103KB5NNNC"/>
 </part>
 <part name="U23" library="EagleLibrary" deviceset="ON-AR0330CS1C12SPKA0" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="AR0330CS1C12SPKA0-CR"/>
 </part>
 <part name="C45" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="C46" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C47" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="C48" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C49" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="C50" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C53" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="C54" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C56" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="C57" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="R28" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
 <part name="C52" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="X2" library="EagleLibrary" deviceset="SITIME-SIT8021" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="SIT8021AI-J4-18S-16.000000E"/>
 </part>
-<part name="J9" library="EagleLibrary" deviceset="MICROSD-SOCKET" device=""/>
+<part name="J9" library="EagleLibrary" deviceset="MICROSD-SOCKET" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="C62" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="C63" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="R32" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="20k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X203 JTL"/>
 </part>
 <part name="R33" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="20k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X203 JTL"/>
 </part>
 <part name="R34" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="20k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X203 JTL"/>
 </part>
 <part name="R35" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="20k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X203 JTL"/>
 </part>
 <part name="R36" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="20k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X203 JTL"/>
 </part>
-<part name="TP1" library="EagleLibrary" deviceset="TEST-POINT" device=""/>
+<part name="TP1" library="EagleLibrary" deviceset="TEST-POINT" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="U26" library="EagleLibrary" deviceset="STM-STM32F730" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="STM32F730I8K6"/>
 </part>
 <part name="C67" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C68" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C69" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C84" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C73" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C74" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C80" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C72" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C81" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C77" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C78" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C79" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C82" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C83" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C70" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C71" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C75" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C76" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C66" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="R41" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="3k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Susumu"/>
 <attribute name="PN" value="RR0510P-302-D"/>
 </part>
 <part name="C65" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C64" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="10n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL05B103KB5NNNC"/>
 </part>
 <part name="X3" library="EagleLibrary" deviceset="SITIME-SIT8021" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="SIT8021AI-J4-18S-16.000000E"/>
 </part>
 <part name="R25" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
 <part name="R29" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
 <part name="FB1" library="EagleLibrary" deviceset="FERRITE-BEAD" device="0402" value="FERRITE-BEAD0402">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="BKP1005EM100-T"/>
 </part>
@@ -4731,13 +4972,32 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM1555C1H220JA01D"/>
 </part>
-<part name="U10" library="EagleLibrary" deviceset="TI-TPS22919DCK" device=""/>
-<part name="U11" library="EagleLibrary" deviceset="TI-TPS22919DCK" device=""/>
-<part name="U12" library="EagleLibrary" deviceset="TI-TPS22919DCK" device=""/>
-<part name="U27" library="EagleLibrary" deviceset="DIODESINC-DT1446-04V-7" device=""/>
+<part name="U10" library="EagleLibrary" deviceset="TI-TPS22919DCK" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="U11" library="EagleLibrary" deviceset="TI-TPS22919DCK" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="U12" library="EagleLibrary" deviceset="TI-TPS22919DCK" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="U27" library="EagleLibrary" deviceset="DIODESINC-DT1446-04V-7" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="C18" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="22p">
 <spice>
 <pinmapping spiceprefix="C">
@@ -4745,359 +5005,722 @@ Header</text>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM1555C1H220JA01D"/>
 </part>
 <part name="C17" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="22p">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM1555C1H220JA01D"/>
 </part>
 <part name="U18" library="EagleLibrary" deviceset="PANASONIC-EKMB110711X" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="EKMB1107112"/>
 </part>
 <part name="C20" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="C19" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C13" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C14" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C15" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C26" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C44" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="LED4" library="EagleLibrary" deviceset="LED" device="LED-0603">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R22" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Kamaya"/>
 <attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED6" library="EagleLibrary" deviceset="LED" device="LED-0603">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R40" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Kamaya"/>
 <attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED5" library="EagleLibrary" deviceset="LED" device="LED-0603">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
 </part>
 <part name="R39" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Kamaya"/>
 <attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="C51" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C55" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="Q1" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="PMPB10UPX"/>
 <attribute name="PN2" value="PMPB16EP"/>
 </part>
-<part name="J3" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
+<part name="J3" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="U3" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-NOR" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
-<part name="U13" library="EagleLibrary" deviceset="TI-TPS22919DCK" device=""/>
+<part name="U13" library="EagleLibrary" deviceset="TI-TPS22919DCK" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="C16" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="U22" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-BUFFER" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="X1" library="EagleLibrary" deviceset="EPSON-FC-135" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="Q13FC13500005"/>
 </part>
 <part name="C86" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C87" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C85" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
-<part name="J6" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
-<part name="J7" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
+<part name="J6" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="J7" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="U2" library="EagleLibrary" deviceset="DIODESINC-AP7350" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="AP7350-33CF4-7"/>
 </part>
 <part name="U1" library="EagleLibrary" deviceset="TI-TPS2116" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="TPS2116DRLR"/>
 </part>
 <part name="U4" library="EagleLibrary" deviceset="MICROCHIP-MCP7383X" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="MCP73831T-2ACI/OT"/>
 </part>
 <part name="R7" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="2.7k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Bourns"/>
 <attribute name="PN" value="CR0402-JW-272GLF"/>
 </part>
 <part name="Q3" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="PMPB10UPX"/>
 <attribute name="PN2" value="PMPB16EP"/>
 </part>
 <part name="Q2" library="EagleLibrary" deviceset="PMOS" device="-NEXPERIA-SOT1220">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="PMPB10UPX"/>
 <attribute name="PN2" value="PMPB16EP"/>
 </part>
 <part name="R11" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
 <part name="R10" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
 <part name="R2" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="300k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X3003FTL"/>
 </part>
 <part name="R4" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
-<part name="J1" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
-<part name="J2" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
+<part name="J1" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="J2" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="R1" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
-<part name="J8" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
+<part name="J8" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="U20" library="EagleLibrary" deviceset="WINBOND-W25Q40EW" device="" package3d_urn="urn:adsk.eagle:package:36180302/1">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="W25Q40EWUXIE"/>
 </part>
 <part name="U21" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-OR-INV-INPUT" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="R27" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
-<part name="D1" library="EagleLibrary" deviceset="ROHM-RB168MM-40" device=""/>
+<part name="D1" library="EagleLibrary" deviceset="ROHM-RB168MM-40" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="C23" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C24" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C43" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C2" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="C5" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C1" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Taiyo Yuden"/>
 <attribute name="PN" value="TMK105CBJ225KV-F"/>
 </part>
 <part name="C3" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C4" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="C6" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="U6" library="EagleLibrary" deviceset="EATON-STN101" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="STN101050B101"/>
 </part>
 <part name="R42" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="5.1k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="AC0402FR-075K1L"/>
 </part>
 <part name="R43" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="5.1k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="AC0402FR-075K1L"/>
 </part>
-<part name="J4" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED"/>
+<part name="J4" library="EagleLibrary" deviceset="JUMPER" device="-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="R9" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="3k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Susumu"/>
 <attribute name="PN" value="RR0510P-302-D"/>
 </part>
 <part name="R8" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="1k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Kamaya"/>
 <attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="R6" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="365k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X3653FTL"/>
 </part>
 <part name="R5" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
-<part name="U9" library="EagleLibrary" deviceset="TI-TPS62A01" device=""/>
+<part name="U9" library="EagleLibrary" deviceset="TI-TPS62A01" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="C12" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A106KOQNNNE"/>
 </part>
 <part name="L3" library="EagleLibrary" deviceset="INDUCTOR" device="0806" value="1u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CIGT201610LH1R0MNE"/>
 </part>
 <part name="R16" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="365k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X3653FTL"/>
 </part>
 <part name="R17" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
 <part name="C11" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="22u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A226MQQNNNG"/>
 </part>
-<part name="U8" library="EagleLibrary" deviceset="TI-TPS62A01" device=""/>
+<part name="U8" library="EagleLibrary" deviceset="TI-TPS62A01" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="L2" library="EagleLibrary" deviceset="INDUCTOR" device="0806" value="1u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CIGT201610LH1R0MNE"/>
 </part>
 <part name="R14" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="200k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-13200KL"/>
 </part>
 <part name="R15" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
 <part name="C9" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="22u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A226MQQNNNG"/>
 </part>
-<part name="U7" library="EagleLibrary" deviceset="TI-TPS62A01" device=""/>
+<part name="U7" library="EagleLibrary" deviceset="TI-TPS62A01" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="L1" library="EagleLibrary" deviceset="INDUCTOR" device="0806" value="1u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CIGT201610LH1R0MNE"/>
 </part>
 <part name="R12" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
 <part name="R13" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402FR-07100KL"/>
 </part>
 <part name="C7" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="22u">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A226MQQNNNG"/>
 </part>
-<part name="H1" library="EagleLibrary" deviceset="TAGCONNECT-TC2030-NL" device="EDGE" value="TAGCONNECT-TC2030-NLEDGE"/>
+<part name="H1" library="EagleLibrary" deviceset="TAGCONNECT-TC2030-NL" device="EDGE" value="TAGCONNECT-TC2030-NLEDGE">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="R3" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
-<part name="MH1" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device=""/>
-<part name="MH2" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device=""/>
-<part name="MH3" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device=""/>
+<part name="MH1" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="MH2" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="MH3" library="EagleLibrary" deviceset="MDC-MOUNT-HOLE" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="R31" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="20k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X203 JTL"/>
 </part>
-<part name="Q6" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
-<part name="Q5" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
+<part name="Q6" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="Q5" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="U25" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-INVERTER" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="R30" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
 <part name="C22" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="LED2" library="EagleLibrary" deviceset="LED" device="OSRAM-TOPLED-E1608" value="LEDOSRAM-TOPLED-E1608">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KR DELPS1.22-UHVI-26-H3Q4"/>
 </part>
 <part name="LED1" library="EagleLibrary" deviceset="LED" device="OSRAM-TOPLED-E1608" value="LEDOSRAM-TOPLED-E1608">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KT DELQS1.12-TIVH-36-S446-10-S"/>
 </part>
 <part name="C25" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Murata"/>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="R20" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X1000FQL"/>
 </part>
-<part name="Q4" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device=""/>
-<part name="U14" library="EagleLibrary" deviceset="TI-MSP430FR2433IRGE" device=""/>
+<part name="Q4" library="EagleLibrary" deviceset="DIODESINC-DMG2305UX" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="U14" library="EagleLibrary" deviceset="TI-MSP430FR2433IRGE" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="R18" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X1000FQL"/>
 </part>
 <part name="R19" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Walsin"/>
 <attribute name="PN" value="WR04X1000FQL"/>
 </part>
 <part name="SW1" library="EagleLibrary" deviceset="TACTILE-SWITCH" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="SHOU HAN"/>
 <attribute name="PN" value="TS2306A 240gf MSM 9"/>
 </part>
 <part name="R37" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
 <part name="R38" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="Yageo"/>
 <attribute name="PN" value="RC0402JR-0710KL"/>
 </part>
-<part name="J5" library="EagleLibrary" deviceset="BATTERY-HEADER" device="-MOLEX-781710002"/>
+<part name="J5" library="EagleLibrary" deviceset="BATTERY-HEADER" device="-MOLEX-781710002">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 <part name="U16" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
 <part name="U17" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="74LVC1G98GW,125"/>
 </part>
-<part name="U5" library="EagleLibrary" deviceset="TI-TPS22919DCK" device=""/>
-<part name="U15" library="EagleLibrary" deviceset="NEXPERIA-NXB0102" device=""/>
-<part name="J10" library="EagleLibrary" deviceset="USB-C-RECEPTACLE" device="-GSWITCH-7030A"/>
-<part name="MH4" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF"/>
-<part name="MH5" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF"/>
-<part name="MH6" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF"/>
+<part name="U5" library="EagleLibrary" deviceset="TI-TPS22919DCK" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="U15" library="EagleLibrary" deviceset="NEXPERIA-NXB0102" device="">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="J10" library="EagleLibrary" deviceset="USB-C-RECEPTACLE" device="-GSWITCH-7030A">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="MH4" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="MH5" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
+<part name="MH6" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF">
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5272,311 +5895,494 @@ VDD_A and GND (4.2V/10k = 420uA).</text>
 <attribute name="VALUE" x="167.386" y="294.513" size="1.778" layer="96"/>
 <attribute name="MFG" x="167.64" y="304.8" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="167.64" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="165.1" y="297.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="165.1" y="297.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="165.1" y="297.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="165.1" y="251.46" smashed="yes">
 <attribute name="NAME" x="167.894" y="251.079" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.894" y="248.539" size="1.778" layer="96"/>
 <attribute name="MFG" x="165.1" y="261.62" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="165.1" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="165.1" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="165.1" y="251.46" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="165.1" y="251.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U10" gate="G$1" x="208.28" y="157.48" smashed="yes">
 <attribute name="PN" x="208.28" y="139.7" size="1.778" layer="95"/>
 <attribute name="NAME" x="208.28" y="158.242" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U11" gate="G$1" x="208.28" y="127" smashed="yes">
 <attribute name="PN" x="208.28" y="109.22" size="1.778" layer="95"/>
 <attribute name="NAME" x="208.28" y="127.762" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="208.28" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="208.28" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U12" gate="G$1" x="208.28" y="96.52" smashed="yes">
 <attribute name="PN" x="208.28" y="78.74" size="1.778" layer="95"/>
 <attribute name="NAME" x="208.28" y="97.282" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="208.28" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="208.28" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="208.28" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="167.64" y="152.4" smashed="yes">
 <attribute name="PN" x="149.86" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="164.084" y="152.273" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="164.084" y="149.733" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="149.86" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="167.64" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="167.64" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="167.64" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="167.64" y="121.92" smashed="yes">
 <attribute name="PN" x="149.86" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="164.084" y="121.793" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="164.084" y="119.253" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="149.86" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="167.64" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="167.64" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="167.64" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="167.64" y="91.44" smashed="yes">
 <attribute name="PN" x="149.86" y="96.52" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="164.084" y="91.313" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="164.084" y="88.773" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="149.86" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="167.64" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="167.64" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="167.64" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q1" gate="G$1" x="320.04" y="396.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="318.77" y="399.542" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="PN" x="287.02" y="609.6" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PN2" x="320.04" y="396.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT" x="320.04" y="396.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="320.04" y="396.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" x="320.04" y="396.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="360.68" y="401.32" smashed="yes">
 <attribute name="NAME" x="359.41" y="403.86" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="360.68" y="401.32" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="360.68" y="401.32" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="360.68" y="401.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="309.88" y="429.26" smashed="yes" rot="MR270">
 <attribute name="NAME" x="309.88" y="419.1" size="1.778" layer="95" rot="MR0"/>
 <attribute name="PN" x="276.86" y="642.62" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="309.88" y="429.26" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="309.88" y="429.26" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="309.88" y="429.26" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U13" gate="G$1" x="208.28" y="66.04" smashed="yes">
 <attribute name="PN" x="208.28" y="48.26" size="1.778" layer="95"/>
 <attribute name="NAME" x="208.28" y="66.802" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="208.28" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C16" gate="G$1" x="167.64" y="60.96" smashed="yes">
 <attribute name="PN" x="149.86" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="164.084" y="60.833" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="164.084" y="58.293" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="149.86" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="167.64" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="167.64" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="167.64" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J6" gate="G$1" x="248.92" y="309.88" smashed="yes">
 <attribute name="NAME" x="247.65" y="312.42" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="248.92" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="248.92" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="248.92" y="309.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J7" gate="G$1" x="248.92" y="264.16" smashed="yes">
 <attribute name="NAME" x="247.65" y="266.7" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="248.92" y="264.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="248.92" y="264.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="248.92" y="264.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U2" gate="G$1" x="322.58" y="464.82" smashed="yes">
 <attribute name="PN" x="322.58" y="449.58" size="1.778" layer="95"/>
 <attribute name="NAME" x="322.58" y="465.582" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="322.58" y="464.82" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="322.58" y="464.82" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="322.58" y="464.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U1" gate="G$1" x="233.68" y="464.82" smashed="yes">
 <attribute name="NAME" x="233.755" y="465.7119" size="1.778" layer="95" ratio="10" rot="SR0"/>
 <attribute name="PN" x="233.755" y="436.7559" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="AS-MOUNT" x="233.68" y="464.82" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="233.68" y="464.82" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="233.68" y="464.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="G$1" x="170.18" y="414.02" smashed="yes">
 <attribute name="NAME" x="170.255" y="414.9119" size="1.778" layer="95" ratio="10" rot="SR0"/>
 <attribute name="PN" x="170.255" y="393.5759" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="AS-MOUNT" x="170.18" y="414.02" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="170.18" y="414.02" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="170.18" y="414.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="154.94" y="401.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="152.908" y="401.32" size="1.778" layer="95" align="top-right"/>
 <attribute name="VALUE" x="152.908" y="398.78" size="1.778" layer="96" align="top-right"/>
 <attribute name="MFG" x="154.94" y="401.32" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="154.94" y="401.32" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="154.94" y="401.32" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="154.94" y="401.32" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="154.94" y="401.32" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q3" gate="G$1" x="220.98" y="355.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="219.964" y="364.744" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="PN" x="220.98" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN2" x="220.98" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="220.98" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="220.98" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="220.98" y="355.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q2" gate="G$1" x="195.58" y="355.6" smashed="yes" rot="MR90">
 <attribute name="NAME" x="196.596" y="364.744" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="PN" x="195.58" y="355.6" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="PN2" x="195.58" y="355.6" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT" x="195.58" y="355.6" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="195.58" y="355.6" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="195.58" y="355.6" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="220.98" y="345.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="223.266" y="347.218" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="223.266" y="344.678" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="220.98" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="220.98" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="220.98" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="220.98" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="220.98" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="187.96" y="360.68" smashed="yes" rot="MR90">
 <attribute name="NAME" x="185.674" y="361.442" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="185.674" y="358.902" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MFG" x="187.96" y="360.68" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="PN" x="187.96" y="360.68" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT" x="187.96" y="360.68" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="187.96" y="360.68" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="187.96" y="360.68" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="200.66" y="452.12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="203.962" y="456.946" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="203.962" y="454.406" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MFG" x="200.66" y="452.12" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="PN" x="200.66" y="452.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT" x="200.66" y="452.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="200.66" y="452.12" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" x="200.66" y="452.12" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="210.82" y="444.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="213.106" y="446.278" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="213.106" y="443.738" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="210.82" y="444.5" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="210.82" y="444.5" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="210.82" y="444.5" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="210.82" y="444.5" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="210.82" y="444.5" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="129.54" y="467.36" smashed="yes">
 <attribute name="NAME" x="128.27" y="469.9" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="129.54" y="467.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="129.54" y="467.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="129.54" y="467.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J2" gate="G$1" x="358.14" y="467.36" smashed="yes">
 <attribute name="NAME" x="356.87" y="469.9" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="358.14" y="467.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="358.14" y="467.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="358.14" y="467.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="139.7" y="452.12" smashed="yes" rot="MR270">
 <attribute name="NAME" x="141.986" y="453.898" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="141.986" y="451.358" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="139.7" y="452.12" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="139.7" y="452.12" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="139.7" y="452.12" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="139.7" y="452.12" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="139.7" y="452.12" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="J8" gate="G$1" x="248.92" y="218.44" smashed="yes">
 <attribute name="NAME" x="247.65" y="220.98" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="248.92" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="248.92" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="248.92" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="335.28" y="472.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="335.788" y="468.376" size="1.778" layer="95" rot="MR0"/>
+<attribute name="AS-MOUNT" x="335.28" y="472.44" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="335.28" y="472.44" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" x="335.28" y="472.44" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="297.18" y="459.74" smashed="yes">
 <attribute name="NAME" x="294.894" y="459.359" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="294.894" y="456.819" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="297.18" y="459.74" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="297.18" y="459.74" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="297.18" y="459.74" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="297.18" y="459.74" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="297.18" y="459.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="157.48" y="421.64" smashed="yes">
 <attribute name="PN" x="139.7" y="426.72" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="160.528" y="421.259" size="1.778" layer="95"/>
 <attribute name="VALUE" x="160.528" y="418.719" size="1.778" layer="96"/>
 <attribute name="MFG" x="139.7" y="426.72" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="157.48" y="421.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="157.48" y="421.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="157.48" y="421.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="223.52" y="472.44" smashed="yes">
 <attribute name="PN" x="205.74" y="477.52" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="227.584" y="472.313" size="1.778" layer="95"/>
 <attribute name="VALUE" x="227.584" y="469.773" size="1.778" layer="96"/>
 <attribute name="MFG" x="205.74" y="477.52" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="223.52" y="472.44" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="223.52" y="472.44" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="223.52" y="472.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="309.88" y="459.74" smashed="yes">
 <attribute name="PN" x="294.64" y="401.32" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="294.64" y="401.32" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="306.578" y="459.359" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="306.578" y="456.819" size="1.778" layer="96" align="bottom-right"/>
+<attribute name="AS-MOUNT" x="309.88" y="459.74" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="309.88" y="459.74" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="309.88" y="459.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="347.98" y="459.74" smashed="yes" rot="MR0">
 <attribute name="PN" x="363.22" y="401.32" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MFG" x="363.22" y="401.32" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="351.282" y="459.359" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="351.282" y="456.819" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
+<attribute name="AS-MOUNT" x="347.98" y="459.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="347.98" y="459.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" x="347.98" y="459.74" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="203.2" y="421.64" smashed="yes">
 <attribute name="NAME" x="205.994" y="421.259" size="1.778" layer="95"/>
 <attribute name="VALUE" x="205.994" y="418.719" size="1.778" layer="96"/>
 <attribute name="MFG" x="203.2" y="421.64" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="203.2" y="421.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="203.2" y="421.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="203.2" y="421.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="203.2" y="421.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U6" gate="G$1" x="154.94" y="345.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="154.178" y="345.44" size="1.778" layer="95" align="top-right"/>
 <attribute name="PN" x="154.94" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="154.94" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="154.94" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="154.94" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="J4" gate="G$1" x="226.06" y="383.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="228.6" y="384.81" size="1.778" layer="95" rot="R270" align="top-left"/>
+<attribute name="AS-MOUNT" x="226.06" y="383.54" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="226.06" y="383.54" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="226.06" y="383.54" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="330.2" y="363.22" smashed="yes" rot="MR270">
 <attribute name="NAME" x="332.486" y="364.998" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="332.486" y="362.458" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="330.2" y="363.22" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="330.2" y="363.22" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="330.2" y="363.22" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="330.2" y="363.22" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="330.2" y="363.22" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="322.58" y="370.84" smashed="yes" rot="MR180">
 <attribute name="NAME" x="320.294" y="376.936" size="1.778" layer="95" align="top-left"/>
 <attribute name="VALUE" x="320.294" y="374.396" size="1.778" layer="96" align="top-left"/>
 <attribute name="MFG" x="322.58" y="370.84" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="PN" x="322.58" y="370.84" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT" x="322.58" y="370.84" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="322.58" y="370.84" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" x="322.58" y="370.84" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="314.96" y="408.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="313.182" y="409.956" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="313.182" y="407.416" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="314.96" y="408.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="314.96" y="408.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="314.96" y="408.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="314.96" y="408.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="314.96" y="408.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="330.2" y="436.88" smashed="yes" rot="MR180">
 <attribute name="NAME" x="327.66" y="433.324" size="1.778" layer="95"/>
 <attribute name="VALUE" x="327.66" y="430.784" size="1.778" layer="96"/>
 <attribute name="MFG" x="330.2" y="436.88" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="PN" x="330.2" y="436.88" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT" x="330.2" y="436.88" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="330.2" y="436.88" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" x="330.2" y="436.88" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="U9" gate="G$1" x="187.96" y="215.9" smashed="yes">
 <attribute name="NAME" x="188.035" y="216.7919" size="1.778" layer="95" ratio="10" rot="SR0"/>
 <attribute name="PN" x="188.035" y="187.8359" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="AS-MOUNT" x="187.96" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="187.96" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="187.96" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="165.1" y="205.74" smashed="yes">
 <attribute name="NAME" x="167.894" y="205.359" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.894" y="202.819" size="1.778" layer="96"/>
 <attribute name="MFG" x="165.1" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="165.1" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="165.1" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="165.1" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="165.1" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L3" gate="G$1" x="210.82" y="213.36" smashed="yes">
 <attribute name="NAME" x="210.82" y="218.44" size="1.778" layer="95"/>
 <attribute name="VALUE" x="210.82" y="215.9" size="1.778" layer="96"/>
 <attribute name="PN" x="210.82" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="210.82" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="210.82" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="210.82" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="210.82" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="226.06" y="205.74" smashed="yes" rot="MR270">
 <attribute name="NAME" x="228.346" y="207.518" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="228.346" y="204.978" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="226.06" y="205.74" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="226.06" y="205.74" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="226.06" y="205.74" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="226.06" y="205.74" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="226.06" y="205.74" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="226.06" y="190.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="228.346" y="192.278" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="228.346" y="189.738" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="226.06" y="190.5" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="226.06" y="190.5" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="226.06" y="190.5" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="226.06" y="190.5" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="226.06" y="190.5" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="238.76" y="208.28" smashed="yes">
 <attribute name="NAME" x="241.554" y="207.899" size="1.778" layer="95"/>
 <attribute name="VALUE" x="241.554" y="205.359" size="1.778" layer="96"/>
 <attribute name="MFG" x="238.76" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="238.76" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="238.76" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="238.76" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="238.76" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U8" gate="G$1" x="187.96" y="261.62" smashed="yes">
 <attribute name="NAME" x="188.035" y="262.5119" size="1.778" layer="95" ratio="10" rot="SR0"/>
 <attribute name="PN" x="188.035" y="233.5559" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="AS-MOUNT" x="187.96" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="187.96" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="187.96" y="261.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L2" gate="G$1" x="210.82" y="259.08" smashed="yes">
 <attribute name="NAME" x="210.82" y="264.16" size="1.778" layer="95"/>
 <attribute name="VALUE" x="210.82" y="261.62" size="1.778" layer="96"/>
 <attribute name="PN" x="210.82" y="259.08" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="210.82" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="210.82" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="210.82" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="210.82" y="259.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="226.06" y="251.46" smashed="yes" rot="MR270">
 <attribute name="NAME" x="228.346" y="253.238" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="228.346" y="250.698" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="226.06" y="251.46" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="226.06" y="251.46" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="226.06" y="251.46" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="226.06" y="251.46" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="226.06" y="251.46" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="226.06" y="236.22" smashed="yes" rot="MR270">
 <attribute name="NAME" x="228.346" y="237.998" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="228.346" y="235.458" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="226.06" y="236.22" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="226.06" y="236.22" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="226.06" y="236.22" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="226.06" y="236.22" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="226.06" y="236.22" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="238.76" y="254" smashed="yes">
 <attribute name="NAME" x="241.554" y="253.619" size="1.778" layer="95"/>
 <attribute name="VALUE" x="241.554" y="251.079" size="1.778" layer="96"/>
 <attribute name="MFG" x="238.76" y="264.16" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="238.76" y="264.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="238.76" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="238.76" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="238.76" y="254" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U7" gate="G$1" x="187.96" y="307.34" smashed="yes">
 <attribute name="NAME" x="188.035" y="308.2319" size="1.778" layer="95" ratio="10" rot="SR0"/>
 <attribute name="PN" x="188.035" y="279.2759" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="AS-MOUNT" x="187.96" y="307.34" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="187.96" y="307.34" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="187.96" y="307.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="210.82" y="304.8" smashed="yes">
 <attribute name="NAME" x="210.82" y="309.88" size="1.778" layer="95"/>
 <attribute name="VALUE" x="210.82" y="307.34" size="1.778" layer="96"/>
 <attribute name="PN" x="210.82" y="304.8" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="210.82" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="210.82" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="210.82" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="210.82" y="304.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="226.06" y="297.18" smashed="yes" rot="MR270">
 <attribute name="NAME" x="228.346" y="298.958" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="228.346" y="296.418" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="226.06" y="297.18" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="226.06" y="297.18" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="226.06" y="297.18" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="226.06" y="297.18" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="226.06" y="297.18" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="226.06" y="281.94" smashed="yes" rot="MR270">
 <attribute name="NAME" x="228.346" y="283.718" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="228.346" y="281.178" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="226.06" y="281.94" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="226.06" y="281.94" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="226.06" y="281.94" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="226.06" y="281.94" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="226.06" y="281.94" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="238.76" y="299.72" smashed="yes">
 <attribute name="NAME" x="241.554" y="299.339" size="1.778" layer="95"/>
 <attribute name="VALUE" x="241.554" y="296.799" size="1.778" layer="96"/>
 <attribute name="MFG" x="238.76" y="309.88" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="238.76" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="238.76" y="299.72" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="238.76" y="299.72" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="238.76" y="299.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="259.08" y="447.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="260.858" y="447.802" size="1.778" layer="95"/>
 <attribute name="VALUE" x="260.858" y="445.262" size="1.778" layer="96"/>
 <attribute name="MFG" x="259.08" y="447.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="259.08" y="447.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="259.08" y="447.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="259.08" y="447.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="259.08" y="447.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J5" gate="G$1" x="124.46" y="355.6" smashed="yes">
 <attribute name="PN" x="124.46" y="337.82" size="1.778" layer="95"/>
 <attribute name="NAME" x="124.46" y="358.14" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="124.46" y="355.6" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="124.46" y="355.6" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="124.46" y="355.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U5" gate="G$1" x="289.56" y="373.38" smashed="yes">
 <attribute name="PN" x="289.56" y="355.6" size="1.778" layer="95"/>
 <attribute name="NAME" x="289.56" y="374.142" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="289.56" y="373.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="289.56" y="373.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="289.56" y="373.38" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -6396,72 +7202,114 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="VALUE" x="-11.176" y="76.581" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-7.62" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="261.62" y="99.06" smashed="yes" rot="MR0">
 <attribute name="NAME" x="264.414" y="98.679" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="264.414" y="96.139" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
 <attribute name="MFG" x="261.62" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PN" x="261.62" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT" x="261.62" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="261.62" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" x="261.62" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="243.84" y="99.06" smashed="yes" rot="MR0">
 <attribute name="NAME" x="241.046" y="98.679" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="241.046" y="96.139" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MFG" x="243.84" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="PN" x="243.84" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT" x="243.84" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="243.84" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" x="243.84" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C20" gate="G$1" x="53.34" y="96.52" smashed="yes">
 <attribute name="MFG" x="76.2" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="76.2" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="56.134" y="96.139" size="1.778" layer="95"/>
 <attribute name="VALUE" x="56.134" y="93.599" size="1.778" layer="96"/>
+<attribute name="AS-MOUNT" x="53.34" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="53.34" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="53.34" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="43.18" y="96.52" smashed="yes">
 <attribute name="PN" x="27.94" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="27.94" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="45.974" y="96.139" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.974" y="93.599" size="1.778" layer="96"/>
+<attribute name="AS-MOUNT" x="43.18" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="43.18" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="43.18" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="G$1" x="254" y="104.14" smashed="yes" rot="MR0">
 <attribute name="NAME" x="254" y="106.426" size="1.778" layer="95" rot="MR0" align="top-left"/>
 <attribute name="PN" x="254" y="104.14" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT" x="254" y="104.14" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="254" y="104.14" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" x="254" y="104.14" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C23" gate="G$1" x="53.34" y="35.56" smashed="yes">
 <attribute name="PN" x="38.1" y="-22.86" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="38.1" y="-22.86" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="50.292" y="35.179" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="50.292" y="32.639" size="1.778" layer="96" align="bottom-right"/>
+<attribute name="AS-MOUNT" x="53.34" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="53.34" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="53.34" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C24" gate="G$1" x="78.74" y="35.56" smashed="yes" rot="MR0">
 <attribute name="PN" x="93.98" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MFG" x="93.98" y="-22.86" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="81.788" y="35.179" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="81.788" y="32.639" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
+<attribute name="AS-MOUNT" x="78.74" y="35.56" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="78.74" y="35.56" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" x="78.74" y="35.56" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C22" gate="G$1" x="140.208" y="55.372" smashed="yes" rot="MR0">
 <attribute name="PN" x="155.448" y="-3.048" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MFG" x="155.448" y="-3.048" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="143.51" y="54.991" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="143.51" y="52.451" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
+<attribute name="AS-MOUNT" x="140.208" y="55.372" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="140.208" y="55.372" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" x="140.208" y="55.372" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U14" gate="POWER" x="58.42" y="83.82" smashed="yes">
 <attribute name="NAME" x="58.42" y="86.106" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="58.42" y="67.818" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="58.42" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="58.42" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="58.42" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U14" gate="PORT1" x="147.32" y="86.36" smashed="yes">
 <attribute name="NAME" x="147.32" y="88.646" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="147.32" y="62.738" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="147.32" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="147.32" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="147.32" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U14" gate="PORT2" x="264.16" y="86.36" smashed="yes">
 <attribute name="NAME" x="264.16" y="88.646" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="264.16" y="62.738" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="264.16" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="264.16" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="264.16" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U14" gate="PORT3" x="345.44" y="86.36" smashed="yes">
 <attribute name="NAME" x="345.44" y="88.646" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="345.44" y="75.438" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="345.44" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="345.44" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="345.44" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U15" gate="G$1" x="76.2" y="25.4" smashed="yes" rot="MR0">
 <attribute name="PN" x="76.2" y="0" size="1.778" layer="95" rot="MR0"/>
 <attribute name="NAME" x="76.2" y="27.94" size="1.778" layer="95" rot="MR0" align="top-left"/>
+<attribute name="AS-MOUNT" x="76.2" y="25.4" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="76.2" y="25.4" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" x="76.2" y="25.4" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -6752,35 +7600,53 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="NAME" x="24.384" y="-110.998" size="1.778" layer="95"/>
 <attribute name="MFG" x="22.86" y="-111.76" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="22.86" y="-111.76" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="22.86" y="-111.76" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="22.86" y="-111.76" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="22.86" y="-111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED1" gate="G$1" x="22.86" y="-48.26" smashed="yes">
 <attribute name="NAME" x="24.892" y="-45.466" size="1.778" layer="95"/>
 <attribute name="MFG" x="22.86" y="-48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="22.86" y="-48.26" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="22.86" y="-48.26" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="22.86" y="-48.26" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="22.86" y="-48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C25" gate="G$1" x="-30.48" y="-66.04" smashed="yes">
 <attribute name="PN" x="-45.72" y="-124.46" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="-45.72" y="-124.46" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-27.178" y="-66.421" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-27.178" y="-68.961" size="1.778" layer="96"/>
+<attribute name="AS-MOUNT" x="-30.48" y="-66.04" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-30.48" y="-66.04" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-30.48" y="-66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="22.86" y="-127" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.638" y="-126.238" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.638" y="-128.778" size="1.778" layer="96"/>
 <attribute name="MFG" x="22.86" y="-127" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="22.86" y="-127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="22.86" y="-127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="22.86" y="-127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="22.86" y="-127" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="22.86" y="-63.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="28.702" y="-62.738" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="28.702" y="-65.278" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MFG" x="22.86" y="-63.5" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="PN" x="22.86" y="-63.5" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT" x="22.86" y="-63.5" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="22.86" y="-63.5" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="22.86" y="-63.5" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="33.02" y="-63.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="38.862" y="-62.738" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="38.862" y="-65.278" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MFG" x="33.02" y="-63.5" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="PN" x="33.02" y="-63.5" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT" x="33.02" y="-63.5" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="33.02" y="-63.5" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="33.02" y="-63.5" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="U16" gate="G$1" x="2.54" y="-25.4" smashed="yes">
 <attribute name="NAME" x="-2.54" y="-27.94" size="1.778" layer="95" ratio="10" rot="SR0"/>
@@ -6792,6 +7658,9 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="2.54" y="-25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U17" gate="G$1" x="2.54" y="-88.9" smashed="yes">
 <attribute name="NAME" x="-2.54" y="-91.44" size="1.778" layer="95" ratio="10" rot="SR0"/>
@@ -6803,6 +7672,9 @@ BAT_CHRG_LVL signal.</text>
 <attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="2.54" y="-88.9" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -6932,6 +7804,9 @@ BAT_CHRG_LVL signal.</text>
 <instance part="SW1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="PN" x="0" y="0" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -6961,15 +7836,24 @@ BAT_CHRG_LVL signal.</text>
 <instance part="U18" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="NAME" x="0" y="2.54" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="0" y="-10.16" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C26" gate="G$1" x="-12.7" y="-7.62" smashed="yes">
 <attribute name="PN" x="-30.48" y="-2.54" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-16.002" y="-8.001" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="-16.002" y="-10.541" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="-30.48" y="-2.54" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-12.7" y="-7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-12.7" y="-7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-12.7" y="-7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q4" gate="G$1" x="-12.7" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="-17.018" y="10.668" size="1.778" layer="95" rot="R180" align="bottom-right"/>
+<attribute name="AS-MOUNT" x="-12.7" y="0" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-12.7" y="0" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-12.7" y="0" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -7051,189 +7935,294 @@ should be a high voltage during power up.</text>
 <attribute name="NAME" x="-33.528" y="-43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-33.528" y="-46.355" size="1.778" layer="96"/>
 <attribute name="MFG" x="-25.4" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-25.4" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-25.4" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-25.4" y="-43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C32" gate="G$1" x="-15.24" y="-43.18" smashed="yes">
 <attribute name="NAME" x="-22.098" y="-43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-22.098" y="-46.355" size="1.778" layer="96"/>
 <attribute name="MFG" x="-15.24" y="-43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="-15.24" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-15.24" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-15.24" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-15.24" y="-43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C33" gate="G$1" x="-5.08" y="-43.18" smashed="yes">
 <attribute name="NAME" x="-11.938" y="-43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-11.938" y="-46.355" size="1.778" layer="96"/>
 <attribute name="MFG" x="-5.08" y="-43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="-5.08" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-5.08" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-5.08" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-5.08" y="-43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C27" gate="G$1" x="-17.78" y="-27.94" smashed="yes">
 <attribute name="PN" x="12.7" y="-25.4" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-25.908" y="-28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-25.908" y="-31.115" size="1.778" layer="96"/>
 <attribute name="MFG" x="-17.78" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-17.78" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-17.78" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-17.78" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C28" gate="G$1" x="-7.62" y="-27.94" smashed="yes">
 <attribute name="NAME" x="-14.478" y="-28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-14.478" y="-31.115" size="1.778" layer="96"/>
 <attribute name="MFG" x="-7.62" y="-27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="-7.62" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-7.62" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-7.62" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-7.62" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R26" gate="G$1" x="73.66" y="-114.3" smashed="yes">
 <attribute name="NAME" x="72.136" y="-117.602" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.136" y="-120.142" size="1.778" layer="96"/>
 <attribute name="MFG" x="73.66" y="-114.3" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="73.66" y="-114.3" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="73.66" y="-114.3" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="73.66" y="-114.3" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="73.66" y="-114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U19" gate="A" x="5.08" y="68.58" smashed="yes">
 <attribute name="NAME" x="5.334" y="71.12" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="5.08" y="5.08" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="5.08" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="5.08" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="5.08" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U19" gate="B" x="60.96" y="68.58" smashed="yes">
 <attribute name="NAME" x="60.96" y="71.12" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="60.96" y="11.176" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="60.96" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="60.96" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="60.96" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U19" gate="C" x="121.92" y="68.58" smashed="yes">
 <attribute name="NAME" x="121.92" y="71.374" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="121.92" y="16.51" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="121.92" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="121.92" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="121.92" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U19" gate="D" x="185.42" y="68.58" smashed="yes">
 <attribute name="NAME" x="185.42" y="71.374" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="185.42" y="-1.524" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="185.42" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="185.42" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="185.42" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U19" gate="E" x="88.9" y="-25.4" smashed="yes">
 <attribute name="NAME" x="88.9" y="-22.86" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="88.9" y="-100.584" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="88.9" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="88.9" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="88.9" y="-25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C36" gate="G$1" x="-5.08" y="-58.42" smashed="yes">
 <attribute name="PN" x="-5.08" y="-58.42" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-12.954" y="-58.801" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-12.954" y="-61.341" size="1.778" layer="96"/>
 <attribute name="MFG" x="-5.08" y="-58.42" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-5.08" y="-58.42" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-5.08" y="-58.42" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-5.08" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C37" gate="G$1" x="5.08" y="-58.42" smashed="yes">
 <attribute name="NAME" x="-1.524" y="-59.055" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1.524" y="-61.595" size="1.778" layer="96"/>
 <attribute name="MFG" x="5.08" y="-58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="5.08" y="-58.42" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="5.08" y="-58.42" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="5.08" y="-58.42" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="5.08" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="-20.32" y="-91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="-17.78" y="-87.63" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-17.78" y="-85.09" size="1.778" layer="96" rot="R180"/>
 <attribute name="MFG" x="-20.32" y="-91.44" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PN" x="-20.32" y="-91.44" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="AS-MOUNT" x="-20.32" y="-91.44" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-20.32" y="-91.44" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-20.32" y="-91.44" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C41" gate="G$1" x="-10.16" y="-93.98" smashed="yes">
 <attribute name="NAME" x="-16.764" y="-94.615" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-16.764" y="-97.155" size="1.778" layer="96"/>
 <attribute name="MFG" x="-10.16" y="-93.98" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="-10.16" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-10.16" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-10.16" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-10.16" y="-93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C42" gate="G$1" x="5.08" y="-93.98" smashed="yes">
 <attribute name="PN" x="5.08" y="-93.98" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-2.794" y="-94.615" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-2.794" y="-97.155" size="1.778" layer="96"/>
 <attribute name="MFG" x="5.08" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="5.08" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="5.08" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="5.08" y="-93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R23" gate="G$1" x="-20.32" y="-71.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="-17.78" y="-67.31" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-17.78" y="-64.77" size="1.778" layer="96" rot="R180"/>
 <attribute name="MFG" x="-20.32" y="-71.12" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PN" x="-20.32" y="-71.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="AS-MOUNT" x="-20.32" y="-71.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-20.32" y="-71.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-20.32" y="-71.12" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C38" gate="G$1" x="-10.16" y="-73.66" smashed="yes">
 <attribute name="NAME" x="-17.272" y="-74.041" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-17.272" y="-76.581" size="1.778" layer="96"/>
 <attribute name="MFG" x="-10.16" y="-73.66" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="-10.16" y="-73.66" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-10.16" y="-73.66" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-10.16" y="-73.66" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-10.16" y="-73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C39" gate="G$1" x="5.08" y="-73.66" smashed="yes">
 <attribute name="PN" x="5.08" y="-73.66" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-2.54" y="-74.295" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-2.54" y="-76.835" size="1.778" layer="96"/>
 <attribute name="MFG" x="5.08" y="-73.66" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="5.08" y="-73.66" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="5.08" y="-73.66" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="5.08" y="-73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C29" gate="G$1" x="7.62" y="-27.94" smashed="yes">
 <attribute name="PN" x="22.86" y="-22.86" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-0.508" y="-28.829" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-0.508" y="-31.369" size="1.778" layer="96"/>
 <attribute name="MFG" x="7.62" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="7.62" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="7.62" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="7.62" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C34" gate="G$1" x="12.7" y="-43.18" smashed="yes">
 <attribute name="PN" x="20.32" y="-53.34" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="4.572" y="-43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="4.572" y="-46.355" size="1.778" layer="96"/>
 <attribute name="MFG" x="12.7" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="12.7" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="12.7" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="12.7" y="-43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C30" gate="G$1" x="17.78" y="-27.94" smashed="yes">
 <attribute name="NAME" x="10.922" y="-28.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="10.922" y="-31.115" size="1.778" layer="96"/>
 <attribute name="MFG" x="17.78" y="-27.94" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="17.78" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="17.78" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="17.78" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="17.78" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C35" gate="G$1" x="22.86" y="-43.18" smashed="yes">
 <attribute name="NAME" x="16.002" y="-43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.002" y="-46.355" size="1.778" layer="96"/>
 <attribute name="MFG" x="22.86" y="-43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="22.86" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="22.86" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="22.86" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="22.86" y="-43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED3" gate="G$1" x="198.12" y="-33.02" smashed="yes">
 <attribute name="NAME" x="201.676" y="-37.592" size="1.778" layer="95" rot="R90"/>
 <attribute name="MFG" x="198.12" y="-33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="198.12" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="198.12" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="198.12" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="198.12" y="-33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="198.12" y="-45.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="199.39" y="-43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.39" y="-45.72" size="1.778" layer="96"/>
 <attribute name="MFG" x="198.12" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="PN" x="198.12" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT" x="198.12" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="198.12" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="198.12" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C40" gate="G$1" x="149.86" y="-86.36" smashed="yes">
 <attribute name="NAME" x="146.558" y="-86.487" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="146.558" y="-89.027" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="149.86" y="-86.36" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="149.86" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="149.86" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="149.86" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="149.86" y="-86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X2" gate="G$1" x="170.18" y="-81.28" smashed="yes">
 <attribute name="NAME" x="170.18" y="-80.518" size="1.778" layer="95"/>
 <attribute name="PN" x="170.18" y="-93.98" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="170.18" y="-81.28" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="170.18" y="-81.28" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="170.18" y="-81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP1" gate="G$1" x="190.5" y="-83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.04" y="-73.66" size="1.778" layer="95" rot="R180"/>
+<attribute name="AS-MOUNT" x="190.5" y="-83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="190.5" y="-83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="190.5" y="-83.82" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R25" gate="G$1" x="68.58" y="-101.6" smashed="yes">
 <attribute name="NAME" x="67.056" y="-104.902" size="1.778" layer="95"/>
 <attribute name="VALUE" x="67.056" y="-107.442" size="1.778" layer="96"/>
 <attribute name="MFG" x="68.58" y="-101.6" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="68.58" y="-101.6" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="68.58" y="-101.6" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="68.58" y="-101.6" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="68.58" y="-101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED4" gate="G$1" x="213.36" y="-33.02" smashed="yes">
 <attribute name="NAME" x="216.916" y="-37.592" size="1.778" layer="95" rot="R90"/>
 <attribute name="MFG" x="213.36" y="-33.02" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="213.36" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="213.36" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="213.36" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="213.36" y="-33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="213.36" y="-45.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="214.63" y="-43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="214.63" y="-45.72" size="1.778" layer="96"/>
 <attribute name="MFG" x="213.36" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="PN" x="213.36" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT" x="213.36" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="213.36" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="213.36" y="-45.72" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U20" gate="G$1" x="106.68" y="-142.24" smashed="yes">
 <attribute name="NAME" x="106.755" y="-141.3481" size="1.778" layer="95" ratio="10" rot="SR0"/>
 <attribute name="PN" x="106.755" y="-172.8441" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="AS-MOUNT" x="106.68" y="-142.24" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="106.68" y="-142.24" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="106.68" y="-142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U21" gate="G$1" x="58.42" y="-167.64" smashed="yes">
 <attribute name="NAME" x="68.58" y="-177.8" size="1.778" layer="95"/>
 <attribute name="PN" x="58.42" y="-167.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="58.42" y="-167.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="58.42" y="-167.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="58.42" y="-167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="53.34" y="-165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.308" y="-161.798" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="51.308" y="-164.338" size="1.778" layer="96" rot="R180"/>
 <attribute name="MFG" x="53.34" y="-165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="53.34" y="-165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="53.34" y="-165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="53.34" y="-165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="53.34" y="-165.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C43" gate="G$1" x="81.28" y="-139.7" smashed="yes">
 <attribute name="PN" x="66.04" y="-198.12" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="66.04" y="-198.12" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="78.232" y="-140.081" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="78.232" y="-142.621" size="1.778" layer="96" align="bottom-right"/>
+<attribute name="AS-MOUNT" x="81.28" y="-139.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="81.28" y="-139.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="81.28" y="-139.7" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -8227,110 +9216,167 @@ between input and output when its VDD=0.</text>
 <instance part="U23" gate="A" x="83.82" y="63.5" smashed="yes">
 <attribute name="PN" x="83.82" y="33.02" size="1.778" layer="95"/>
 <attribute name="NAME" x="83.82" y="66.04" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="83.82" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U23" gate="B" x="157.48" y="68.58" smashed="yes">
 <attribute name="PN" x="157.48" y="17.78" size="1.778" layer="95"/>
 <attribute name="NAME" x="157.48" y="71.12" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="157.48" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="157.48" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="157.48" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C45" gate="G$1" x="17.78" y="93.98" smashed="yes">
 <attribute name="PN" x="17.78" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="14.986" y="93.599" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="14.986" y="91.059" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="17.78" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="17.78" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="17.78" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="17.78" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C46" gate="G$1" x="27.94" y="93.98" smashed="yes">
 <attribute name="NAME" x="25.654" y="93.599" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="25.654" y="91.059" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="27.94" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C47" gate="G$1" x="17.78" y="76.2" smashed="yes">
 <attribute name="PN" x="17.78" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="14.986" y="75.819" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="14.986" y="73.279" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="17.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="17.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="17.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="17.78" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C48" gate="G$1" x="27.94" y="76.2" smashed="yes">
 <attribute name="NAME" x="25.654" y="75.819" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="25.654" y="73.279" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="27.94" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="27.94" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="27.94" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="27.94" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="27.94" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C49" gate="G$1" x="17.78" y="55.88" smashed="yes">
 <attribute name="PN" x="17.78" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="14.986" y="55.499" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="14.986" y="52.959" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="17.78" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="17.78" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="17.78" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="17.78" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C50" gate="G$1" x="27.94" y="55.88" smashed="yes">
 <attribute name="NAME" x="25.654" y="55.499" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="25.654" y="52.959" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="27.94" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C53" gate="G$1" x="17.78" y="22.86" smashed="yes">
 <attribute name="PN" x="17.78" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="14.986" y="22.479" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="14.986" y="19.939" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="17.78" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="17.78" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="17.78" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="17.78" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C54" gate="G$1" x="27.94" y="22.86" smashed="yes">
 <attribute name="NAME" x="25.654" y="22.479" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="25.654" y="19.939" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="27.94" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="27.94" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="27.94" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="27.94" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="27.94" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C56" gate="G$1" x="17.78" y="7.62" smashed="yes">
 <attribute name="PN" x="17.78" y="7.62" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="14.986" y="7.239" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="14.986" y="4.699" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="17.78" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="17.78" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="17.78" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="17.78" y="7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C57" gate="G$1" x="27.94" y="7.62" smashed="yes">
 <attribute name="NAME" x="25.654" y="7.239" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="25.654" y="4.699" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="27.94" y="7.62" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="27.94" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="27.94" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="27.94" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="27.94" y="7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="116.84" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="114.554" y="73.914" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="114.554" y="71.374" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="167.64" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="167.64" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="116.84" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="116.84" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="116.84" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C52" gate="G$1" x="27.94" y="43.18" smashed="yes">
 <attribute name="NAME" x="25.654" y="42.799" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="25.654" y="40.259" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="27.94" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="27.94" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="27.94" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="27.94" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="27.94" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R29" gate="G$1" x="116.84" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="115.062" y="51.054" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="115.062" y="48.514" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="116.84" y="50.8" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="PN" x="116.84" y="50.8" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT" x="116.84" y="50.8" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="116.84" y="50.8" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="116.84" y="50.8" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C44" gate="G$1" x="132.842" y="101.092" smashed="yes">
 <attribute name="NAME" x="130.556" y="100.711" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="130.556" y="98.171" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="132.842" y="101.092" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="132.842" y="101.092" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="132.842" y="101.092" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="132.842" y="101.092" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="132.842" y="101.092" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C51" gate="G$1" x="17.78" y="43.18" smashed="yes">
 <attribute name="NAME" x="15.494" y="42.799" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="15.494" y="40.259" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C55" gate="G$1" x="38.1" y="22.86" smashed="yes">
 <attribute name="NAME" x="35.814" y="22.479" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="35.814" y="19.939" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="38.1" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="38.1" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="38.1" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="38.1" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="38.1" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U22" gate="G$1" x="170.18" y="104.14" smashed="yes">
 <attribute name="NAME" x="175.26" y="102.362" size="1.778" layer="95"/>
 <attribute name="PN" x="170.18" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="170.18" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="170.18" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="170.18" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -8655,34 +9701,52 @@ between input and output when its VDD=0.</text>
 <instance part="U24" gate="B" x="96.52" y="30.48" smashed="yes">
 <attribute name="NAME" x="96.52" y="33.02" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="96.52" y="-43.18" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="96.52" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="96.52" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="96.52" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C61" gate="G$1" x="0" y="-12.7" smashed="yes">
 <attribute name="MFG" x="22.86" y="-58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="22.86" y="-58.42" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="2.794" y="-13.081" size="1.778" layer="95"/>
 <attribute name="VALUE" x="2.794" y="-15.621" size="1.778" layer="96"/>
+<attribute name="AS-MOUNT" x="0" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="0" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="0" y="-12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C58" gate="G$1" x="-35.56" y="-12.7" smashed="yes">
 <attribute name="PN" x="-12.7" y="-58.42" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="-12.7" y="-58.42" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-33.02" y="-13.081" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-33.02" y="-15.621" size="1.778" layer="96"/>
+<attribute name="AS-MOUNT" x="-35.56" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-35.56" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-35.56" y="-12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C60" gate="G$1" x="-10.16" y="-12.7" smashed="yes">
 <attribute name="MFG" x="-15.24" y="-58.42" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="-15.24" y="-58.42" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-7.366" y="-13.335" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-7.366" y="-15.875" size="1.778" layer="96"/>
+<attribute name="AS-MOUNT" x="-10.16" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-10.16" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-10.16" y="-12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C59" gate="G$1" x="-25.4" y="-12.7" smashed="yes">
 <attribute name="PN" x="-30.48" y="-58.42" size="1.778" layer="96" display="off"/>
 <attribute name="MFG" x="-30.48" y="-58.42" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="-22.606" y="-13.081" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-22.606" y="-15.621" size="1.778" layer="96"/>
+<attribute name="AS-MOUNT" x="-25.4" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-25.4" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-25.4" y="-12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U24" gate="A" x="22.86" y="2.54" smashed="yes">
 <attribute name="NAME" x="22.86" y="5.08" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="22.86" y="-20.32" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="22.86" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="22.86" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="22.86" y="2.54" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -9043,70 +10107,109 @@ f = 1/t = 434 kHz</text>
 <instances>
 <instance part="J9" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="NAME" x="0" y="2.54" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C62" gate="G$1" x="27.94" y="-5.08" smashed="yes">
 <attribute name="PN" x="27.94" y="-5.08" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="25.146" y="-5.461" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="25.146" y="-8.001" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="27.94" y="-5.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="27.94" y="-5.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="27.94" y="-5.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="27.94" y="-5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C63" gate="G$1" x="38.1" y="-5.08" smashed="yes">
 <attribute name="NAME" x="35.814" y="-5.461" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="35.814" y="-8.001" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="38.1" y="-5.08" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="38.1" y="-5.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="38.1" y="-5.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="38.1" y="-5.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="38.1" y="-5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="48.26" y="-76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.53" y="-76.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="49.53" y="-78.74" size="1.778" layer="96"/>
 <attribute name="MFG" x="48.26" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="48.26" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="48.26" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="48.26" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="48.26" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R33" gate="G$1" x="60.96" y="-76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.23" y="-76.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="62.23" y="-78.74" size="1.778" layer="96"/>
 <attribute name="MFG" x="60.96" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="60.96" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="60.96" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="60.96" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="60.96" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R34" gate="G$1" x="73.66" y="-76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="74.93" y="-76.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.93" y="-78.74" size="1.778" layer="96"/>
 <attribute name="MFG" x="73.66" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="73.66" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="73.66" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="73.66" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="73.66" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R35" gate="G$1" x="86.36" y="-76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.63" y="-76.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="87.63" y="-78.74" size="1.778" layer="96"/>
 <attribute name="MFG" x="86.36" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="86.36" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="86.36" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="86.36" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="86.36" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R36" gate="G$1" x="99.06" y="-76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.33" y="-76.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="100.33" y="-78.74" size="1.778" layer="96"/>
 <attribute name="MFG" x="99.06" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="99.06" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="99.06" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="99.06" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="99.06" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R31" gate="G$1" x="35.56" y="-76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.83" y="-76.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="-78.74" size="1.778" layer="96"/>
 <attribute name="MFG" x="35.56" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="35.56" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="35.56" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="35.56" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="35.56" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q6" gate="G$1" x="20.32" y="-93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.59" y="-83.82" size="1.778" layer="95" rot="R180" align="bottom-right"/>
+<attribute name="AS-MOUNT" x="20.32" y="-93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="20.32" y="-93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="20.32" y="-93.98" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q5" gate="G$1" x="20.32" y="-60.96" smashed="yes" rot="MR270">
 <attribute name="NAME" x="22.098" y="-62.738" size="1.778" layer="95" rot="MR180" align="top-left"/>
+<attribute name="AS-MOUNT" x="20.32" y="-60.96" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="20.32" y="-60.96" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="20.32" y="-60.96" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U25" gate="G$1" x="-2.54" y="-83.82" smashed="yes">
 <attribute name="NAME" x="2.54" y="-85.598" size="1.778" layer="95"/>
 <attribute name="PN" x="-2.54" y="-83.82" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="-2.54" y="-83.82" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-2.54" y="-83.82" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-2.54" y="-83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="-5.08" y="-60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="-6.858" y="-59.944" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="-6.858" y="-62.484" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="-5.08" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="-5.08" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="-5.08" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-5.08" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-5.08" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -9326,241 +10429,376 @@ it is recommended to connect the VBAT pin to VDD"</text>
 <instance part="U26" gate="A" x="-17.78" y="-10.16" smashed="yes">
 <attribute name="NAME" x="-17.526" y="-7.62" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="-17.78" y="-55.88" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="-17.78" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-17.78" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-17.78" y="-10.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="B" x="48.26" y="-10.16" smashed="yes">
 <attribute name="NAME" x="48.514" y="-7.62" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="48.26" y="-55.88" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="48.26" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="48.26" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="48.26" y="-10.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="C" x="99.06" y="-10.16" smashed="yes">
 <attribute name="NAME" x="99.314" y="-7.62" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="99.06" y="-55.88" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="99.06" y="-10.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="D" x="149.86" y="-10.16" smashed="yes">
 <attribute name="NAME" x="150.114" y="-7.62" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="149.86" y="-55.88" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="149.86" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="149.86" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="149.86" y="-10.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="E" x="-17.78" y="-71.12" smashed="yes">
 <attribute name="NAME" x="-17.526" y="-68.58" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="-17.78" y="-116.84" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="-17.78" y="-71.12" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-17.78" y="-71.12" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-17.78" y="-71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="F" x="48.26" y="-71.12" smashed="yes">
 <attribute name="NAME" x="48.514" y="-68.58" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="48.26" y="-116.84" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="48.26" y="-71.12" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="48.26" y="-71.12" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="48.26" y="-71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="G" x="99.06" y="-71.12" smashed="yes">
 <attribute name="NAME" x="99.314" y="-68.58" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="99.06" y="-111.76" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="99.06" y="-71.12" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="99.06" y="-71.12" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="99.06" y="-71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="H" x="152.4" y="-71.12" smashed="yes">
 <attribute name="NAME" x="152.654" y="-68.58" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="152.4" y="-116.84" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="152.4" y="-71.12" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="152.4" y="-71.12" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="152.4" y="-71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="I" x="-17.78" y="-137.16" smashed="yes">
 <attribute name="NAME" x="-17.526" y="-134.62" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="-17.78" y="-172.72" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="-17.78" y="-137.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-17.78" y="-137.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-17.78" y="-137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="J" x="48.26" y="-137.16" smashed="yes">
 <attribute name="NAME" x="48.514" y="-134.62" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="48.26" y="-160.02" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="48.26" y="-137.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="48.26" y="-137.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="48.26" y="-137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="K" x="93.98" y="-208.28" smashed="yes">
 <attribute name="NAME" x="94.234" y="-205.74" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="93.98" y="-266.7" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="93.98" y="-208.28" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="93.98" y="-208.28" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="93.98" y="-208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U26" gate="L" x="152.4" y="-208.28" smashed="yes">
 <attribute name="NAME" x="152.654" y="-205.74" size="1.778" layer="95" align="top-left"/>
 <attribute name="PN" x="152.4" y="-312.42" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="152.4" y="-208.28" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="152.4" y="-208.28" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="152.4" y="-208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C67" gate="G$1" x="0" y="-215.9" smashed="yes">
 <attribute name="PN" x="0" y="-215.9" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="2.794" y="-216.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="2.794" y="-218.821" size="1.778" layer="96"/>
 <attribute name="MFG" x="0" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="0" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="0" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="0" y="-215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C68" gate="G$1" x="12.7" y="-215.9" smashed="yes">
 <attribute name="PN" x="12.7" y="-215.9" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="15.494" y="-216.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.494" y="-218.821" size="1.778" layer="96"/>
 <attribute name="MFG" x="12.7" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="12.7" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="12.7" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="12.7" y="-215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C69" gate="G$1" x="25.4" y="-215.9" smashed="yes">
 <attribute name="PN" x="25.4" y="-215.9" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="28.194" y="-216.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="28.194" y="-218.821" size="1.778" layer="96"/>
 <attribute name="MFG" x="25.4" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="25.4" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="25.4" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="25.4" y="-215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C84" gate="G$1" x="55.88" y="-266.7" smashed="yes">
 <attribute name="PN" x="55.88" y="-266.7" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="58.674" y="-267.081" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.674" y="-269.621" size="1.778" layer="96"/>
 <attribute name="MFG" x="55.88" y="-266.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="55.88" y="-266.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="55.88" y="-266.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="55.88" y="-266.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C73" gate="G$1" x="12.7" y="-231.14" smashed="yes">
 <attribute name="PN" x="12.7" y="-231.14" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="15.494" y="-231.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.494" y="-234.061" size="1.778" layer="96"/>
 <attribute name="MFG" x="12.7" y="-231.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="12.7" y="-231.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="12.7" y="-231.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="12.7" y="-231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C74" gate="G$1" x="25.4" y="-231.14" smashed="yes">
 <attribute name="PN" x="25.4" y="-231.14" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="28.194" y="-231.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="28.194" y="-234.061" size="1.778" layer="96"/>
 <attribute name="MFG" x="25.4" y="-231.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="25.4" y="-231.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="25.4" y="-231.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="25.4" y="-231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C80" gate="G$1" x="0" y="-261.62" smashed="yes">
 <attribute name="PN" x="0" y="-261.62" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="2.794" y="-262.001" size="1.778" layer="95"/>
 <attribute name="VALUE" x="2.794" y="-264.541" size="1.778" layer="96"/>
 <attribute name="MFG" x="0" y="-261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="0" y="-261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="0" y="-261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="0" y="-261.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C72" gate="G$1" x="0" y="-231.14" smashed="yes">
 <attribute name="PN" x="0" y="-231.14" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="2.794" y="-231.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="2.794" y="-234.061" size="1.778" layer="96"/>
 <attribute name="MFG" x="0" y="-231.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="0" y="-231.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="0" y="-231.14" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="0" y="-231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C81" gate="G$1" x="12.7" y="-261.62" smashed="yes">
 <attribute name="PN" x="12.7" y="-261.62" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="15.494" y="-262.001" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.494" y="-264.541" size="1.778" layer="96"/>
 <attribute name="MFG" x="12.7" y="-261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="12.7" y="-261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="12.7" y="-261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="12.7" y="-261.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C77" gate="G$1" x="0" y="-246.38" smashed="yes">
 <attribute name="PN" x="0" y="-246.38" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="2.794" y="-246.761" size="1.778" layer="95"/>
 <attribute name="VALUE" x="2.794" y="-249.301" size="1.778" layer="96"/>
 <attribute name="MFG" x="0" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="0" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="0" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="0" y="-246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C78" gate="G$1" x="12.7" y="-246.38" smashed="yes">
 <attribute name="PN" x="12.7" y="-246.38" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="15.494" y="-246.761" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.494" y="-249.301" size="1.778" layer="96"/>
 <attribute name="MFG" x="12.7" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="12.7" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="12.7" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="12.7" y="-246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C79" gate="G$1" x="25.4" y="-246.38" smashed="yes">
 <attribute name="PN" x="25.4" y="-246.38" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="28.194" y="-246.761" size="1.778" layer="95"/>
 <attribute name="VALUE" x="28.194" y="-249.301" size="1.778" layer="96"/>
 <attribute name="MFG" x="25.4" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="25.4" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="25.4" y="-246.38" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="25.4" y="-246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C82" gate="G$1" x="134.62" y="-261.62" smashed="yes">
 <attribute name="PN" x="134.62" y="-261.62" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="137.414" y="-261.747" size="1.778" layer="95"/>
 <attribute name="VALUE" x="137.414" y="-264.287" size="1.778" layer="96"/>
 <attribute name="MFG" x="134.62" y="-261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="134.62" y="-261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="134.62" y="-261.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="134.62" y="-261.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C83" gate="G$1" x="124.46" y="-264.16" smashed="yes">
 <attribute name="PN" x="124.46" y="-264.16" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="127.254" y="-264.541" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127.254" y="-267.081" size="1.778" layer="96"/>
 <attribute name="MFG" x="124.46" y="-264.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="124.46" y="-264.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="124.46" y="-264.16" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="124.46" y="-264.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C70" gate="G$1" x="55.88" y="-215.9" smashed="yes">
 <attribute name="PN" x="55.88" y="-215.9" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="58.166" y="-216.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.166" y="-218.821" size="1.778" layer="96"/>
 <attribute name="MFG" x="55.88" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="55.88" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="55.88" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="55.88" y="-215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C71" gate="G$1" x="66.04" y="-215.9" smashed="yes">
 <attribute name="PN" x="66.04" y="-215.9" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="68.326" y="-216.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="68.326" y="-218.821" size="1.778" layer="96"/>
 <attribute name="MFG" x="66.04" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="66.04" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="66.04" y="-215.9" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="66.04" y="-215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C75" gate="G$1" x="55.88" y="-241.3" smashed="yes">
 <attribute name="PN" x="55.88" y="-241.3" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="58.166" y="-241.681" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.166" y="-244.221" size="1.778" layer="96"/>
 <attribute name="MFG" x="55.88" y="-241.3" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="55.88" y="-241.3" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="55.88" y="-241.3" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="55.88" y="-241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C76" gate="G$1" x="66.04" y="-241.3" smashed="yes">
 <attribute name="PN" x="66.04" y="-241.3" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="68.326" y="-241.681" size="1.778" layer="95"/>
 <attribute name="VALUE" x="68.326" y="-244.221" size="1.778" layer="96"/>
 <attribute name="MFG" x="66.04" y="-241.3" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="66.04" y="-241.3" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="66.04" y="-241.3" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="66.04" y="-241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C66" gate="G$1" x="91.44" y="-154.94" smashed="yes">
 <attribute name="PN" x="91.44" y="-154.94" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="93.726" y="-155.321" size="1.778" layer="95"/>
 <attribute name="VALUE" x="93.726" y="-157.861" size="1.778" layer="96"/>
 <attribute name="MFG" x="91.44" y="-154.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="91.44" y="-154.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="91.44" y="-154.94" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="91.44" y="-154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R41" gate="G$1" x="81.28" y="-160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="83.058" y="-158.242" size="1.778" layer="95" align="top-left"/>
 <attribute name="VALUE" x="83.058" y="-160.782" size="1.778" layer="96" align="top-left"/>
 <attribute name="MFG" x="81.28" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="81.28" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="81.28" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="81.28" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="81.28" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C65" gate="G$1" x="101.6" y="-147.32" smashed="yes">
 <attribute name="PN" x="101.6" y="-147.32" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="103.886" y="-147.701" size="1.778" layer="95"/>
 <attribute name="VALUE" x="103.886" y="-150.241" size="1.778" layer="96"/>
 <attribute name="MFG" x="101.6" y="-147.32" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="101.6" y="-147.32" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="101.6" y="-147.32" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="101.6" y="-147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C64" gate="G$1" x="213.36" y="-22.86" smashed="yes">
 <attribute name="NAME" x="210.058" y="-22.987" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="210.058" y="-25.527" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="213.36" y="-22.86" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="213.36" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="213.36" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="213.36" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="213.36" y="-22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X3" gate="G$1" x="241.3" y="-17.78" smashed="yes">
 <attribute name="NAME" x="241.3" y="-17.018" size="1.778" layer="95"/>
 <attribute name="PN" x="241.3" y="-30.48" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="241.3" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="241.3" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="241.3" y="-17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED6" gate="G$1" x="215.9" y="-48.26" smashed="yes">
 <attribute name="NAME" x="219.456" y="-52.832" size="1.778" layer="95" rot="R90"/>
 <attribute name="MFG" x="215.9" y="-48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="215.9" y="-48.26" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="215.9" y="-48.26" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="215.9" y="-48.26" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="215.9" y="-48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R40" gate="G$1" x="215.9" y="-60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="217.17" y="-58.42" size="1.778" layer="95"/>
 <attribute name="VALUE" x="217.17" y="-60.96" size="1.778" layer="96"/>
 <attribute name="MFG" x="215.9" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="PN" x="215.9" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT" x="215.9" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="215.9" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="215.9" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="LED5" gate="G$1" x="200.66" y="-48.26" smashed="yes">
 <attribute name="NAME" x="204.216" y="-52.832" size="1.778" layer="95" rot="R90"/>
 <attribute name="MFG" x="200.66" y="-48.26" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="200.66" y="-48.26" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="200.66" y="-48.26" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="200.66" y="-48.26" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="200.66" y="-48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R39" gate="G$1" x="200.66" y="-60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="201.93" y="-58.42" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.93" y="-60.96" size="1.778" layer="96"/>
 <attribute name="MFG" x="200.66" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="PN" x="200.66" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT" x="200.66" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="200.66" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="200.66" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C86" gate="G$1" x="0" y="-276.86" smashed="yes">
 <attribute name="PN" x="0" y="-276.86" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="2.286" y="-277.241" size="1.778" layer="95"/>
 <attribute name="VALUE" x="2.286" y="-279.781" size="1.778" layer="96"/>
 <attribute name="MFG" x="0" y="-276.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="0" y="-276.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="0" y="-276.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="0" y="-276.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C87" gate="G$1" x="12.7" y="-276.86" smashed="yes">
 <attribute name="PN" x="12.7" y="-276.86" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="14.986" y="-277.241" size="1.778" layer="95"/>
 <attribute name="VALUE" x="14.986" y="-279.781" size="1.778" layer="96"/>
 <attribute name="MFG" x="12.7" y="-276.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="12.7" y="-276.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="12.7" y="-276.86" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="12.7" y="-276.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C85" gate="G$1" x="66.04" y="-266.7" smashed="yes">
 <attribute name="PN" x="66.04" y="-266.7" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="68.326" y="-267.081" size="1.778" layer="95"/>
 <attribute name="VALUE" x="68.326" y="-269.621" size="1.778" layer="96"/>
 <attribute name="MFG" x="66.04" y="-266.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="66.04" y="-266.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="66.04" y="-266.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="66.04" y="-266.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="H1" gate="A" x="213.36" y="-81.28" smashed="yes">
 <attribute name="NAME" x="213.614" y="-80.772" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="213.36" y="-81.28" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="213.36" y="-81.28" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="213.36" y="-81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R37" gate="G$1" x="50.8" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.514" y="7.874" size="1.778" layer="95" align="bottom-right"/>
 <attribute name="VALUE" x="48.514" y="5.334" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="MFG" x="101.6" y="35.56" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="101.6" y="35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="50.8" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="50.8" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="50.8" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R38" gate="G$1" x="55.88" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.674" y="7.874" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.674" y="5.334" size="1.778" layer="96"/>
 <attribute name="MFG" x="106.68" y="35.56" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PN" x="106.68" y="35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT" x="55.88" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="55.88" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" x="55.88" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -10256,25 +11494,40 @@ Ferrite bead specs:
 <attribute name="NAME" x="53.34" y="-5.08" size="1.778" layer="95"/>
 <attribute name="MFG" x="53.34" y="-7.62" size="1.778" layer="96" display="off"/>
 <attribute name="PN" x="53.34" y="-7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT" x="53.34" y="-7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="53.34" y="-7.62" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="53.34" y="-7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U27" gate="G$1" x="45.72" y="-35.56" smashed="yes">
 <attribute name="NAME" x="45.72" y="-33.02" size="1.778" layer="95" align="top-left"/>
+<attribute name="AS-MOUNT" x="45.72" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="45.72" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="45.72" y="-35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R42" gate="G$1" x="15.24" y="-27.94" smashed="yes" rot="MR270">
 <attribute name="NAME" x="17.526" y="-26.162" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="17.526" y="-28.702" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="15.24" y="-27.94" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="15.24" y="-27.94" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="15.24" y="-27.94" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="15.24" y="-27.94" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="15.24" y="-27.94" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R43" gate="G$1" x="5.08" y="-30.48" smashed="yes" rot="MR270">
 <attribute name="NAME" x="7.366" y="-28.702" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="7.366" y="-31.242" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFG" x="5.08" y="-30.48" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PN" x="5.08" y="-30.48" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT" x="5.08" y="-30.48" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="5.08" y="-30.48" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" x="5.08" y="-30.48" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="J10" gate="G$1" x="-17.78" y="-5.08" smashed="yes">
 <attribute name="NAME" x="-17.78" y="-4.572" size="1.778" layer="95"/>
 <attribute name="PN" x="-17.78" y="-40.64" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="-17.78" y="-5.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-17.78" y="-5.08" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-17.78" y="-5.08" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -10377,21 +11630,39 @@ Ferrite bead specs:
 <instances>
 <instance part="MH1" gate="G$1" x="5.08" y="0" smashed="yes">
 <attribute name="NAME" x="5.08" y="3.302" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="5.08" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="5.08" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="5.08" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="MH2" gate="G$1" x="5.08" y="-12.7" smashed="yes">
 <attribute name="NAME" x="5.08" y="-9.398" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="5.08" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="5.08" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="5.08" y="-12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="MH3" gate="G$1" x="5.08" y="-25.4" smashed="yes">
 <attribute name="NAME" x="5.08" y="-22.098" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="5.08" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="5.08" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="5.08" y="-25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="MH4" gate="G$1" x="-35.56" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-35.56" y="-37.338" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="-35.56" y="-40.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-35.56" y="-40.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-35.56" y="-40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="MH5" gate="G$1" x="-25.4" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-25.4" y="-37.338" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="-25.4" y="-40.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-25.4" y="-40.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-25.4" y="-40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="MH6" gate="G$1" x="-15.24" y="-40.64" smashed="yes">
 <attribute name="NAME" x="-15.24" y="-37.338" size="1.778" layer="95"/>
+<attribute name="AS-MOUNT" x="-15.24" y="-40.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" x="-15.24" y="-40.64" size="1.778" layer="96" display="off"/>
+<attribute name="AS-OUR-STOCK" x="-15.24" y="-40.64" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>

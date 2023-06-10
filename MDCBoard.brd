@@ -1621,935 +1621,1529 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </groups>
 <elements>
 <element name="C40" library="EagleLibrary" package="0402" value="10n" x="30.700071875" y="22.0759375" smashed="yes" rot="MR270" grouprefs="_ICE_IMG_CLK">
+<attribute name="AS-MOUNT" value="1" x="30.700071875" y="22.0759375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="30.700071875" y="22.0759375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="30.700071875" y="22.0759375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Samsung" x="30.700071875" y="22.0759375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="31.711253125" y="21.96379375" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="CL05B103KB5NNNC" x="30.700071875" y="22.0759375" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C61" library="EagleLibrary" package="0805" value="10u" x="10.8266" y="27.4864" smashed="yes" rot="MR45">
+<attribute name="AS-MOUNT" value="1" x="10.8266" y="27.4864" size="1.778" layer="28" rot="MR45" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="10.8266" y="27.4864" size="1.778" layer="28" rot="MR45" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="10.8266" y="27.4864" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="MFG" value="Samsung" x="10.8266" y="27.4864" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="10.132003125" y="29.1517" size="0.635" layer="26" font="vector" rot="MR315"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="10.8266" y="27.4864" size="1.778" layer="28" rot="MR45" display="off"/>
 </element>
 <element name="C58" library="EagleLibrary" package="0402" value="100n" x="12.503" y="25.5306" smashed="yes" rot="MR225">
+<attribute name="AS-MOUNT" value="1" x="12.503" y="25.5306" size="1.778" layer="28" rot="MR225" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="12.503" y="25.5306" size="1.778" layer="28" rot="MR225" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="12.503" y="25.5306" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="MFG" value="Murata" x="12.503" y="25.5306" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="11.0255125" y="24.34980625" size="0.508" layer="26" font="vector" rot="MR225"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="77.16083125" y="34.51084375" size="1.778" layer="28" rot="MR225" display="off"/>
 </element>
 <element name="C31" library="EagleLibrary" package="0402" value="100n" x="26.6126" y="13.5164" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="26.6126" y="13.5164" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.6126" y="13.5164" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.6126" y="13.5164" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Murata" x="26.6126" y="13.5164" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="26.333578125" y="14.48948125" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="73.6026" y="65.5864" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C32" library="EagleLibrary" package="0402" value="10n" x="26.6126" y="12.6528" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="26.6126" y="12.6528" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.6126" y="12.6528" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.6126" y="12.6528" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Samsung" x="26.6126" y="12.6528" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="26.333578125" y="12.106959375" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="CL05B103KB5NNNC" x="26.6126" y="12.6528" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C33" library="EagleLibrary" package="0402" value="10n" x="22.3835" y="17.8242375" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="22.3835" y="17.8242375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="22.3835" y="17.8242375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="22.3835" y="17.8242375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Samsung" x="22.3835" y="17.8242375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="24.814540625" y="18.352178125" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="CL05B103KB5NNNC" x="22.3835" y="17.8242375" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C8" library="EagleLibrary" package="0805" value="10u" x="25.266496875" y="27.887625" smashed="yes" rot="MR90" grouprefs="_VDD_B_1V2_BUCK">
+<attribute name="AS-MOUNT" value="1" x="25.266496875" y="27.887625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="25.266496875" y="27.887625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="25.266496875" y="27.887625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Samsung" x="25.266496875" y="27.887625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="23.577334375" y="26.46434375" size="0.762" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="25.266496875" y="27.887625" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C27" library="EagleLibrary" package="0402" value="100n" x="15.05211875" y="13.99431875" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="15.05211875" y="13.99431875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="15.05211875" y="13.99431875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="15.05211875" y="13.99431875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Murata" x="15.05211875" y="13.99431875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="15.3565375" y="12.960278125" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="-3.99788125" y="-40.61568125" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C28" library="EagleLibrary" package="0402" value="10n" x="15.05211875" y="14.85791875" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="15.05211875" y="14.85791875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="15.05211875" y="14.85791875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="15.05211875" y="14.85791875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Samsung" x="15.05211875" y="14.85791875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="15.3794" y="15.365659375" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="CL05B103KB5NNNC" x="15.05211875" y="14.85791875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C60" library="EagleLibrary" package="0805" value="10u" x="14.4842" y="23.8542" smashed="yes" rot="MR45">
+<attribute name="AS-MOUNT" value="1" x="14.4842" y="23.8542" size="1.778" layer="28" rot="MR45" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="14.4842" y="23.8542" size="1.778" layer="28" rot="MR45" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="14.4842" y="23.8542" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="MFG" value="Samsung" x="14.4842" y="23.8542" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="16.636946875" y="22.7026375" size="0.635" layer="26" font="vector" rot="MR315"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="14.4842" y="23.8542" size="1.778" layer="28" rot="MR45" display="off"/>
 </element>
 <element name="C59" library="EagleLibrary" package="0402" value="100n" x="13.2396" y="26.2672" smashed="yes" rot="MR225">
+<attribute name="AS-MOUNT" value="1" x="13.2396" y="26.2672" size="1.778" layer="28" rot="MR225" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="13.2396" y="26.2672" size="1.778" layer="28" rot="MR225" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="13.2396" y="26.2672" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="MFG" value="Murata" x="13.2396" y="26.2672" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="14.586590625" y="28.23346875" size="0.508" layer="26" font="vector" rot="MR225"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="76.101390625" y="40.63560625" size="1.778" layer="28" rot="MR225" display="off"/>
 </element>
 <element name="C10" library="EagleLibrary" package="0805" value="10u" x="29.2735" y="27.3783375" smashed="yes" rot="R90" grouprefs="_VDD_B_1V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="29.2735" y="27.3783375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.2735" y="27.3783375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.2735" y="27.3783375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Samsung" x="29.2735" y="27.3783375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="27.5362" y="29.2113375" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="29.2735" y="27.3783375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED3" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="42.61816875" y="24.9453375" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="OSRAM" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="43.58913125" y="25.8725375" size="0.508" layer="26" font="vector" rot="MR90" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R26" library="EagleLibrary" package="0402" value="10k" x="24.24785625" y="11.963396875" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="24.24785625" y="11.963396875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="24.24785625" y="11.963396875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="24.24785625" y="11.963396875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Yageo" x="24.24785625" y="13.741396875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="24.80385625" y="12.717396875" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="24.24785625" y="13.741396875" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R21" library="EagleLibrary" package="0402" value="1k" x="42.670875" y="22.896396875" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="42.670875" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="42.670875" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="42.670875" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Kamaya" x="42.670875" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="42.950534375" y="21.902875" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="42.670875" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U24" library="EagleLibrary" package="ALLIANCE-AS4C8M16MSA-6BIN" value="ALLIANCE-AS4C8M16MSA-6BIN" x="12.87855625" y="25.953009375" smashed="yes" rot="R45">
+<attribute name="AS-MOUNT" value="1" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MFG" value="Alliance Memory" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="NAME" x="11.8931125" y="32.603353125" size="1.27" layer="25" font="vector" rot="R225"/>
 <attribute name="PN" value="AS4C8M16MSA-6BIN" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
 <element name="U19" library="EagleLibrary" package="LATTICE-ICE40HX4K-BG121" value="LATTICE-ICE40HX4K-BG121" x="21.1794" y="17.563" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Lattice" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="16.7444" y="22.258" size="1.016" layer="25" font="vector"/>
 <attribute name="PN" value="ICE40HX4K-BG121" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C36" library="EagleLibrary" package="0402" value="100n" x="28.035" y="21.492" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="28.035" y="21.492" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="28.035" y="21.492" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="28.035" y="21.492" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Murata" x="28.035" y="21.492" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="29.39428125" y="21.992640625" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="28.035" y="21.492" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C37" library="EagleLibrary" package="0402" value="10n" x="27.011378125" y="20.618240625" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="27.011378125" y="20.618240625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="27.011378125" y="20.618240625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="27.011378125" y="20.618240625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Samsung" x="27.011378125" y="20.618240625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="26.18625625" y="20.0978" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="CL05B103KB5NNNC" x="27.011378125" y="20.618240625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R24" library="EagleLibrary" package="0402" value="100" x="19.11705625" y="14.50191875" smashed="yes" rot="MR90">
+<attribute name="AS-MOUNT" value="1" x="19.11705625" y="14.50191875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="19.11705625" y="14.50191875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="19.11705625" y="14.50191875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Walsin" x="19.312634375" y="15.134375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="18.055075" y="14.327040625" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="WR04X1000FQL" x="19.312634375" y="15.134375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C41" library="EagleLibrary" package="0805" value="10u" x="20.415" y="12.90171875" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="20.415" y="12.90171875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="20.415" y="12.90171875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="20.415" y="12.90171875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Samsung" x="20.3997625" y="12.261640625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="19.48541875" y="13.5274375" size="0.635" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="20.3997625" y="12.261640625" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C42" library="EagleLibrary" package="0402" value="100n" x="21.7104" y="13.640859375" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="21.7104" y="13.640859375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="21.7104" y="13.640859375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="21.7104" y="13.640859375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Murata" x="21.6951625" y="13.00078125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="22.7292" y="14.41771875" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="23.7271625" y="13.00078125" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R23" library="EagleLibrary" package="0402" value="100" x="21.029678125" y="23.209040625" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="21.029678125" y="23.209040625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="21.029678125" y="23.209040625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="21.029678125" y="23.209040625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Walsin" x="21.029678125" y="23.209040625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="20.079334375" y="23.074159375" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="WR04X1000FQL" x="21.029678125" y="23.209040625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C38" library="EagleLibrary" package="0805" value="10u" x="20.8493375" y="21.90601875" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="20.8493375" y="21.90601875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="20.8493375" y="21.90601875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="20.8493375" y="21.90601875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Samsung" x="20.8493375" y="21.90601875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="19.178896875" y="21.9847" size="0.762" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="20.8493375" y="21.90601875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C39" library="EagleLibrary" package="0402" value="100n" x="21.044921875" y="20.60045625" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="21.044921875" y="20.60045625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="21.044921875" y="20.60045625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="21.044921875" y="20.60045625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Murata" x="21.044921875" y="20.60045625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="18.9185625" y="20.678934375" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="21.044921875" y="18.56845625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C29" library="EagleLibrary" package="0402" value="100n" x="20.3896" y="18.825" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="20.3896" y="18.825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="20.3896" y="18.825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="20.3896" y="18.825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Murata" x="20.3896" y="18.825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="17.80171875" y="18.96241875" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="20.3896" y="18.7488" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C34" library="EagleLibrary" package="0402" value="100n" x="20.3896" y="17.8598" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="20.3896" y="17.8598" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="20.3896" y="17.8598" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="20.3896" y="17.8598" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Murata" x="20.3896" y="17.8598" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="18.261459375" y="18.09628125" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="20.3896" y="17.7836" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C30" library="EagleLibrary" package="0402" value="10n" x="24.01418125" y="20.247403125" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="24.01418125" y="20.247403125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="24.01418125" y="20.247403125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="24.01418125" y="20.247403125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Samsung" x="24.01418125" y="20.247403125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="24.102421875" y="21.229784375" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="CL05B103KB5NNNC" x="24.01418125" y="20.247403125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C35" library="EagleLibrary" package="0402" value="10n" x="19.9324" y="16.4882" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="19.9324" y="16.4882" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="19.9324" y="16.4882" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="19.9324" y="16.4882" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Samsung" x="19.9324" y="16.4882" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="18.8303" y="17.028840625" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="CL05B103KB5NNNC" x="19.9324" y="16.4882" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U23" library="EagleLibrary" package="ON-AR0330CS1C12SPKA0" value="ON-AR0330CS1C12SPKA0" x="33.5424" y="17.392" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="33.5424" y="17.392" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.5424" y="17.392" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.5424" y="17.392" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="ON Semiconductor" x="33.5424" y="17.392" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="38.034059375" y="14.559796875" size="0.762" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="AR0330CS1C12SPKA0-CR" x="33.5424" y="17.392" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C45" library="EagleLibrary" package="0805" value="10u" x="34.032103125" y="13.330978125" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="34.032103125" y="13.330978125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="34.032103125" y="13.330978125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="34.032103125" y="13.330978125" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Samsung" x="34.032103125" y="13.330978125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="33.878821875" y="11.591021875" size="0.762" layer="25" font="vector"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="34.032103125" y="13.330978125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C46" library="EagleLibrary" package="0402" value="100n" x="30.879003125" y="13.759178125" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="30.879003125" y="13.759178125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="30.879003125" y="13.759178125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="30.879003125" y="13.759178125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Murata" x="30.879003125" y="13.759178125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="31.1605625" y="13.2768375" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="30.879003125" y="13.759178125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C47" library="EagleLibrary" package="0805" value="10u" x="29.10941875" y="18.847859375" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="29.10941875" y="18.847859375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.10941875" y="18.847859375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.10941875" y="18.847859375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Samsung" x="29.10941875" y="18.847859375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="29.28301875" y="17.12568125" size="0.762" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="29.10941875" y="18.847859375" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C48" library="EagleLibrary" package="0402" value="100n" x="29.49755" y="18.573546875" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="29.49755" y="18.573546875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.49755" y="18.573546875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.49755" y="18.573546875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Murata" x="29.49755" y="18.573546875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="28.5472125" y="18.72366875" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="29.49755" y="18.573546875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C49" library="EagleLibrary" package="0805" value="10u" x="37.740184375" y="14.3764" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="37.740184375" y="14.3764" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="37.740184375" y="14.3764" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="37.740184375" y="14.3764" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Samsung" x="37.740184375" y="14.3764" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="38.1495625" y="12.702140625" size="0.762" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="37.740184375" y="14.3764" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C50" library="EagleLibrary" package="0402" value="100n" x="36.4143" y="15.14708125" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="36.4143" y="15.14708125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="36.4143" y="15.14708125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="36.4143" y="15.14708125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Murata" x="36.4143" y="15.14708125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="36.662221875" y="17.252621875" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="36.4143" y="15.14708125" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C53" library="EagleLibrary" package="0805" value="10u" x="36.660684375" y="20.94335625" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="36.660684375" y="20.94335625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="36.660684375" y="20.94335625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="36.660684375" y="20.94335625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Samsung" x="36.660684375" y="20.94335625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="38.344503125" y="21.755934375" size="0.762" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="36.660684375" y="20.94335625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C54" library="EagleLibrary" package="0402" value="100n" x="29.49755" y="19.46" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="29.49755" y="19.46" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.49755" y="19.46" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.49755" y="19.46" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Murata" x="29.49755" y="19.46" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="30.18805" y="20.42038125" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="29.49755" y="19.46" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C56" library="EagleLibrary" package="0805" value="10u" x="33.7185" y="21.812040625" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="33.7185" y="21.812040625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.7185" y="21.812040625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.7185" y="21.812040625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Samsung" x="33.7185" y="21.812040625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.14431875" y="23.3361" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="33.7185" y="21.812040625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C57" library="EagleLibrary" package="0402" value="100n" x="34.060025" y="20.0533" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="34.060025" y="20.0533" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="34.060025" y="20.0533" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="34.060025" y="20.0533" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Murata" x="34.060025" y="20.0533" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="34.151084375" y="18.9964" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="34.060025" y="20.0533" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R28" library="EagleLibrary" package="0402" value="10k" x="30.112228125" y="20.732534375" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="30.112228125" y="20.732534375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="30.112228125" y="20.732534375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="30.112228125" y="20.732534375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Yageo" x="30.112228125" y="20.732534375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="31.5731125" y="20.039371875" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="30.112228125" y="20.732534375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C52" library="EagleLibrary" package="0402" value="100n" x="37.613171875" y="19.968" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="37.613171875" y="19.968" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="37.613171875" y="19.968" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="37.613171875" y="19.968" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Murata" x="37.613171875" y="19.968" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="38.181875" y="20.74994375" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="37.613171875" y="19.968" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="X2" library="EagleLibrary" package="SITIME-SIT8021" value="SITIME-SIT8021" x="31.20135625" y="21.444496875" smashed="yes" rot="R90" grouprefs="_ICE_IMG_CLK">
+<attribute name="AS-MOUNT" value="1" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="SiTime" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.0034125" y="22.532475" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="SIT8021AI-J4-18S-16.000000E" x="31.20135625" y="21.444496875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J9" library="EagleLibrary" package="MOLEX-1051620001" value="MICROSD-SOCKET" x="8.78433125" y="8.73151875" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="8.78433125" y="8.73151875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="8.78433125" y="8.73151875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="8.78433125" y="8.73151875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Molex" x="8.78433125" y="8.73151875" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="1.451009375" y="4.206540625" size="1.27" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="105162-0001" x="8.78433125" y="8.73151875" size="1.778" layer="28" rot="MR135" display="off"/>
 </element>
 <element name="C62" library="EagleLibrary" package="0805" value="10u" x="8.97138125" y="9.091240625" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="8.97138125" y="9.091240625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="8.97138125" y="9.091240625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="8.97138125" y="9.091240625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Samsung" x="8.97138125" y="9.091240625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.235603125" y="12.04184375" size="0.762" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="8.97138125" y="9.091240625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C63" library="EagleLibrary" package="0402" value="100n" x="8.86110625" y="6.4558" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="8.86110625" y="6.4558" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="8.86110625" y="6.4558" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="8.86110625" y="6.4558" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Murata" x="8.86110625" y="6.4558" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="8.86110625" y="6.4558" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R32" library="EagleLibrary" package="0402" value="20k" x="10.28425" y="10.24488125" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="10.28425" y="10.24488125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="10.28425" y="10.24488125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="10.28425" y="10.24488125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Walsin" x="10.28425" y="10.24488125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="10.449609375" y="12.576984375" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="WR04X203 JTL" x="10.28425" y="10.24488125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R33" library="EagleLibrary" package="0402" value="20k" x="6.21256875" y="10.3668" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="6.21256875" y="10.3668" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="6.21256875" y="10.3668" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="6.21256875" y="10.3668" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Walsin" x="6.21256875" y="10.3668" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="6.449046875" y="11.944515625" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="WR04X203 JTL" x="6.21256875" y="10.3668" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R34" library="EagleLibrary" package="0402" value="20k" x="5.044759375" y="10.359178125" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="5.044759375" y="10.359178125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="5.044759375" y="10.359178125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="5.044759375" y="10.359178125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Walsin" x="5.044759375" y="10.359178125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="4.476059375" y="9.630578125" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="WR04X203 JTL" x="5.044759375" y="10.359178125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R35" library="EagleLibrary" package="0402" value="20k" x="12.0618375" y="10.24741875" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="12.0618375" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="12.0618375" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="12.0618375" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Walsin" x="12.0618375" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.1060375" y="8.866040625" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="WR04X203 JTL" x="12.0618375" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R36" library="EagleLibrary" package="0402" value="20k" x="11.181253125" y="10.24741875" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="11.181253125" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="11.181253125" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="11.181253125" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Walsin" x="11.181253125" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="11.3720125" y="11.2003" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="WR04X203 JTL" x="11.181253125" y="10.24741875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP1" library="EagleLibrary" package="TEST-POINT" value="TEST-POINT" x="26.5237" y="20.765559375" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="26.5237" y="20.765559375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.5237" y="20.765559375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.5237" y="20.765559375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.721821875" y="19.914" size="0.508" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="U26" library="EagleLibrary" package="STM-STM32F730I8" value="STM-STM32F730" x="24.930403125" y="5.336640625" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="STMicroelectronics" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="30.223759375" y="0.36498125" size="0.762" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="STM32F730I8K6" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C67" library="EagleLibrary" package="0402" value="100n" x="26.024809375" y="5.45795" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="26.024809375" y="5.45795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.024809375" y="5.45795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.024809375" y="5.45795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Murata" x="26.024809375" y="5.45795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="25.36669375" y="6.34403125" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="26.024809375" y="5.45795" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C68" library="EagleLibrary" package="0402" value="100n" x="23.243509375" y="3.255846875" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="23.243509375" y="3.255846875" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="23.243509375" y="3.255846875" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="23.243509375" y="3.255846875" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Murata" x="23.243509375" y="3.255846875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.533709375" y="3.28860625" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="23.243509375" y="3.255846875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C69" library="EagleLibrary" package="0402" value="100n" x="24.57193125" y="3.707309375" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="24.57193125" y="3.707309375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="24.57193125" y="3.707309375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="24.57193125" y="3.707309375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Murata" x="24.57193125" y="3.707309375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.716971875" y="0.30916875" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="24.57193125" y="3.707309375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C84" library="EagleLibrary" package="0402" value="100n" x="26.42613125" y="1.90768125" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="26.42613125" y="1.90768125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.42613125" y="1.90768125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.42613125" y="1.90768125" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Murata" x="26.42613125" y="1.90768125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.114090625" y="0.901575" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="26.42613125" y="1.90768125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C73" library="EagleLibrary" package="0402" value="100n" x="24.132509375" y="5.840778125" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="24.132509375" y="5.840778125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="24.132509375" y="5.840778125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="24.132509375" y="5.840778125" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Murata" x="24.132509375" y="5.840778125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="23.56393125" y="6.277396875" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="24.132509375" y="5.840778125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C74" library="EagleLibrary" package="0402" value="100n" x="25.445690625" y="3.701575" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="25.445690625" y="3.701575" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="25.445690625" y="3.701575" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="25.445690625" y="3.701575" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Murata" x="25.445690625" y="3.701575" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.575490625" y="0.260253125" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="25.445690625" y="3.701575" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C80" library="EagleLibrary" package="0402" value="100n" x="29.35475" y="3.564346875" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="29.35475" y="3.564346875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.35475" y="3.564346875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.35475" y="3.564346875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Murata" x="29.35475" y="3.564346875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="29.108109375" y="2.59623125" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="29.35475" y="3.564346875" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C72" library="EagleLibrary" package="0402" value="100n" x="22.184328125" y="2.383178125" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="22.184328125" y="2.383178125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="22.184328125" y="2.383178125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="22.184328125" y="2.383178125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Murata" x="24.470325" y="4.694578125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20.111309375" y="2.632359375" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="24.470325" y="4.694578125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C81" library="EagleLibrary" package="0402" value="100n" x="26.9315875" y="5.144875" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="26.9315875" y="5.144875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.9315875" y="5.144875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.9315875" y="5.144875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Murata" x="24.6201875" y="5.144875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="26.324265625" y="6.84375" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="24.6201875" y="5.144875" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C77" library="EagleLibrary" package="0402" value="100n" x="22.36720625" y="5.83590625" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="22.36720625" y="5.83590625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="22.36720625" y="5.83590625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="22.36720625" y="5.83590625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Murata" x="24.65320625" y="10.45870625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="22.448103125" y="6.783590625" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="24.65320625" y="10.45870625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C78" library="EagleLibrary" package="0402" value="100n" x="23.246046875" y="4.97673125" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="23.246046875" y="4.97673125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="23.246046875" y="4.97673125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="23.246046875" y="4.97673125" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Murata" x="23.246046875" y="0.35393125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.480046875" y="4.86873125" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="23.246046875" y="0.35393125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C79" library="EagleLibrary" package="0402" value="100n" x="23.246046875" y="4.115015625" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="23.246046875" y="4.115015625" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="23.246046875" y="4.115015625" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="23.246046875" y="4.115015625" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Murata" x="20.96005" y="-2.819184375" size="1.778" layer="27" display="off"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="20.96005" y="-2.819184375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C82" library="EagleLibrary" package="0402" value="2.2u" x="25.20790625" y="7.3217" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="25.20790625" y="7.3217" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="25.20790625" y="7.3217" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="25.20790625" y="7.3217" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="25.20790625" y="7.3217" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="27.254759375" y="8.188103125" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="25.20790625" y="7.3217" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C83" library="EagleLibrary" package="0402" value="2.2u" x="28.482075" y="2.585153125" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="28.482075" y="2.585153125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="28.482075" y="2.585153125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="28.482075" y="2.585153125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="28.482075" y="2.585153125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="28.237975" y="1.672915625" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="28.482075" y="2.585153125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C70" library="EagleLibrary" package="0402" value="100n" x="19.405340625" y="8.970396875" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="19.405340625" y="8.970396875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="19.405340625" y="8.970396875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="19.405340625" y="8.970396875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Murata" x="19.405340625" y="8.970396875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="18.374359375" y="7.743196875" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="19.405340625" y="8.970396875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C71" library="EagleLibrary" package="0402" value="2.2u" x="18.96994375" y="10.756496875" smashed="yes" rot="MR90">
+<attribute name="AS-MOUNT" value="1" x="18.96994375" y="10.756496875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="18.96994375" y="10.756496875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="18.96994375" y="10.756496875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="18.96994375" y="10.756496875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="17.94860625" y="9.852640625" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="18.96994375" y="10.756496875" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C75" library="EagleLibrary" package="0402" value="100n" x="27.841884375" y="5.173984375" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="27.841884375" y="5.173984375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="27.841884375" y="5.173984375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="27.841884375" y="5.173984375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Murata" x="27.841884375" y="5.173984375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="27.841884375" y="5.173984375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C76" library="EagleLibrary" package="0402" value="2.2u" x="29.3709625" y="4.99618125" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="29.3709625" y="4.99618125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.3709625" y="4.99618125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.3709625" y="4.99618125" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="29.3709625" y="4.99618125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="30.2171625" y="3.3093625" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="29.3709625" y="4.99618125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C66" library="EagleLibrary" package="0402" value="2.2u" x="30.263415625" y="6.69100625" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="30.263415625" y="6.69100625" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="30.263415625" y="6.69100625" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="30.263415625" y="6.69100625" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="30.263415625" y="6.69100625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.591" y="5.704528125" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="30.263415625" y="6.69100625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R41" library="EagleLibrary" package="0402" value="3k" x="31.587215625" y="7.138159375" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Susumu" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="31.367015625" y="9.375975" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="RR0510P-302-D" x="31.587215625" y="7.138159375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C65" library="EagleLibrary" package="0402" value="100n" x="18.870203125" y="5.433821875" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="18.870203125" y="5.433821875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="18.870203125" y="5.433821875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="18.870203125" y="5.433821875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Murata" x="18.362203125" y="5.68781875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="19.37528125" y="6.3815" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="18.362203125" y="5.68781875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C64" library="EagleLibrary" package="0402" value="10n" x="18.310740625" y="5.224696875" smashed="yes" rot="MR90">
+<attribute name="AS-MOUNT" value="1" x="18.310740625" y="5.224696875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="18.310740625" y="5.224696875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="18.310740625" y="5.224696875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Samsung" x="21.130140625" y="5.22469375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="18.18348125" y="6.180115625" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="CL05B103KB5NNNC" x="21.130140625" y="5.22469375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="X3" library="EagleLibrary" package="SITIME-SIT8021" value="SITIME-SIT8021" x="19.301340625" y="5.199296875" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="19.301340625" y="5.199296875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="19.301340625" y="5.199296875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="19.301340625" y="5.199296875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="SiTime" x="19.301340625" y="2.887896875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="19.81101875" y="4.21105625" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="SIT8021AI-J4-18S-16.000000E" x="19.301340625" y="2.887896875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R25" library="EagleLibrary" package="0402" value="10k" x="21.955696875" y="16.391346875" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="21.955696875" y="16.391346875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="21.955696875" y="16.391346875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="21.955696875" y="16.391346875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Yageo" x="21.955696875" y="16.391346875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="23.703596875" y="16.165546875" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="21.955696875" y="16.391346875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R29" library="EagleLibrary" package="0402" value="10k" x="28.857465625" y="16.505984375" smashed="yes" rot="R135">
+<attribute name="AS-MOUNT" value="1" x="28.857465625" y="16.505984375" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="28.857465625" y="16.505984375" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="28.857465625" y="16.505984375" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MFG" value="Yageo" x="28.857465625" y="16.505984375" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="NAME" x="28.89799375" y="15.6890375" size="0.508" layer="25" font="vector" rot="R135"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="28.857465625" y="16.505984375" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
 <element name="FB1" library="EagleLibrary" package="0402" value="FERRITE-BEAD0402" x="38.52320625" y="5.4505625" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="38.52320625" y="5.4505625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="38.52320625" y="5.4505625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="38.52320625" y="5.4505625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="19.47320625" y="-3.4394375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="37.859165625" y="4.955803125" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="BKP1005EM100-T" x="19.47320625" y="-3.4394375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C21" library="EagleLibrary" package="0402" value="22p" x="15.23049375" y="4.240334375" smashed="yes" rot="MR90">
+<attribute name="AS-MOUNT" value="1" x="15.23049375" y="4.240334375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="15.23049375" y="4.240334375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="15.23049375" y="4.240334375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Murata" x="15.23049375" y="4.240334375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="15.709153125" y="3.886615625" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="GRM1555C1H220JA01D" x="15.23049375" y="4.240334375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U10" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="6.27481875" y="4.97388125" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="3.930396875" y="5.3703625" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TPS22919DCK" x="6.27481875" y="4.97388125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U11" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="6.2773625" y="2.13558125" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="4.01168125" y="2.417765625" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TPS22919DCK" x="6.2773625" y="2.13558125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U12" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="28.346978125" y="8.3490625" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="27.61775625" y="10.055940625" size="0.635" layer="25" font="vector"/>
 <attribute name="PN" value="TPS22919DCK" x="28.346978125" y="8.3490625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U27" library="EagleLibrary" package="DIODESINC-DT1446-04V-7" value="DIODESINC-DT1446-04V-7" x="36.531640625" y="6.00278125" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Diodes Incorporated" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="32.9465" y="6.309921875" size="0.762" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="DT1446-04V-7" x="36.531640625" y="6.00278125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C18" library="EagleLibrary" package="0402" value="22p" x="16.5439" y="2.7506" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="16.5439" y="2.7506" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="16.5439" y="2.7506" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="16.5439" y="2.7506" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Murata" x="16.5439" y="2.7506" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="16.70925625" y="1.785778125" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GRM1555C1H220JA01D" x="16.5439" y="2.7506" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C17" library="EagleLibrary" package="0402" value="22p" x="16.5439" y="4.8334" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="16.5439" y="4.8334" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="16.5439" y="4.8334" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="16.5439" y="4.8334" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Murata" x="16.5439" y="4.8334" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="16.30741875" y="6.92598125" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GRM1555C1H220JA01D" x="16.5439" y="4.8334" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U18" library="EagleLibrary" package="PANASONIC-EKMB110711X" value="PANASONIC-EKMB110711X" x="7.5" y="17.392" smashed="yes" rot="R135">
+<attribute name="AS-MOUNT" value="1" x="7.5" y="17.392" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="7.5" y="17.392" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="7.5" y="17.392" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MFG" value="Panasonic" x="7.5" y="17.392" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="NAME" x="15.04988125" y="15.431246875" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="EKMB1107112" x="7.5" y="17.392" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
 <element name="C20" library="EagleLibrary" package="0805" value="10u" x="16.304365625" y="7.6403625" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="16.304365625" y="7.6403625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="16.304365625" y="7.6403625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="16.304365625" y="7.6403625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Samsung" x="16.304365625" y="7.6403625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="17.863046875" y="5.48395625" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="16.304365625" y="7.6403625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C19" library="EagleLibrary" package="0402" value="100n" x="15.48185625" y="6.30428125" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="15.48185625" y="6.30428125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="15.48185625" y="6.30428125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="15.48185625" y="6.30428125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Murata" x="13.181859375" y="8.70428125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="14.651653125" y="5.77368125" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="13.181859375" y="8.70428125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C13" library="EagleLibrary" package="0402" value="2.2u" x="8.35761875" y="4.762725" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="8.35761875" y="4.762725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="8.35761875" y="4.762725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="8.35761875" y="4.762725" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="8.35761875" y="4.762725" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="8.35761875" y="4.762725" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C14" library="EagleLibrary" package="0402" value="2.2u" x="8.35254375" y="1.845103125" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="8.35254375" y="1.845103125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="8.35254375" y="1.845103125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="8.35254375" y="1.845103125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="8.35254375" y="1.845103125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.20154375" y="0.870103125" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="8.35254375" y="1.845103125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C15" library="EagleLibrary" package="0402" value="2.2u" x="29.8810375" y="9.079403125" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="29.8810375" y="9.079403125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.8810375" y="9.079403125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.8810375" y="9.079403125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="29.8810375" y="9.079403125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="30.378615625" y="9.8689625" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="29.8810375" y="9.079403125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C26" library="EagleLibrary" package="0402" value="100n" x="5.165565625" y="21.799575" smashed="yes" rot="MR90">
+<attribute name="AS-MOUNT" value="1" x="5.165565625" y="21.799575" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="5.165565625" y="21.799575" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="5.165565625" y="21.799575" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Murata" x="5.165565625" y="21.799575" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="5.721565625" y="21.045575" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="5.165565625" y="21.799575" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C44" library="EagleLibrary" package="0402" value="100n" x="36.195" y="21.308503125" smashed="yes" grouprefs="_IMG_CLK_BLOCKER">
+<attribute name="AS-MOUNT" value="1" x="36.195" y="21.308503125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="36.195" y="21.308503125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="36.195" y="21.308503125" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Murata" x="36.195" y="21.308503125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="35.95408125" y="21.7603625" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="36.195" y="21.308503125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED4" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="41.858709375" y="24.9453375" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="OSRAM" x="39.318709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="41.34783125" y="25.981753125" size="0.508" layer="26" font="vector" rot="MR90" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="39.318709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R22" library="EagleLibrary" package="0402" value="1k" x="41.791978125" y="22.896396875" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="41.791978125" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="41.791978125" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="41.791978125" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Kamaya" x="44.077978125" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="42.163078125" y="21.88255625" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="44.077978125" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="LED6" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.91010625" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="OSRAM" x="31.77019375" y="9.37010625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="28.96519375" y="12.22010625" size="0.508" layer="26" font="vector" rot="MR0" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="31.77019375" y="9.37010625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R40" library="EagleLibrary" package="0402" value="1k" x="33.790440625" y="11.91010625" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="33.790440625" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.790440625" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.790440625" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Kamaya" x="33.790440625" y="14.19610625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="33.790440625" y="14.19610625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="LED5" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.03439375" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="OSRAM" x="31.77019375" y="8.49439375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="28.96519375" y="11.24439375" size="0.508" layer="26" font="vector" rot="MR0" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="31.77019375" y="8.49439375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R39" library="EagleLibrary" package="0402" value="1k" x="33.790440625" y="11.03439375" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="33.790440625" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.790440625" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.790440625" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Kamaya" x="33.790440625" y="13.32039375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="33.790440625" y="13.32039375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C51" library="EagleLibrary" package="0402" value="100n" x="34.8449125" y="13.821196875" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="34.8449125" y="13.821196875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="34.8449125" y="13.821196875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="34.8449125" y="13.821196875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Murata" x="34.8449125" y="13.821196875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="33.843771875" y="13.57455625" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="34.8449125" y="13.821196875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C55" library="EagleLibrary" package="0402" value="100n" x="38.420896875" y="18.202703125" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="38.420896875" y="18.202703125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="38.420896875" y="18.202703125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="38.420896875" y="18.202703125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Murata" x="38.420896875" y="18.202703125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="38.971815625" y="18.88050625" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="38.420896875" y="18.202703125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q1" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="29.882984375" y="30.230321875" smashed="yes" grouprefs="_VDD_B_CONTROL">
+<attribute name="AS-MOUNT" value="1" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Nexperia" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.870025" y="31.395840625" size="0.762" layer="25" font="vector"/>
 <attribute name="PN" value="PMPB10UPX" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 <attribute name="PN2" value="PMPB16EP" x="29.882984375" y="30.230321875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J3" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="27.772425" y="31.030221875" smashed="yes" rot="R180" grouprefs="_VDD_B_CONTROL">
+<attribute name="AS-MOUNT" value="1" x="27.772425" y="31.030221875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="27.772425" y="31.030221875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="27.772425" y="31.030221875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="27.510425" y="31.998221875" size="0.508" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="U3" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-NOR" x="31.72" y="26.417784375" smashed="yes" rot="R180" grouprefs="_VDD_B_CONTROL">
+<attribute name="AS-MOUNT" value="1" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Nexperia" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="32.95951875" y="25.22535" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="31.72" y="26.417784375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U13" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="36.136984375" y="1.4005625" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="39.379603125" y="1.720521875" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="TPS22919DCK" x="36.136984375" y="1.4005625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C16" library="EagleLibrary" package="0402" value="2.2u" x="34.062928125" y="1.348021875" smashed="yes" rot="MR90">
+<attribute name="AS-MOUNT" value="1" x="34.062928125" y="1.348021875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="34.062928125" y="1.348021875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="34.062928125" y="1.348021875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="34.062928125" y="1.348021875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="33.00095" y="1.033440625" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="34.062928125" y="1.348021875" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U22" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-BUFFER" x="33.5534" y="21.9202" smashed="yes" rot="MR0" grouprefs="_IMG_CLK_BLOCKER">
+<attribute name="AS-MOUNT" value="1" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Nexperia" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="32.7761625" y="22.90181875" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="33.5534" y="21.9202" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="X1" library="EagleLibrary" package="EPSON-FC-135" value="EPSON-FC-135" x="15.030059375" y="3.792" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="15.030059375" y="3.792" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="15.030059375" y="3.792" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="15.030059375" y="3.792" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Epson" x="15.030059375" y="3.792" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.379659375" y="5.870275" size="0.762" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="Q13FC13500005" x="15.030059375" y="3.792" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C86" library="EagleLibrary" package="0402" value="2.2u" x="25.20946875" y="8.203615625" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="25.20946875" y="8.203615625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="25.20946875" y="8.203615625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="25.20946875" y="8.203615625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="25.20946875" y="8.203615625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="27.317290625" y="9.174159375" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="25.20946875" y="8.203615625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C87" library="EagleLibrary" package="0402" value="2.2u" x="22.1843375" y="1.520234375" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="22.1843375" y="1.520234375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="22.1843375" y="1.520234375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="22.1843375" y="1.520234375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="22.1843375" y="1.520234375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="22.9383375" y="0.964234375" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="22.1843375" y="1.520234375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C85" library="EagleLibrary" package="0402" value="2.2u" x="26.311828125" y="3.380815625" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="26.311828125" y="3.380815625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.311828125" y="3.380815625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.311828125" y="3.380815625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="26.311828125" y="3.380815625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="26.807384375" y="3.6733" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="26.311828125" y="3.380815625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J6" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="23.400421875" y="21.817140625" smashed="yes" rot="MR270" grouprefs="_VDD_B_1V2_BUCK">
+<attribute name="AS-MOUNT" value="1" x="23.400421875" y="21.817140625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="23.400421875" y="21.817140625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="23.400421875" y="21.817140625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="24.40144375" y="22.018640625" size="0.508" layer="26" font="vector" rot="MR270"/>
 </element>
 <element name="J7" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="25.00919375" y="23.201103125" smashed="yes" grouprefs="_VDD_B_1V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="25.00919375" y="23.201103125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="25.00919375" y="23.201103125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="25.00919375" y="23.201103125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.9900125" y="22.92398125" size="0.508" layer="25" font="vector"/>
 </element>
 <element name="U2" library="EagleLibrary" package="DIODESINC-AP7350" value="DIODESINC-AP7350" x="4.438178125" y="27.78268125" smashed="yes" grouprefs="_VDD_A_3V3_LDO">
+<attribute name="AS-MOUNT" value="1" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Diodes Incorporated" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="4.08905625" y="28.354803125" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="AP7350-33CF4-7" x="4.438178125" y="27.78268125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="EagleLibrary" package="TI-TPS2116DRLR" value="TI-TPS2116" x="34.854940625" y="25.972121875" smashed="yes" rot="MR0" grouprefs="_POWER_MUX">
+<attribute name="AS-MOUNT" value="1" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="33.62999375" y="26.038740625" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="TPS2116DRLR" x="34.854940625" y="25.972121875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U4" library="EagleLibrary" package="MICROCHIP-MIC550X-SOT23-5" value="MICROCHIP-MCP7383X" x="39.61835625" y="18.6461375" smashed="yes" rot="MR270" grouprefs="_BAT_CHARGE">
+<attribute name="AS-MOUNT" value="1" x="39.61835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="39.61835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="39.61835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Microchip" x="39.61835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="37.2199375" y="18.38471875" size="0.762" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="MCP73831T-2ACI/OT" x="39.61835625" y="18.6461375" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R7" library="EagleLibrary" package="0402" value="2.7k" x="39.512534375" y="16.8656" smashed="yes" rot="MR90" grouprefs="_BAT_CHARGE">
+<attribute name="AS-MOUNT" value="1" x="39.512534375" y="16.8656" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="39.512534375" y="16.8656" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="39.512534375" y="16.8656" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Bourns" x="39.512534375" y="16.8656" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="38.43835625" y="15.9944" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="CR0402-JW-272GLF" x="39.512534375" y="16.8656" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="Q3" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.796784375" y="28.354759375" smashed="yes" rot="R180" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<attribute name="AS-MOUNT" value="1" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Nexperia" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="39.179265625" y="27.16478125" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="PMPB10UPX" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PN2" value="PMPB16EP" x="38.796784375" y="28.354759375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="Q2" library="EagleLibrary" package="NEXPERIA-SOT1220" value="PMOS-NEXPERIA-SOT1220" x="38.795884375" y="30.514759375" smashed="yes" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<attribute name="AS-MOUNT" value="1" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Nexperia" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.754984375" y="31.642178125" size="0.635" layer="25" font="vector"/>
 <attribute name="PN" value="PMPB10UPX" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
 <attribute name="PN2" value="PMPB16EP" x="38.795884375" y="30.514759375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R11" library="EagleLibrary" package="0402" value="100k" x="37.134640625" y="27.5419" smashed="yes" rot="R270" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<attribute name="AS-MOUNT" value="1" x="37.134640625" y="27.5419" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="37.134640625" y="27.5419" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="37.134640625" y="27.5419" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Yageo" x="37.134640625" y="27.5419" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="36.851478125" y="26.59288125" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="37.134640625" y="27.5419" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R10" library="EagleLibrary" package="0402" value="100k" x="41.03778125" y="29.9828375" smashed="yes" rot="R270" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<attribute name="AS-MOUNT" value="1" x="41.03778125" y="29.9828375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="41.03778125" y="29.9828375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="41.03778125" y="29.9828375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Yageo" x="41.03778125" y="29.9828375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="40.061803125" y="30.631375" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="41.03778125" y="29.9828375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="EagleLibrary" package="0402" value="300k" x="34.13211875" y="24.40898125" smashed="yes" rot="MR180" grouprefs="_POWER_MUX">
+<attribute name="AS-MOUNT" value="1" x="34.13211875" y="24.40898125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="34.13211875" y="24.40898125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="34.13211875" y="24.40898125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Walsin" x="34.13211875" y="24.40898125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="34.2341" y="23.919021875" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="WR04X3003FTL" x="34.13211875" y="24.40898125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R4" library="EagleLibrary" package="0402" value="100k" x="35.9411375" y="24.500096875" smashed="yes" rot="MR180" grouprefs="_POWER_MUX">
+<attribute name="AS-MOUNT" value="1" x="35.9411375" y="24.500096875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="35.9411375" y="24.500096875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="35.9411375" y="24.500096875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Yageo" x="35.9411375" y="24.500096875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="35.220153125" y="24.002515625" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="35.9411375" y="24.500096875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J1" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="39.4056" y="6.3505625" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="39.4056" y="6.3505625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="39.4056" y="6.3505625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="39.4056" y="6.3505625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="39.615203125" y="7.36060625" size="0.508" layer="26" font="vector" rot="MR180"/>
 </element>
 <element name="J2" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="4.002840625" y="24.99318125" smashed="yes" rot="R180" grouprefs="_VDD_A_3V3_LDO">
+<attribute name="AS-MOUNT" value="1" x="4.002840625" y="24.99318125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="4.002840625" y="24.99318125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="4.002840625" y="24.99318125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="2.948359375" y="25.22204375" size="0.508" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R1" library="EagleLibrary" package="0402" value="100k" x="40.307459375" y="5.456359375" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="40.307459375" y="5.456359375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="40.307459375" y="5.456359375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="40.307459375" y="5.456359375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Yageo" x="40.307459375" y="5.456359375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="40.41865625" y="4.9562375" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="40.307459375" y="5.456359375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J8" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="30.5216625" y="26.051721875" smashed="yes" rot="MR270" grouprefs="_VDD_B_2V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="30.5216625" y="26.051721875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="30.5216625" y="26.051721875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="30.5216625" y="26.051721875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="31.504903125" y="25.952284375" size="0.508" layer="26" font="vector" rot="MR270"/>
 </element>
 <element name="U20" library="EagleLibrary" package="WINBOND-W25Q40EWUXIE" package3d_urn="urn:adsk.eagle:package:36180302/1" value="WINBOND-W25Q40EW" x="22.38118125" y="8.756165625" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="22.38118125" y="8.756165625" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="22.38118125" y="8.756165625" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="22.38118125" y="8.756165625" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Winbond" x="22.38118125" y="8.756165625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.80978125" y="9.89300625" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="W25Q40EWUXIE" x="22.38118125" y="8.756165625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U21" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-OR-INV-INPUT" x="18.60511875" y="8.942903125" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Nexperia" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="19.29599375" y="10.740046875" size="0.635" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="18.60511875" y="8.942903125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R27" library="EagleLibrary" package="0402" value="10k" x="18.6149375" y="7.3813875" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="18.6149375" y="7.3813875" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="18.6149375" y="7.3813875" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="18.6149375" y="7.3813875" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Yageo" x="18.6149375" y="7.3813875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.124075" y="7.01790625" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="18.6149375" y="7.3813875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D1" library="EagleLibrary" package="ROHM-SOD-123FL" value="ROHM-RB168MM-40" x="5.958459375" y="25.8391" smashed="yes" rot="R90" grouprefs="_VDD_A_3V3_LDO">
+<attribute name="AS-MOUNT" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="ROHM" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.185878125" y="24.2292" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="RB168MM-40" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C23" library="EagleLibrary" package="0402" value="100n" x="10.56711875" y="7.7025625" smashed="yes" rot="R90" grouprefs="_LEVEL_SHIFTER">
+<attribute name="AS-MOUNT" value="1" x="10.56711875" y="7.7025625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="10.56711875" y="7.7025625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="10.56711875" y="7.7025625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Murata" x="10.56711875" y="7.7025625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="10.56711875" y="7.7025625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C24" library="EagleLibrary" package="0402" value="100n" x="12.5476" y="7.45998125" smashed="yes" rot="R270" grouprefs="_LEVEL_SHIFTER">
+<attribute name="AS-MOUNT" value="1" x="12.5476" y="7.45998125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="12.5476" y="7.45998125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="12.5476" y="7.45998125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Murata" x="12.5476" y="7.45998125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.58111875" y="7.68058125" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="12.5476" y="7.45998125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C43" library="EagleLibrary" package="0402" value="100n" x="25.192703125" y="9.595084375" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="25.192703125" y="9.595084375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="25.192703125" y="9.595084375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="25.192703125" y="9.595084375" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Murata" x="25.192703125" y="9.595084375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.12780625" y="9.493225" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="25.192703125" y="9.595084375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2" library="EagleLibrary" package="0805" value="10u" x="6.86094375" y="29.957821875" smashed="yes" grouprefs="_VDD_A_3V3_LDO">
+<attribute name="AS-MOUNT" value="1" x="6.86094375" y="29.957821875" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="6.86094375" y="29.957821875" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="6.86094375" y="29.957821875" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Samsung" x="6.86094375" y="29.957821875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="7.42394375" y="30.958521875" size="0.762" layer="25" font="vector"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="6.86094375" y="29.957821875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C5" library="EagleLibrary" package="0402" value="2.2u" x="40.98995625" y="15.552340625" smashed="yes" rot="MR270" grouprefs="_BAT_CHARGE">
+<attribute name="AS-MOUNT" value="1" x="40.98995625" y="15.552340625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="40.98995625" y="15.552340625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="40.98995625" y="15.552340625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="40.98995625" y="15.552340625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="41.9981375" y="14.113478125" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="40.98995625" y="15.552340625" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C1" library="EagleLibrary" package="0402" value="2.2u" x="37.2802375" y="24.9437625" smashed="yes" rot="MR270" grouprefs="_POWER_MUX">
+<attribute name="AS-MOUNT" value="1" x="37.2802375" y="24.9437625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="37.2802375" y="24.9437625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="37.2802375" y="24.9437625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Taiyo Yuden" x="37.2802375" y="24.9437625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="38.276175" y="25.8628625" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="TMK105CBJ225KV-F" x="37.2802375" y="24.9437625" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C3" library="EagleLibrary" package="0402" value="100n" x="6.64918125" y="28.661359375" smashed="yes" grouprefs="_VDD_A_3V3_LDO">
+<attribute name="AS-MOUNT" value="1" x="6.64918125" y="28.661359375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="6.64918125" y="28.661359375" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="6.64918125" y="28.661359375" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Murata" x="6.64918125" y="28.661359375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="7.624921875" y="28.38931875" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="6.64918125" y="28.661359375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="EagleLibrary" package="0402" value="100n" x="3.996678125" y="25.860984375" smashed="yes" rot="R180" grouprefs="_VDD_A_3V3_LDO">
+<attribute name="AS-MOUNT" value="1" x="3.996678125" y="25.860984375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="3.996678125" y="25.860984375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="3.996678125" y="25.860984375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Murata" x="3.996678125" y="25.860984375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="2.393559375" y="25.597084375" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="3.996678125" y="25.860984375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C6" library="EagleLibrary" package="0805" value="10u" x="41.90303125" y="25.939678125" smashed="yes" rot="R270" grouprefs="_BAT_CHARGE">
+<attribute name="AS-MOUNT" value="1" x="41.90303125" y="25.939678125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="41.90303125" y="25.939678125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="41.90303125" y="25.939678125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Samsung" x="41.90303125" y="25.939678125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="42.015415625" y="24.140096875" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="41.90303125" y="25.939678125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U6" library="EagleLibrary" package="EATON-STN101" value="EATON-STN101" x="41.897175" y="30.02850625" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Eaton" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="41.752875" y="29.24850625" size="0.635" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="STN101050B101" x="41.897175" y="30.02850625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R42" library="EagleLibrary" package="0402" value="5.1k" x="37.4142" y="3.9708" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="37.4142" y="3.9708" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="37.4142" y="3.9708" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="37.4142" y="3.9708" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Yageo" x="37.4142" y="3.9708" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="37.08171875" y="3.005215625" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="AC0402FR-075K1L" x="37.4142" y="3.9708" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R43" library="EagleLibrary" package="0402" value="5.1k" x="35.5092" y="7.333559375" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="35.5092" y="7.333559375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="35.5092" y="7.333559375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="35.5092" y="7.333559375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Yageo" x="35.5092" y="7.333559375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="34.563940625" y="6.98531875" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="AC0402FR-075K1L" x="35.5092" y="7.333559375" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J4" library="EagleLibrary" package="JUMPER-SOLDER-CLOSED" value="JUMPER-SOLDER-CLOSED" x="40.493978125" y="27.958671875" smashed="yes" rot="R90" grouprefs="_REVERSE_BATTERY_PROTECTION">
+<attribute name="AS-MOUNT" value="1" x="40.493978125" y="27.958671875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="40.493978125" y="27.958671875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="40.493978125" y="27.958671875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="41.50261875" y="27.9056125" size="0.508" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="R9" library="EagleLibrary" package="0402" value="3k" x="32.550584375" y="8.0432625" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="32.550584375" y="8.0432625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="32.550584375" y="8.0432625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="32.550584375" y="8.0432625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Susumu" x="32.550584375" y="8.0432625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="33.461484375" y="8.269584375" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="RR0510P-302-D" x="32.550584375" y="8.0432625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R8" library="EagleLibrary" package="0402" value="1k" x="32.079978125" y="9.430803125" smashed="yes" rot="MR270">
+<attribute name="AS-MOUNT" value="1" x="32.079978125" y="9.430803125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="32.079978125" y="9.430803125" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="32.079978125" y="9.430803125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Kamaya" x="32.079978125" y="9.430803125" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="33.054559375" y="10.089021875" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="32.079978125" y="9.430803125" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R6" library="EagleLibrary" package="0402" value="365k" x="30.5907375" y="28.25243125" smashed="yes" rot="R270" grouprefs="_VDD_B_CONTROL">
+<attribute name="AS-MOUNT" value="1" x="30.5907375" y="28.25243125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="30.5907375" y="28.25243125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="30.5907375" y="28.25243125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Walsin" x="30.5907375" y="28.25243125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="31.090859375" y="27.61959375" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="WR04X3653FTL" x="30.5907375" y="28.25243125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="EagleLibrary" package="0402" value="100k" x="30.140653125" y="25.041859375" smashed="yes" rot="R180" grouprefs="_VDD_B_CONTROL">
+<attribute name="AS-MOUNT" value="1" x="30.140653125" y="25.041859375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="30.140653125" y="25.041859375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="30.140653125" y="25.041859375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Yageo" x="30.140653125" y="25.041859375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="30.467934375" y="24.569678125" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="30.140653125" y="25.041859375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U9" library="EagleLibrary" package="TI-TPS62A01DRLR" value="TI-TPS62A01" x="28.416" y="30.177740625" smashed="yes" rot="MR90" grouprefs="_VDD_B_2V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="27.52391875" y="28.350384375" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="TPS62A01DRLR" x="28.416" y="30.177740625" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C12" library="EagleLibrary" package="0805" value="10u" x="25.3527625" y="30.406346875" smashed="yes" rot="MR0" grouprefs="_VDD_B_2V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="25.3527625" y="30.406346875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="25.3527625" y="30.406346875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="25.3527625" y="30.406346875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Samsung" x="25.3527625" y="30.406346875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="25.2977625" y="31.407046875" size="0.762" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="25.3527625" y="30.406346875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="L3" library="EagleLibrary" package="0806" value="1u" x="29.480259375" y="27.985721875" smashed="yes" rot="MR180" grouprefs="_VDD_B_2V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="29.480259375" y="27.985721875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.480259375" y="27.985721875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.480259375" y="27.985721875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Samsung" x="29.480259375" y="27.985721875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="31.1141625" y="27.02950625" size="0.635" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="CIGT201610LH1R0MNE" x="29.480259375" y="27.985721875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R16" library="EagleLibrary" package="0402" value="365k" x="29.693621875" y="29.8983375" smashed="yes" rot="MR90" grouprefs="_VDD_B_2V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="29.693621875" y="29.8983375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.693621875" y="29.8983375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.693621875" y="29.8983375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Walsin" x="29.693621875" y="29.8983375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PN" value="WR04X3653FTL" x="29.693621875" y="29.8983375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R17" library="EagleLibrary" package="0402" value="100k" x="29.2516625" y="31.831278125" smashed="yes" rot="MR180" grouprefs="_VDD_B_2V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="29.2516625" y="31.831278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="29.2516625" y="31.831278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="29.2516625" y="31.831278125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Yageo" x="29.2516625" y="31.831278125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="27.052403125" y="32.13125625" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="29.2516625" y="31.831278125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C11" library="EagleLibrary" package="0805" value="22u" x="31.014421875" y="30.6197" smashed="yes" rot="MR90" grouprefs="_VDD_B_2V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="31.014421875" y="30.6197" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="31.014421875" y="30.6197" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="31.014421875" y="30.6197" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Samsung" x="31.014421875" y="30.6197" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="31.9198625" y="30.9771375" size="0.635" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="CL21A226MQQNNNG" x="31.014421875" y="30.6197" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U8" library="EagleLibrary" package="TI-TPS62A01DRLR" value="TI-TPS62A01" x="27.5676375" y="26.850340625" smashed="yes" rot="R90" grouprefs="_VDD_B_1V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="27.5676375" y="26.850340625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="27.5676375" y="26.850340625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="27.5676375" y="26.850340625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="24.0116375" y="23.294340625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.139678125" y="28.78528125" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TPS62A01DRLR" x="24.0116375" y="23.294340625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L2" library="EagleLibrary" package="0806" value="1u" x="25.708359375" y="24.69388125" smashed="yes" rot="R180" grouprefs="_VDD_B_1V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="25.708359375" y="24.69388125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="25.708359375" y="24.69388125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="25.708359375" y="24.69388125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Samsung" x="25.708359375" y="27.74188125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="23.266734375" y="24.758740625" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="CIGT201610LH1R0MNE" x="25.708359375" y="27.74188125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R14" library="EagleLibrary" package="0402" value="200k" x="26.3078" y="26.6166625" smashed="yes" rot="R90" grouprefs="_VDD_B_1V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="26.3078" y="26.6166625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.3078" y="26.6166625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.3078" y="26.6166625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Yageo" x="26.0538" y="26.6166625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN" value="RC0402FR-13200KL" x="26.0538" y="26.6166625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R15" library="EagleLibrary" package="0402" value="100k" x="26.30271875" y="28.39719375" smashed="yes" rot="R90" grouprefs="_VDD_B_1V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="26.30271875" y="28.39719375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.30271875" y="28.39719375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.30271875" y="28.39719375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Yageo" x="28.58871875" y="26.11119375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="26.587459375" y="29.337371875" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="28.58871875" y="26.11119375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C9" library="EagleLibrary" package="0805" value="22u" x="25.0124" y="27.322784375" smashed="yes" rot="R90" grouprefs="_VDD_B_1V8_BUCK">
+<attribute name="AS-MOUNT" value="1" x="25.0124" y="27.322784375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="25.0124" y="27.322784375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="25.0124" y="27.322784375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Samsung" x="33.1404" y="27.322784375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="23.91518125" y="27.50224375" size="0.762" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="CL21A226MQQNNNG" x="33.1404" y="27.322784375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U7" library="EagleLibrary" package="TI-TPS62A01DRLR" value="TI-TPS62A01" x="26.452578125" y="25.460959375" smashed="yes" rot="MR180" grouprefs="_VDD_B_1V2_BUCK">
+<attribute name="AS-MOUNT" value="1" x="26.452578125" y="25.460959375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.452578125" y="25.460959375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.452578125" y="25.460959375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="22.896578125" y="21.904959375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="26.481959375" y="27.73734375" size="0.635" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="TPS62A01DRLR" x="22.896578125" y="21.904959375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="L1" library="EagleLibrary" package="0806" value="1u" x="24.263103125" y="24.30271875" smashed="yes" rot="MR270" grouprefs="_VDD_B_1V2_BUCK">
+<attribute name="AS-MOUNT" value="1" x="24.263103125" y="24.30271875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="24.263103125" y="24.30271875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="24.263103125" y="24.30271875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFG" value="Samsung" x="27.311103125" y="24.30271875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="23.149403125" y="25.80571875" size="0.762" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="CIGT201610LH1R0MNE" x="27.311103125" y="24.30271875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R12" library="EagleLibrary" package="0402" value="100k" x="27.67940625" y="24.208746875" smashed="yes" rot="MR180" grouprefs="_VDD_B_1V2_BUCK">
+<attribute name="AS-MOUNT" value="1" x="27.67940625" y="24.208746875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="27.67940625" y="24.208746875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="27.67940625" y="24.208746875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Yageo" x="27.67940625" y="23.954746875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="29.73210625" y="24.722090625" size="0.508" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="27.67940625" y="23.954746875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R13" library="EagleLibrary" package="0402" value="100k" x="28.136603125" y="25.557484375" smashed="yes" rot="MR90" grouprefs="_VDD_B_1V2_BUCK">
+<attribute name="AS-MOUNT" value="1" x="28.136603125" y="25.557484375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="28.136603125" y="25.557484375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="28.136603125" y="25.557484375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Yageo" x="25.850603125" y="23.271484375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="29.17520625" y="25.20734375" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="RC0402FR-07100KL" x="25.850603125" y="23.271484375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C7" library="EagleLibrary" package="0805" value="22u" x="26.9148625" y="22.882859375" smashed="yes" rot="MR180" grouprefs="_VDD_B_1V2_BUCK">
+<attribute name="AS-MOUNT" value="1" x="26.9148625" y="22.882859375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="26.9148625" y="22.882859375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="26.9148625" y="22.882859375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Samsung" x="26.9148625" y="31.010859375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="25.344265625" y="21.910103125" size="0.762" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="CL21A226MQQNNNG" x="26.9148625" y="31.010859375" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="H1" library="EagleLibrary" package="TAGCONNECT-TC2030-NL-EDGE" value="TAGCONNECT-TC2030-NLEDGE" x="33.401" y="3.95141875" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="33.401" y="3.95141875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.401" y="3.95141875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.401" y="3.95141875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="30.446078125" y="3.99695625" size="0.762" layer="26" font="vector" rot="MR90"/>
 </element>
 <element name="R3" library="EagleLibrary" package="0402" value="10k" x="32.531340625" y="24.690665625" smashed="yes" rot="MR90">
+<attribute name="AS-MOUNT" value="1" x="32.531340625" y="24.690665625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="32.531340625" y="24.690665625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="32.531340625" y="24.690665625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Yageo" x="32.531340625" y="24.690665625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="31.5328625" y="23.8680875" size="0.508" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="32.531340625" y="24.690665625" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="MH1" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="1.94" y="28.4" smashed="yes"/>
-<element name="MH2" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="1.682" y="8.172" smashed="yes"/>
-<element name="MH3" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="39.4" y="23.5" smashed="yes"/>
+<element name="MH1" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="1.94" y="28.4" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="1.94" y="28.4" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="1.94" y="28.4" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="1.94" y="28.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="MH2" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="1.682" y="8.172" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="1.682" y="8.172" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="1.682" y="8.172" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="1.682" y="8.172" size="1.778" layer="27" display="off"/>
+</element>
+<element name="MH3" library="EagleLibrary" package="MDC-MOUNT-HOLE" value="MDC-MOUNT-HOLE" x="39.4" y="23.5" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="39.4" y="23.5" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="39.4" y="23.5" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="39.4" y="23.5" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R31" library="EagleLibrary" package="0402" value="20k" x="7.6568" y="10.4049" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="7.6568" y="10.4049" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="7.6568" y="10.4049" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="7.6568" y="10.4049" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Walsin" x="7.6568" y="10.4049" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.875503125" y="11.858159375" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="WR04X203 JTL" x="7.6568" y="10.4049" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="Q6" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="12.9232" y="11.824040625" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Diodes Incorporated" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.558421875" y="13.7493625" size="0.762" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="DMG2305UX" x="12.9232" y="11.824040625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q5" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="5.751525" y="7.59434375" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Diodes Incorporated" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="4.986984375" y="6.9964625" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="DMG2305UX" x="5.751525" y="7.59434375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U25" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-INVERTER" x="15.573059375" y="12.028434375" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Nexperia" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="14.304234375" y="13.61339375" size="0.635" layer="25" font="vector"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="15.573059375" y="12.028434375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R30" library="EagleLibrary" package="0402" value="10k" x="14.330678125" y="9.705084375" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="14.330678125" y="9.705084375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="14.330678125" y="9.705084375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="14.330678125" y="9.705084375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Yageo" x="14.330678125" y="9.705084375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="15.496159375" y="9.17194375" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="14.330678125" y="9.705084375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C22" library="EagleLibrary" package="0402" value="100n" x="18.824240625" y="3.78713125" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="18.824240625" y="3.78713125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="18.824240625" y="3.78713125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="18.824240625" y="3.78713125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Murata" x="18.824240625" y="3.78713125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="19.84558125" y="3.475090625" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="18.824240625" y="3.78713125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED2" library="EagleLibrary" package="OSRAM-TOPLED-E1608" value="LEDOSRAM-TOPLED-E1608" x="33.1674" y="28.8" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="OSRAM" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN" value="KR DELPS1.22-UHVI-26-H3Q4" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LED1" library="EagleLibrary" package="OSRAM-TOPLED-E1608" value="LEDOSRAM-TOPLED-E1608" x="33.9174" y="28.8" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="33.9174" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.9174" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.9174" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="OSRAM" x="33.9174" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN" value="KT DELQS1.12-TIVH-36-S446-10-S" x="33.9174" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C25" library="EagleLibrary" package="0402" value="100n" x="35.11719375" y="26.17245625" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="35.11719375" y="26.17245625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="35.11719375" y="26.17245625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="35.11719375" y="26.17245625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Murata" x="35.11719375" y="26.17245625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.431671875" y="25.62435625" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="35.11719375" y="26.17245625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R20" library="EagleLibrary" package="0402" value="100" x="33.768115625" y="26.58549375" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="33.768115625" y="26.58549375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.768115625" y="26.58549375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.768115625" y="26.58549375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="Walsin" x="33.768115625" y="26.58549375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.212115625" y="25.83149375" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="WR04X1000FQL" x="33.768115625" y="26.58549375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="Q4" library="EagleLibrary" package="DIODESINC-DMG2305UX" value="DIODESINC-DMG2305UX" x="4.046221875" y="20.43938125" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="Diodes Incorporated" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="3.42138125" y="18.777240625" size="0.762" layer="26" font="vector" rot="MR180"/>
 <attribute name="PN" value="DMG2305UX" x="4.046221875" y="20.43938125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U14" library="EagleLibrary" package="TI-MSP430FR2433IRGE" value="TI-MSP430FR2433IRGE" x="11.654" y="3.792" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="10.296640625" y="0.74908125" size="0.635" layer="25" font="vector"/>
 <attribute name="PN" value="MSP430FR2433IRGE" x="11.654" y="3.792" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R18" library="EagleLibrary" package="0402" value="100" x="34.460459375" y="30.548940625" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="34.460459375" y="30.548940625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="34.460459375" y="30.548940625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="34.460459375" y="30.548940625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Walsin" x="34.460459375" y="30.548940625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.32621875" y="31.42295625" size="0.381" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="WR04X1000FQL" x="34.460459375" y="30.548940625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R19" library="EagleLibrary" package="0402" value="100" x="33.1304" y="30.748940625" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="33.1304" y="30.748940625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.1304" y="30.748940625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.1304" y="30.748940625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Walsin" x="33.1304" y="30.748940625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="32.716115625" y="31.7315375" size="0.381" layer="25" font="vector"/>
 <attribute name="PN" value="WR04X1000FQL" x="33.1304" y="30.748940625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SW1" library="EagleLibrary" package="DEALON-TD-1624UR-180" value="TACTILE-SWITCH" x="33.5424" y="4.75" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG" value="SHOU HAN" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="34.4061" y="7.336759375" size="0.508" layer="25" font="vector" rot="R180"/>
 <attribute name="PN" value="TS2306A 240gf MSM 9" x="33.5424" y="4.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R37" library="EagleLibrary" package="0402" value="10k" x="18.625821875" y="0.990596875" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="18.625821875" y="0.990596875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="18.625821875" y="0.990596875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="18.625821875" y="0.990596875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Yageo" x="18.625821875" y="0.990596875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="17.079821875" y="0.646596875" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="18.625821875" y="0.990596875" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R38" library="EagleLibrary" package="0402" value="10k" x="18.35658125" y="1.846578125" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="18.35658125" y="1.846578125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="18.35658125" y="1.846578125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="18.35658125" y="1.846578125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Yageo" x="18.35658125" y="1.846578125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="17.11058125" y="1.602578125" size="0.508" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="18.35658125" y="1.846578125" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J5" library="EagleLibrary" package="MOLEX-781710002" value="BATTERY-HEADER-MOLEX-781710002" x="38.8134625" y="31.429040625" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="38.8134625" y="31.429040625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="38.8134625" y="31.429040625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="38.8134625" y="31.429040625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Molex" x="38.8134625" y="31.429040625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="42.0294625" y="31.063040625" size="0.6096" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="781710002" x="38.8134625" y="31.429040625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U16" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" x="35.4965" y="28.17368125" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Nexperia" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="36.653375" y="29.8678625" size="0.508" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="35.4965" y="28.17368125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U17" library="EagleLibrary" package="NEXPERIA-SOT363" value="NEXPERIA-74LVC1G98-MUX-INV-OUTPUT" x="33.80231875" y="29.49448125" smashed="yes" rot="MR90">
+<attribute name="AS-MOUNT" value="1" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="Nexperia" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="34.587875" y="27.19911875" size="0.635" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="74LVC1G98GW,125" x="33.80231875" y="29.49448125" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U5" library="EagleLibrary" package="TI-TPS22919DCK" value="TI-TPS22919DCK" x="34.185140625" y="9.42168125" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="Texas Instruments" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="37.4663" y="9.32461875" size="1.016" layer="26" font="vector" rot="MR0"/>
 <attribute name="PN" value="TPS22919DCK" x="34.185140625" y="9.42168125" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U15" library="EagleLibrary" package="NEXPERIA-NXB0102UN" value="NEXPERIA-NXB0102" x="11.624" y="7.838" smashed="yes" rot="R180">
+<attribute name="AS-MOUNT" value="1" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Nexperia" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.753221875" y="6.18975" size="0.508" layer="25" font="vector" rot="SR0"/>
 <attribute name="PN" value="NXB0102UN" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J10" library="EagleLibrary" package="GSWITCH-GT-USB-7030A" value="USB-C-RECEPTACLE-GSWITCH-7030A" x="41.704" y="6.25" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="G-Switch" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.7139" y="3.23" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GT-USB-7030A" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="MH4" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="43.855" y="16.325" smashed="yes" rot="MR0"/>
-<element name="MH5" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes"/>
-<element name="MH6" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes" rot="MR180"/>
+<element name="MH4" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="43.855" y="16.325" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="1" x="43.855" y="16.325" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="43.855" y="16.325" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="43.855" y="16.325" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="MH5" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes">
+<attribute name="AS-MOUNT" value="1" x="0" y="16.325" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="0" y="16.325" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="0" y="16.325" size="1.778" layer="27" display="off"/>
+</element>
+<element name="MH6" library="EagleLibrary" package="MDC-CUTOUT-HALF" value="MDC-CUTOUT-HALF" x="0" y="16.325" smashed="yes" rot="MR180">
+<attribute name="AS-MOUNT" value="1" x="0" y="16.325" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-NEXTPCB" value="1" x="0" y="16.325" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="0" y="16.325" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VDD_B">
