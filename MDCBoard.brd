@@ -1713,7 +1713,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="AS-MOUNT-FAB" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="OSRAM" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="41.64720625" y="24.0181375" size="0.508" layer="26" font="vector" rot="MR270" align="top-right"/>
+<attribute name="NAME" x="43.10816875" y="24.6403375" size="0.508" layer="26" font="vector" rot="MR270" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R26" library="EagleLibrary" package="0402" value="10k" x="24.24785625" y="11.963396875" smashed="yes" rot="R270">
@@ -2363,7 +2363,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="AS-MOUNT-FAB" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFG" value="OSRAM" x="44.398709375" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="42.3695875" y="23.908921875" size="0.508" layer="26" font="vector" rot="MR270" align="top-right"/>
+<attribute name="NAME" x="40.948709375" y="24.6403375" size="0.508" layer="26" font="vector" rot="MR270" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="44.398709375" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R22" library="EagleLibrary" package="0402" value="1k" x="41.791978125" y="22.896396875" smashed="yes" rot="MR270">
@@ -2379,7 +2379,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="AS-MOUNT-FAB" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="OSRAM" x="31.77019375" y="14.45010625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="34.57519375" y="11.60010625" size="0.508" layer="26" font="vector" rot="MR180" align="top-right"/>
+<attribute name="NAME" x="30.47519375" y="11.70010625" size="0.508" layer="26" font="vector" rot="MR180" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="31.77019375" y="14.45010625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R40" library="EagleLibrary" package="0402" value="1k" x="33.790440625" y="11.91010625" smashed="yes" rot="MR180">
@@ -2394,7 +2394,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="AS-MOUNT-FAB" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="AS-OUR-STOCK" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFG" value="OSRAM" x="31.77019375" y="13.57439375" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="34.57519375" y="10.82439375" size="0.508" layer="26" font="vector" rot="MR180" align="top-right"/>
+<attribute name="NAME" x="30.47519375" y="10.82439375" size="0.508" layer="26" font="vector" rot="MR180" align="top-right"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1" x="31.77019375" y="13.57439375" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R39" library="EagleLibrary" package="0402" value="1k" x="33.790440625" y="11.03439375" smashed="yes" rot="MR180">
@@ -2648,7 +2648,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="AS-MOUNT-FAB" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="AS-OUR-STOCK" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="ROHM" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="3.731040625" y="27.449" size="0.762" layer="25" font="vector"/>
+<attribute name="NAME" x="7.131040625" y="27.349" size="0.762" layer="25" font="vector"/>
 <attribute name="PN" value="RB168MM-40" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C23" library="EagleLibrary" package="0402" value="100n" x="10.56711875" y="7.7025625" smashed="yes" rot="R90" grouprefs="_LEVEL_SHIFTER">
