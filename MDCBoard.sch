@@ -343,24 +343,20 @@
 <package name="LED-0603">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<smd name="A" x="-0.641" y="0" dx="0.7" dy="0.5" layer="1"/>
-<smd name="C" x="0.475" y="0" dx="1.05" dy="0.5" layer="1" rot="R180" thermals="no"/>
+<smd name="A" x="0.641" y="0" dx="0.7" dy="0.5" layer="1" rot="R180"/>
+<smd name="C" x="-0.475" y="0" dx="1.05" dy="0.5" layer="1" thermals="no"/>
 <text x="-1.105" y="0.49" size="0.508" layer="25" font="vector" rot="R180" align="top-right">&gt;NAME</text>
-<polygon width="0.05" layer="21">
-<vertex x="-1.075" y="0.33"/>
-<vertex x="-0.775" y="0.33"/>
-<vertex x="-1.075" y="0.03"/>
-</polygon>
-<wire x1="-1.075" y1="0.33" x2="-1.075" y2="-0.33" width="0.05" layer="21"/>
-<wire x1="-1.075" y1="-0.33" x2="1.075" y2="-0.33" width="0.05" layer="21"/>
 <wire x1="1.075" y1="-0.33" x2="1.075" y2="0.33" width="0.05" layer="21"/>
 <wire x1="1.075" y1="0.33" x2="-1.075" y2="0.33" width="0.05" layer="21"/>
+<wire x1="-1.075" y1="0.33" x2="-1.075" y2="-0.33" width="0.05" layer="21"/>
+<wire x1="-1.075" y1="-0.33" x2="1.075" y2="-0.33" width="0.05" layer="21"/>
 <polygon width="0.05" layer="39">
-<vertex x="-1.075" y="0.33"/>
-<vertex x="-1.075" y="-0.33"/>
 <vertex x="1.075" y="-0.33"/>
 <vertex x="1.075" y="0.33"/>
+<vertex x="-1.075" y="0.33"/>
+<vertex x="-1.075" y="-0.33"/>
 </polygon>
+<circle x="-0.889" y="-0.508" radius="0.1016" width="0" layer="21"/>
 </package>
 <package name="ALLIANCE-AS4C8M16MSA-6BIN">
 <description>DRAM Chip Mobile LPSDR SDRAM 512M-Bit 32Mx16 1.8V 54-Pin VFBGA</description>
@@ -1199,25 +1195,20 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <package name="ROHM-SOD-123FL" urn="urn:adsk.eagle:footprint:28823522/1" locally_modified="yes">
 <description>SODFL, 3.50 mm span, 2.60 X 1.60 X 0.90 mm body
 &lt;p&gt;SODFL package with 3.50 mm span with body size 2.60 X 1.60 X 0.90 mm&lt;/p&gt;</description>
-<wire x1="2.3364" y1="0.9699" x2="-2.3364" y2="0.9699" width="0.12" layer="21"/>
-<wire x1="-2.3364" y1="0.9699" x2="-2.3364" y2="-0.9699" width="0.12" layer="21"/>
 <wire x1="-2.3364" y1="-0.9699" x2="2.3364" y2="-0.9699" width="0.12" layer="21"/>
-<smd name="1" x="-1.525" y="0" dx="1.1948" dy="1.3118" layer="1"/>
-<smd name="2" x="1.525" y="0" dx="1.1948" dy="1.3118" layer="1"/>
+<wire x1="2.3364" y1="-0.9699" x2="2.3364" y2="0.9699" width="0.12" layer="21"/>
+<wire x1="2.3364" y1="0.9699" x2="-2.3364" y2="0.9699" width="0.12" layer="21"/>
+<smd name="A" x="1.525" y="0" dx="1.1948" dy="1.3118" layer="1" rot="R180"/>
+<smd name="C" x="-1.525" y="0" dx="1.1948" dy="1.3118" layer="1" rot="R180"/>
 <text x="-2.41" y="1.2219" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<wire x1="2.3364" y1="0.9699" x2="2.3364" y2="-0.9699" width="0.12" layer="21"/>
+<wire x1="-2.3364" y1="-0.9699" x2="-2.3364" y2="0.9699" width="0.12" layer="21"/>
 <polygon width="0.12" layer="39">
-<vertex x="2.3364" y="-0.9699"/>
-<vertex x="-2.3364" y="-0.9699"/>
 <vertex x="-2.3364" y="0.9699"/>
 <vertex x="2.3364" y="0.9699"/>
+<vertex x="2.3364" y="-0.9699"/>
+<vertex x="-2.3364" y="-0.9699"/>
 </polygon>
-<polygon width="0.127" layer="21">
-<vertex x="2.24" y="0.9"/>
-<vertex x="2.24" y="-0.9"/>
-<vertex x="0.24" y="-0.9"/>
-<vertex x="0.24" y="0.9"/>
-</polygon>
+<circle x="-1.651" y="-1.397" radius="0.254" width="0" layer="21"/>
 </package>
 <package name="EATON-STN101">
 <description>SODFL, 3.50 mm span, 2.60 X 1.60 X 0.90 mm body
@@ -1518,20 +1509,20 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <package name="OSRAM-TOPLED-E1608">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<smd name="A" x="-0.325" y="0" dx="1.05" dy="0.5" layer="1"/>
-<smd name="C" x="0.79" y="0" dx="0.7" dy="0.5" layer="1" rot="R180" thermals="no"/>
-<text x="-1.02" y="0.413" size="0.508" layer="25" font="vector" rot="R180" align="top-right">&gt;NAME</text>
-<wire x1="-0.975" y1="0.33" x2="-0.975" y2="-0.33" width="0.05" layer="21"/>
-<wire x1="-0.975" y1="-0.33" x2="1.275" y2="-0.33" width="0.05" layer="21"/>
-<wire x1="1.275" y1="-0.33" x2="1.275" y2="0.33" width="0.05" layer="21"/>
-<wire x1="1.275" y1="0.33" x2="-0.975" y2="0.33" width="0.05" layer="21"/>
+<smd name="A" x="0.325" y="0" dx="1.05" dy="0.5" layer="1" rot="R180"/>
+<smd name="C" x="-0.79" y="0" dx="0.7" dy="0.5" layer="1" thermals="no"/>
+<text x="-1.274" y="0.413" size="0.508" layer="25" font="vector" rot="R180" align="top-right">&gt;NAME</text>
+<wire x1="0.975" y1="-0.33" x2="0.975" y2="0.33" width="0.05" layer="21"/>
+<wire x1="0.975" y1="0.33" x2="-1.275" y2="0.33" width="0.05" layer="21"/>
+<wire x1="-1.275" y1="0.33" x2="-1.275" y2="-0.33" width="0.05" layer="21"/>
+<wire x1="-1.275" y1="-0.33" x2="0.975" y2="-0.33" width="0.05" layer="21"/>
 <polygon width="0.05" layer="39">
-<vertex x="-0.975" y="0.33"/>
-<vertex x="-0.975" y="-0.33"/>
-<vertex x="1.275" y="-0.33"/>
-<vertex x="1.275" y="0.33"/>
+<vertex x="0.975" y="-0.33"/>
+<vertex x="0.975" y="0.33"/>
+<vertex x="-1.275" y="0.33"/>
+<vertex x="-1.275" y="-0.33"/>
 </polygon>
-<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
+<circle x="-1.016" y="-0.508" radius="0.1016" width="0" layer="21"/>
 </package>
 <package name="DEALON-TD-1624UR-180">
 <description>Chip, 1.60 X 0.80 X 0.70 mm body
@@ -3981,8 +3972,8 @@ Header</text>
 <devices>
 <device name="" package="ROHM-SOD-123FL">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">

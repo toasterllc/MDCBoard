@@ -347,42 +347,38 @@
 <package name="OSRAM-TOPLED-E1608">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<smd name="A" x="-0.325" y="0" dx="1.05" dy="0.5" layer="1"/>
-<smd name="C" x="0.79" y="0" dx="0.7" dy="0.5" layer="1" rot="R180" thermals="no"/>
-<text x="-1.02" y="0.413" size="0.508" layer="25" font="vector" rot="R180" align="top-right">&gt;NAME</text>
-<wire x1="-0.975" y1="0.33" x2="-0.975" y2="-0.33" width="0.05" layer="21"/>
-<wire x1="-0.975" y1="-0.33" x2="1.275" y2="-0.33" width="0.05" layer="21"/>
-<wire x1="1.275" y1="-0.33" x2="1.275" y2="0.33" width="0.05" layer="21"/>
-<wire x1="1.275" y1="0.33" x2="-0.975" y2="0.33" width="0.05" layer="21"/>
+<smd name="A" x="0.325" y="0" dx="1.05" dy="0.5" layer="1" rot="R180"/>
+<smd name="C" x="-0.79" y="0" dx="0.7" dy="0.5" layer="1" thermals="no"/>
+<text x="-1.274" y="0.413" size="0.508" layer="25" font="vector" rot="R180" align="top-right">&gt;NAME</text>
+<wire x1="0.975" y1="-0.33" x2="0.975" y2="0.33" width="0.05" layer="21"/>
+<wire x1="0.975" y1="0.33" x2="-1.275" y2="0.33" width="0.05" layer="21"/>
+<wire x1="-1.275" y1="0.33" x2="-1.275" y2="-0.33" width="0.05" layer="21"/>
+<wire x1="-1.275" y1="-0.33" x2="0.975" y2="-0.33" width="0.05" layer="21"/>
 <polygon width="0.05" layer="39">
-<vertex x="-0.975" y="0.33"/>
-<vertex x="-0.975" y="-0.33"/>
-<vertex x="1.275" y="-0.33"/>
-<vertex x="1.275" y="0.33"/>
+<vertex x="0.975" y="-0.33"/>
+<vertex x="0.975" y="0.33"/>
+<vertex x="-1.275" y="0.33"/>
+<vertex x="-1.275" y="-0.33"/>
 </polygon>
-<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
+<circle x="-1.016" y="-0.508" radius="0.1016" width="0" layer="21"/>
 </package>
 <package name="LED-0603">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<smd name="A" x="-0.641" y="0" dx="0.7" dy="0.5" layer="1"/>
-<smd name="C" x="0.475" y="0" dx="1.05" dy="0.5" layer="1" rot="R180" thermals="no"/>
+<smd name="A" x="0.641" y="0" dx="0.7" dy="0.5" layer="1" rot="R180"/>
+<smd name="C" x="-0.475" y="0" dx="1.05" dy="0.5" layer="1" thermals="no"/>
 <text x="-1.105" y="0.49" size="0.508" layer="25" font="vector" rot="R180" align="top-right">&gt;NAME</text>
-<polygon width="0.05" layer="21">
-<vertex x="-1.075" y="0.33"/>
-<vertex x="-0.775" y="0.33"/>
-<vertex x="-1.075" y="0.03"/>
-</polygon>
-<wire x1="-1.075" y1="0.33" x2="-1.075" y2="-0.33" width="0.05" layer="21"/>
-<wire x1="-1.075" y1="-0.33" x2="1.075" y2="-0.33" width="0.05" layer="21"/>
 <wire x1="1.075" y1="-0.33" x2="1.075" y2="0.33" width="0.05" layer="21"/>
 <wire x1="1.075" y1="0.33" x2="-1.075" y2="0.33" width="0.05" layer="21"/>
+<wire x1="-1.075" y1="0.33" x2="-1.075" y2="-0.33" width="0.05" layer="21"/>
+<wire x1="-1.075" y1="-0.33" x2="1.075" y2="-0.33" width="0.05" layer="21"/>
 <polygon width="0.05" layer="39">
-<vertex x="-1.075" y="0.33"/>
-<vertex x="-1.075" y="-0.33"/>
 <vertex x="1.075" y="-0.33"/>
 <vertex x="1.075" y="0.33"/>
+<vertex x="-1.075" y="0.33"/>
+<vertex x="-1.075" y="-0.33"/>
 </polygon>
+<circle x="-0.889" y="-0.508" radius="0.1016" width="0" layer="21"/>
 </package>
 <package name="ALLIANCE-AS4C8M16MSA-6BIN">
 <description>DRAM Chip Mobile LPSDR SDRAM 512M-Bit 32Mx16 1.8V 54-Pin VFBGA</description>
@@ -1134,25 +1130,20 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <package name="ROHM-SOD-123FL" urn="urn:adsk.eagle:footprint:28823522/1" locally_modified="yes">
 <description>SODFL, 3.50 mm span, 2.60 X 1.60 X 0.90 mm body
 &lt;p&gt;SODFL package with 3.50 mm span with body size 2.60 X 1.60 X 0.90 mm&lt;/p&gt;</description>
-<wire x1="2.3364" y1="0.9699" x2="-2.3364" y2="0.9699" width="0.12" layer="21"/>
-<wire x1="-2.3364" y1="0.9699" x2="-2.3364" y2="-0.9699" width="0.12" layer="21"/>
 <wire x1="-2.3364" y1="-0.9699" x2="2.3364" y2="-0.9699" width="0.12" layer="21"/>
-<smd name="1" x="-1.525" y="0" dx="1.1948" dy="1.3118" layer="1"/>
-<smd name="2" x="1.525" y="0" dx="1.1948" dy="1.3118" layer="1"/>
+<wire x1="2.3364" y1="-0.9699" x2="2.3364" y2="0.9699" width="0.12" layer="21"/>
+<wire x1="2.3364" y1="0.9699" x2="-2.3364" y2="0.9699" width="0.12" layer="21"/>
+<smd name="A" x="1.525" y="0" dx="1.1948" dy="1.3118" layer="1" rot="R180"/>
+<smd name="C" x="-1.525" y="0" dx="1.1948" dy="1.3118" layer="1" rot="R180"/>
 <text x="-2.41" y="1.2219" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<wire x1="2.3364" y1="0.9699" x2="2.3364" y2="-0.9699" width="0.12" layer="21"/>
+<wire x1="-2.3364" y1="-0.9699" x2="-2.3364" y2="0.9699" width="0.12" layer="21"/>
 <polygon width="0.12" layer="39">
-<vertex x="2.3364" y="-0.9699"/>
-<vertex x="-2.3364" y="-0.9699"/>
 <vertex x="-2.3364" y="0.9699"/>
 <vertex x="2.3364" y="0.9699"/>
+<vertex x="2.3364" y="-0.9699"/>
+<vertex x="-2.3364" y="-0.9699"/>
 </polygon>
-<polygon width="0.127" layer="21">
-<vertex x="2.24" y="0.9"/>
-<vertex x="2.24" y="-0.9"/>
-<vertex x="0.24" y="-0.9"/>
-<vertex x="0.24" y="0.9"/>
-</polygon>
+<circle x="-1.651" y="-1.397" radius="0.254" width="0" layer="21"/>
 </package>
 <package name="EATON-STN101">
 <description>SODFL, 3.50 mm span, 2.60 X 1.60 X 0.90 mm body
@@ -1717,13 +1708,13 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="27.5362" y="29.2113375" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="CL21A106KOQNNNE" x="29.2735" y="27.3783375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LED3" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="42.61816875" y="24.9453375" smashed="yes" rot="MR270">
-<attribute name="AS-MOUNT" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MFG" value="OSRAM" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="43.58913125" y="25.8725375" size="0.508" layer="26" font="vector" rot="MR90" align="top-right"/>
-<attribute name="PN" value="KS DELLS1.22-JHKI-1" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="LED3" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="42.61816875" y="24.9453375" smashed="yes" rot="MR90">
+<attribute name="AS-MOUNT" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFG" value="OSRAM" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="41.64720625" y="24.0181375" size="0.508" layer="26" font="vector" rot="MR270" align="top-right"/>
+<attribute name="PN" value="KS DELLS1.22-JHKI-1" x="42.61816875" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R26" library="EagleLibrary" package="0402" value="10k" x="24.24785625" y="11.963396875" smashed="yes" rot="R270">
 <attribute name="AS-MOUNT" value="1" x="24.24785625" y="11.963396875" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2367,13 +2358,13 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="35.95408125" y="21.7603625" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="36.195" y="21.308503125" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED4" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="41.858709375" y="24.9453375" smashed="yes" rot="MR270">
-<attribute name="AS-MOUNT" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MFG" value="OSRAM" x="39.318709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="41.34783125" y="25.981753125" size="0.508" layer="26" font="vector" rot="MR90" align="top-right"/>
-<attribute name="PN" value="KS DELLS1.22-JHKI-1" x="39.318709375" y="24.9453375" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="LED4" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="41.858709375" y="24.9453375" smashed="yes" rot="MR90">
+<attribute name="AS-MOUNT" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="41.858709375" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFG" value="OSRAM" x="44.398709375" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="42.3695875" y="23.908921875" size="0.508" layer="26" font="vector" rot="MR270" align="top-right"/>
+<attribute name="PN" value="KS DELLS1.22-JHKI-1" x="44.398709375" y="24.9453375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R22" library="EagleLibrary" package="0402" value="1k" x="41.791978125" y="22.896396875" smashed="yes" rot="MR270">
 <attribute name="AS-MOUNT" value="1" x="41.791978125" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2383,13 +2374,13 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="42.163078125" y="21.88255625" size="0.508" layer="26" font="vector" rot="MR270"/>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="44.077978125" y="22.896396875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="LED6" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.91010625" smashed="yes" rot="MR180">
-<attribute name="AS-MOUNT" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MFG" value="OSRAM" x="31.77019375" y="9.37010625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="28.96519375" y="12.22010625" size="0.508" layer="26" font="vector" rot="MR0" align="top-right"/>
-<attribute name="PN" value="KS DELLS1.22-JHKI-1" x="31.77019375" y="9.37010625" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="LED6" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.91010625" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="31.77019375" y="11.91010625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG" value="OSRAM" x="31.77019375" y="14.45010625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="34.57519375" y="11.60010625" size="0.508" layer="26" font="vector" rot="MR180" align="top-right"/>
+<attribute name="PN" value="KS DELLS1.22-JHKI-1" x="31.77019375" y="14.45010625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R40" library="EagleLibrary" package="0402" value="1k" x="33.790440625" y="11.91010625" smashed="yes" rot="MR180">
 <attribute name="AS-MOUNT" value="1" x="33.790440625" y="11.91010625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2398,13 +2389,13 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="MFG" value="Kamaya" x="33.790440625" y="14.19610625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PN" value="RGC1/16SC1001DTH" x="33.790440625" y="14.19610625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="LED5" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.03439375" smashed="yes" rot="MR180">
-<attribute name="AS-MOUNT" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MFG" value="OSRAM" x="31.77019375" y="8.49439375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="28.96519375" y="11.24439375" size="0.508" layer="26" font="vector" rot="MR0" align="top-right"/>
-<attribute name="PN" value="KS DELLS1.22-JHKI-1" x="31.77019375" y="8.49439375" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="LED5" library="EagleLibrary" package="LED-0603" value="LEDLED-0603" x="31.77019375" y="11.03439375" smashed="yes" rot="MR0">
+<attribute name="AS-MOUNT" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="31.77019375" y="11.03439375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFG" value="OSRAM" x="31.77019375" y="13.57439375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="34.57519375" y="10.82439375" size="0.508" layer="26" font="vector" rot="MR180" align="top-right"/>
+<attribute name="PN" value="KS DELLS1.22-JHKI-1" x="31.77019375" y="13.57439375" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R39" library="EagleLibrary" package="0402" value="1k" x="33.790440625" y="11.03439375" smashed="yes" rot="MR180">
 <attribute name="AS-MOUNT" value="1" x="33.790440625" y="11.03439375" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2652,13 +2643,13 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="20.124075" y="7.01790625" size="0.508" layer="25" font="vector"/>
 <attribute name="PN" value="RC0402JR-0710KL" x="18.6149375" y="7.3813875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D1" library="EagleLibrary" package="ROHM-SOD-123FL" value="ROHM-RB168MM-40" x="5.958459375" y="25.8391" smashed="yes" rot="R90" grouprefs="_VDD_A_3V3_LDO">
-<attribute name="AS-MOUNT" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-OUR-STOCK" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFG" value="ROHM" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="8.185878125" y="24.2292" size="0.762" layer="25" font="vector" rot="R180"/>
-<attribute name="PN" value="RB168MM-40" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="D1" library="EagleLibrary" package="ROHM-SOD-123FL" value="ROHM-RB168MM-40" x="5.958459375" y="25.8391" smashed="yes" rot="R270" grouprefs="_VDD_A_3V3_LDO">
+<attribute name="AS-MOUNT" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="1" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG" value="ROHM" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="3.731040625" y="27.449" size="0.762" layer="25" font="vector"/>
+<attribute name="PN" value="RB168MM-40" x="5.958459375" y="25.8391" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C23" library="EagleLibrary" package="0402" value="100n" x="10.56711875" y="7.7025625" smashed="yes" rot="R90" grouprefs="_LEVEL_SHIFTER">
 <attribute name="AS-MOUNT" value="1" x="10.56711875" y="7.7025625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2996,19 +2987,19 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="NAME" x="19.84558125" y="3.475090625" size="0.508" layer="25" font="vector" rot="R90"/>
 <attribute name="PN" value="GRM155R61H104KE19D" x="18.824240625" y="3.78713125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LED2" library="EagleLibrary" package="OSRAM-TOPLED-E1608" value="LEDOSRAM-TOPLED-E1608" x="33.1674" y="28.8" smashed="yes" rot="R270">
-<attribute name="AS-MOUNT" value="1" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="1" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFG" value="OSRAM" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PN" value="KR DELPS1.22-UHVI-26-H3Q4" x="33.1674" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED2" library="EagleLibrary" package="OSRAM-TOPLED-E1608" value="LEDOSRAM-TOPLED-E1608" x="33.1674" y="28.8" smashed="yes" rot="R90">
+<attribute name="AS-MOUNT" value="1" x="33.1674" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="1" x="33.1674" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.1674" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG" value="OSRAM" x="33.1674" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PN" value="KR DELPS1.22-UHVI-26-H3Q4" x="33.1674" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LED1" library="EagleLibrary" package="OSRAM-TOPLED-E1608" value="LEDOSRAM-TOPLED-E1608" x="33.9174" y="28.8" smashed="yes" rot="R90">
-<attribute name="AS-MOUNT" value="1" x="33.9174" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="1" x="33.9174" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AS-OUR-STOCK" value="0" x="33.9174" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFG" value="OSRAM" x="33.9174" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PN" value="KT DELQS1.12-TIVH-36-S446-10-S" x="33.9174" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="LED1" library="EagleLibrary" package="OSRAM-TOPLED-E1608" value="LEDOSRAM-TOPLED-E1608" x="33.9174" y="28.8" smashed="yes" rot="R270">
+<attribute name="AS-MOUNT" value="1" x="33.9174" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="1" x="33.9174" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="33.9174" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG" value="OSRAM" x="33.9174" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN" value="KT DELQS1.12-TIVH-36-S446-10-S" x="33.9174" y="28.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C25" library="EagleLibrary" package="0402" value="100n" x="35.11719375" y="26.17245625" smashed="yes" rot="R180">
 <attribute name="AS-MOUNT" value="1" x="35.11719375" y="26.17245625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7356,7 +7347,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <contactref element="U1" pad="7"/>
 <contactref element="Q1" pad="4"/>
 <contactref element="Q1" pad="8"/>
-<contactref element="D1" pad="2"/>
+<contactref element="D1" pad="C"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C3" pad="1"/>
 <polygon width="0.127" layer="1" thermals="no" rank="2" grouprefs="_VDD_A_3V3_LDO">
@@ -7480,7 +7471,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <signal name="N$3">
 <contactref element="J2" pad="1"/>
 <contactref element="U2" pad="3"/>
-<contactref element="D1" pad="1"/>
+<contactref element="D1" pad="A"/>
 <contactref element="C4" pad="1"/>
 <polygon width="0.127" layer="1" thermals="no" rank="2" grouprefs="_VDD_A_3V3_LDO">
 <vertex x="4.083115625" y="24.6706"/>
