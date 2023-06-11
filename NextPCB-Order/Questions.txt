@@ -2,4 +2,10 @@
 
 - Need solderpaste everywhere specified by MDCBoard.toppaste.ger and MDCBoard.bottompaste.ger, not just for placed parts
 
-- Do you accept cut-tape parts that aren't on a reel?
+- For parts that I'm supplying, do you accept cut-tape parts that aren't on a reel?
+
+- How do we make sure parts are oriented properly when dispensed by the P&P machine and placed on the board?
+    - The rotation in the MDCBoard.mnt / MDCBoard.mnb files is relative to how the parts are drawn in the library
+    https://www.eevblog.com/forum/eda/pcb-layout-guidelines/
+    
+    "How does the PCB program know how the parts are oriented on the reels?"
