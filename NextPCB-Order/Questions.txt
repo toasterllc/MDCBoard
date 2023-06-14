@@ -1,4 +1,26 @@
+Thank you Corrine! Could I please ask a few questions?
+
+1. We need solder paste to be applied exactly where these files specify:
+
+    - Top: MDCBoard.toppaste.ger
+    - Bottom: MDCBoard.bottompaste.ger
+
+    Some of the pads specified by those files won't have chips placed on them, but the pads still need solder. Can NextPCB handle that?
+
+2. For parts that I'm supplying, do you accept cut-tape parts that aren't on a reel?
+
+3. How do we make sure parts are oriented properly when placed on the board, especially diodes and LEDs?
+    - Our board follows IPC-7351, is that enough?
+
+
+
+
+
+
+
+
 - Are there any issues placing BGA parts?
+
 
 - Need solderpaste everywhere specified by MDCBoard.toppaste.ger and MDCBoard.bottompaste.ger, not just for placed parts
 
