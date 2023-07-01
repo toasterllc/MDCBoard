@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
@@ -148,10 +148,10 @@
 <wire x1="41.51935625" y1="29.69711875" x2="39.39601875" y2="30.7573375" width="0.0762" layer="26"/>
 <wire x1="38.177925" y1="30.813640625" x2="36.1857" y2="29.60394375" width="0.0762" layer="26"/>
 <wire x1="17.189659375" y1="6.70915625" x2="17.443659375" y2="6.173221875" width="0.0762" layer="26"/>
-<wire x1="42.255" y1="16.325" x2="42.255" y2="11.35" width="0" layer="20"/>
-<wire x1="41.604" y1="11.35" x2="42.255" y2="11.35" width="0" layer="20"/>
+<wire x1="42.255" y1="16.325" x2="42.255" y2="11.6" width="0" layer="20"/>
+<wire x1="41.604" y1="11.6" x2="42.255" y2="11.6" width="0" layer="20"/>
 <wire x1="39.105" y1="0" x2="41.604" y2="0.710065625" width="0" layer="20" curve="31.732565"/>
-<wire x1="41.604" y1="1.15" x2="41.604" y2="0.710065625" width="0" layer="20"/>
+<wire x1="41.604" y1="0.9" x2="41.604" y2="0.710065625" width="0" layer="20"/>
 <wire x1="26.27908125" y1="7.6400625" x2="26.10854375" y2="7.42738125" width="0.0762" layer="25"/>
 </plain>
 <libraries>
@@ -1377,7 +1377,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <vertex x="4.9" y="-3.8"/>
 <vertex x="4.9" y="3.35"/>
 </polygon>
-<wire x1="-5.1" y1="-0.1" x2="5.1" y2="-0.1" width="0" layer="20"/>
+<wire x1="-5.35" y1="-0.1" x2="5.35" y2="-0.1" width="0" layer="20"/>
 <text x="-0.778759375" y="-0.5138" size="0.254" layer="27" font="vector">PCB edge</text>
 <wire x1="-2" y1="0" x2="2" y2="0" width="0" layer="27"/>
 <text x="-0.778759375" y="0.1862" size="0.254" layer="27" font="vector">Overhang</text>
