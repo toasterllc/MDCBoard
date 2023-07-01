@@ -5528,7 +5528,7 @@ Header</text>
 <attribute name="MFG" value="Samsung"/>
 <attribute name="PN" value="CL21A226MQQNNNG"/>
 </part>
-<part name="H1" library="EagleLibrary" deviceset="TAGCONNECT-TC2030-NL" device="EDGE" value="TAGCONNECT-TC2030-NLEDGE">
+<part name="H1" library="EagleLibrary" deviceset="TAGCONNECT-TC2030-NL" device="" value="TAGCONNECT-TC2030-NL">
 <attribute name="AS-MOUNT" value="0"/>
 <attribute name="AS-MOUNT-FAB" value="0"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
