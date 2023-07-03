@@ -1,4 +1,23 @@
+- Can NextPCB mount parts from a tray, instead of reel?
+
+- Return unused parts of reels?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Thank you Corrine! Could I please ask a few questions?
+
 
 1. We need solder paste to be applied exactly where these files specify:
 

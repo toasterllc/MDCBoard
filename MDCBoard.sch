@@ -5691,6 +5691,7 @@ Header</text>
 <attribute name="AS-MOUNT" value="1"/>
 <attribute name="AS-MOUNT-FAB" value="1"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="PN" value="NXB0102UNZ"/>
 </part>
 <part name="J10" library="EagleLibrary" deviceset="USB-C-RECEPTACLE" device="-GSWITCH-7030A">
 <attribute name="AS-MOUNT" value="1"/>

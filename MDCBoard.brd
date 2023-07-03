@@ -3112,7 +3112,7 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <attribute name="AS-OUR-STOCK" value="0" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG" value="Nexperia" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.753221875" y="6.18975" size="0.508" layer="25" font="vector" rot="SR0"/>
-<attribute name="PN" value="NXB0102UN" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PN" value="NXB0102UNZ" x="11.624" y="7.838" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J10" library="EagleLibrary" package="GSWITCH-GT-USB-7030A" value="USB-C-RECEPTACLE-GSWITCH-7030A" x="41.704" y="6.25" smashed="yes" rot="R270">
 <attribute name="AS-MOUNT" value="1" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
