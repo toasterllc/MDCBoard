@@ -13,6 +13,9 @@ Thank you Corrine! Could I please ask a few questions?
     - Our board follows IPC-7351, is that enough?
 
 
+- Tactile switch needs to be soldered as flat as possible
+
+
 
 
 
@@ -20,7 +23,6 @@ Thank you Corrine! Could I please ask a few questions?
 
 
 - Are there any issues placing BGA parts?
-
 
 - Need solderpaste everywhere specified by MDCBoard.toppaste.ger and MDCBoard.bottompaste.ger, not just for placed parts
 
