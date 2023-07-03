@@ -4357,8 +4357,8 @@ Header</text>
 <attribute name="PN" value="CL05B103KB5NNNC"/>
 </part>
 <part name="LED3" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="AS-MOUNT" value="0"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
@@ -5065,8 +5065,8 @@ Header</text>
 <attribute name="PN" value="GRM155R61H104KE19D"/>
 </part>
 <part name="LED4" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="AS-MOUNT" value="0"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
@@ -5079,8 +5079,8 @@ Header</text>
 <attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED6" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="AS-MOUNT" value="0"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
@@ -5093,8 +5093,8 @@ Header</text>
 <attribute name="PN" value="RGC1/16SC1001DTH"/>
 </part>
 <part name="LED5" library="EagleLibrary" deviceset="LED" device="LED-0603">
-<attribute name="AS-MOUNT" value="0"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
+<attribute name="AS-MOUNT" value="1"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
 <attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="MFG" value="OSRAM"/>
 <attribute name="PN" value="KS DELLS1.22-JHKI-1"/>
