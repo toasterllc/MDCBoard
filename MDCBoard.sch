@@ -4391,8 +4391,8 @@ Header</text>
 </part>
 <part name="U24" library="EagleLibrary" deviceset="ALLIANCE-AS4C8M16MSA-6BIN" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="C61" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
 <spice>
@@ -4527,8 +4527,8 @@ Header</text>
 </part>
 <part name="U19" library="EagleLibrary" deviceset="LATTICE-ICE40HX4K-BG121" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="C36" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
 <attribute name="AS-MOUNT" value="1"/>
@@ -4706,8 +4706,8 @@ Header</text>
 </part>
 <part name="X2" library="EagleLibrary" deviceset="SITIME-SIT8021" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="SIT8021AI-J4-18S-16.000000E"/>
 </part>
 <part name="J9" library="EagleLibrary" deviceset="MICROSD-SOCKET" device="">
@@ -4771,8 +4771,8 @@ Header</text>
 </part>
 <part name="U26" library="EagleLibrary" deviceset="STM-STM32F730" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="STM32F730I8K6"/>
 </part>
 <part name="C67" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
@@ -4931,8 +4931,8 @@ Header</text>
 </part>
 <part name="X3" library="EagleLibrary" deviceset="SITIME-SIT8021" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="SIT8021AI-J4-18S-16.000000E"/>
 </part>
 <part name="R25" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="10k">
@@ -5158,8 +5158,8 @@ Header</text>
 </part>
 <part name="X1" library="EagleLibrary" deviceset="EPSON-FC-135" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="Q13FC13500005"/>
 </part>
 <part name="C86" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="2.2u">
@@ -5201,14 +5201,14 @@ Header</text>
 </part>
 <part name="U1" library="EagleLibrary" deviceset="TI-TPS2116" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="TPS2116DRLR"/>
 </part>
 <part name="U4" library="EagleLibrary" deviceset="MICROCHIP-MCP7383X" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="MCP73831T-2ACI/OT"/>
 </part>
 <part name="R7" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="2.7k">
@@ -5284,8 +5284,8 @@ Header</text>
 </part>
 <part name="U20" library="EagleLibrary" deviceset="WINBOND-W25Q40EW" device="" package3d_urn="urn:adsk.eagle:package:36180302/1">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 <attribute name="PN" value="W25Q40EWUXIE"/>
 </part>
 <part name="U21" library="EagleLibrary" deviceset="NEXPERIA-74LVC1G98-OR-INV-INPUT" device="">
@@ -5627,8 +5627,8 @@ Header</text>
 </part>
 <part name="U14" library="EagleLibrary" deviceset="TI-MSP430FR2433IRGE" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="R18" library="EagleLibrary" deviceset="RESISTOR" device="0402" value="100">
 <attribute name="AS-MOUNT" value="1"/>
@@ -5694,8 +5694,8 @@ Header</text>
 </part>
 <part name="J10" library="EagleLibrary" deviceset="USB-C-RECEPTACLE" device="-GSWITCH-7030A">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="0"/>
-<attribute name="AS-OUR-STOCK" value="0"/>
+<attribute name="AS-MOUNT-FAB" value="1"/>
+<attribute name="AS-OUR-STOCK" value="1"/>
 </part>
 <part name="MH4" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF">
 <attribute name="AS-MOUNT" value="0"/>
