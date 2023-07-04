@@ -14,7 +14,7 @@
         - From MDCBoard.brd, execute `run toaster-centroid`
             - Save MDCBoard-Centroid.csv
 
-    - Zip the centroid file if required for uploading
+    - Zip the centroid file (required for uploading)
 
 
 # BOM.xlsx
