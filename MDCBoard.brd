@@ -1735,16 +1735,16 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U24" library="EagleLibrary" package="ALLIANCE-AS4C8M16MSA-6BIN" value="ALLIANCE-AS4C8M16MSA-6BIN" x="12.87855625" y="25.953009375" smashed="yes" rot="R45">
 <attribute name="AS-MOUNT" value="1" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="1" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="AS-OUR-STOCK" value="1" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="0" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MFG" value="Alliance Memory" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="NAME" x="11.8931125" y="32.603353125" size="1.27" layer="25" font="vector" rot="R225"/>
 <attribute name="PN" value="AS4C8M16MSA-6BIN" x="12.87855625" y="25.953009375" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
 <element name="U19" library="EagleLibrary" package="LATTICE-ICE40HX4K-BG121" value="LATTICE-ICE40HX4K-BG121" x="21.1794" y="17.563" smashed="yes">
 <attribute name="AS-MOUNT" value="1" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="1" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
-<attribute name="AS-OUR-STOCK" value="1" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="0" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
 <attribute name="MFG" value="Lattice" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="16.7444" y="22.258" size="1.016" layer="25" font="vector"/>
 <attribute name="PN" value="ICE40HX4K-BG121" x="21.1794" y="17.563" size="1.778" layer="27" display="off"/>
@@ -2028,8 +2028,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="U26" library="EagleLibrary" package="STM-STM32F730I8" value="STM-STM32F730" x="24.930403125" y="5.336640625" smashed="yes" rot="MR180">
 <attribute name="AS-MOUNT" value="1" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="1" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="AS-OUR-STOCK" value="1" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="0" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFG" value="STMicroelectronics" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="30.223759375" y="0.36498125" size="0.762" layer="26" font="vector" rot="MR90"/>
 <attribute name="PN" value="STM32F730I8K6" x="24.930403125" y="5.336640625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3116,8 +3116,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 </element>
 <element name="J10" library="EagleLibrary" package="GSWITCH-GT-USB-7030A" value="USB-C-RECEPTACLE-GSWITCH-7030A" x="41.704" y="6.25" smashed="yes" rot="R270">
 <attribute name="AS-MOUNT" value="1" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-MOUNT-FAB" value="1" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="AS-OUR-STOCK" value="1" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-MOUNT-FAB" value="0" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AS-OUR-STOCK" value="0" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="G-Switch" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.7139" y="3.23" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="GT-USB-7030A" x="41.704" y="6.25" size="1.778" layer="27" rot="R270" display="off"/>

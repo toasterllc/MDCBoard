@@ -4391,8 +4391,8 @@ Header</text>
 </part>
 <part name="U24" library="EagleLibrary" deviceset="ALLIANCE-AS4C8M16MSA-6BIN" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="1"/>
+<attribute name="AS-MOUNT-FAB" value="0"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="C61" library="EagleLibrary" deviceset="CAPACITOR" device="0805" value="10u">
 <spice>
@@ -4527,8 +4527,8 @@ Header</text>
 </part>
 <part name="U19" library="EagleLibrary" deviceset="LATTICE-ICE40HX4K-BG121" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="1"/>
+<attribute name="AS-MOUNT-FAB" value="0"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="C36" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
 <attribute name="AS-MOUNT" value="1"/>
@@ -4771,8 +4771,8 @@ Header</text>
 </part>
 <part name="U26" library="EagleLibrary" deviceset="STM-STM32F730" device="">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="1"/>
+<attribute name="AS-MOUNT-FAB" value="0"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 <attribute name="PN" value="STM32F730I8K6"/>
 </part>
 <part name="C67" library="EagleLibrary" deviceset="CAPACITOR" device="0402" value="100n">
@@ -5695,8 +5695,8 @@ Header</text>
 </part>
 <part name="J10" library="EagleLibrary" deviceset="USB-C-RECEPTACLE" device="-GSWITCH-7030A">
 <attribute name="AS-MOUNT" value="1"/>
-<attribute name="AS-MOUNT-FAB" value="1"/>
-<attribute name="AS-OUR-STOCK" value="1"/>
+<attribute name="AS-MOUNT-FAB" value="0"/>
+<attribute name="AS-OUR-STOCK" value="0"/>
 </part>
 <part name="MH4" library="EagleLibrary" deviceset="MDC-CUTOUT" device="-HALF">
 <attribute name="AS-MOUNT" value="0"/>
