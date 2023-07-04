@@ -11,10 +11,10 @@
 # Centroid.zip
 
     - In Eagle:
-        - From MDCBoard.brd, execute `run toaster-mountsmd`
-            - Export MDCBoard.mnb / MDCBoard.mnt to the Centroid directory
+        - From MDCBoard.brd, execute `run toaster-centroid`
+            - Save MDCBoard-Centroid.csv
 
-    - Zip the Centroid directory
+    - Zip the centroid file if required for uploading
 
 
 # BOM.xlsx
