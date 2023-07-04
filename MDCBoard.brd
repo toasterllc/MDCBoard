@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00254" altunitdist="mm" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="16" fill="1" visible="no" active="yes"/>
@@ -4134,6 +4134,8 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <via x="38.85691875" y="26.10358125" extent="1-16" drill="0.381"/>
 <via x="32.92348125" y="2.38251875" extent="1-16" drill="0.381"/>
 <via x="32.471359375" y="1.780540625" extent="1-16" drill="0.381"/>
+<via x="35.054534375" y="11.77544375" extent="1-16" drill="0.381"/>
+<via x="34.00298125" y="7.553959375" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="ICE_IMG_CLK16MHZ">
 <contactref element="U19" pad="C11"/>
@@ -7275,16 +7277,16 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="41.544240625" y="19.304"/>
 <vertex x="41.544240625" y="21.17851875"/>
 </polygon>
-<wire x1="39.40301875" y1="19.05" x2="39.40301875" y2="15.285496875" width="0.381" layer="15"/>
+<wire x1="39.40301875" y1="19.05" x2="39.40301875" y2="14.736853125" width="0.381" layer="15"/>
 <wire x1="40.65828125" y1="26.64968125" x2="40.535859375" y2="26.64968125" width="0.381" layer="15"/>
 <wire x1="40.535859375" y1="26.64968125" x2="40.413940625" y2="26.7716" width="0.381" layer="15"/>
 <wire x1="40.65828125" y1="26.64968125" x2="41.91761875" y2="25.39034375" width="0.381" layer="15"/>
 <wire x1="40.579040625" y1="20.9296" x2="41.28261875" y2="20.9296" width="0.381" layer="15"/>
 <wire x1="39.40301875" y1="19.05" x2="41.28261875" y2="20.9296" width="0.381" layer="15"/>
 <wire x1="41.28261875" y1="22.83968125" x2="41.28261875" y2="20.9296" width="0.381" layer="15"/>
-<wire x1="35.306" y1="11.188478125" x2="35.306" y2="10.668" width="0.381" layer="15"/>
 <via x="35.306" y="10.668" extent="1-16" drill="0.254"/>
-<wire x1="39.40301875" y1="15.285496875" x2="35.306" y2="11.188478125" width="0.381" layer="15"/>
+<wire x1="35.306" y1="10.668" x2="35.334165625" y2="10.668" width="0.381" layer="15"/>
+<wire x1="39.40301875" y1="14.736853125" x2="35.334165625" y2="10.668" width="0.381" layer="15"/>
 <wire x1="35.147440625" y1="10.07168125" x2="35.147440625" y2="10.509440625" width="0.381" layer="16"/>
 <wire x1="35.147440625" y1="10.509440625" x2="35.306" y2="10.668" width="0.381" layer="16"/>
 <wire x1="41.91761875" y1="25.39034375" x2="41.91761875" y2="23.47468125" width="0.381" layer="15"/>
@@ -7622,6 +7624,12 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <vertex x="17.598" y="6.29931875"/>
 <vertex x="13.788" y="6.29931875"/>
 </polygon>
+<polygon width="0.127" layer="16" pour="cutout" thermals="no">
+<vertex x="32.766" y="7.198359375"/>
+<vertex x="32.766" y="6.604"/>
+<vertex x="34.544" y="6.604"/>
+<vertex x="34.544" y="7.198359375"/>
+</polygon>
 </signal>
 <signal name="N$11">
 <contactref element="R6" pad="1"/>
@@ -7782,10 +7790,10 @@ These rules are intended to work for both OSH Park and NextPCB.</description>
 <wire x1="33.18183125" y1="26.73753125" x2="34.09953125" y2="26.73753125" width="0.127" layer="16"/>
 <via x="36.322" y="23.622" extent="1-16" drill="0.254"/>
 <wire x1="36.322" y1="23.622" x2="36.84993125" y2="23.622" width="0.127" layer="1"/>
-<wire x1="29.145734375" y1="11.684" x2="27.696978125" y2="10.23524375" width="0.127" layer="1"/>
+<wire x1="28.62249375" y1="11.160759375" x2="27.696978125" y2="10.23524375" width="0.127" layer="1"/>
 <wire x1="27.696978125" y1="10.23524375" x2="27.696978125" y2="9.3113625" width="0.127" layer="1"/>
-<wire x1="39.37" y1="14.732" x2="36.322" y2="11.684" width="0.127" layer="1"/>
-<wire x1="36.322" y1="11.684" x2="29.145734375" y2="11.684" width="0.127" layer="1"/>
+<wire x1="39.37" y1="14.732" x2="35.798759375" y2="11.160759375" width="0.127" layer="1"/>
+<wire x1="35.798759375" y1="11.160759375" x2="28.62249375" y2="11.160759375" width="0.127" layer="1"/>
 <wire x1="32.531340625" y1="25.123165625" x2="32.531340625" y2="25.399603125" width="0.127" layer="16"/>
 <wire x1="32.531340625" y1="25.399603125" x2="32.7698" y2="25.6380625" width="0.127" layer="16"/>
 <wire x1="32.7698" y1="26.3255" x2="33.18183125" y2="26.73753125" width="0.127" layer="16"/>
