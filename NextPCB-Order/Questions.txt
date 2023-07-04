@@ -1,5 +1,3 @@
-- Can NextPCB mount parts from a tray, instead of reel?
-
 - Return unused parts of reels?
 
 
@@ -7,12 +5,22 @@
 
 
 
+- 2 sided board, but quote says 1-sided assembly?
+    - Most of the fields are placeholders with incorrect values
+
+
+
+- Can we send cut tape? Website says we can?
+    https://www.nextpcb.com/pcb-assembly-capabilities
+    
+    - Email thread suggests we can but haven't gotten a clear answer
 
 
 
 
 
-
+- Can NextPCB mount parts from a tray, instead of reel?
+    - Yes they can (received response via email)
 
 
 
