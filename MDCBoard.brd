@@ -132,7 +132,7 @@
 <wire x1="19.251678125" y1="9.950240625" x2="19.147540625" y2="10.539521875" width="0.0762" layer="26"/>
 <wire x1="29.317696875" y1="21.862840625" x2="29.0256" y2="21.545340625" width="0.0762" layer="26"/>
 <text x="36.02908125" y="29.70309375" size="0.381" layer="26" font="vector" ratio="10" rot="MR270">GND</text>
-<text x="16.832578125" y="29.0578" size="0.762" layer="25" font="vector" ratio="10">MDC Rev 9</text>
+<text x="16.832578125" y="29.0578" size="0.762" layer="25" font="vector" ratio="10">MDC Rev 10</text>
 <wire x1="26.61408125" y1="8.6080625" x2="26.23054375" y2="8.37438125" width="0.0762" layer="25"/>
 <circle x="33.5424" y="17.392" radius="6.63935" width="1.75" layer="39"/>
 <circle x="33.5424" y="4.75" radius="1.8" width="0" layer="39"/>
