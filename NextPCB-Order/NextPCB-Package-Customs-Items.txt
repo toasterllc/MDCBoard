@@ -1,0 +1,14 @@
+8542.39
+
+TVS Diode (STN101050B101)               132     0.168
+Tactile Switch (TS2306A 240gf MSM 9)    132     0.061
+Ferrite Bead (BKP1005EM100-T)           132     0.034
+
+
+22.176
+8.052
+4.488
+
+
+
+DT1446-04V-7	        132     0.184
