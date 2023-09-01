@@ -7586,6 +7586,8 @@ BAT_CHRG_LVL signal.</text>
 <text x="25.908" y="-48.514" size="1.016" layer="95" align="top-left">R=50 for 12mA:
     Vf = 2.7
     (3.3-2.7)/50 = 0.012</text>
+<text x="32.512" y="-45.466" size="1.778" layer="95">(GREEN)</text>
+<text x="32.258" y="-110.998" size="1.778" layer="95">(RED)</text>
 </plain>
 <instances>
 <instance part="LED2" gate="G$1" x="22.86" y="-111.76" smashed="yes">
